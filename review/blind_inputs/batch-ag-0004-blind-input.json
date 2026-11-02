@@ -1,0 +1,665 @@
+{
+  "batch_id": "batch-ag-0004",
+  "instructions": "Independent blind solving sheet. Answer keys, evidence, and explanations have been stripped. For each group where blind_solvable is true, solve each item independently based ONLY on the provided stimulus and choices.",
+  "groups": [
+    {
+      "group_id": "ag-g-p4-000001",
+      "part": 4,
+      "layout": "talk",
+      "scenario": "retail_delivery",
+      "blind_solvable": true,
+      "blind_skip_reason": null,
+      "stimulus": {
+        "documents": [],
+        "speakers": [
+          {
+            "speaker_id": "spk_1",
+            "role": "delivery_dispatcher",
+            "accent": "us"
+          },
+          {
+            "speaker_id": "spk_narrator",
+            "role": "narrator",
+            "accent": "us"
+          }
+        ],
+        "audio_script": [
+          {
+            "segment_id": "ag-g-p4-000001-seg-1",
+            "speaker_id": "spk_1",
+            "text_en": "Hello, Ms. Lindqvist. This is Carlos calling from Artisan Woodworks. I'm pleased to let you know that our craftsmen have finished applying the protective finish to your custom walnut conference table, and it's ready for delivery this Thursday."
+          },
+          {
+            "segment_id": "ag-g-p4-000001-seg-2",
+            "speaker_id": "spk_1",
+            "text_en": "However, when I contacted your office building's property manager this morning, she informed me that the main freight elevator is undergoing routine cable maintenance until noon on Thursday."
+          },
+          {
+            "segment_id": "ag-g-p4-000001-seg-3",
+            "speaker_id": "spk_1",
+            "text_en": "Because the tabletop is three meters long, our crew cannot bring it up the passenger elevators. We've therefore scheduled your delivery window for between two and four P.M., once the freight elevator is back in service. Please call me back at 555-0192 to confirm that someone in your suite will be available to sign for the shipment."
+          },
+          {
+            "segment_id": "ag-g-p4-000001-seg-q1",
+            "speaker_id": "spk_narrator",
+            "text_en": "What did the listener order from Artisan Woodworks?"
+          },
+          {
+            "segment_id": "ag-g-p4-000001-seg-q2",
+            "speaker_id": "spk_narrator",
+            "text_en": "Why was the delivery scheduled for Thursday afternoon instead of the morning?"
+          },
+          {
+            "segment_id": "ag-g-p4-000001-seg-q3",
+            "speaker_id": "spk_narrator",
+            "text_en": "What does the speaker ask the listener to confirm?"
+          }
+        ]
+      },
+      "items": [
+        {
+          "item_id": "ag-i-p4-000001-1",
+          "prompt_en": "What did the listener order from Artisan Woodworks?",
+          "choices": [
+            {
+              "id": "A",
+              "text_en": "A set of reception lobby chairs"
+            },
+            {
+              "id": "B",
+              "text_en": "Built-in bookshelves"
+            },
+            {
+              "id": "C",
+              "text_en": "A custom conference table"
+            },
+            {
+              "id": "D",
+              "text_en": "Hardwood flooring panels"
+            }
+          ]
+        },
+        {
+          "item_id": "ag-i-p4-000001-2",
+          "prompt_en": "Why was the delivery scheduled for Thursday afternoon instead of the morning?",
+          "choices": [
+            {
+              "id": "A",
+              "text_en": "The protective coating needs more time to dry."
+            },
+            {
+              "id": "B",
+              "text_en": "All delivery trucks are booked on Thursday morning."
+            },
+            {
+              "id": "C",
+              "text_en": "A building freight elevator is being serviced in the morning."
+            },
+            {
+              "id": "D",
+              "text_en": "The street in front of the office will be closed for a parade."
+            }
+          ]
+        },
+        {
+          "item_id": "ag-i-p4-000001-3",
+          "prompt_en": "What does the speaker ask the listener to confirm?",
+          "choices": [
+            {
+              "id": "A",
+              "text_en": "That the final balance has been paid"
+            },
+            {
+              "id": "B",
+              "text_en": "That a staff member can sign for the delivery"
+            },
+            {
+              "id": "C",
+              "text_en": "That the old conference table has been removed"
+            },
+            {
+              "id": "D",
+              "text_en": "That a loading dock permit has been issued"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "group_id": "ag-g-p4-000002",
+      "part": 4,
+      "layout": "talk",
+      "scenario": "public_museum_tour",
+      "blind_solvable": true,
+      "blind_skip_reason": null,
+      "stimulus": {
+        "documents": [],
+        "speakers": [
+          {
+            "speaker_id": "spk_1",
+            "role": "museum_volunteer_coordinator",
+            "accent": "uk"
+          },
+          {
+            "speaker_id": "spk_narrator",
+            "role": "narrator",
+            "accent": "us"
+          }
+        ],
+        "audio_script": [
+          {
+            "segment_id": "ag-g-p4-000002-seg-1",
+            "speaker_id": "spk_1",
+            "text_en": "Welcome, everyone, and thank you for volunteering to help out during the opening weekend of our nineteenth-century navigation exhibit at the Bristol Maritime Museum."
+          },
+          {
+            "segment_id": "ag-g-p4-000002-seg-2",
+            "speaker_id": "spk_1",
+            "text_en": "Before the museum doors open to ticket holders at ten o'clock, I want to point out a recent change to our lobby layout. Because we expect large crowds for the antique compass display in Gallery B, we've moved the audio headset rental counter from the main entrance to the alcove beside the gift shop."
+          },
+          {
+            "segment_id": "ag-g-p4-000002-seg-3",
+            "speaker_id": "spk_1",
+            "text_en": "Also, please remember that flash photography is strictly prohibited inside Gallery B to protect the fragile parchment sea charts. Now, let's walk over to the security desk so each of you can pick up your name badge and floor assignment sheet."
+          },
+          {
+            "segment_id": "ag-g-p4-000002-seg-q1",
+            "speaker_id": "spk_narrator",
+            "text_en": "Who is the speaker addressing?"
+          },
+          {
+            "segment_id": "ag-g-p4-000002-seg-q2",
+            "speaker_id": "spk_narrator",
+            "text_en": "What has been moved next to the gift shop?"
+          },
+          {
+            "segment_id": "ag-g-p4-000002-seg-q3",
+            "speaker_id": "spk_narrator",
+            "text_en": "What will the listeners do next?"
+          }
+        ]
+      },
+      "items": [
+        {
+          "item_id": "ag-i-p4-000002-1",
+          "prompt_en": "Who is the speaker addressing?",
+          "choices": [
+            {
+              "id": "A",
+              "text_en": "Antique collectors"
+            },
+            {
+              "id": "B",
+              "text_en": "Museum volunteers"
+            },
+            {
+              "id": "C",
+              "text_en": "Lighting technicians"
+            },
+            {
+              "id": "D",
+              "text_en": "Travel journalists"
+            }
+          ]
+        },
+        {
+          "item_id": "ag-i-p4-000002-2",
+          "prompt_en": "What has been moved next to the gift shop?",
+          "choices": [
+            {
+              "id": "A",
+              "text_en": "The antique compass display"
+            },
+            {
+              "id": "B",
+              "text_en": "The coat check area"
+            },
+            {
+              "id": "C",
+              "text_en": "The audio guide rental counter"
+            },
+            {
+              "id": "D",
+              "text_en": "The ticket kiosk"
+            }
+          ]
+        },
+        {
+          "item_id": "ag-i-p4-000002-3",
+          "prompt_en": "What will the listeners do next?",
+          "choices": [
+            {
+              "id": "A",
+              "text_en": "Test the audio headsets"
+            },
+            {
+              "id": "B",
+              "text_en": "Collect their badges and assignment sheets"
+            },
+            {
+              "id": "C",
+              "text_en": "Frame the parchment sea charts"
+            },
+            {
+              "id": "D",
+              "text_en": "Unlock the main entrance doors"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "group_id": "ag-g-p4-000003",
+      "part": 4,
+      "layout": "talk",
+      "scenario": "manufacturing_safety",
+      "blind_solvable": true,
+      "blind_skip_reason": null,
+      "stimulus": {
+        "documents": [],
+        "speakers": [
+          {
+            "speaker_id": "spk_1",
+            "role": "cold_storage_supervisor",
+            "accent": "au"
+          },
+          {
+            "speaker_id": "spk_narrator",
+            "role": "narrator",
+            "accent": "us"
+          }
+        ],
+        "audio_script": [
+          {
+            "segment_id": "ag-g-p4-000003-seg-1",
+            "speaker_id": "spk_1",
+            "text_en": "Attention, morning shift crew. Before we begin loading the refrigerated trucks for our dairy distributors, I want to review a new safety protocol that goes into effect today across all cold-storage bays."
+          },
+          {
+            "segment_id": "ag-g-p4-000003-seg-2",
+            "speaker_id": "spk_1",
+            "text_en": "Over the weekend, technicians installed digital thermal alarms above each freezer door. If a freezer door remains open for more than ninety seconds while forklifts are moving pallets, an amber warning light will flash."
+          },
+          {
+            "segment_id": "ag-g-p4-000003-seg-3",
+            "speaker_id": "spk_1",
+            "text_en": "We certainly don't want a repeat of last month's spoiled yogurt incident. So if you see that amber light flashing, pause your forklift transfers immediately and close the insulated curtain before proceeding. Finally, anyone whose thermal gloves are worn out can exchange them for a new pair at the equipment cage."
+          },
+          {
+            "segment_id": "ag-g-p4-000003-seg-q1",
+            "speaker_id": "spk_narrator",
+            "text_en": "What was installed in the facility over the weekend?"
+          },
+          {
+            "segment_id": "ag-g-p4-000003-seg-q2",
+            "speaker_id": "spk_narrator",
+            "text_en": "Why does the speaker say, 'We certainly don't want a repeat of last month's spoiled yogurt incident'?"
+          },
+          {
+            "segment_id": "ag-g-p4-000003-seg-q3",
+            "speaker_id": "spk_narrator",
+            "text_en": "What can employees do at the equipment cage?"
+          }
+        ]
+      },
+      "items": [
+        {
+          "item_id": "ag-i-p4-000003-1",
+          "prompt_en": "What was installed in the facility over the weekend?",
+          "choices": [
+            {
+              "id": "A",
+              "text_en": "Automated pallet wrappers"
+            },
+            {
+              "id": "B",
+              "text_en": "Digital temperature alarms"
+            },
+            {
+              "id": "C",
+              "text_en": "High-speed loading ramps"
+            },
+            {
+              "id": "D",
+              "text_en": "Overhead security cameras"
+            }
+          ]
+        },
+        {
+          "item_id": "ag-i-p4-000003-2",
+          "prompt_en": "Why does the speaker say, \"We certainly don't want a repeat of last month's spoiled yogurt incident\"?",
+          "choices": [
+            {
+              "id": "A",
+              "text_en": "To announce the discontinuation of a dairy product"
+            },
+            {
+              "id": "B",
+              "text_en": "To criticize the quality of a supplier's ingredients"
+            },
+            {
+              "id": "C",
+              "text_en": "To emphasize the importance of following the new procedure"
+            },
+            {
+              "id": "D",
+              "text_en": "To explain why employee shifts have been shortened"
+            }
+          ]
+        },
+        {
+          "item_id": "ag-i-p4-000003-3",
+          "prompt_en": "What can employees do at the equipment cage?",
+          "choices": [
+            {
+              "id": "A",
+              "text_en": "Sign out a two-way radio"
+            },
+            {
+              "id": "B",
+              "text_en": "Charge forklift batteries"
+            },
+            {
+              "id": "C",
+              "text_en": "Replace worn protective gloves"
+            },
+            {
+              "id": "D",
+              "text_en": "Pick up delivery manifests"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "group_id": "ag-g-p4-000004",
+      "part": 4,
+      "layout": "talk",
+      "scenario": "transportation_commute",
+      "blind_solvable": true,
+      "blind_skip_reason": null,
+      "stimulus": {
+        "documents": [],
+        "speakers": [
+          {
+            "speaker_id": "spk_1",
+            "role": "ferry_terminal_announcer",
+            "accent": "ca"
+          },
+          {
+            "speaker_id": "spk_narrator",
+            "role": "narrator",
+            "accent": "us"
+          }
+        ],
+        "audio_script": [
+          {
+            "segment_id": "ag-g-p4-000004-seg-1",
+            "speaker_id": "spk_1",
+            "text_en": "May I have your attention, please. Due to dense coastal fog reducing visibility across the bay, all high-speed catamaran departures from Pier Seven to Bayside Financial District have been suspended until ten-thirty this morning."
+          },
+          {
+            "segment_id": "ag-g-p4-000004-seg-2",
+            "speaker_id": "spk_1",
+            "text_en": "To help commuters reach downtown offices with minimal delay, the Port Authority has arranged complimentary express shuttle buses that will depart every fifteen minutes from Bus Bay C, directly outside the west terminal doors."
+          },
+          {
+            "segment_id": "ag-g-p4-000004-seg-3",
+            "speaker_id": "spk_1",
+            "text_en": "Simply show your digital or paper ferry ticket to the bus driver when boarding. Passengers who prefer not to travel by bus may have their unused ferry fare refunded in full at Customer Service Window Three."
+          },
+          {
+            "segment_id": "ag-g-p4-000004-seg-q1",
+            "speaker_id": "spk_narrator",
+            "text_en": "Why has ferry service from Pier Seven been suspended?"
+          },
+          {
+            "segment_id": "ag-g-p4-000004-seg-q2",
+            "speaker_id": "spk_narrator",
+            "text_en": "How can commuters board the express shuttle bus?"
+          },
+          {
+            "segment_id": "ag-g-p4-000004-seg-q3",
+            "speaker_id": "spk_narrator",
+            "text_en": "Why should passengers visit Customer Service Window Three?"
+          }
+        ]
+      },
+      "items": [
+        {
+          "item_id": "ag-i-p4-000004-1",
+          "prompt_en": "Why has ferry service from Pier Seven been suspended?",
+          "choices": [
+            {
+              "id": "A",
+              "text_en": "A pier is undergoing structural repairs."
+            },
+            {
+              "id": "B",
+              "text_en": "A vessel is experiencing engine trouble."
+            },
+            {
+              "id": "C",
+              "text_en": "Weather conditions have reduced visibility."
+            },
+            {
+              "id": "D",
+              "text_en": "A harbor regatta is taking place."
+            }
+          ]
+        },
+        {
+          "item_id": "ag-i-p4-000004-2",
+          "prompt_en": "How can commuters board the express shuttle bus?",
+          "choices": [
+            {
+              "id": "A",
+              "text_en": "By paying a two-dollar surcharge in cash"
+            },
+            {
+              "id": "B",
+              "text_en": "By presenting their existing ferry ticket"
+            },
+            {
+              "id": "C",
+              "text_en": "By registering on the Port Authority app"
+            },
+            {
+              "id": "D",
+              "text_en": "By obtaining a transfer slip from a security guard"
+            }
+          ]
+        },
+        {
+          "item_id": "ag-i-p4-000004-3",
+          "prompt_en": "Why should passengers visit Customer Service Window Three?",
+          "choices": [
+            {
+              "id": "A",
+              "text_en": "To report lost luggage"
+            },
+            {
+              "id": "B",
+              "text_en": "To pick up a printed regional map"
+            },
+            {
+              "id": "C",
+              "text_en": "To receive a full refund for an unused ticket"
+            },
+            {
+              "id": "D",
+              "text_en": "To renew a monthly parking pass"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "group_id": "ag-g-p4-000005",
+      "part": 4,
+      "layout": "talk",
+      "scenario": "sales_analytics",
+      "blind_solvable": true,
+      "blind_skip_reason": null,
+      "stimulus": {
+        "documents": [
+          {
+            "document_id": "ag-doc-p4-000005-1",
+            "genre": "report_table",
+            "title_en": "Lumina Home Appliances — Q3 Regional Performance",
+            "blocks": [
+              {
+                "block_id": "ag-blk-p4-000005-1",
+                "type": "table",
+                "columns": [
+                  "Region",
+                  "Q3 Revenue Growth",
+                  "Product Return Rate",
+                  "Top-Selling Category"
+                ],
+                "rows": [
+                  [
+                    "North",
+                    "+4.2%",
+                    "2.1%",
+                    "Air Purifiers"
+                  ],
+                  [
+                    "South",
+                    "+11.5%",
+                    "6.8%",
+                    "Espresso Machines"
+                  ],
+                  [
+                    "East",
+                    "+6.0%",
+                    "1.9%",
+                    "Induction Cooktops"
+                  ],
+                  [
+                    "West",
+                    "-1.4%",
+                    "2.5%",
+                    "Robotic Vacuums"
+                  ]
+                ]
+              }
+            ]
+          }
+        ],
+        "speakers": [
+          {
+            "speaker_id": "spk_1",
+            "role": "vice_president_of_sales",
+            "accent": "us"
+          },
+          {
+            "speaker_id": "spk_narrator",
+            "role": "narrator",
+            "accent": "us"
+          }
+        ],
+        "audio_script": [
+          {
+            "segment_id": "ag-g-p4-000005-seg-1",
+            "speaker_id": "spk_1",
+            "text_en": "Good afternoon, board members. Please turn your attention to the third-quarter regional performance table on the screen. Overall, three of our four domestic territories posted positive revenue growth this quarter."
+          },
+          {
+            "segment_id": "ag-g-p4-000005-seg-2",
+            "speaker_id": "spk_1",
+            "text_en": "As you can see, the territory whose top-selling category was espresso machines achieved an impressive eleven-point-five percent jump in revenue. However, that same region also recorded an unusually high product return rate of six-point-eight percent."
+          },
+          {
+            "segment_id": "ag-g-p4-000005-seg-3",
+            "speaker_id": "spk_1",
+            "text_en": "Customer survey cards indicate that the espresso machines themselves aren't defective; rather, buyers find the decalcifying instructions in the printed manual confusing. Meanwhile, for the single region that experienced a slight revenue decline, we plan to launch a targeted social media campaign in October to boost robotic vacuum sales before the holiday shopping season."
+          },
+          {
+            "segment_id": "ag-g-p4-000005-seg-q1",
+            "speaker_id": "spk_narrator",
+            "text_en": "Look at the graphic. Which region had both the highest revenue growth and the highest product return rate?"
+          },
+          {
+            "segment_id": "ag-g-p4-000005-seg-q2",
+            "speaker_id": "spk_narrator",
+            "text_en": "According to the speaker, what caused the high rate of espresso machine returns?"
+          },
+          {
+            "segment_id": "ag-g-p4-000005-seg-q3",
+            "speaker_id": "spk_narrator",
+            "text_en": "Look at the graphic. Which region will be the focus of an October social media campaign?"
+          }
+        ]
+      },
+      "items": [
+        {
+          "item_id": "ag-i-p4-000005-1",
+          "prompt_en": "Look at the graphic. Which region had both the highest revenue growth and the highest product return rate?",
+          "choices": [
+            {
+              "id": "A",
+              "text_en": "North"
+            },
+            {
+              "id": "B",
+              "text_en": "South"
+            },
+            {
+              "id": "C",
+              "text_en": "East"
+            },
+            {
+              "id": "D",
+              "text_en": "West"
+            }
+          ]
+        },
+        {
+          "item_id": "ag-i-p4-000005-2",
+          "prompt_en": "According to the speaker, what caused the high rate of espresso machine returns?",
+          "choices": [
+            {
+              "id": "A",
+              "text_en": "Glass carafes were damaged during shipping."
+            },
+            {
+              "id": "B",
+              "text_en": "The heating element failed after a few uses."
+            },
+            {
+              "id": "C",
+              "text_en": "The printed maintenance instructions were unclear."
+            },
+            {
+              "id": "D",
+              "text_en": "A competitor released a lower-priced model."
+            }
+          ]
+        },
+        {
+          "item_id": "ag-i-p4-000005-3",
+          "prompt_en": "Look at the graphic. Which region will be the focus of an October social media campaign?",
+          "choices": [
+            {
+              "id": "A",
+              "text_en": "North"
+            },
+            {
+              "id": "B",
+              "text_en": "South"
+            },
+            {
+              "id": "C",
+              "text_en": "East"
+            },
+            {
+              "id": "D",
+              "text_en": "West"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "batch_id": "batch-ag-0015",
+  "solver_kind": "ai_isolated_subagent",
+  "blind": true,
+  "solved_at": "2026-10-28T08:43:30Z",
+  "skipped_groups": [],
+  "items": [
+    {
+      "group_id": "ag-g-p2-000401",
+      "item_id": "ag-i-p2-000401-1",
+      "selected_choice_id": "A",
+      "confidence": "high",
+      "ambiguity_flag": false,
+      "evidence_quote": "Who authorized the purchase of the ergonomic desk chairs?",
+      "reasoning_zh": "Who 疑問句詢問授權採購人體工學辦公椅的人員，(A) 回答設施部門的 Patel 女士，直接對應人名與所屬部門；(B) 用 Yes 回應特殊疑問句且語意不合；(C) 回答地點。"
+    },
+    {
+      "group_id": "ag-g-p2-000402",
+      "item_id": "ag-i-p2-000402-1",
+      "selected_choice_id": "B",
+      "confidence": "high",
+      "ambiguity_flag": false,
+      "evidence_quote": "What time does our connecting flight to Frankfurt depart?",
+      "reasoning_zh": "What time 詢問飛往法蘭克福的轉機航班起飛時間，(B) 回答今晚六點四十五分，正確提供時間；(A) 回答登機門位置；(C) 回答艙等與座位。"
+    },
+    {
+      "group_id": "ag-g-p2-000403",
+      "item_id": "ag-i-p2-000403-1",
+      "selected_choice_id": "A",
+      "confidence": "high",
+      "ambiguity_flag": false,
+      "evidence_quote": "Would you like a replacement monitor shipped to your office, or would you prefer store credit?",
+      "reasoning_zh": "選擇疑問句詢問要寄送替換螢幕至辦公室還是選擇商店抵用金，(A) 明確表達請寄送替換品到辦公室；(B) 以 Yes 回應選擇疑問句；(C) 回答螢幕尺寸。"
+    },
+    {
+      "group_id": "ag-g-p2-000404",
+      "item_id": "ag-i-p2-000404-1",
+      "selected_choice_id": "B",
+      "confidence": "high",
+      "ambiguity_flag": false,
+      "evidence_quote": "Why was the keynote speech moved to the morning session?",
+      "reasoning_zh": "Why 詢問主題演講改至上午場次的原因，(B) 說明主講嘉賓下午有飛往東京的班機，合理交代改期原因；(A) 回答場地位置；(C) 回答時間長度。"
+    },
+    {
+      "group_id": "ag-g-p2-000405",
+      "item_id": "ag-i-p2-000405-1",
+      "selected_choice_id": "A",
+      "confidence": "high",
+      "ambiguity_flag": false,
+      "evidence_quote": "The protective coatings on the turbine blades passed the salt-spray test, didn't they?",
+      "reasoning_zh": "附加問句確認渦輪葉片保護塗層是否通過鹽霧測試，(A) 以「事實上，有兩個樣本出現輕微表面腐蝕」回應測試結果；(B) 以 laboratory coats 混淆 protective coatings；(C) 回答頻率時間。"
+    },
+    {
+      "group_id": "ag-g-p2-000406",
+      "item_id": "ag-i-p2-000406-1",
+      "selected_choice_id": "B",
+      "confidence": "high",
+      "ambiguity_flag": false,
+      "evidence_quote": "How are we going to fund the expansion of the Montreal distribution center?",
+      "reasoning_zh": "How 詢問如何為蒙特婁配送中心擴建案籌措資金，(B) 說明董事會仍在權衡銀行貸款與發行債券兩種籌資方案；(A) 回答樓地板面積；(C) 用 Yes 回應 How 疑問句。"
+    }
+  ],
+  "note_zh": "沿用 batch-ag-0013 之獨立上下文盲解紀錄；v3 未改動任何盲解輸入（題幹／選項／音訊稿）。"
+}

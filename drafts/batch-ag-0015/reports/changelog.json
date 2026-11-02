@@ -1,0 +1,60 @@
+{
+  "batch_id": "batch-ag-0015",
+  "supersedes_groups_in": "batch-ag-0013",
+  "groups": [
+    {
+      "group_id": "ag-g-p2-000401",
+      "from_version": 2,
+      "to_version": 3,
+      "source_batch": "batch-ag-0013",
+      "changes": [
+        "ag-i-p2-000401-1 evidence[1].source_id: seg1 -> seg2 （引文「(A) Ms. Patel in the facilities department.」）"
+      ]
+    },
+    {
+      "group_id": "ag-g-p2-000402",
+      "from_version": 2,
+      "to_version": 3,
+      "source_batch": "batch-ag-0013",
+      "changes": [
+        "ag-i-p2-000402-1 evidence[1].source_id: seg2 -> seg3 （引文「(B) At six forty-five this evening.」）"
+      ]
+    },
+    {
+      "group_id": "ag-g-p2-000403",
+      "from_version": 2,
+      "to_version": 3,
+      "source_batch": "batch-ag-0013",
+      "changes": [
+        "ag-i-p2-000403-1 evidence[1].source_id: seg1 -> seg2 （引文「(A) Please send a replacement to my office.」）"
+      ]
+    },
+    {
+      "group_id": "ag-g-p2-000404",
+      "from_version": 2,
+      "to_version": 3,
+      "source_batch": "batch-ag-0013",
+      "changes": [
+        "ag-i-p2-000404-1 evidence[1].source_id: seg2 -> seg3 （引文「(B) The guest speaker has an afternoon flight to Tokyo.」）"
+      ]
+    },
+    {
+      "group_id": "ag-g-p2-000405",
+      "from_version": 2,
+      "to_version": 3,
+      "source_batch": "batch-ag-0013",
+      "changes": [
+        "ag-i-p2-000405-1 evidence[1].source_id: seg1 -> seg2 （引文「(A) Actually, two samples showed minor surface corrosion.」）"
+      ]
+    },
+    {
+      "group_id": "ag-g-p2-000406",
+      "from_version": 2,
+      "to_version": 3,
+      "source_batch": "batch-ag-0013",
+      "changes": [
+        "ag-i-p2-000406-1 evidence[1].source_id: seg2 -> seg3 （引文「(B) The board is still weighing a bank loan against a bond issue.」）"
+      ]
+    }
+  ]
+}

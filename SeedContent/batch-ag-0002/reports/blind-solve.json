@@ -1,0 +1,125 @@
+{
+  "batch_id": "batch-ag-0002",
+  "solver_kind": "ai_isolated_subagent",
+  "blind": true,
+  "solved_at": "2026-10-27T12:00:00Z",
+  "skipped_groups": [
+    "ag-g-p1-000001",
+    "ag-g-p1-000002",
+    "ag-g-p1-000003"
+  ],
+  "items": [
+    {
+      "group_id": "ag-g-p2-000009",
+      "item_id": "ag-i-p2-000009-1",
+      "selected_choice_id": "A",
+      "confidence": "high",
+      "reasoning_zh": "問句以 How long 詢問新進員工訓練計畫持續多久，選項 (A) 回答「整整兩天，從週一早上開始」直接對應時間長度；(B) 回答地點，(C) 為物理寬度陷阱。"
+    },
+    {
+      "group_id": "ag-g-p2-000010",
+      "item_id": "ag-i-p2-000010-1",
+      "selected_choice_id": "A",
+      "confidence": "high",
+      "reasoning_zh": "問句以 Why 詢問第四號包裝產線為何停機，選項 (A) 說明「其中一個光學感測器需要更換」，合理交代停機原因；(B) 為重複 shut 的字音陷阱且誤用 Yes，(C) 回答時間。"
+    },
+    {
+      "group_id": "ag-g-p2-000011",
+      "item_id": "ag-i-p2-000011-1",
+      "selected_choice_id": "B",
+      "confidence": "high",
+      "reasoning_zh": "附加問句詢問是否錯過商展攤位訂金的截止期限，選項 (B) 回答「沒有（沒錯過），我昨天下午已經電匯款項了」語意完全吻合；(A) 回答位置，(C) 為無關的演講時間。"
+    },
+    {
+      "group_id": "ag-g-p2-000012",
+      "item_id": "ag-i-p2-000012-1",
+      "selected_choice_id": "A",
+      "confidence": "high",
+      "reasoning_zh": "問句主動提議幫忙把產品型錄搬到車上，選項 (A) 禮貌婉拒並說明「謝謝，但我自己帶了折疊推車」最自然得體；(B) 重複 catalog，(C) 僅說明停車位置。"
+    },
+    {
+      "group_id": "ag-g-p2-000013",
+      "item_id": "ag-i-p2-000013-1",
+      "selected_choice_id": "B",
+      "confidence": "high",
+      "reasoning_zh": "問句詢問 Patel 醫師本週四下午是否有空檔（openings），選項 (B) 說明「她週四不看診，但週五十點有空檔」正面回應預約時段；(A) 為 opening 一詞多義陷阱，(C) 誤解 Do you know 為認識與否。"
+    },
+    {
+      "group_id": "ag-g-p5-000013",
+      "item_id": "ag-i-p5-000013-1",
+      "selected_choice_id": "C",
+      "confidence": "high",
+      "reasoning_zh": "空格前有連綴動詞 is 與程度副詞 significantly，空格後有比較級連接詞 than，故須填入形容詞比較級 more efficient (C)。"
+    },
+    {
+      "group_id": "ag-g-p5-000014",
+      "item_id": "ag-i-p5-000014-1",
+      "selected_choice_id": "A",
+      "confidence": "high",
+      "reasoning_zh": "句意表示季節折扣券可在全國任一門市兌換，「除了暢貨中心與機場櫃位之外」，aside from（除……之外）符合排除特定門市的語意。"
+    },
+    {
+      "group_id": "ag-g-p5-000015",
+      "item_id": "ag-i-p5-000015-1",
+      "selected_choice_id": "B",
+      "confidence": "high",
+      "reasoning_zh": "建議動詞 recommended 後接 that 名詞子句時，子句動詞須用原形動詞（假設語氣 should + V 省略 should），故選原形 update (B)。"
+    },
+    {
+      "group_id": "ag-g-p6-000001",
+      "item_id": "ag-i-p6-000001-1",
+      "selected_choice_id": "B",
+      "confidence": "high",
+      "reasoning_zh": "句首 Beginning November 1 與後文 will close 皆顯示此公告預告未來即將實施的升級計畫，且後接直接受詞 its online historical newspaper archive，故用未來簡單式 will expand (B)。"
+    },
+    {
+      "group_id": "ag-g-p6-000001",
+      "item_id": "ag-i-p6-000001-2",
+      "selected_choice_id": "A",
+      "confidence": "high",
+      "reasoning_zh": "前句提到居民可在家搜尋地方歷史紀錄（from home），選項 (A) 以 This remote access 承接「在家遠端存取」，說明如此便無須親自到館翻閱脆弱紙本，並順利銜接後句如何使用新入口網站。"
+    },
+    {
+      "group_id": "ag-g-p6-000001",
+      "item_id": "ag-i-p6-000001-3",
+      "selected_choice_id": "B",
+      "confidence": "high",
+      "reasoning_zh": "前文說明線上系統啟用，本句說明三樓微縮膠卷閱覽室將於 11 月 4 日起關閉兩週以安裝高解析度終端機，In the meantime（在此期間／與此同時）最能銜接同時期的配套措施。"
+    },
+    {
+      "group_id": "ag-g-p6-000001",
+      "item_id": "ag-i-p6-000001-4",
+      "selected_choice_id": "A",
+      "confidence": "high",
+      "reasoning_zh": "關閉期間若讀者需要「協助（assistance）」查找特定市政紀錄，可預約參考館員；require assistance (in) V-ing 為常見搭配。"
+    },
+    {
+      "group_id": "ag-g-p6-000002",
+      "item_id": "ag-i-p6-000002-1",
+      "selected_choice_id": "B",
+      "confidence": "high",
+      "reasoning_zh": "空格修飾現在分詞 reducing，須使用副詞 dramatically（大幅地）表示大幅減少人工掃描瓶頸。"
+    },
+    {
+      "group_id": "ag-g-p6-000002",
+      "item_id": "ag-i-p6-000002-2",
+      "selected_choice_id": "A",
+      "confidence": "high",
+      "reasoning_zh": "前句指出初期僅有 20 公斤以下的標準長方體紙箱會進入自動化通道，選項 (A) 補充「形狀不規則的包裹與重型木箱應繼續由 A 區人工工作站處理」，前後對比完整。"
+    },
+    {
+      "group_id": "ag-g-p6-000002",
+      "item_id": "ag-i-p6-000002-3",
+      "selected_choice_id": "A",
+      "confidence": "high",
+      "reasoning_zh": "每天早上啟動輸送帶「之前（prior to）」必須先完成安全檢核表，符合倉儲安全作業邏輯且後接動名詞 activating。"
+    },
+    {
+      "group_id": "ag-g-p6-000002",
+      "item_id": "ag-i-p6-000002-4",
+      "selected_choice_id": "C",
+      "confidence": "high",
+      "reasoning_zh": "紀錄條碼辨識錯誤是為了讓工程師在十二月全面部署前校準「感測器（the sensors）」；反身代名詞 itself 與主詞 engineers 單複數不合，theirs 與 each other 語意不通。"
+    }
+  ]
+}

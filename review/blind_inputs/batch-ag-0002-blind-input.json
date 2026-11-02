@@ -1,0 +1,866 @@
+{
+  "batch_id": "batch-ag-0002",
+  "instructions": "Independent blind solving sheet. Answer keys, evidence, and explanations have been stripped. For each group where blind_solvable is true, solve each item independently based ONLY on the provided stimulus and choices.",
+  "groups": [
+    {
+      "group_id": "ag-g-p1-000001",
+      "part": 1,
+      "layout": "photo",
+      "scenario": "research_laboratory",
+      "blind_solvable": false,
+      "blind_skip_reason": "Part 1 圖片素材尚處於 status=planned，無實際圖檔可供純視覺盲解；待圖片就緒後再執行視覺盲解。",
+      "stimulus": {
+        "documents": [],
+        "speakers": [
+          {
+            "speaker_id": "spk_narrator",
+            "role": "narrator",
+            "accent": "us"
+          }
+        ],
+        "audio_script": [
+          {
+            "segment_id": "ag-g-p1-000001-seg-a",
+            "speaker_id": "spk_narrator",
+            "text_en": "She is looking through a microscope."
+          },
+          {
+            "segment_id": "ag-g-p1-000001-seg-b",
+            "speaker_id": "spk_narrator",
+            "text_en": "She is washing glassware in the sink."
+          },
+          {
+            "segment_id": "ag-g-p1-000001-seg-c",
+            "speaker_id": "spk_narrator",
+            "text_en": "She is writing a formula on the whiteboard."
+          },
+          {
+            "segment_id": "ag-g-p1-000001-seg-d",
+            "speaker_id": "spk_narrator",
+            "text_en": "She is putting on a laboratory coat."
+          }
+        ]
+      },
+      "items": [
+        {
+          "item_id": "ag-i-p1-000001-1",
+          "prompt_en": "Look at the photograph and listen to the four statements. Choose the statement that best describes what you see in the photograph.",
+          "choices": [
+            {
+              "id": "A",
+              "text_en": "She is looking through a microscope."
+            },
+            {
+              "id": "B",
+              "text_en": "She is washing glassware in the sink."
+            },
+            {
+              "id": "C",
+              "text_en": "She is writing a formula on the whiteboard."
+            },
+            {
+              "id": "D",
+              "text_en": "She is putting on a laboratory coat."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "group_id": "ag-g-p1-000002",
+      "part": 1,
+      "layout": "photo",
+      "scenario": "retail_bakery",
+      "blind_solvable": false,
+      "blind_skip_reason": "Part 1 圖片素材尚處於 status=planned，無實際圖檔可供純視覺盲解；待圖片就緒後再執行視覺盲解。",
+      "stimulus": {
+        "documents": [],
+        "speakers": [
+          {
+            "speaker_id": "spk_narrator",
+            "role": "narrator",
+            "accent": "uk"
+          }
+        ],
+        "audio_script": [
+          {
+            "segment_id": "ag-g-p1-000002-seg-a",
+            "speaker_id": "spk_narrator",
+            "text_en": "Pastries are being removed from the oven."
+          },
+          {
+            "segment_id": "ag-g-p1-000002-seg-b",
+            "speaker_id": "spk_narrator",
+            "text_en": "A customer is stacking trays on the counter."
+          },
+          {
+            "segment_id": "ag-g-p1-000002-seg-c",
+            "speaker_id": "spk_narrator",
+            "text_en": "A clerk is handing a paper bag to a patron."
+          },
+          {
+            "segment_id": "ag-g-p1-000002-seg-d",
+            "speaker_id": "spk_narrator",
+            "text_en": "The bakery floor is being mopped."
+          }
+        ]
+      },
+      "items": [
+        {
+          "item_id": "ag-i-p1-000002-1",
+          "prompt_en": "Look at the photograph and listen to the four statements. Choose the statement that best describes what you see in the photograph.",
+          "choices": [
+            {
+              "id": "A",
+              "text_en": "Pastries are being removed from the oven."
+            },
+            {
+              "id": "B",
+              "text_en": "A customer is stacking trays on the counter."
+            },
+            {
+              "id": "C",
+              "text_en": "A clerk is handing a paper bag to a patron."
+            },
+            {
+              "id": "D",
+              "text_en": "The bakery floor is being mopped."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "group_id": "ag-g-p1-000003",
+      "part": 1,
+      "layout": "photo",
+      "scenario": "public_waterfront",
+      "blind_solvable": false,
+      "blind_skip_reason": "Part 1 圖片素材尚處於 status=planned，無實際圖檔可供純視覺盲解；待圖片就緒後再執行視覺盲解。",
+      "stimulus": {
+        "documents": [],
+        "speakers": [
+          {
+            "speaker_id": "spk_narrator",
+            "role": "narrator",
+            "accent": "au"
+          }
+        ],
+        "audio_script": [
+          {
+            "segment_id": "ag-g-p1-000003-seg-a",
+            "speaker_id": "spk_narrator",
+            "text_en": "Passengers are boarding a ferry at the dock."
+          },
+          {
+            "segment_id": "ag-g-p1-000003-seg-b",
+            "speaker_id": "spk_narrator",
+            "text_en": "Wooden benches are lined up along the waterfront walkway."
+          },
+          {
+            "segment_id": "ag-g-p1-000003-seg-c",
+            "speaker_id": "spk_narrator",
+            "text_en": "Workers are paving a stone path near the harbor."
+          },
+          {
+            "segment_id": "ag-g-p1-000003-seg-d",
+            "speaker_id": "spk_narrator",
+            "text_en": "Sailboats are being pulled onto the shore."
+          }
+        ]
+      },
+      "items": [
+        {
+          "item_id": "ag-i-p1-000003-1",
+          "prompt_en": "Look at the photograph and listen to the four statements. Choose the statement that best describes what you see in the photograph.",
+          "choices": [
+            {
+              "id": "A",
+              "text_en": "Passengers are boarding a ferry at the dock."
+            },
+            {
+              "id": "B",
+              "text_en": "Wooden benches are lined up along the waterfront walkway."
+            },
+            {
+              "id": "C",
+              "text_en": "Workers are paving a stone path near the harbor."
+            },
+            {
+              "id": "D",
+              "text_en": "Sailboats are being pulled onto the shore."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "group_id": "ag-g-p2-000009",
+      "part": 2,
+      "layout": "question_response",
+      "scenario": "hr_onboarding",
+      "blind_solvable": true,
+      "blind_skip_reason": null,
+      "stimulus": {
+        "documents": [],
+        "speakers": [
+          {
+            "speaker_id": "spk_q",
+            "role": "new_employee",
+            "accent": "us"
+          },
+          {
+            "speaker_id": "spk_r",
+            "role": "hr_coordinator",
+            "accent": "us"
+          }
+        ],
+        "audio_script": [
+          {
+            "segment_id": "ag-g-p2-000009-seg-q",
+            "speaker_id": "spk_q",
+            "text_en": "How long does the new employee orientation program last?"
+          },
+          {
+            "segment_id": "ag-g-p2-000009-seg-a",
+            "speaker_id": "spk_r",
+            "text_en": "Two full days, starting on Monday morning."
+          },
+          {
+            "segment_id": "ag-g-p2-000009-seg-b",
+            "speaker_id": "spk_r",
+            "text_en": "In the third-floor auditorium."
+          },
+          {
+            "segment_id": "ag-g-p2-000009-seg-c",
+            "speaker_id": "spk_r",
+            "text_en": "About twelve meters wide."
+          }
+        ]
+      },
+      "items": [
+        {
+          "item_id": "ag-i-p2-000009-1",
+          "prompt_en": "Listen to the question or statement and choose the best response.",
+          "choices": [
+            {
+              "id": "A",
+              "text_en": "Two full days, starting on Monday morning."
+            },
+            {
+              "id": "B",
+              "text_en": "In the third-floor auditorium."
+            },
+            {
+              "id": "C",
+              "text_en": "About twelve meters wide."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "group_id": "ag-g-p2-000010",
+      "part": 2,
+      "layout": "question_response",
+      "scenario": "manufacturing_operations",
+      "blind_solvable": true,
+      "blind_skip_reason": null,
+      "stimulus": {
+        "documents": [],
+        "speakers": [
+          {
+            "speaker_id": "spk_q",
+            "role": "plant_manager",
+            "accent": "au"
+          },
+          {
+            "speaker_id": "spk_r",
+            "role": "line_supervisor",
+            "accent": "us"
+          }
+        ],
+        "audio_script": [
+          {
+            "segment_id": "ag-g-p2-000010-seg-q",
+            "speaker_id": "spk_q",
+            "text_en": "Why has packaging line four been shut down?"
+          },
+          {
+            "segment_id": "ag-g-p2-000010-seg-a",
+            "speaker_id": "spk_r",
+            "text_en": "One of the optical sensors needs to be replaced."
+          },
+          {
+            "segment_id": "ag-g-p2-000010-seg-b",
+            "speaker_id": "spk_r",
+            "text_en": "Yes, please shut the window."
+          },
+          {
+            "segment_id": "ag-g-p2-000010-seg-c",
+            "speaker_id": "spk_r",
+            "text_en": "By five o'clock this evening."
+          }
+        ]
+      },
+      "items": [
+        {
+          "item_id": "ag-i-p2-000010-1",
+          "prompt_en": "Listen to the question or statement and choose the best response.",
+          "choices": [
+            {
+              "id": "A",
+              "text_en": "One of the optical sensors needs to be replaced."
+            },
+            {
+              "id": "B",
+              "text_en": "Yes, please shut the window."
+            },
+            {
+              "id": "C",
+              "text_en": "By five o'clock this evening."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "group_id": "ag-g-p2-000011",
+      "part": 2,
+      "layout": "question_response",
+      "scenario": "trade_show_exhibition",
+      "blind_solvable": true,
+      "blind_skip_reason": null,
+      "stimulus": {
+        "documents": [],
+        "speakers": [
+          {
+            "speaker_id": "spk_q",
+            "role": "marketing_manager",
+            "accent": "uk"
+          },
+          {
+            "speaker_id": "spk_r",
+            "role": "event_assistant",
+            "accent": "ca"
+          }
+        ],
+        "audio_script": [
+          {
+            "segment_id": "ag-g-p2-000011-seg-q",
+            "speaker_id": "spk_q",
+            "text_en": "We didn't miss the deadline for the trade show booth deposit, did we?"
+          },
+          {
+            "segment_id": "ag-g-p2-000011-seg-a",
+            "speaker_id": "spk_r",
+            "text_en": "Right next to the main registration desk."
+          },
+          {
+            "segment_id": "ag-g-p2-000011-seg-b",
+            "speaker_id": "spk_r",
+            "text_en": "No, I wired the payment yesterday afternoon."
+          },
+          {
+            "segment_id": "ag-g-p2-000011-seg-c",
+            "speaker_id": "spk_r",
+            "text_en": "The keynote speech starts at ten."
+          }
+        ]
+      },
+      "items": [
+        {
+          "item_id": "ag-i-p2-000011-1",
+          "prompt_en": "Listen to the question or statement and choose the best response.",
+          "choices": [
+            {
+              "id": "A",
+              "text_en": "Right next to the main registration desk."
+            },
+            {
+              "id": "B",
+              "text_en": "No, I wired the payment yesterday afternoon."
+            },
+            {
+              "id": "C",
+              "text_en": "The keynote speech starts at ten."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "group_id": "ag-g-p2-000012",
+      "part": 2,
+      "layout": "question_response",
+      "scenario": "sales_visit",
+      "blind_solvable": true,
+      "blind_skip_reason": null,
+      "stimulus": {
+        "documents": [],
+        "speakers": [
+          {
+            "speaker_id": "spk_q",
+            "role": "receptionist",
+            "accent": "ca"
+          },
+          {
+            "speaker_id": "spk_r",
+            "role": "sales_representative",
+            "accent": "uk"
+          }
+        ],
+        "audio_script": [
+          {
+            "segment_id": "ag-g-p2-000012-seg-q",
+            "speaker_id": "spk_q",
+            "text_en": "Would you like me to help you carry those product catalogs out to your car?"
+          },
+          {
+            "segment_id": "ag-g-p2-000012-seg-a",
+            "speaker_id": "spk_r",
+            "text_en": "Thanks, but I brought a folding cart with me."
+          },
+          {
+            "segment_id": "ag-g-p2-000012-seg-b",
+            "speaker_id": "spk_r",
+            "text_en": "The new spring catalog has sixty pages."
+          },
+          {
+            "segment_id": "ag-g-p2-000012-seg-c",
+            "speaker_id": "spk_r",
+            "text_en": "It's parked in the underground garage."
+          }
+        ]
+      },
+      "items": [
+        {
+          "item_id": "ag-i-p2-000012-1",
+          "prompt_en": "Listen to the question or statement and choose the best response.",
+          "choices": [
+            {
+              "id": "A",
+              "text_en": "Thanks, but I brought a folding cart with me."
+            },
+            {
+              "id": "B",
+              "text_en": "The new spring catalog has sixty pages."
+            },
+            {
+              "id": "C",
+              "text_en": "It's parked in the underground garage."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "group_id": "ag-g-p2-000013",
+      "part": 2,
+      "layout": "question_response",
+      "scenario": "medical_appointment",
+      "blind_solvable": true,
+      "blind_skip_reason": null,
+      "stimulus": {
+        "documents": [],
+        "speakers": [
+          {
+            "speaker_id": "spk_q",
+            "role": "patient",
+            "accent": "us"
+          },
+          {
+            "speaker_id": "spk_r",
+            "role": "clinic_receptionist",
+            "accent": "au"
+          }
+        ],
+        "audio_script": [
+          {
+            "segment_id": "ag-g-p2-000013-seg-q",
+            "speaker_id": "spk_q",
+            "text_en": "Do you know if Dr. Patel has any openings this Thursday afternoon?"
+          },
+          {
+            "segment_id": "ag-g-p2-000013-seg-a",
+            "speaker_id": "spk_r",
+            "text_en": "The clinic's grand opening was last month."
+          },
+          {
+            "segment_id": "ag-g-p2-000013-seg-b",
+            "speaker_id": "spk_r",
+            "text_en": "She doesn't work Thursdays, but Friday at ten is available."
+          },
+          {
+            "segment_id": "ag-g-p2-000013-seg-c",
+            "speaker_id": "spk_r",
+            "text_en": "Yes, I know Dr. Patel very well."
+          }
+        ]
+      },
+      "items": [
+        {
+          "item_id": "ag-i-p2-000013-1",
+          "prompt_en": "Listen to the question or statement and choose the best response.",
+          "choices": [
+            {
+              "id": "A",
+              "text_en": "The clinic's grand opening was last month."
+            },
+            {
+              "id": "B",
+              "text_en": "She doesn't work Thursdays, but Friday at ten is available."
+            },
+            {
+              "id": "C",
+              "text_en": "Yes, I know Dr. Patel very well."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "group_id": "ag-g-p5-000013",
+      "part": 5,
+      "layout": "sentence",
+      "scenario": "energy_sustainability",
+      "blind_solvable": true,
+      "blind_skip_reason": null,
+      "stimulus": {
+        "documents": [],
+        "speakers": [],
+        "audio_script": []
+      },
+      "items": [
+        {
+          "item_id": "ag-i-p5-000013-1",
+          "prompt_en": "The newly installed solar water heater is significantly ____ than the aging gas-powered unit it replaced.",
+          "choices": [
+            {
+              "id": "A",
+              "text_en": "efficient"
+            },
+            {
+              "id": "B",
+              "text_en": "efficiently"
+            },
+            {
+              "id": "C",
+              "text_en": "more efficient"
+            },
+            {
+              "id": "D",
+              "text_en": "efficiency"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "group_id": "ag-g-p5-000014",
+      "part": 5,
+      "layout": "sentence",
+      "scenario": "retail_loyalty_program",
+      "blind_solvable": true,
+      "blind_skip_reason": null,
+      "stimulus": {
+        "documents": [],
+        "speakers": [],
+        "audio_script": []
+      },
+      "items": [
+        {
+          "item_id": "ag-i-p5-000014-1",
+          "prompt_en": "The seasonal discount voucher may be redeemed at any Cortland Apparel store nationwide, ____ outlet locations and airport kiosks.",
+          "choices": [
+            {
+              "id": "A",
+              "text_en": "aside from"
+            },
+            {
+              "id": "B",
+              "text_en": "prior to"
+            },
+            {
+              "id": "C",
+              "text_en": "on behalf of"
+            },
+            {
+              "id": "D",
+              "text_en": "by means of"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "group_id": "ag-g-p5-000015",
+      "part": 5,
+      "layout": "sentence",
+      "scenario": "it_cybersecurity",
+      "blind_solvable": true,
+      "blind_skip_reason": null,
+      "stimulus": {
+        "documents": [],
+        "speakers": [],
+        "audio_script": []
+      },
+      "items": [
+        {
+          "item_id": "ag-i-p5-000015-1",
+          "prompt_en": "Following last week's security audit, the chief information officer recommended that every remote employee ____ the virtual private network software immediately.",
+          "choices": [
+            {
+              "id": "A",
+              "text_en": "updates"
+            },
+            {
+              "id": "B",
+              "text_en": "update"
+            },
+            {
+              "id": "C",
+              "text_en": "updating"
+            },
+            {
+              "id": "D",
+              "text_en": "to update"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "group_id": "ag-g-p6-000001",
+      "part": 6,
+      "layout": "text_completion",
+      "scenario": "public_library_service",
+      "blind_solvable": true,
+      "blind_skip_reason": null,
+      "stimulus": {
+        "documents": [
+          {
+            "document_id": "ag-doc-p6-000001-1",
+            "genre": "notice",
+            "title_en": "Oakridge Public Library: Historical Newspaper Archive Upgrade",
+            "blocks": [
+              {
+                "block_id": "ag-blk-p6-000001-1",
+                "type": "text",
+                "text_en": "Beginning November 1, the Oakridge Public Library [[blank:ag-i-p6-000001-1]] its online historical newspaper archive to include regional periodicals dating back to 1890. Over the past eight months, our preservation team has scanned more than 40,000 pages of fragile microfilm so that residents can search local history records from home. [[blank:ag-i-p6-000001-2]] To use the new portal, patrons simply need to enter their fourteen-digit library card number on our website. [[blank:ag-i-p6-000001-3]], the third-floor microfilm reading room will close for two weeks starting November 4 while technicians install high-resolution viewing terminals. Patrons who require [[blank:ag-i-p6-000001-4]] locating specific municipal records during this closure may schedule an appointment with a reference librarian."
+              }
+            ]
+          }
+        ],
+        "speakers": [],
+        "audio_script": []
+      },
+      "items": [
+        {
+          "item_id": "ag-i-p6-000001-1",
+          "prompt_en": "Select the best word or phrase to fill in blank [[blank:ag-i-p6-000001-1]].",
+          "choices": [
+            {
+              "id": "A",
+              "text_en": "expanded"
+            },
+            {
+              "id": "B",
+              "text_en": "will expand"
+            },
+            {
+              "id": "C",
+              "text_en": "had expanded"
+            },
+            {
+              "id": "D",
+              "text_en": "is expanding from"
+            }
+          ]
+        },
+        {
+          "item_id": "ag-i-p6-000001-2",
+          "prompt_en": "Select the best sentence to fill in blank [[blank:ag-i-p6-000001-2]].",
+          "choices": [
+            {
+              "id": "A",
+              "text_en": "This remote access eliminates the need to visit the branch in person to view delicate paper copies."
+            },
+            {
+              "id": "B",
+              "text_en": "Late fees for overdue hardcover books will increase by ten cents per day."
+            },
+            {
+              "id": "C",
+              "text_en": "Several authors will sign copies of their new novels in the lobby tonight."
+            },
+            {
+              "id": "D",
+              "text_en": "Unfortunately, the scanning project was canceled due to budget cuts."
+            }
+          ]
+        },
+        {
+          "item_id": "ag-i-p6-000001-3",
+          "prompt_en": "Select the best word or phrase to fill in blank [[blank:ag-i-p6-000001-3]].",
+          "choices": [
+            {
+              "id": "A",
+              "text_en": "For instance"
+            },
+            {
+              "id": "B",
+              "text_en": "In the meantime"
+            },
+            {
+              "id": "C",
+              "text_en": "On the contrary"
+            },
+            {
+              "id": "D",
+              "text_en": "As a result of"
+            }
+          ]
+        },
+        {
+          "item_id": "ag-i-p6-000001-4",
+          "prompt_en": "Select the best word or phrase to fill in blank [[blank:ag-i-p6-000001-4]].",
+          "choices": [
+            {
+              "id": "A",
+              "text_en": "assistance"
+            },
+            {
+              "id": "B",
+              "text_en": "attendance"
+            },
+            {
+              "id": "C",
+              "text_en": "allowance"
+            },
+            {
+              "id": "D",
+              "text_en": "appliance"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "group_id": "ag-g-p6-000002",
+      "part": 6,
+      "layout": "text_completion",
+      "scenario": "logistics_automation",
+      "blind_solvable": true,
+      "blind_skip_reason": null,
+      "stimulus": {
+        "documents": [
+          {
+            "document_id": "ag-doc-p6-000002-1",
+            "genre": "memo",
+            "title_en": "Memo: Trial Run of Optical Parcel Sorting System in Zone B",
+            "blocks": [
+              {
+                "block_id": "ag-blk-p6-000002-1",
+                "type": "text",
+                "text_en": "To: All Distribution Center Supervisors\nFrom: Marcus Vance, Director of Warehouse Operations\n\nStarting next Monday, Zone B will begin a two-week operational trial of our new optical parcel sorting conveyor. The equipment is designed to process up to 3,500 packages per hour, [[blank:ag-i-p6-000002-1]] reducing manual scanning bottlenecks during peak evening shifts. During the initial phase, only standard rectangular cartons weighing under twenty kilograms will be routed through the automated lane. [[blank:ag-i-p6-000002-2]] Floor supervisors must ensure that all shift leads complete the safety checklist [[blank:ag-i-p6-000002-3]] activating the conveyor belts each morning. Any barcode recognition errors should be logged in the shared maintenance spreadsheet so our engineers can calibrate [[blank:ag-i-p6-000002-4]] before full deployment in December."
+              }
+            ]
+          }
+        ],
+        "speakers": [],
+        "audio_script": []
+      },
+      "items": [
+        {
+          "item_id": "ag-i-p6-000002-1",
+          "prompt_en": "Select the best word or phrase to fill in blank [[blank:ag-i-p6-000002-1]].",
+          "choices": [
+            {
+              "id": "A",
+              "text_en": "dramatic"
+            },
+            {
+              "id": "B",
+              "text_en": "dramatically"
+            },
+            {
+              "id": "C",
+              "text_en": "dramatize"
+            },
+            {
+              "id": "D",
+              "text_en": "drama"
+            }
+          ]
+        },
+        {
+          "item_id": "ag-i-p6-000002-2",
+          "prompt_en": "Select the best sentence to fill in blank [[blank:ag-i-p6-000002-2]].",
+          "choices": [
+            {
+              "id": "A",
+              "text_en": "Irregularly shaped parcels and heavy crates should continue to be handled at the manual stations in Zone A."
+            },
+            {
+              "id": "B",
+              "text_en": "All warehouse employees must submit their vacation requests to human resources by Friday."
+            },
+            {
+              "id": "C",
+              "text_en": "The optical sorting system was decommissioned after ten years of reliable service."
+            },
+            {
+              "id": "D",
+              "text_en": "Customers can track their international air freight using the mobile application."
+            }
+          ]
+        },
+        {
+          "item_id": "ag-i-p6-000002-3",
+          "prompt_en": "Select the best word or phrase to fill in blank [[blank:ag-i-p6-000002-3]].",
+          "choices": [
+            {
+              "id": "A",
+              "text_en": "prior to"
+            },
+            {
+              "id": "B",
+              "text_en": "except for"
+            },
+            {
+              "id": "C",
+              "text_en": "on account of"
+            },
+            {
+              "id": "D",
+              "text_en": "in addition"
+            }
+          ]
+        },
+        {
+          "item_id": "ag-i-p6-000002-4",
+          "prompt_en": "Select the best word or phrase to fill in blank [[blank:ag-i-p6-000002-4]].",
+          "choices": [
+            {
+              "id": "A",
+              "text_en": "theirs"
+            },
+            {
+              "id": "B",
+              "text_en": "itself"
+            },
+            {
+              "id": "C",
+              "text_en": "the sensors"
+            },
+            {
+              "id": "D",
+              "text_en": "each other"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "batch_id": "batch-ag-0014",
+  "verified_at": "2026-10-30T17:30:29Z",
+  "manifest_sha256": "9a4264fafd4f4856494ee0dfe206b0fd409cedd7e348d8a2fc3c47ac5124982e",
+  "group_count": 4,
+  "item_count": 4,
+  "all_file_hashes_match": true,
+  "files_verified": 10
+}

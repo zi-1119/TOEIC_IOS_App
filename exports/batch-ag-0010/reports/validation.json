@@ -1,0 +1,221 @@
+{
+  "report_version": "1.0.0",
+  "content_schema_version": "1.0.0",
+  "batch_id": "batch-ag-0010",
+  "generated_at": "2026-10-28T08:45:25Z",
+  "validator": {
+    "name": "ag-content-validator",
+    "version": "1.0.0"
+  },
+  "profile": "authoring",
+  "checks": [
+    {
+      "check_id": "structure-001",
+      "category": "structure",
+      "target": {
+        "path": "groups.jsonl",
+        "group_id": null,
+        "item_id": null
+      },
+      "status": "pass",
+      "code": "struct_json_schema_valid",
+      "message_zh": "groups.jsonl（21 組）與 reviews.jsonl（42 筆）JSON 語法、必填欄位及 enum 均符合 Content Contract 1.0.0。",
+      "evidence_paths": [
+        "groups.jsonl",
+        "reviews.jsonl"
+      ]
+    },
+    {
+      "check_id": "structure-002",
+      "category": "structure",
+      "target": {
+        "path": "groups.jsonl",
+        "group_id": null,
+        "item_id": null
+      },
+      "status": "pass",
+      "code": "struct_part_shape_valid",
+      "message_zh": "所有題組之 Part/layout 題數、選項數、答案引用、Part 5/6/7 空格與插句標記、表格列寬及無 HTML/JS 檢查均通過。",
+      "evidence_paths": [
+        "groups.jsonl"
+      ]
+    },
+    {
+      "check_id": "references-001",
+      "category": "references",
+      "target": {
+        "path": "groups.jsonl",
+        "group_id": null,
+        "item_id": null
+      },
+      "status": "pass",
+      "code": "ref_evidence_valid",
+      "message_zh": "所有 item.evidence、stimulus.speakers、review_refs 與 segment_times 引用完整性檢查均通過。",
+      "evidence_paths": [
+        "groups.jsonl",
+        "reviews.jsonl"
+      ]
+    },
+    {
+      "check_id": "uniqueness-001",
+      "category": "uniqueness",
+      "target": {
+        "path": "groups.jsonl",
+        "group_id": null,
+        "item_id": null
+      },
+      "status": "pass",
+      "code": "uniq_intra_batch_ids_valid",
+      "message_zh": "本批內 21 個 group_id、24 個 item_id、6 個 asset_id 與 42 個 review_id 均唯一且無同家族跨池。",
+      "evidence_paths": [
+        "groups.jsonl",
+        "reviews.jsonl"
+      ]
+    },
+    {
+      "check_id": "uniqueness-002",
+      "category": "uniqueness",
+      "target": {
+        "path": "groups.jsonl",
+        "group_id": null,
+        "item_id": null
+      },
+      "status": "pass",
+      "code": "uniq_cross_batch_index_valid",
+      "message_zh": "已與全域歷史索引比對（累計 85 組先前題組），無跨批 ID 重複、版本衝突或 family 跨池衝突。",
+      "evidence_paths": [
+        "groups.jsonl"
+      ]
+    },
+    {
+      "check_id": "uniqueness-003",
+      "category": "uniqueness",
+      "target": {
+        "path": "groups.jsonl",
+        "group_id": null,
+        "item_id": null
+      },
+      "status": "pass",
+      "code": "uniq_exact_and_normalized_valid",
+      "message_zh": "完全相同文字與正規化文字去重檢查通過，無重複題幹、選項組或文稿。",
+      "evidence_paths": [
+        "groups.jsonl"
+      ]
+    },
+    {
+      "check_id": "uniqueness-004",
+      "category": "uniqueness",
+      "target": {
+        "path": "groups.jsonl",
+        "group_id": null,
+        "item_id": null
+      },
+      "status": "pass",
+      "code": "uniq_semantic_family_valid",
+      "message_zh": "同題型跨家族 n-gram 餘弦相似度與情境骨架去重檢查通過（最高相似度均低於警戒門檻 0.82）。",
+      "evidence_paths": [
+        "groups.jsonl"
+      ]
+    },
+    {
+      "check_id": "assets-001",
+      "category": "assets",
+      "target": {
+        "path": "groups.jsonl",
+        "group_id": null,
+        "item_id": null
+      },
+      "status": "pass",
+      "code": "asset_path_safety_valid",
+      "message_zh": "所有素材之欄位契約與路徑安全檢查通過（無越界路徑或偽造雜湊）。",
+      "evidence_paths": [
+        "groups.jsonl"
+      ]
+    },
+    {
+      "check_id": "assets-002",
+      "category": "assets",
+      "target": {
+        "path": "groups.jsonl",
+        "group_id": null,
+        "item_id": null
+      },
+      "status": "pass",
+      "code": "asset_ready_all_valid",
+      "message_zh": "本批為純文字閱讀／文法題組（或所有素材皆已就緒），無待製缺項素材。",
+      "evidence_paths": [
+        "groups.jsonl"
+      ]
+    },
+    {
+      "check_id": "review_integrity-001",
+      "category": "review_integrity",
+      "target": {
+        "path": "reviews.jsonl",
+        "group_id": null,
+        "item_id": null
+      },
+      "status": "pass",
+      "code": "rev_blind_evidence_valid",
+      "message_zh": "reviews.jsonl 審查門檻（最高 ai_checked）與 reports/blind-solve.json 獨立上下文盲解證據核對全數一致。",
+      "evidence_paths": [
+        "reviews.jsonl",
+        "reports/blind-solve.json"
+      ]
+    },
+    {
+      "check_id": "content_quality-001",
+      "category": "content_quality",
+      "target": {
+        "path": "groups.jsonl",
+        "group_id": null,
+        "item_id": null
+      },
+      "status": "pass",
+      "code": "qual_editorial_review_valid",
+      "message_zh": "全數 24 道小題均通過 AI 命題自然度、唯一正解與干擾項有效性審查，詳解與錯誤選項解析完整（正解分布：A:12, B:10, C:1, D:1）。",
+      "evidence_paths": [
+        "groups.jsonl",
+        "reviews.jsonl"
+      ]
+    },
+    {
+      "check_id": "package-001",
+      "category": "package",
+      "target": {
+        "path": "groups.jsonl",
+        "group_id": null,
+        "item_id": null
+      },
+      "status": "pass",
+      "code": "pkg_pre_manifest_inventory_valid",
+      "message_zh": "組包前檔案清單核對通過（21 題組、24 小題、42 筆審查紀錄）。",
+      "evidence_paths": [
+        "groups.jsonl",
+        "reviews.jsonl",
+        "reports/summary.md",
+        "reports/blind-solve.json"
+      ]
+    },
+    {
+      "check_id": "package-002",
+      "category": "package",
+      "target": {
+        "path": "manifest.json",
+        "group_id": null,
+        "item_id": null
+      },
+      "status": "not_run",
+      "code": "final_manifest_pending",
+      "message_zh": "依 Validation Report 1.0.0 打包順序規範，最終 manifest.json 將在本報告寫入後計算 SHA256 並產生，由接收端（及包外 import-check 報告）另行驗證。",
+      "evidence_paths": []
+    }
+  ],
+  "counts": {
+    "pass": 12,
+    "warning": 0,
+    "fail": 0,
+    "not_run": 1
+  },
+  "overall_result": "incomplete"
+}

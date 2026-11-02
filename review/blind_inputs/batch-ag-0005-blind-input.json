@@ -1,0 +1,1009 @@
+{
+  "batch_id": "batch-ag-0005",
+  "instructions": "Independent blind solving sheet. Answer keys, evidence, and explanations have been stripped. For each group where blind_solvable is true, solve each item independently based ONLY on the provided stimulus and choices.",
+  "groups": [
+    {
+      "group_id": "ag-g-p7-000001",
+      "part": 7,
+      "layout": "single_passage",
+      "scenario": "office_facilities",
+      "blind_solvable": true,
+      "blind_skip_reason": null,
+      "stimulus": {
+        "documents": [
+          {
+            "document_id": "ag-doc-p7-000001-1",
+            "genre": "notice",
+            "title_en": "NOTICE TO ALL TENANTS: Underground Parking Garage Repaving",
+            "blocks": [
+              {
+                "block_id": "ag-blk-p7-000001-1",
+                "type": "text",
+                "text_en": "Please be advised that Crestview Tower Management will resurface and repaint both levels of the underground parking garage next week. To minimize disruption to commuters, the work will be completed in two phases:\n\n• Phase 1 (Level B1): Closed from Monday, November 9, at 6:00 A.M. through Tuesday, November 10, at 8:00 P.M.\n• Phase 2 (Level B2): Closed from Wednesday, November 11, at 6:00 A.M. through Thursday, November 12, at 8:00 P.M.\n\nDuring each closure, monthly pass holders who normally park on the affected level may use the overflow surface lot on Elm Street at no extra cost by displaying their yellow hangtag on the rearview mirror. Please note that the electric vehicle charging stations on Level B1 will be shut off during Phase 1; drivers requiring charging stations on Monday or Tuesday should use the public charging hub across from City Hall."
+              }
+            ]
+          }
+        ],
+        "speakers": [],
+        "audio_script": []
+      },
+      "items": [
+        {
+          "item_id": "ag-i-p7-000001-1",
+          "prompt_en": "What is the main purpose of the notice?",
+          "choices": [
+            {
+              "id": "A",
+              "text_en": "To announce an increase in monthly parking fees"
+            },
+            {
+              "id": "B",
+              "text_en": "To inform tenants about temporary garage closures for maintenance"
+            },
+            {
+              "id": "C",
+              "text_en": "To introduce a new security gate system"
+            },
+            {
+              "id": "D",
+              "text_en": "To recruit attendants for the Elm Street surface lot"
+            }
+          ]
+        },
+        {
+          "item_id": "ag-i-p7-000001-2",
+          "prompt_en": "When will Level B2 be closed?",
+          "choices": [
+            {
+              "id": "A",
+              "text_en": "On Monday and Tuesday"
+            },
+            {
+              "id": "B",
+              "text_en": "On Tuesday and Wednesday"
+            },
+            {
+              "id": "C",
+              "text_en": "On Wednesday and Thursday"
+            },
+            {
+              "id": "D",
+              "text_en": "On Thursday and Friday"
+            }
+          ]
+        },
+        {
+          "item_id": "ag-i-p7-000001-3",
+          "prompt_en": "What are monthly pass holders instructed to do to park in the Elm Street lot?",
+          "choices": [
+            {
+              "id": "A",
+              "text_en": "Register their license plate online"
+            },
+            {
+              "id": "B",
+              "text_en": "Display their yellow hangtag in their vehicle"
+            },
+            {
+              "id": "C",
+              "text_en": "Pay a temporary deposit at the security desk"
+            },
+            {
+              "id": "D",
+              "text_en": "Park only in spaces marked for electric vehicles"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "group_id": "ag-g-p7-000002",
+      "part": 7,
+      "layout": "single_passage",
+      "scenario": "procurement_quality",
+      "blind_solvable": true,
+      "blind_skip_reason": null,
+      "stimulus": {
+        "documents": [
+          {
+            "document_id": "ag-doc-p7-000002-1",
+            "genre": "email",
+            "title_en": "Subject: Thermal Shock Test Results — Verona Stoneware Line",
+            "blocks": [
+              {
+                "block_id": "ag-blk-p7-000002-1",
+                "type": "text",
+                "text_en": "To: Kenneth Cho <k.cho@bistrocollective.com>\nFrom: Nadia Al-Mansoor <nalmansoor@kilncraftceramics.com>\nDate: October 19\nSubject: Thermal Shock Test Results — Verona Stoneware Line\n\nDear Mr. Cho,\n\nThank you for visiting our showroom last week to evaluate tableware options for Bistro Collective's upcoming restaurant openings in Denver and Salt Lake City. During our meeting, you asked whether the matte glaze on our Verona Stoneware soup bowls could withstand high-temperature commercial dishwashers without chipping or fading.\n\nOur quality assurance lab completed a 200-cycle thermal durability test yesterday, and I am pleased to report that all twelve test bowls showed zero surface wear or discoloration. I have attached the official laboratory certificate to this message for your review.\n\nIn addition, I have dispatched a box containing four sample place settings in the olive-green finish to your Denver regional office via express courier. Once your culinary team has had a chance to inspect the samples, please let me know how many sets you would like to include in your initial purchase order so we can reserve kiln capacity for November.\n\nBest regards,\nNadia Al-Mansoor\nCommercial Accounts Manager, KilnCraft Ceramics"
+              }
+            ]
+          }
+        ],
+        "speakers": [],
+        "audio_script": []
+      },
+      "items": [
+        {
+          "item_id": "ag-i-p7-000002-1",
+          "prompt_en": "What concern did Mr. Cho raise during last week's meeting?",
+          "choices": [
+            {
+              "id": "A",
+              "text_en": "Whether the bowls could endure commercial dishwashing temperatures"
+            },
+            {
+              "id": "B",
+              "text_en": "Whether KilnCraft Ceramics offered an olive-green color"
+            },
+            {
+              "id": "C",
+              "text_en": "Whether shipping to Salt Lake City would cost extra"
+            },
+            {
+              "id": "D",
+              "text_en": "Whether the soup bowls were too heavy for servers to carry"
+            }
+          ]
+        },
+        {
+          "item_id": "ag-i-p7-000002-2",
+          "prompt_en": "What did Ms. Al-Mansoor attach to the email?",
+          "choices": [
+            {
+              "id": "A",
+              "text_en": "A floor plan of the Denver showroom"
+            },
+            {
+              "id": "B",
+              "text_en": "A laboratory test certificate"
+            },
+            {
+              "id": "C",
+              "text_en": "A revised price catalog"
+            },
+            {
+              "id": "D",
+              "text_en": "A courier reimbursement form"
+            }
+          ]
+        },
+        {
+          "item_id": "ag-i-p7-000002-3",
+          "prompt_en": "Why does Ms. Al-Mansoor ask Mr. Cho to confirm his order quantity soon?",
+          "choices": [
+            {
+              "id": "A",
+              "text_en": "Raw clay prices are expected to rise in December."
+            },
+            {
+              "id": "B",
+              "text_en": "The olive-green glaze is being discontinued."
+            },
+            {
+              "id": "C",
+              "text_en": "Production space in the kilns needs to be scheduled for November."
+            },
+            {
+              "id": "D",
+              "text_en": "The showroom will close for renovations next month."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "group_id": "ag-g-p7-000003",
+      "part": 7,
+      "layout": "single_passage",
+      "scenario": "it_operations",
+      "blind_solvable": true,
+      "blind_skip_reason": null,
+      "stimulus": {
+        "documents": [
+          {
+            "document_id": "ag-doc-p7-000003-1",
+            "genre": "chat",
+            "title_en": "Retail Systems Support Channel — October 24",
+            "blocks": [
+              {
+                "block_id": "ag-blk-p7-000003-1",
+                "type": "text",
+                "text_en": "[9:12 A.M.] Victor Morales: Morning, team. The manager at our Waverly Place grocery store just called. Since the overnight point-of-sale (POS) firmware update, Lanes 1 through 4 haven't been recognizing digital loyalty coupons on customer smartphones.\n\n[9:15 A.M.] Haruka Sato: Did the overnight script update the optical scanner drivers on those registers as well, or just the payment terminal software?\n\n[9:17 A.M.] Eliott Vance: Let me check the deployment log... Ah, the scanner driver patch failed on the older Model 400 registers because their memory cache was full. Lanes 5 and 6 at Waverly Place have the newer Model 700 units, so they weren't affected.\n\n[9:18 A.M.] Haruka Sato: That explains it. We saw the exact same memory bottleneck at the Harborview branch last Tuesday.\n\n[9:21 A.M.] Eliott Vance: I'm clearing the temporary cache files on Waverly Place Lanes 1 to 4 remotely right now and pushing the driver patch again. It should finish in about ten minutes.\n\n[9:23 A.M.] Victor Morales: Great. Once your screen shows the installation is complete, let me know so I can have the Waverly Place supervisor run a test scan before the lunch rush starts."
+              }
+            ]
+          }
+        ],
+        "speakers": [],
+        "audio_script": []
+      },
+      "items": [
+        {
+          "item_id": "ag-i-p7-000003-1",
+          "prompt_en": "What problem was reported at the Waverly Place store?",
+          "choices": [
+            {
+              "id": "A",
+              "text_en": "Credit card receipt printers ran out of paper."
+            },
+            {
+              "id": "B",
+              "text_en": "Some checkout registers could not read mobile coupons."
+            },
+            {
+              "id": "C",
+              "text_en": "Self-checkout screens froze during cash transactions."
+            },
+            {
+              "id": "D",
+              "text_en": "Customer loyalty points were calculated twice."
+            }
+          ]
+        },
+        {
+          "item_id": "ag-i-p7-000003-2",
+          "prompt_en": "At 9:18 A.M., what does Ms. Sato mean when she writes, \"That explains it\"?",
+          "choices": [
+            {
+              "id": "A",
+              "text_en": "She understands why only certain registers at the store malfunctioned."
+            },
+            {
+              "id": "B",
+              "text_en": "She has received the store manager's written incident report."
+            },
+            {
+              "id": "C",
+              "text_en": "She agrees that the store should purchase Model 700 registers immediately."
+            },
+            {
+              "id": "D",
+              "text_en": "She knows why the Harborview branch closed early last Tuesday."
+            }
+          ]
+        },
+        {
+          "item_id": "ag-i-p7-000003-3",
+          "prompt_en": "What can be inferred about the Waverly Place store?",
+          "choices": [
+            {
+              "id": "A",
+              "text_en": "It opened more recently than the Harborview branch."
+            },
+            {
+              "id": "B",
+              "text_en": "It uses two different models of checkout registers."
+            },
+            {
+              "id": "C",
+              "text_en": "It will shut down Lanes 5 and 6 for ten minutes."
+            },
+            {
+              "id": "D",
+              "text_en": "It no longer accepts paper coupons."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "group_id": "ag-g-p7-000004",
+      "part": 7,
+      "layout": "single_passage",
+      "scenario": "urban_sustainability",
+      "blind_solvable": true,
+      "blind_skip_reason": null,
+      "stimulus": {
+        "documents": [
+          {
+            "document_id": "ag-doc-p7-000004-1",
+            "genre": "article",
+            "title_en": "Portland's Commercial Green-Roof Rebate Draws Strong Corporate Interest",
+            "blocks": [
+              {
+                "block_id": "ag-blk-p7-000004-1",
+                "type": "text",
+                "text_en": "PORTLAND (October 22) — Since the Portland Office of Sustainability launched its Commercial Rooftop Canopy Grant eighteen months ago, thirty-four office and warehouse properties across the metropolitan area have converted bare tar rooftops into vegetated gardens. [[position:1]] Under the municipal initiative, commercial building owners receive a rebate of $15 per square meter—up to a maximum of $45,000 per property—to offset the cost of waterproof membranes, lightweight soil, and drought-tolerant native plants.\n\nCity engineers designed the program primarily to reduce stormwater runoff into the Willamette River during heavy autumn rains. [[position:2]] However, participating businesses report that the thermal insulation provided by the soil layer has delivered an equally valuable financial benefit. At Cascade Logistics Center, a 4,000-square-meter distribution warehouse near the port, summer air-conditioning expenses dropped by 22 percent during the first year after installation. [[position:3]]\n\nBecause the initial grant fund has been nearly exhausted, the City Council voted last week to allocate an additional $1.8 million for the upcoming fiscal year. [[position:4]] Applications for the next funding round open on January 15, and priority will be given to industrial buildings with flat roofs exceeding 1,500 square meters."
+              }
+            ]
+          }
+        ],
+        "speakers": [],
+        "audio_script": []
+      },
+      "items": [
+        {
+          "item_id": "ag-i-p7-000004-1",
+          "prompt_en": "According to the article, what was the city's main reason for creating the grant program?",
+          "choices": [
+            {
+              "id": "A",
+              "text_en": "To attract landscaping companies to relocate to Portland"
+            },
+            {
+              "id": "B",
+              "text_en": "To decrease the amount of rainwater flowing into a local river"
+            },
+            {
+              "id": "C",
+              "text_en": "To create outdoor dining spaces for office employees"
+            },
+            {
+              "id": "D",
+              "text_en": "To replace solar panels on older industrial warehouses"
+            }
+          ]
+        },
+        {
+          "item_id": "ag-i-p7-000004-2",
+          "prompt_en": "In paragraph 1, the word \"offset\" is closest in meaning to",
+          "choices": [
+            {
+              "id": "A",
+              "text_en": "postpone"
+            },
+            {
+              "id": "B",
+              "text_en": "counterbalance"
+            },
+            {
+              "id": "C",
+              "text_en": "inspect"
+            },
+            {
+              "id": "D",
+              "text_en": "publicize"
+            }
+          ]
+        },
+        {
+          "item_id": "ag-i-p7-000004-3",
+          "prompt_en": "What is indicated about Cascade Logistics Center?",
+          "choices": [
+            {
+              "id": "A",
+              "text_en": "It will submit its grant application on January 15."
+            },
+            {
+              "id": "B",
+              "text_en": "It lowered its summer cooling costs after installing a green roof."
+            },
+            {
+              "id": "C",
+              "text_en": "It is located less than 1,500 meters from City Hall."
+            },
+            {
+              "id": "D",
+              "text_en": "It received $1.8 million in municipal funding."
+            }
+          ]
+        },
+        {
+          "item_id": "ag-i-p7-000004-4",
+          "prompt_en": "In which of the positions marked [1], [2], [3], and [4] does the following sentence best belong?\n\"Facility manager Rosa Delgado notes that the cooler indoor temperatures have also reduced wear on the building's rooftop HVAC compressors.\"",
+          "choices": [
+            {
+              "id": "A",
+              "text_en": "[1]"
+            },
+            {
+              "id": "B",
+              "text_en": "[2]"
+            },
+            {
+              "id": "C",
+              "text_en": "[3]"
+            },
+            {
+              "id": "D",
+              "text_en": "[4]"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "group_id": "ag-g-p7-000005",
+      "part": 7,
+      "layout": "double_passage",
+      "scenario": "event_conference",
+      "blind_solvable": true,
+      "blind_skip_reason": null,
+      "stimulus": {
+        "documents": [
+          {
+            "document_id": "ag-doc-p7-000005-1",
+            "genre": "schedule",
+            "title_en": "Pacific Rim Supply Chain Forum — Friday, November 14 (Afternoon Track)",
+            "blocks": [
+              {
+                "block_id": "ag-blk-p7-000005-1",
+                "type": "table",
+                "columns": [
+                  "Time",
+                  "Session Title",
+                  "Speaker",
+                  "Room"
+                ],
+                "rows": [
+                  [
+                    "1:00 P.M.–2:00 P.M.",
+                    "Automated Port Customs Clearance",
+                    "Dr. Henrik Lindholm (Nordic Freight)",
+                    "Harbor Room A"
+                  ],
+                  [
+                    "2:15 P.M.–3:15 P.M.",
+                    "Cold-Chain Packaging Innovations",
+                    "Mei-Ling Zhou (FreshRoute Logistics)",
+                    "Harbor Room B"
+                  ],
+                  [
+                    "3:30 P.M.–4:30 P.M.",
+                    "Reducing Last-Mile Delivery Emissions",
+                    "Carlos Mendez (MetroFleet EV)",
+                    "Grand Ballroom"
+                  ],
+                  [
+                    "4:45 P.M.–5:45 P.M.",
+                    "Maritime Insurance Trends for 2027",
+                    "Priya Nair (Oceanic Underwriting)",
+                    "Harbor Room A"
+                  ]
+                ]
+              },
+              {
+                "block_id": "ag-blk-p7-000005-2",
+                "type": "text",
+                "text_en": "Note: Conference attendees registered for the Standard Pass may attend all Harbor Room sessions. Admission to sessions held in the Grand Ballroom requires either an All-Access Badge or a $35 single-session upgrade ticket available at the registration desk."
+              }
+            ]
+          },
+          {
+            "document_id": "ag-doc-p7-000005-2",
+            "genre": "email",
+            "title_en": "Subject: Friday Session Time Swap Request",
+            "blocks": [
+              {
+                "block_id": "ag-blk-p7-000005-3",
+                "type": "text",
+                "text_en": "To: Priya Nair <pnair@oceanicunderwriting.com>\nFrom: Gavin Cho, Program Coordinator <gcho@pacificsupplyforum.org>\nDate: November 10\nSubject: Friday Session Time Swap Request\n\nDear Ms. Nair,\n\nI am writing with a scheduling request regarding your presentation at the Pacific Rim Supply Chain Forum this Friday, November 14. Dr. Henrik Lindholm's incoming flight from Stockholm was rescheduled by the airline, and he will now land in Vancouver at 1:30 P.M. on Friday. Consequently, he will not be able to reach the convention center in time for his 1:00 P.M. slot.\n\nSince both of your sessions are assigned to the same room and have a similar number of registered attendees, would you be willing to take the 1:00 P.M.–2:00 P.M. time slot so that Dr. Lindholm can present during your 4:45 P.M. slot instead? If you agree to this change, we will update the mobile event app immediately and provide complimentary airport limousine service for your return trip on Saturday.\n\nPlease let me know by 5:00 P.M. today whether this arrangement works for you, and remember to upload your final slide deck to the speaker portal by Wednesday.\n\nSincerely,\nGavin Cho"
+              }
+            ]
+          }
+        ],
+        "speakers": [],
+        "audio_script": []
+      },
+      "items": [
+        {
+          "item_id": "ag-i-p7-000005-1",
+          "prompt_en": "According to the schedule, which speaker will discuss electric delivery vehicles?",
+          "choices": [
+            {
+              "id": "A",
+              "text_en": "Dr. Henrik Lindholm"
+            },
+            {
+              "id": "B",
+              "text_en": "Mei-Ling Zhou"
+            },
+            {
+              "id": "C",
+              "text_en": "Carlos Mendez"
+            },
+            {
+              "id": "D",
+              "text_en": "Priya Nair"
+            }
+          ]
+        },
+        {
+          "item_id": "ag-i-p7-000005-2",
+          "prompt_en": "Which session requires Standard Pass holders to pay an additional fee to attend?",
+          "choices": [
+            {
+              "id": "A",
+              "text_en": "Automated Port Customs Clearance"
+            },
+            {
+              "id": "B",
+              "text_en": "Cold-Chain Packaging Innovations"
+            },
+            {
+              "id": "C",
+              "text_en": "Reducing Last-Mile Delivery Emissions"
+            },
+            {
+              "id": "D",
+              "text_en": "Maritime Insurance Trends for 2027"
+            }
+          ]
+        },
+        {
+          "item_id": "ag-i-p7-000005-3",
+          "prompt_en": "Why is Mr. Cho contacting Ms. Nair?",
+          "choices": [
+            {
+              "id": "A",
+              "text_en": "To invite her to moderate a panel in Harbor Room B"
+            },
+            {
+              "id": "B",
+              "text_en": "To ask her to switch presentation times with another speaker"
+            },
+            {
+              "id": "C",
+              "text_en": "To inform her that her session has been moved to the Grand Ballroom"
+            },
+            {
+              "id": "D",
+              "text_en": "To request her biography for the printed program"
+            }
+          ]
+        },
+        {
+          "item_id": "ag-i-p7-000005-4",
+          "prompt_en": "If Ms. Nair agrees to Mr. Cho's request, when will \"Automated Port Customs Clearance\" be presented?",
+          "choices": [
+            {
+              "id": "A",
+              "text_en": "From 1:00 P.M. to 2:00 P.M."
+            },
+            {
+              "id": "B",
+              "text_en": "From 2:15 P.M. to 3:15 P.M."
+            },
+            {
+              "id": "C",
+              "text_en": "From 3:30 P.M. to 4:30 P.M."
+            },
+            {
+              "id": "D",
+              "text_en": "From 4:45 P.M. to 5:45 P.M."
+            }
+          ]
+        },
+        {
+          "item_id": "ag-i-p7-000005-5",
+          "prompt_en": "In which room is Ms. Nair scheduled to speak?",
+          "choices": [
+            {
+              "id": "A",
+              "text_en": "Harbor Room A"
+            },
+            {
+              "id": "B",
+              "text_en": "Harbor Room B"
+            },
+            {
+              "id": "C",
+              "text_en": "Grand Ballroom"
+            },
+            {
+              "id": "D",
+              "text_en": "Vancouver Hall"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "group_id": "ag-g-p7-000006",
+      "part": 7,
+      "layout": "double_passage",
+      "scenario": "customer_warranty",
+      "blind_solvable": true,
+      "blind_skip_reason": null,
+      "stimulus": {
+        "documents": [
+          {
+            "document_id": "ag-doc-p7-000006-1",
+            "genre": "policy",
+            "title_en": "Bellini Commercial Espresso Systems — Limited Warranty Policy",
+            "blocks": [
+              {
+                "block_id": "ag-blk-p7-000006-1",
+                "type": "text",
+                "text_en": "1. Coverage Period: Bellini Commercial Espresso Systems warrants the Dual-Boiler Pro 3000 against defects in internal mechanical and electrical components—including the brass brew group, rotary water pump, and digital pressure control board—for twenty-four (24) months from the original date of purchase.\n\n2. Exclusions: This limited warranty does not cover rubber portafilter gaskets, external milk carafes, or damage caused by failure to use a certified water-softening filter. Replacement of excluded accessories is billed at standard catalog rates.\n\n3. On-Site Service & Shipping: During the first twelve (12) months of ownership, Bellini provides complimentary on-site technician dispatch within 80 kilometers of an authorized service center. In months 13 through 24, replacement covered parts remain free of charge, but a flat $85 technician travel fee applies to all on-site visits."
+              }
+            ]
+          },
+          {
+            "document_id": "ag-doc-p7-000006-2",
+            "genre": "form",
+            "title_en": "Bellini Authorized Service Request Form",
+            "blocks": [
+              {
+                "block_id": "ag-blk-p7-000006-2",
+                "type": "table",
+                "columns": [
+                  "Field",
+                  "Customer Entry"
+                ],
+                "rows": [
+                  [
+                    "Claim Reference",
+                    "SR-90412"
+                  ],
+                  [
+                    "Business Name",
+                    "Roast & Reed Book Café"
+                  ],
+                  [
+                    "Distance from Service Center",
+                    "18 kilometers"
+                  ],
+                  [
+                    "Model",
+                    "Dual-Boiler Pro 3000"
+                  ],
+                  [
+                    "Original Purchase Date",
+                    "April 10, 2025"
+                  ],
+                  [
+                    "Service Request Date",
+                    "October 20, 2026"
+                  ]
+                ]
+              },
+              {
+                "block_id": "ag-blk-p7-000006-3",
+                "type": "text",
+                "text_en": "Issue Description: Yesterday morning, the digital pressure control board stopped displaying the boiler temperature, and the right-hand steam wand began losing pressure. We have always used the official Bellini water-softening filter cartridge and replaced it every ninety days as instructed. In addition to repairing the pressure control board, please have the technician bring two new rubber portafilter gaskets, as ours are worn."
+              }
+            ]
+          }
+        ],
+        "speakers": [],
+        "audio_script": []
+      },
+      "items": [
+        {
+          "item_id": "ag-i-p7-000006-1",
+          "prompt_en": "According to the warranty policy, how long are internal electrical components covered?",
+          "choices": [
+            {
+              "id": "A",
+              "text_en": "For 3 months"
+            },
+            {
+              "id": "B",
+              "text_en": "For 12 months"
+            },
+            {
+              "id": "C",
+              "text_en": "For 24 months"
+            },
+            {
+              "id": "D",
+              "text_en": "For 36 months"
+            }
+          ]
+        },
+        {
+          "item_id": "ag-i-p7-000006-2",
+          "prompt_en": "Why does the customer mention the Bellini water-softening filter cartridge in the request form?",
+          "choices": [
+            {
+              "id": "A",
+              "text_en": "To order a box of replacement filter cartridges"
+            },
+            {
+              "id": "B",
+              "text_en": "To show that the café complied with warranty maintenance requirements"
+            },
+            {
+              "id": "C",
+              "text_en": "To complain that the filter cartridge caused the temperature display to fail"
+            },
+            {
+              "id": "D",
+              "text_en": "To ask the technician how to install a new filter"
+            }
+          ]
+        },
+        {
+          "item_id": "ag-i-p7-000006-3",
+          "prompt_en": "What can be concluded about the digital pressure control board for Roast & Reed Book Café?",
+          "choices": [
+            {
+              "id": "A",
+              "text_en": "The replacement part itself will be provided at no charge."
+            },
+            {
+              "id": "B",
+              "text_en": "It is excluded from the limited warranty policy."
+            },
+            {
+              "id": "C",
+              "text_en": "Its warranty expired on April 10, 2026."
+            },
+            {
+              "id": "D",
+              "text_en": "It must be shipped to the factory in Italy for repair."
+            }
+          ]
+        },
+        {
+          "item_id": "ag-i-p7-000006-4",
+          "prompt_en": "What will Roast & Reed Book Café have to pay for this service visit?",
+          "choices": [
+            {
+              "id": "A",
+              "text_en": "Nothing, because the café is within 80 kilometers of a service center"
+            },
+            {
+              "id": "B",
+              "text_en": "Only a $85 technician travel fee"
+            },
+            {
+              "id": "C",
+              "text_en": "An $85 technician travel fee plus the cost of two rubber gaskets"
+            },
+            {
+              "id": "D",
+              "text_en": "The full cost of the pressure control board and technician labor"
+            }
+          ]
+        },
+        {
+          "item_id": "ag-i-p7-000006-5",
+          "prompt_en": "In the warranty policy, the word \"flat\" in paragraph 3 is closest in meaning to",
+          "choices": [
+            {
+              "id": "A",
+              "text_en": "fixed"
+            },
+            {
+              "id": "B",
+              "text_en": "level"
+            },
+            {
+              "id": "C",
+              "text_en": "shallow"
+            },
+            {
+              "id": "D",
+              "text_en": "dull"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "group_id": "ag-g-p7-000007",
+      "part": 7,
+      "layout": "triple_passage",
+      "scenario": "event_catering",
+      "blind_solvable": true,
+      "blind_skip_reason": null,
+      "stimulus": {
+        "documents": [
+          {
+            "document_id": "ag-doc-p7-000007-1",
+            "genre": "rate_sheet",
+            "title_en": "Saffron & Sage Corporate Catering — 2026 Luncheon Packages",
+            "blocks": [
+              {
+                "block_id": "ag-blk-p7-000007-1",
+                "type": "table",
+                "columns": [
+                  "Package Tier",
+                  "Price per Guest",
+                  "Menu Highlights",
+                  "Minimum Order"
+                ],
+                "rows": [
+                  [
+                    "Artisan Express",
+                    "$22",
+                    "Assorted wraps, seasonal fruit, iced tea",
+                    "20 guests"
+                  ],
+                  [
+                    "Bistro Classic",
+                    "$30",
+                    "Herb-roasted chicken or grilled salmon, two warm sides, coffee service",
+                    "30 guests"
+                  ],
+                  [
+                    "Executive Harvest",
+                    "$38",
+                    "Braised short ribs or truffle risotto, artisan salad, pastry platter",
+                    "40 guests"
+                  ]
+                ]
+              },
+              {
+                "block_id": "ag-blk-p7-000007-2",
+                "type": "text",
+                "text_en": "Booking Policies:\n• Volume Perk: Orders for 60 or more guests automatically receive a complimentary artisan dessert platter (a $120 value), regardless of package tier.\n• Final Headcount: Changes to guest count or dietary selections must be submitted at least 72 hours before the event. Late adjustments incur a $75 rush-prep surcharge.\n• Deposit: A $300 advance deposit is required upon booking and is deducted from the final invoice."
+              }
+            ]
+          },
+          {
+            "document_id": "ag-doc-p7-000007-2",
+            "genre": "email",
+            "title_en": "Subject: Updated Headcount for October 23 Client Luncheon (Order #CC-418)",
+            "blocks": [
+              {
+                "block_id": "ag-blk-p7-000007-3",
+                "type": "text",
+                "text_en": "To: orders@saffronandsage.com\nFrom: Elena Vance <evance@meridianbio.com>\nDate: October 18\nSubject: Updated Headcount for October 23 Client Luncheon (Order #CC-418)\n\nHello Catering Team,\n\nI am writing to update the guest count for Meridian Biotech's client luncheon next Friday, October 23. When I paid our $300 deposit last month, we estimated 45 attendees for the herb-roasted chicken and grilled salmon buffet. However, twenty additional regional distributors have just registered, bringing our final total to 65 guests.\n\nCould you also make sure that 15 of the 65 entrées are vegetarian pasta instead of meat or fish? Finally, since our updated headcount qualifies us for your volume perk, please include that platter with the coffee station setup.\n\nThank you,\nElena Vance"
+              }
+            ]
+          },
+          {
+            "document_id": "ag-doc-p7-000007-3",
+            "genre": "invoice",
+            "title_en": "Saffron & Sage Catering — Final Invoice #INV-8829",
+            "blocks": [
+              {
+                "block_id": "ag-blk-p7-000007-4",
+                "type": "table",
+                "columns": [
+                  "Description",
+                  "Quantity",
+                  "Unit Price",
+                  "Amount"
+                ],
+                "rows": [
+                  [
+                    "Luncheon Buffet Package (Order #CC-418)",
+                    "65",
+                    "$30.00",
+                    "$1,950.00"
+                  ],
+                  [
+                    "Vegetarian Entrée Substitution",
+                    "15",
+                    "$0.00",
+                    "$0.00"
+                  ],
+                  [
+                    "Artisan Dessert Platter (60+ Guest Perk)",
+                    "1",
+                    "$0.00",
+                    "$0.00"
+                  ],
+                  [
+                    "Delivery & Chafing Dish Setup",
+                    "1",
+                    "$60.00",
+                    "$60.00"
+                  ],
+                  [
+                    "Less Advance Deposit Paid (Sept. 15)",
+                    "—",
+                    "—",
+                    "-$300.00"
+                  ],
+                  [
+                    "Balance Due Upon Delivery",
+                    "—",
+                    "—",
+                    "$1,710.00"
+                  ]
+                ]
+              }
+            ]
+          }
+        ],
+        "speakers": [],
+        "audio_script": []
+      },
+      "items": [
+        {
+          "item_id": "ag-i-p7-000007-1",
+          "prompt_en": "Which catering package did Meridian Biotech order?",
+          "choices": [
+            {
+              "id": "A",
+              "text_en": "Artisan Express"
+            },
+            {
+              "id": "B",
+              "text_en": "Bistro Classic"
+            },
+            {
+              "id": "C",
+              "text_en": "Executive Harvest"
+            },
+            {
+              "id": "D",
+              "text_en": "Custom Weekend Buffet"
+            }
+          ]
+        },
+        {
+          "item_id": "ag-i-p7-000007-2",
+          "prompt_en": "Why was Meridian Biotech NOT charged a $75 rush-prep surcharge?",
+          "choices": [
+            {
+              "id": "A",
+              "text_en": "Because Ms. Vance submitted the headcount change more than 72 hours before the event"
+            },
+            {
+              "id": "B",
+              "text_en": "Because the company is a first-time customer"
+            },
+            {
+              "id": "C",
+              "text_en": "Because the number of guests was reduced rather than increased"
+            },
+            {
+              "id": "D",
+              "text_en": "Because the vegetarian pasta costs less to prepare than salmon"
+            }
+          ]
+        },
+        {
+          "item_id": "ag-i-p7-000007-3",
+          "prompt_en": "Why did Meridian Biotech receive the Artisan Dessert Platter at no charge?",
+          "choices": [
+            {
+              "id": "A",
+              "text_en": "It paid its $300 deposit in September."
+            },
+            {
+              "id": "B",
+              "text_en": "Its updated guest count exceeded 60 people."
+            },
+            {
+              "id": "C",
+              "text_en": "It ordered the Executive Harvest package."
+            },
+            {
+              "id": "D",
+              "text_en": "It redeemed a promotional coupon code."
+            }
+          ]
+        },
+        {
+          "item_id": "ag-i-p7-000007-4",
+          "prompt_en": "When did Meridian Biotech pay its advance deposit?",
+          "choices": [
+            {
+              "id": "A",
+              "text_en": "On September 15"
+            },
+            {
+              "id": "B",
+              "text_en": "On October 18"
+            },
+            {
+              "id": "C",
+              "text_en": "On October 20"
+            },
+            {
+              "id": "D",
+              "text_en": "On October 23"
+            }
+          ]
+        },
+        {
+          "item_id": "ag-i-p7-000007-5",
+          "prompt_en": "What is indicated on the final invoice?",
+          "choices": [
+            {
+              "id": "A",
+              "text_en": "Substituting vegetarian entrées did not increase the package price."
+            },
+            {
+              "id": "B",
+              "text_en": "Delivery and setup were included at no charge."
+            },
+            {
+              "id": "C",
+              "text_en": "The full balance has already been paid by credit card."
+            },
+            {
+              "id": "D",
+              "text_en": "Sixty-five vegetarian meals were ordered."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

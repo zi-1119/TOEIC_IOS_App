@@ -1,0 +1,1010 @@
+{
+  "batch_id": "batch-ag-0010",
+  "pool": "battle",
+  "instructions": "Independent context-isolated blind solve input. All answer_choice_id, evidence, explanation_zh, and distractor_notes have been stripped. Solve each item independently.",
+  "groups": [
+    {
+      "group_id": "ag-g-p2-000401",
+      "part": 2,
+      "layout": "question_response",
+      "scenario": "office_administration",
+      "blind_solvable": true,
+      "stimulus": {
+        "documents": [],
+        "speakers": [
+          {
+            "speaker_id": "spk1",
+            "role": "Questioner (Female Coordinator)",
+            "accent": "us"
+          },
+          {
+            "speaker_id": "spk2",
+            "role": "Responder (Male Clerk)",
+            "accent": "uk"
+          }
+        ],
+        "audio_script": [
+          {
+            "segment_id": "seg1",
+            "speaker_id": "spk1",
+            "text_en": "Who authorized the purchase of the ergonomic desk chairs?"
+          },
+          {
+            "segment_id": "seg2",
+            "speaker_id": "spk2",
+            "text_en": "(A) Ms. Patel in the facilities department."
+          },
+          {
+            "segment_id": "seg3",
+            "speaker_id": "spk2",
+            "text_en": "(B) Yes, they are very comfortable."
+          },
+          {
+            "segment_id": "seg4",
+            "speaker_id": "spk2",
+            "text_en": "(C) Next to the conference table."
+          }
+        ]
+      },
+      "items": [
+        {
+          "item_id": "ag-i-p2-000401-1",
+          "prompt_en": "Listen to the question or statement and three responses. Choose the best response.",
+          "choices": [
+            {
+              "id": "A",
+              "text_en": "Ms. Patel in the facilities department."
+            },
+            {
+              "id": "B",
+              "text_en": "Yes, they are very comfortable."
+            },
+            {
+              "id": "C",
+              "text_en": "Next to the conference table."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "group_id": "ag-g-p2-000402",
+      "part": 2,
+      "layout": "question_response",
+      "scenario": "travel_hotel_airport",
+      "blind_solvable": true,
+      "stimulus": {
+        "documents": [],
+        "speakers": [
+          {
+            "speaker_id": "spk1",
+            "role": "Questioner (Male Executive)",
+            "accent": "uk"
+          },
+          {
+            "speaker_id": "spk2",
+            "role": "Responder (Female Assistant)",
+            "accent": "us"
+          }
+        ],
+        "audio_script": [
+          {
+            "segment_id": "seg1",
+            "speaker_id": "spk1",
+            "text_en": "What time does our connecting flight to Frankfurt depart?"
+          },
+          {
+            "segment_id": "seg2",
+            "speaker_id": "spk2",
+            "text_en": "(A) At Gate C14 in the North Terminal."
+          },
+          {
+            "segment_id": "seg3",
+            "speaker_id": "spk2",
+            "text_en": "(B) At six forty-five this evening."
+          },
+          {
+            "segment_id": "seg4",
+            "speaker_id": "spk2",
+            "text_en": "(C) A window seat in business class."
+          }
+        ]
+      },
+      "items": [
+        {
+          "item_id": "ag-i-p2-000402-1",
+          "prompt_en": "Listen to the question or statement and three responses. Choose the best response.",
+          "choices": [
+            {
+              "id": "A",
+              "text_en": "At Gate C14 in the North Terminal."
+            },
+            {
+              "id": "B",
+              "text_en": "At six forty-five this evening."
+            },
+            {
+              "id": "C",
+              "text_en": "A window seat in business class."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "group_id": "ag-g-p2-000403",
+      "part": 2,
+      "layout": "question_response",
+      "scenario": "customer_service_returns",
+      "blind_solvable": true,
+      "stimulus": {
+        "documents": [],
+        "speakers": [
+          {
+            "speaker_id": "spk1",
+            "role": "Questioner (Female Representative)",
+            "accent": "us"
+          },
+          {
+            "speaker_id": "spk2",
+            "role": "Responder (Female Client)",
+            "accent": "au"
+          }
+        ],
+        "audio_script": [
+          {
+            "segment_id": "seg1",
+            "speaker_id": "spk1",
+            "text_en": "Would you like a replacement monitor shipped to your office, or would you prefer store credit?"
+          },
+          {
+            "segment_id": "seg2",
+            "speaker_id": "spk2",
+            "text_en": "(A) Please send a replacement to my office."
+          },
+          {
+            "segment_id": "seg3",
+            "speaker_id": "spk2",
+            "text_en": "(B) Yes, the screen resolution is very sharp."
+          },
+          {
+            "segment_id": "seg4",
+            "speaker_id": "spk2",
+            "text_en": "(C) About twenty-seven inches wide."
+          }
+        ]
+      },
+      "items": [
+        {
+          "item_id": "ag-i-p2-000403-1",
+          "prompt_en": "Listen to the question or statement and three responses. Choose the best response.",
+          "choices": [
+            {
+              "id": "A",
+              "text_en": "Please send a replacement to my office."
+            },
+            {
+              "id": "B",
+              "text_en": "Yes, the screen resolution is very sharp."
+            },
+            {
+              "id": "C",
+              "text_en": "About twenty-seven inches wide."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "group_id": "ag-g-p2-000404",
+      "part": 2,
+      "layout": "question_response",
+      "scenario": "marketing_events_promotions",
+      "blind_solvable": true,
+      "stimulus": {
+        "documents": [],
+        "speakers": [
+          {
+            "speaker_id": "spk1",
+            "role": "Questioner (Female Planner)",
+            "accent": "uk"
+          },
+          {
+            "speaker_id": "spk2",
+            "role": "Responder (Male Director)",
+            "accent": "us"
+          }
+        ],
+        "audio_script": [
+          {
+            "segment_id": "seg1",
+            "speaker_id": "spk1",
+            "text_en": "Why was the keynote speech moved to the morning session?"
+          },
+          {
+            "segment_id": "seg2",
+            "speaker_id": "spk2",
+            "text_en": "(A) In the Grand Ballroom on the mezzanine level."
+          },
+          {
+            "segment_id": "seg3",
+            "speaker_id": "spk2",
+            "text_en": "(B) The guest speaker has an afternoon flight to Tokyo."
+          },
+          {
+            "segment_id": "seg4",
+            "speaker_id": "spk2",
+            "text_en": "(C) For about forty-five minutes."
+          }
+        ]
+      },
+      "items": [
+        {
+          "item_id": "ag-i-p2-000404-1",
+          "prompt_en": "Listen to the question or statement and three responses. Choose the best response.",
+          "choices": [
+            {
+              "id": "A",
+              "text_en": "In the Grand Ballroom on the mezzanine level."
+            },
+            {
+              "id": "B",
+              "text_en": "The guest speaker has an afternoon flight to Tokyo."
+            },
+            {
+              "id": "C",
+              "text_en": "For about forty-five minutes."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "group_id": "ag-g-p2-000405",
+      "part": 2,
+      "layout": "question_response",
+      "scenario": "manufacturing_quality_control",
+      "blind_solvable": true,
+      "stimulus": {
+        "documents": [],
+        "speakers": [
+          {
+            "speaker_id": "spk1",
+            "role": "Questioner (Male Manager)",
+            "accent": "us"
+          },
+          {
+            "speaker_id": "spk2",
+            "role": "Responder (Female Engineer)",
+            "accent": "uk"
+          }
+        ],
+        "audio_script": [
+          {
+            "segment_id": "seg1",
+            "speaker_id": "spk1",
+            "text_en": "The protective coatings on the turbine blades passed the salt-spray test, didn't they?"
+          },
+          {
+            "segment_id": "seg2",
+            "speaker_id": "spk2",
+            "text_en": "(A) Actually, two samples showed minor surface corrosion."
+          },
+          {
+            "segment_id": "seg3",
+            "speaker_id": "spk2",
+            "text_en": "(B) No, the laboratory coats are in the locker room."
+          },
+          {
+            "segment_id": "seg4",
+            "speaker_id": "spk2",
+            "text_en": "(C) Every Tuesday and Thursday afternoon."
+          }
+        ]
+      },
+      "items": [
+        {
+          "item_id": "ag-i-p2-000405-1",
+          "prompt_en": "Listen to the question or statement and three responses. Choose the best response.",
+          "choices": [
+            {
+              "id": "A",
+              "text_en": "Actually, two samples showed minor surface corrosion."
+            },
+            {
+              "id": "B",
+              "text_en": "No, the laboratory coats are in the locker room."
+            },
+            {
+              "id": "C",
+              "text_en": "Every Tuesday and Thursday afternoon."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "group_id": "ag-g-p2-000406",
+      "part": 2,
+      "layout": "question_response",
+      "scenario": "finance_budgeting_invoicing",
+      "blind_solvable": true,
+      "stimulus": {
+        "documents": [],
+        "speakers": [
+          {
+            "speaker_id": "spk1",
+            "role": "Questioner (Female Officer)",
+            "accent": "au"
+          },
+          {
+            "speaker_id": "spk2",
+            "role": "Responder (Male President)",
+            "accent": "us"
+          }
+        ],
+        "audio_script": [
+          {
+            "segment_id": "seg1",
+            "speaker_id": "spk1",
+            "text_en": "How are we going to fund the expansion of the Montreal distribution center?"
+          },
+          {
+            "segment_id": "seg2",
+            "speaker_id": "spk2",
+            "text_en": "(A) About eighty thousand square feet of floor space."
+          },
+          {
+            "segment_id": "seg3",
+            "speaker_id": "spk2",
+            "text_en": "(B) The board is still weighing a bank loan against a bond issue."
+          },
+          {
+            "segment_id": "seg4",
+            "speaker_id": "spk2",
+            "text_en": "(C) Yes, the warehouse manager signed the lease."
+          }
+        ]
+      },
+      "items": [
+        {
+          "item_id": "ag-i-p2-000406-1",
+          "prompt_en": "Listen to the question or statement and three responses. Choose the best response.",
+          "choices": [
+            {
+              "id": "A",
+              "text_en": "About eighty thousand square feet of floor space."
+            },
+            {
+              "id": "B",
+              "text_en": "The board is still weighing a bank loan against a bond issue."
+            },
+            {
+              "id": "C",
+              "text_en": "Yes, the warehouse manager signed the lease."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "group_id": "ag-g-p5-000401",
+      "part": 5,
+      "layout": "sentence",
+      "scenario": "retail_store_operations",
+      "blind_solvable": true,
+      "stimulus": {
+        "documents": [],
+        "speakers": [],
+        "audio_script": []
+      },
+      "items": [
+        {
+          "item_id": "ag-i-p5-000401-1",
+          "prompt_en": "Customers may redeem their promotional gift vouchers ____ any checkout counter in the store.",
+          "choices": [
+            {
+              "id": "A",
+              "text_en": "at"
+            },
+            {
+              "id": "B",
+              "text_en": "into"
+            },
+            {
+              "id": "C",
+              "text_en": "among"
+            },
+            {
+              "id": "D",
+              "text_en": "until"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "group_id": "ag-g-p5-000402",
+      "part": 5,
+      "layout": "sentence",
+      "scenario": "office_administration",
+      "blind_solvable": true,
+      "stimulus": {
+        "documents": [],
+        "speakers": [],
+        "audio_script": []
+      },
+      "items": [
+        {
+          "item_id": "ag-i-p5-000402-1",
+          "prompt_en": "All overtime requests require the written ____ of a division supervisor before Friday afternoon.",
+          "choices": [
+            {
+              "id": "A",
+              "text_en": "approve"
+            },
+            {
+              "id": "B",
+              "text_en": "approved"
+            },
+            {
+              "id": "C",
+              "text_en": "approving"
+            },
+            {
+              "id": "D",
+              "text_en": "approval"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "group_id": "ag-g-p5-000403",
+      "part": 5,
+      "layout": "sentence",
+      "scenario": "travel_hotel_airport",
+      "blind_solvable": true,
+      "stimulus": {
+        "documents": [],
+        "speakers": [],
+        "audio_script": []
+      },
+      "items": [
+        {
+          "item_id": "ag-i-p5-000403-1",
+          "prompt_en": "A complimentary shuttle bus runs ____ between the convention center and the downtown train station.",
+          "choices": [
+            {
+              "id": "A",
+              "text_en": "frequent"
+            },
+            {
+              "id": "B",
+              "text_en": "frequently"
+            },
+            {
+              "id": "C",
+              "text_en": "frequency"
+            },
+            {
+              "id": "D",
+              "text_en": "frequented"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "group_id": "ag-g-p5-000404",
+      "part": 5,
+      "layout": "sentence",
+      "scenario": "hr_recruitment_training",
+      "blind_solvable": true,
+      "stimulus": {
+        "documents": [],
+        "speakers": [],
+        "audio_script": []
+      },
+      "items": [
+        {
+          "item_id": "ag-i-p5-000404-1",
+          "prompt_en": "The updated safety handbook is significantly ____ than the version distributed two years ago.",
+          "choices": [
+            {
+              "id": "A",
+              "text_en": "comprehensive"
+            },
+            {
+              "id": "B",
+              "text_en": "more comprehensive"
+            },
+            {
+              "id": "C",
+              "text_en": "most comprehensive"
+            },
+            {
+              "id": "D",
+              "text_en": "comprehensively"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "group_id": "ag-g-p5-000405",
+      "part": 5,
+      "layout": "sentence",
+      "scenario": "logistics_supply_chain",
+      "blind_solvable": true,
+      "stimulus": {
+        "documents": [],
+        "speakers": [],
+        "audio_script": []
+      },
+      "items": [
+        {
+          "item_id": "ag-i-p5-000405-1",
+          "prompt_en": "Warehouse clerks must ____ every incoming crate for water damage before signing the carrier's delivery receipt.",
+          "choices": [
+            {
+              "id": "A",
+              "text_en": "inspect"
+            },
+            {
+              "id": "B",
+              "text_en": "inquire"
+            },
+            {
+              "id": "C",
+              "text_en": "install"
+            },
+            {
+              "id": "D",
+              "text_en": "instruct"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "group_id": "ag-g-p5-000406",
+      "part": 5,
+      "layout": "sentence",
+      "scenario": "finance_budgeting_invoicing",
+      "blind_solvable": true,
+      "stimulus": {
+        "documents": [],
+        "speakers": [],
+        "audio_script": []
+      },
+      "items": [
+        {
+          "item_id": "ag-i-p5-000406-1",
+          "prompt_en": "All expense reports from the Munich trade fair ____ by the regional controller, so reimbursements will be issued tomorrow.",
+          "choices": [
+            {
+              "id": "A",
+              "text_en": "audit"
+            },
+            {
+              "id": "B",
+              "text_en": "were auditing"
+            },
+            {
+              "id": "C",
+              "text_en": "have already been audited"
+            },
+            {
+              "id": "D",
+              "text_en": "will audit"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "group_id": "ag-g-p5-000407",
+      "part": 5,
+      "layout": "sentence",
+      "scenario": "marketing_events_promotions",
+      "blind_solvable": true,
+      "stimulus": {
+        "documents": [],
+        "speakers": [],
+        "audio_script": []
+      },
+      "items": [
+        {
+          "item_id": "ag-i-p5-000407-1",
+          "prompt_en": "Although the webinar was scheduled on short notice, a substantial ____ of international distributors logged in live.",
+          "choices": [
+            {
+              "id": "A",
+              "text_en": "amount"
+            },
+            {
+              "id": "B",
+              "text_en": "number"
+            },
+            {
+              "id": "C",
+              "text_en": "deal"
+            },
+            {
+              "id": "D",
+              "text_en": "volume"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "group_id": "ag-g-p5-000408",
+      "part": 5,
+      "layout": "sentence",
+      "scenario": "it_systems_security",
+      "blind_solvable": true,
+      "stimulus": {
+        "documents": [],
+        "speakers": [],
+        "audio_script": []
+      },
+      "items": [
+        {
+          "item_id": "ag-i-p5-000408-1",
+          "prompt_en": "Customer billing records are encrypted and archived ____ strict national data-privacy regulations.",
+          "choices": [
+            {
+              "id": "A",
+              "text_en": "in accordance with"
+            },
+            {
+              "id": "B",
+              "text_en": "on behalf of"
+            },
+            {
+              "id": "C",
+              "text_en": "in contrast to"
+            },
+            {
+              "id": "D",
+              "text_en": "by means of"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "group_id": "ag-g-p5-000409",
+      "part": 5,
+      "layout": "sentence",
+      "scenario": "product_development_rd",
+      "blind_solvable": true,
+      "stimulus": {
+        "documents": [],
+        "speakers": [],
+        "audio_script": []
+      },
+      "items": [
+        {
+          "item_id": "ag-i-p5-000409-1",
+          "prompt_en": "The new lithium battery pack is fully ____ with all handheld scanners manufactured after 2023.",
+          "choices": [
+            {
+              "id": "A",
+              "text_en": "compatible"
+            },
+            {
+              "id": "B",
+              "text_en": "comparable"
+            },
+            {
+              "id": "C",
+              "text_en": "commendable"
+            },
+            {
+              "id": "D",
+              "text_en": "comprehensive"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "group_id": "ag-g-p5-000410",
+      "part": 5,
+      "layout": "sentence",
+      "scenario": "real_estate_facilities",
+      "blind_solvable": true,
+      "stimulus": {
+        "documents": [],
+        "speakers": [],
+        "audio_script": []
+      },
+      "items": [
+        {
+          "item_id": "ag-i-p5-000410-1",
+          "prompt_en": "The architectural blueprints are stored in the vault ____ the original property deeds are kept.",
+          "choices": [
+            {
+              "id": "A",
+              "text_en": "which"
+            },
+            {
+              "id": "B",
+              "text_en": "where"
+            },
+            {
+              "id": "C",
+              "text_en": "whose"
+            },
+            {
+              "id": "D",
+              "text_en": "when"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "group_id": "ag-g-p5-000411",
+      "part": 5,
+      "layout": "sentence",
+      "scenario": "manufacturing_quality_control",
+      "blind_solvable": true,
+      "stimulus": {
+        "documents": [],
+        "speakers": [],
+        "audio_script": []
+      },
+      "items": [
+        {
+          "item_id": "ag-i-p5-000411-1",
+          "prompt_en": "Positive-pressure ventilation fans run continuously to keep the optical lens assembly room completely ____.",
+          "choices": [
+            {
+              "id": "A",
+              "text_en": "sterilize"
+            },
+            {
+              "id": "B",
+              "text_en": "sterile"
+            },
+            {
+              "id": "C",
+              "text_en": "sterility"
+            },
+            {
+              "id": "D",
+              "text_en": "sterilizing"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "group_id": "ag-g-p5-000412",
+      "part": 5,
+      "layout": "sentence",
+      "scenario": "procurement_vendor_management",
+      "blind_solvable": true,
+      "stimulus": {
+        "documents": [],
+        "speakers": [],
+        "audio_script": []
+      },
+      "items": [
+        {
+          "item_id": "ag-i-p5-000412-1",
+          "prompt_en": "Bellwether Industrial agreed to ____ the expedited shipping surcharge because our order exceeded five hundred units.",
+          "choices": [
+            {
+              "id": "A",
+              "text_en": "waive"
+            },
+            {
+              "id": "B",
+              "text_en": "waver"
+            },
+            {
+              "id": "C",
+              "text_en": "wander"
+            },
+            {
+              "id": "D",
+              "text_en": "warrant"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "group_id": "ag-g-p5-000413",
+      "part": 5,
+      "layout": "sentence",
+      "scenario": "corporate_governance_legal",
+      "blind_solvable": true,
+      "stimulus": {
+        "documents": [],
+        "speakers": [],
+        "audio_script": []
+      },
+      "items": [
+        {
+          "item_id": "ag-i-p5-000413-1",
+          "prompt_en": "Customer retention rate is the primary metric ____ all regional branch managers will be evaluated this fiscal year.",
+          "choices": [
+            {
+              "id": "A",
+              "text_en": "which"
+            },
+            {
+              "id": "B",
+              "text_en": "by which"
+            },
+            {
+              "id": "C",
+              "text_en": "what"
+            },
+            {
+              "id": "D",
+              "text_en": "whose"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "group_id": "ag-g-p5-000414",
+      "part": 5,
+      "layout": "sentence",
+      "scenario": "banking_investment_services",
+      "blind_solvable": true,
+      "stimulus": {
+        "documents": [],
+        "speakers": [],
+        "audio_script": []
+      },
+      "items": [
+        {
+          "item_id": "ag-i-p5-000414-1",
+          "prompt_en": "Only after reviewing three years of audited tax filings ____ the underwriting committee approve the commercial mortgage.",
+          "choices": [
+            {
+              "id": "A",
+              "text_en": "did"
+            },
+            {
+              "id": "B",
+              "text_en": "has"
+            },
+            {
+              "id": "C",
+              "text_en": "was"
+            },
+            {
+              "id": "D",
+              "text_en": "had"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "group_id": "ag-g-p6-000401",
+      "part": 6,
+      "layout": "text_completion",
+      "scenario": "logistics_supply_chain",
+      "blind_solvable": true,
+      "stimulus": {
+        "documents": [
+          {
+            "doc_id": "ag-doc-p6-000401-1",
+            "doc_type": "memo",
+            "title_en": "MEMO: Rollout of Two-Dimensional QR Pallet Labels",
+            "blocks": [
+              {
+                "block_id": "ag-blk-p6-000401-1",
+                "type": "text",
+                "text_en": "To: All Receiving and Outbound Dock Staff\nFrom: Tariq Mansour, Warehouse Operations Manager\nDate: October 18\nSubject: Transition to 2D QR Pallet Labels\n\nStarting Monday, October 25, our fulfillment center [[blank:ag-i-p6-000401-1]] traditional linear barcodes with high-density 2D QR labels on all outbound freight pallets. Unlike older labels that stored only a seven-digit SKU, the new QR format encodes batch numbers, expiration dates, and destination bay codes in a single scan.\n\nAll handheld scanners in Dock Zones 1 through 4 have already received the firmware update needed to read the new labels. [[blank:ag-i-p6-000401-2]] Simply place the scanner in its charging cradle for ten minutes if the screen prompts for a restart.\n\nDuring the first week of the transition, incoming shipments from legacy suppliers may still arrive with linear barcodes. [[blank:ag-i-p6-000401-3]], the updated scanners remain backward-compatible and will process both label styles without manual switching. Please direct any technical [[blank:ag-i-p6-000401-4]] to Lead Technician Clara Gomez at extension 4409."
+              }
+            ]
+          }
+        ],
+        "speakers": [],
+        "audio_script": []
+      },
+      "items": [
+        {
+          "item_id": "ag-i-p6-000401-1",
+          "prompt_en": "Select the best word or phrase for [[blank:ag-i-p6-000401-1]].",
+          "choices": [
+            {
+              "id": "A",
+              "text_en": "replaced"
+            },
+            {
+              "id": "B",
+              "text_en": "will replace"
+            },
+            {
+              "id": "C",
+              "text_en": "has been replaced"
+            },
+            {
+              "id": "D",
+              "text_en": "replacing"
+            }
+          ]
+        },
+        {
+          "item_id": "ag-i-p6-000401-2",
+          "prompt_en": "Select the best sentence for [[blank:ag-i-p6-000401-2]].",
+          "choices": [
+            {
+              "id": "A",
+              "text_en": "No new hardware needs to be checked out from the equipment cage."
+            },
+            {
+              "id": "B",
+              "text_en": "Forklift certification classes have been moved to the third Tuesday of each month."
+            },
+            {
+              "id": "C",
+              "text_en": "Several regional trucking carriers raised their fuel surcharges in September."
+            },
+            {
+              "id": "D",
+              "text_en": "The employee break room on the mezzanine will be closed on Friday."
+            }
+          ]
+        },
+        {
+          "item_id": "ag-i-p6-000401-3",
+          "prompt_en": "Select the best word or phrase for [[blank:ag-i-p6-000401-3]].",
+          "choices": [
+            {
+              "id": "A",
+              "text_en": "Fortunately"
+            },
+            {
+              "id": "B",
+              "text_en": "Otherwise"
+            },
+            {
+              "id": "C",
+              "text_en": "Reluctantly"
+            },
+            {
+              "id": "D",
+              "text_en": "Instead"
+            }
+          ]
+        },
+        {
+          "item_id": "ag-i-p6-000401-4",
+          "prompt_en": "Select the best word or phrase for [[blank:ag-i-p6-000401-4]].",
+          "choices": [
+            {
+              "id": "A",
+              "text_en": "inquiries"
+            },
+            {
+              "id": "B",
+              "text_en": "revenues"
+            },
+            {
+              "id": "C",
+              "text_en": "vacancies"
+            },
+            {
+              "id": "D",
+              "text_en": "itineraries"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

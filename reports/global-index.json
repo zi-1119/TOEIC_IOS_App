@@ -1,0 +1,2928 @@
+{
+  "updated_at": "2026-10-30T17:30:29Z",
+  "groups": {
+    "ag-g-p2-000001": {
+      "batch_id": "batch-ag-0006",
+      "version": 2,
+      "part": 2,
+      "layout": "question_response",
+      "pool": "training",
+      "family_id": "ag-fam-p2-wh-where-warehouse-manifest",
+      "scenario": "logistics_shipping",
+      "difficulty": "D1",
+      "item_count": 1,
+      "norm_text": "where did you leave the signed shipping manifests in the top tray on ms henderson s desk before the courier arrives at noon no the shipment hasn t been weighed in the top tray on ms henderson s desk before the courier arrives at noon no the shipment hasn t been weighed",
+      "version_history": [
+        {
+          "version": 1,
+          "batch_id": "batch-ag-0001"
+        },
+        {
+          "version": 2,
+          "batch_id": "batch-ag-0006"
+        }
+      ]
+    },
+    "ag-g-p2-000002": {
+      "batch_id": "batch-ag-0007",
+      "version": 2,
+      "part": 2,
+      "layout": "question_response",
+      "pool": "training",
+      "family_id": "ag-fam-p2-wh-when-equipment-calibration",
+      "scenario": "maintenance_inspection",
+      "difficulty": "D2",
+      "item_count": 1,
+      "norm_text": "when will the pressure gauges in building c be calibrated they collaborated on the quarterly report next tuesday morning during the scheduled shutdown at the main engineering warehouse they collaborated on the quarterly report next tuesday morning during the scheduled shutdown at the main engineering warehouse",
+      "version_history": [
+        {
+          "version": 1,
+          "batch_id": "batch-ag-0001"
+        },
+        {
+          "version": 2,
+          "batch_id": "batch-ag-0007"
+        }
+      ]
+    },
+    "ag-g-p2-000003": {
+      "batch_id": "batch-ag-0007",
+      "version": 2,
+      "part": 2,
+      "layout": "question_response",
+      "pool": "training",
+      "family_id": "ag-fam-p2-wh-who-vendor-contract-review",
+      "scenario": "procurement_contract",
+      "difficulty": "D3",
+      "item_count": 1,
+      "norm_text": "who was assigned to review the raw material supplier s contract yes we signed the lease last month a three year renewal option the legal director is out today so no one yet yes we signed the lease last month a three year renewal option the legal director is out today so no one yet",
+      "version_history": [
+        {
+          "version": 1,
+          "batch_id": "batch-ag-0001"
+        },
+        {
+          "version": 2,
+          "batch_id": "batch-ag-0007"
+        }
+      ]
+    },
+    "ag-g-p2-000004": {
+      "batch_id": "batch-ag-0007",
+      "version": 2,
+      "part": 2,
+      "layout": "question_response",
+      "pool": "training",
+      "family_id": "ag-fam-p2-yesno-invoice-reimbursement",
+      "scenario": "finance_reimbursement",
+      "difficulty": "D2",
+      "item_count": 1,
+      "norm_text": "hasn t the travel expense reimbursement been approved yet accounting cleared it earlier this afternoon to the regional conference in seattle direct flights are usually more expensive accounting cleared it earlier this afternoon to the regional conference in seattle direct flights are usually more expensive",
+      "version_history": [
+        {
+          "version": 1,
+          "batch_id": "batch-ag-0001"
+        },
+        {
+          "version": 2,
+          "batch_id": "batch-ag-0007"
+        }
+      ]
+    },
+    "ag-g-p2-000005": {
+      "batch_id": "batch-ag-0007",
+      "version": 2,
+      "part": 2,
+      "layout": "question_response",
+      "pool": "training",
+      "family_id": "ag-fam-p2-choice-catering-menu-selection",
+      "scenario": "event_catering",
+      "difficulty": "D3",
+      "item_count": 1,
+      "norm_text": "should we order boxed lunches or a hot buffet for the client seminar wait until we get the final headcount this afternoon yes the seminar speaker confirmed her topic put the extra boxes in the storage closet wait until we get the final headcount this afternoon yes the seminar speaker confirmed her topic put the extra boxes in the storage closet",
+      "version_history": [
+        {
+          "version": 1,
+          "batch_id": "batch-ag-0001"
+        },
+        {
+          "version": 2,
+          "batch_id": "batch-ag-0007"
+        }
+      ]
+    },
+    "ag-g-p2-000006": {
+      "batch_id": "batch-ag-0007",
+      "version": 2,
+      "part": 2,
+      "layout": "question_response",
+      "pool": "training",
+      "family_id": "ag-fam-p2-request-projector-setup-help",
+      "scenario": "it_support",
+      "difficulty": "D2",
+      "item_count": 1,
+      "norm_text": "could you check why the ceiling projector isn t connecting to my laptop sure let me see if the display cable is loose the architectural project was approved in may no on the top shelf sure let me see if the display cable is loose the architectural project was approved in may no on the top shelf",
+      "version_history": [
+        {
+          "version": 1,
+          "batch_id": "batch-ag-0001"
+        },
+        {
+          "version": 2,
+          "batch_id": "batch-ag-0007"
+        }
+      ]
+    },
+    "ag-g-p2-000007": {
+      "batch_id": "batch-ag-0007",
+      "version": 2,
+      "part": 2,
+      "layout": "question_response",
+      "pool": "training",
+      "family_id": "ag-fam-p2-suggestion-retail-display-window",
+      "scenario": "retail_merchandising",
+      "difficulty": "D4",
+      "item_count": 1,
+      "norm_text": "why don t we update the front window display before the store opens tomorrow because the main entrance faces oak street the autumn promotional banners won t arrive until thursday yes i updated my contact information because the main entrance faces oak street the autumn promotional banners won t arrive until thursday yes i updated my contact information",
+      "version_history": [
+        {
+          "version": 1,
+          "batch_id": "batch-ag-0001"
+        },
+        {
+          "version": 2,
+          "batch_id": "batch-ag-0007"
+        }
+      ]
+    },
+    "ag-g-p2-000008": {
+      "batch_id": "batch-ag-0007",
+      "version": 2,
+      "part": 2,
+      "layout": "question_response",
+      "pool": "training",
+      "family_id": "ag-fam-p2-statement-hotel-shuttle-full",
+      "scenario": "hospitality_transport",
+      "difficulty": "D5",
+      "item_count": 1,
+      "norm_text": "the eight o clock airport shuttle is completely booked i read that book on my flight home terminal two handles all international departures there s still room in the eight thirty van if that works for you i read that book on my flight home terminal two handles all international departures there s still room in the eight thirty van if that works for you",
+      "version_history": [
+        {
+          "version": 1,
+          "batch_id": "batch-ag-0001"
+        },
+        {
+          "version": 2,
+          "batch_id": "batch-ag-0007"
+        }
+      ]
+    },
+    "ag-g-p5-000001": {
+      "batch_id": "batch-ag-0001",
+      "version": 1,
+      "part": 5,
+      "layout": "sentence",
+      "pool": "training",
+      "family_id": "ag-fam-p5-wordform-adverb-modify-verb",
+      "scenario": "manufacturing_quality",
+      "difficulty": "D1",
+      "item_count": 1,
+      "norm_text": "every batch of ceramic insulators is inspected for microscopic cracks before leaving the factory floor thorough thoroughly thoroughness more thorough"
+    },
+    "ag-g-p5-000002": {
+      "batch_id": "batch-ag-0001",
+      "version": 1,
+      "part": 5,
+      "layout": "sentence",
+      "pool": "training",
+      "family_id": "ag-fam-p5-verb-subject-agreement-prepositional",
+      "scenario": "corporate_training",
+      "difficulty": "D2",
+      "item_count": 1,
+      "norm_text": "a comprehensive list of optional leadership workshops posted on the employee intranet every quarter are were is have been"
+    },
+    "ag-g-p5-000003": {
+      "batch_id": "batch-ag-0001",
+      "version": 1,
+      "part": 5,
+      "layout": "sentence",
+      "pool": "training",
+      "family_id": "ag-fam-p5-prep-collocation-compliance",
+      "scenario": "public_facilities_safety",
+      "difficulty": "D2",
+      "item_count": 1,
+      "norm_text": "all emergency exit corridors must remain unobstructed at all times in with municipal fire safety codes accordance authority admission observation"
+    },
+    "ag-g-p5-000004": {
+      "batch_id": "batch-ag-0001",
+      "version": 1,
+      "part": 5,
+      "layout": "sentence",
+      "pool": "training",
+      "family_id": "ag-fam-p5-connector-concession-despite-although",
+      "scenario": "logistics_weather",
+      "difficulty": "D3",
+      "item_count": 1,
+      "norm_text": "heavy fog delayed morning cargo flights out of anchorage the perishable seafood shipment still reached chicago on schedule despite even though in spite of nevertheless"
+    },
+    "ag-g-p5-000005": {
+      "batch_id": "batch-ag-0001",
+      "version": 1,
+      "part": 5,
+      "layout": "sentence",
+      "pool": "training",
+      "family_id": "ag-fam-p5-vocab-adj-confidential-records",
+      "scenario": "hr_personnel",
+      "difficulty": "D2",
+      "item_count": 1,
+      "norm_text": "access to employee payroll and performance appraisal files is restricted to authorized human resources personnel confident confidential cordial consecutive"
+    },
+    "ag-g-p5-000006": {
+      "batch_id": "batch-ag-0001",
+      "version": 1,
+      "part": 5,
+      "layout": "sentence",
+      "pool": "training",
+      "family_id": "ag-fam-p5-wordform-noun-object-after-adj",
+      "scenario": "real_estate_leasing",
+      "difficulty": "D1",
+      "item_count": 1,
+      "norm_text": "commercial tenants wishing to install exterior signage must obtain written from the building management office authorize authorized authorizing authorization"
+    },
+    "ag-g-p5-000007": {
+      "batch_id": "batch-ag-0001",
+      "version": 1,
+      "part": 5,
+      "layout": "sentence",
+      "pool": "training",
+      "family_id": "ag-fam-p5-verb-future-perfect-by-deadline",
+      "scenario": "construction_renovation",
+      "difficulty": "D4",
+      "item_count": 1,
+      "norm_text": "by the time the flagship retail store reopens in november the contractors the entire second floor lighting system replaced had replaced will have replaced are replacing"
+    },
+    "ag-g-p5-000008": {
+      "batch_id": "batch-ag-0001",
+      "version": 1,
+      "part": 5,
+      "layout": "sentence",
+      "pool": "training",
+      "family_id": "ag-fam-p5-connector-relative-pronoun-whose",
+      "scenario": "customer_warranty",
+      "difficulty": "D3",
+      "item_count": 1,
+      "norm_text": "customers standard two year warranty has expired may still purchase an extended maintenance plan at a discounted rate who whom whose which"
+    },
+    "ag-g-p5-000009": {
+      "batch_id": "batch-ag-0001",
+      "version": 1,
+      "part": 5,
+      "layout": "sentence",
+      "pool": "training",
+      "family_id": "ag-fam-p5-vocab-verb-waive-fee",
+      "scenario": "banking_account",
+      "difficulty": "D4",
+      "item_count": 1,
+      "norm_text": "horizon commercial bank has agreed to the monthly account maintenance fee for small businesses that maintain a minimum balance of 10 000 waive wander warrant withstand"
+    },
+    "ag-g-p5-000010": {
+      "batch_id": "batch-ag-0001",
+      "version": 1,
+      "part": 5,
+      "layout": "sentence",
+      "pool": "training",
+      "family_id": "ag-fam-p5-condition-unless-exception",
+      "scenario": "procurement_purchasing",
+      "difficulty": "D3",
+      "item_count": 1,
+      "norm_text": "reimbursement requests for client entertainment meals will not be processed accompanied by an itemized receipt and a list of attendees unless whereas so that as long as"
+    },
+    "ag-g-p5-000011": {
+      "batch_id": "batch-ag-0001",
+      "version": 1,
+      "part": 5,
+      "layout": "sentence",
+      "pool": "training",
+      "family_id": "ag-fam-p5-verb-participle-reduced-clause",
+      "scenario": "publishing_editorial",
+      "difficulty": "D5",
+      "item_count": 1,
+      "norm_text": "manuscripts after the friday editorial deadline will be held over for publication in the following month s issue submit submitting submitted will submit"
+    },
+    "ag-g-p5-000012": {
+      "batch_id": "batch-ag-0001",
+      "version": 1,
+      "part": 5,
+      "layout": "sentence",
+      "pool": "training",
+      "family_id": "ag-fam-p5-vocab-adverb-tentatively-scheduled",
+      "scenario": "event_conference",
+      "difficulty": "D5",
+      "item_count": 1,
+      "norm_text": "the keynote address by dr elena rostova is scheduled for 9 00 a m on wednesday pending final confirmation of her international flight tentatively reluctantly mutually stringently"
+    },
+    "ag-g-p1-000001": {
+      "batch_id": "batch-ag-0006",
+      "version": 2,
+      "part": 1,
+      "layout": "photo",
+      "pool": "training",
+      "family_id": "ag-fam-p1-laboratory-technician-microscope",
+      "scenario": "research_laboratory",
+      "difficulty": "D1",
+      "item_count": 1,
+      "norm_text": "she is looking through a microscope she is washing glassware in the sink she is writing a formula on the whiteboard she is putting on a laboratory coat she is looking through a microscope she is washing glassware in the sink she is writing a formula on the whiteboard she is putting on a laboratory coat",
+      "version_history": [
+        {
+          "version": 1,
+          "batch_id": "batch-ag-0002"
+        },
+        {
+          "version": 2,
+          "batch_id": "batch-ag-0006"
+        }
+      ]
+    },
+    "ag-g-p1-000002": {
+      "batch_id": "batch-ag-0007",
+      "version": 2,
+      "part": 1,
+      "layout": "photo",
+      "pool": "training",
+      "family_id": "ag-fam-p1-bakery-counter-pastry-display",
+      "scenario": "retail_bakery",
+      "difficulty": "D3",
+      "item_count": 1,
+      "norm_text": "pastries are being removed from the oven a customer is stacking trays on the counter a clerk is handing a paper bag to a patron the bakery floor is being mopped pastries are being removed from the oven a customer is stacking trays on the counter a clerk is handing a paper bag to a patron the bakery floor is being mopped",
+      "version_history": [
+        {
+          "version": 1,
+          "batch_id": "batch-ag-0002"
+        },
+        {
+          "version": 2,
+          "batch_id": "batch-ag-0007"
+        }
+      ]
+    },
+    "ag-g-p1-000003": {
+      "batch_id": "batch-ag-0007",
+      "version": 2,
+      "part": 1,
+      "layout": "photo",
+      "pool": "training",
+      "family_id": "ag-fam-p1-harbor-walkway-benches-empty",
+      "scenario": "public_waterfront",
+      "difficulty": "D4",
+      "item_count": 1,
+      "norm_text": "passengers are boarding a ferry at the dock wooden benches are lined up along the waterfront walkway workers are paving a stone path near the harbor sailboats are being pulled onto the shore passengers are boarding a ferry at the dock wooden benches are lined up along the waterfront walkway workers are paving a stone path near the harbor sailboats are being pulled onto the shore",
+      "version_history": [
+        {
+          "version": 1,
+          "batch_id": "batch-ag-0002"
+        },
+        {
+          "version": 2,
+          "batch_id": "batch-ag-0007"
+        }
+      ]
+    },
+    "ag-g-p2-000009": {
+      "batch_id": "batch-ag-0007",
+      "version": 2,
+      "part": 2,
+      "layout": "question_response",
+      "pool": "training",
+      "family_id": "ag-fam-p2-wh-how-long-new-hire-orientation",
+      "scenario": "hr_onboarding",
+      "difficulty": "D1",
+      "item_count": 1,
+      "norm_text": "how long does the new employee orientation program last two full days starting on monday morning in the third floor auditorium about twelve meters wide two full days starting on monday morning in the third floor auditorium about twelve meters wide",
+      "version_history": [
+        {
+          "version": 1,
+          "batch_id": "batch-ag-0002"
+        },
+        {
+          "version": 2,
+          "batch_id": "batch-ag-0007"
+        }
+      ]
+    },
+    "ag-g-p2-000010": {
+      "batch_id": "batch-ag-0007",
+      "version": 2,
+      "part": 2,
+      "layout": "question_response",
+      "pool": "training",
+      "family_id": "ag-fam-p2-wh-why-packaging-line-stopped",
+      "scenario": "manufacturing_operations",
+      "difficulty": "D2",
+      "item_count": 1,
+      "norm_text": "why has packaging line four been shut down one of the optical sensors needs to be replaced yes please shut the window by five o clock this evening one of the optical sensors needs to be replaced yes please shut the window by five o clock this evening",
+      "version_history": [
+        {
+          "version": 1,
+          "batch_id": "batch-ag-0002"
+        },
+        {
+          "version": 2,
+          "batch_id": "batch-ag-0007"
+        }
+      ]
+    },
+    "ag-g-p2-000011": {
+      "batch_id": "batch-ag-0007",
+      "version": 2,
+      "part": 2,
+      "layout": "question_response",
+      "pool": "training",
+      "family_id": "ag-fam-p2-tag-question-booth-deposit-paid",
+      "scenario": "trade_show_exhibition",
+      "difficulty": "D3",
+      "item_count": 1,
+      "norm_text": "we didn t miss the deadline for the trade show booth deposit did we right next to the main registration desk no i wired the payment yesterday afternoon the keynote speech starts at ten right next to the main registration desk no i wired the payment yesterday afternoon the keynote speech starts at ten",
+      "version_history": [
+        {
+          "version": 1,
+          "batch_id": "batch-ag-0002"
+        },
+        {
+          "version": 2,
+          "batch_id": "batch-ag-0007"
+        }
+      ]
+    },
+    "ag-g-p2-000012": {
+      "batch_id": "batch-ag-0007",
+      "version": 2,
+      "part": 2,
+      "layout": "question_response",
+      "pool": "training",
+      "family_id": "ag-fam-p2-offer-carry-sample-catalogs",
+      "scenario": "sales_visit",
+      "difficulty": "D4",
+      "item_count": 1,
+      "norm_text": "would you like me to help you carry those product catalogs out to your car thanks but i brought a folding cart with me the new spring catalog has sixty pages it s parked in the underground garage thanks but i brought a folding cart with me the new spring catalog has sixty pages it s parked in the underground garage",
+      "version_history": [
+        {
+          "version": 1,
+          "batch_id": "batch-ag-0002"
+        },
+        {
+          "version": 2,
+          "batch_id": "batch-ag-0007"
+        }
+      ]
+    },
+    "ag-g-p2-000013": {
+      "batch_id": "batch-ag-0007",
+      "version": 2,
+      "part": 2,
+      "layout": "question_response",
+      "pool": "training",
+      "family_id": "ag-fam-p2-indirect-embedded-question-dentist-reschedule",
+      "scenario": "medical_appointment",
+      "difficulty": "D5",
+      "item_count": 1,
+      "norm_text": "do you know if dr patel has any openings this thursday afternoon the clinic s grand opening was last month she doesn t work thursdays but friday at ten is available yes i know dr patel very well the clinic s grand opening was last month she doesn t work thursdays but friday at ten is available yes i know dr patel very well",
+      "version_history": [
+        {
+          "version": 1,
+          "batch_id": "batch-ag-0002"
+        },
+        {
+          "version": 2,
+          "batch_id": "batch-ag-0007"
+        }
+      ]
+    },
+    "ag-g-p5-000013": {
+      "batch_id": "batch-ag-0002",
+      "version": 1,
+      "part": 5,
+      "layout": "sentence",
+      "pool": "training",
+      "family_id": "ag-fam-p5-wordform-comparative-efficiency",
+      "scenario": "energy_sustainability",
+      "difficulty": "D2",
+      "item_count": 1,
+      "norm_text": "the newly installed solar water heater is significantly than the aging gas powered unit it replaced efficient efficiently more efficient efficiency"
+    },
+    "ag-g-p5-000014": {
+      "batch_id": "batch-ag-0002",
+      "version": 1,
+      "part": 5,
+      "layout": "sentence",
+      "pool": "training",
+      "family_id": "ag-fam-p5-prep-distinguish-between-among",
+      "scenario": "retail_loyalty_program",
+      "difficulty": "D4",
+      "item_count": 1,
+      "norm_text": "the seasonal discount voucher may be redeemed at any cortland apparel store nationwide outlet locations and airport kiosks aside from prior to on behalf of by means of"
+    },
+    "ag-g-p5-000015": {
+      "batch_id": "batch-ag-0002",
+      "version": 1,
+      "part": 5,
+      "layout": "sentence",
+      "pool": "training",
+      "family_id": "ag-fam-p5-subjunctive-recommend-that-clause",
+      "scenario": "it_cybersecurity",
+      "difficulty": "D5",
+      "item_count": 1,
+      "norm_text": "following last week s security audit the chief information officer recommended that every remote employee the virtual private network software immediately updates update updating to update"
+    },
+    "ag-g-p6-000001": {
+      "batch_id": "batch-ag-0002",
+      "version": 1,
+      "part": 6,
+      "layout": "text_completion",
+      "pool": "training",
+      "family_id": "ag-fam-p6-community-library-digital-archive",
+      "scenario": "public_library_service",
+      "difficulty": "D3",
+      "item_count": 4,
+      "norm_text": "oakridge public library historical newspaper archive upgrade beginning november 1 the oakridge public library blank ag i p6 000001 1 its online historical newspaper archive to include regional periodicals dating back to 1890 over the past eight months our preservation team has scanned more than 40 000 pages of fragile microfilm so that residents can search local history records from home blank ag i p6 000001 2 to use the new portal patrons simply need to enter their fourteen digit library card number on our website blank ag i p6 000001 3 the third floor microfilm reading room will close for two weeks starting november 4 while technicians install high resolution viewing terminals patrons who require blank ag i p6 000001 4 locating specific municipal records during this closure may schedule an appointment with a reference librarian select the best word or phrase to fill in blank blank ag i p6 000001 1 expanded will expand had expanded is expanding from select the best sentence to fill in blank blank ag i p6 000001 2 this remote access eliminates the need to visit the branch in person to view delicate paper copies late fees for overdue hardcover books will increase by ten cents per day several authors will sign copies of their new novels in the lobby tonight unfortunately the scanning project was canceled due to budget cuts select the best word or phrase to fill in blank blank ag i p6 000001 3 for instance in the meantime on the contrary as a result of select the best word or phrase to fill in blank blank ag i p6 000001 4 assistance attendance allowance appliance"
+    },
+    "ag-g-p6-000002": {
+      "batch_id": "batch-ag-0002",
+      "version": 1,
+      "part": 6,
+      "layout": "text_completion",
+      "pool": "training",
+      "family_id": "ag-fam-p6-warehouse-automated-sorting-memo",
+      "scenario": "logistics_automation",
+      "difficulty": "D4",
+      "item_count": 4,
+      "norm_text": "memo trial run of optical parcel sorting system in zone b to all distribution center supervisors from marcus vance director of warehouse operations starting next monday zone b will begin a two week operational trial of our new optical parcel sorting conveyor the equipment is designed to process up to 3 500 packages per hour blank ag i p6 000002 1 reducing manual scanning bottlenecks during peak evening shifts during the initial phase only standard rectangular cartons weighing under twenty kilograms will be routed through the automated lane blank ag i p6 000002 2 floor supervisors must ensure that all shift leads complete the safety checklist blank ag i p6 000002 3 activating the conveyor belts each morning any barcode recognition errors should be logged in the shared maintenance spreadsheet so our engineers can calibrate blank ag i p6 000002 4 before full deployment in december select the best word or phrase to fill in blank blank ag i p6 000002 1 dramatic dramatically dramatize drama select the best sentence to fill in blank blank ag i p6 000002 2 irregularly shaped parcels and heavy crates should continue to be handled at the manual stations in zone a all warehouse employees must submit their vacation requests to human resources by friday the optical sorting system was decommissioned after ten years of reliable service customers can track their international air freight using the mobile application select the best word or phrase to fill in blank blank ag i p6 000002 3 prior to except for on account of in addition select the best word or phrase to fill in blank blank ag i p6 000002 4 theirs itself the sensors each other"
+    },
+    "ag-g-p3-000001": {
+      "batch_id": "batch-ag-0006",
+      "version": 2,
+      "part": 3,
+      "layout": "conversation",
+      "pool": "training",
+      "family_id": "ag-fam-p3-printing-brochure-paper-stock",
+      "scenario": "marketing_printing",
+      "difficulty": "D2",
+      "item_count": 3,
+      "norm_text": "hi clara i m calling from apex printing about the five hundred product brochures you ordered for the milan trade fair next week hello devon is everything on track for thursday delivery our sales team flies out on friday evening well our supplier just notified us that the glossy cardstock you requested is on backorder until next month however we do have a heavy matte recycled paper in stock that has a very similar thickness hmm matte paper might actually look quite sophisticated with our new brand colors would using that material change the total cost it s normally a bit pricier but since the shortage is on our end we ll honor your original quote and still deliver by thursday afternoon that sounds fair please go ahead with the matte stock and send me a revised order confirmation for our accounting files why is the man calling the woman what does the man offer to do to resolve the issue what does the woman ask the man to send her why is the man calling the woman to verify the spelling of a company name to report a shortage of a requested material to request an extension on an invoice payment to confirm flight reservations for a trade fair what does the man offer to do to resolve the issue deliver the brochures directly to the airport print a smaller quantity of brochures provide a higher priced paper at no extra charge outsource the printing job to another facility what does the woman ask the man to send her a physical paper sample an updated order confirmation a catalog of display stands a shipping tracking number",
+      "version_history": [
+        {
+          "version": 1,
+          "batch_id": "batch-ag-0003"
+        },
+        {
+          "version": 2,
+          "batch_id": "batch-ag-0006"
+        }
+      ]
+    },
+    "ag-g-p3-000002": {
+      "batch_id": "batch-ag-0007",
+      "version": 2,
+      "part": 3,
+      "layout": "conversation",
+      "pool": "training",
+      "family_id": "ag-fam-p3-hotel-banquet-av-adjustment",
+      "scenario": "hospitality_events",
+      "difficulty": "D3",
+      "item_count": 3,
+      "norm_text": "welcome to the grand ballroom mr morales our banquet staff has finished setting up the twenty round tables for your company s awards dinner tonight the floral centerpieces look wonderful thank you however i just found out that four additional regional managers will be joining our executive panel on stage after dessert that s no problem at all we can place four more armchairs on the main platform right away will they also need extra microphones yes please right now there s only one podium microphone so having two handheld wireless ones to pass around would be ideal i ll contact our audiovisual technician immediately so he can bring those up and test the sound levels before your guests arrive at six what event is taking place tonight why does the man request a change to the stage setup what will the audiovisual technician do before 6 00 p m what event is taking place tonight a charity art auction a corporate awards banquet a press conference for a new hotel a floral arrangement workshop why does the man request a change to the stage setup the projection screen is partially blocked the keynote speaker canceled at the last minute more participants will take part in a panel discussion a musical group needs room for its instruments what will the audiovisual technician do before 6 00 p m replace the spotlight bulbs set up and test wireless microphones record a video of the speeches install a backup power generator",
+      "version_history": [
+        {
+          "version": 1,
+          "batch_id": "batch-ag-0003"
+        },
+        {
+          "version": 2,
+          "batch_id": "batch-ag-0007"
+        }
+      ]
+    },
+    "ag-g-p3-000003": {
+      "batch_id": "batch-ag-0007",
+      "version": 2,
+      "part": 3,
+      "layout": "conversation",
+      "pool": "training",
+      "family_id": "ag-fam-p3-three-speaker-product-packaging-redesign",
+      "scenario": "product_development",
+      "difficulty": "D4",
+      "item_count": 3,
+      "norm_text": "thanks for meeting everyone as you know greenleaf supermarkets agreed to carry our herbal iced tea line starting in july provided we switch from glass bottles to lightweight aluminum cans my design team has already adapted the label artwork to fit twelve ounce cans however printing the metallic gold leaf border directly onto aluminum will increase unit production costs by fifteen percent our profit margin on wholesale supermarket orders is already very tight i figured that might be an issue if we replace the metallic foil with a standard matte yellow ink we can keep the vibrant look without paying a premium let s go with the standard yellow ink then liam can you have physical mock ups ready for the supermarket buyers by wednesday yes i ll print three sample cans this afternoon and send them to your office what condition did greenleaf supermarkets set for carrying the beverage line why does the second woman say our profit margin on wholesale supermarket orders is already very tight what will liam do this afternoon what condition did greenleaf supermarkets set for carrying the beverage line the beverages must be certified organic by june the drink containers must be changed to aluminum cans the company must provide free promotional display racks the wholesale price must be reduced by fifteen percent why does the second woman say our profit margin on wholesale supermarket orders is already very tight to object to an option that would raise manufacturing costs to explain why a supermarket contract was rejected to request a bonus for the sales department to suggest increasing the retail price of glass bottles what will liam do this afternoon visit a bottling plant produce sample cans negotiate with an ink supplier update a website banner",
+      "version_history": [
+        {
+          "version": 1,
+          "batch_id": "batch-ag-0003"
+        },
+        {
+          "version": 2,
+          "batch_id": "batch-ag-0007"
+        }
+      ]
+    },
+    "ag-g-p3-000004": {
+      "batch_id": "batch-ag-0007",
+      "version": 2,
+      "part": 3,
+      "layout": "conversation",
+      "pool": "training",
+      "family_id": "ag-fam-p3-clinic-software-migration-training",
+      "scenario": "healthcare_administration",
+      "difficulty": "D3",
+      "item_count": 3,
+      "norm_text": "good morning arthur now that our clinic has switched to the new patient scheduling software how is the front desk staff adjusting to it overall booking routine checkups is much faster however several receptionists mentioned that transferring dental x ray files from the old database takes quite a few steps actually the software vendor sent over a one page shortcut guide yesterday that shows how to batch import imaging records with a single click oh that would save us a lot of time during morning check in i ll print laminated copies for each workstation before lunch and we can walk through the procedure during tomorrow s fifteen minute staff huddle where do the speakers most likely work what difficulty have receptionists experienced with the new software what does the woman say she will do before lunch where do the speakers most likely work at a software development firm at a dental clinic at a pharmacy at a medical equipment factory what difficulty have receptionists experienced with the new software it frequently logs users out without warning it cannot print appointment reminder cards moving imaging records from the previous system is complicated billing codes must be entered manually what does the woman say she will do before lunch call the software vendor s help desk distribute reference sheets to the workstations back up the clinic s server reschedule tomorrow s staff meeting",
+      "version_history": [
+        {
+          "version": 1,
+          "batch_id": "batch-ag-0003"
+        },
+        {
+          "version": 2,
+          "batch_id": "batch-ag-0007"
+        }
+      ]
+    },
+    "ag-g-p3-000005": {
+      "batch_id": "batch-ag-0007",
+      "version": 2,
+      "part": 3,
+      "layout": "conversation",
+      "pool": "training",
+      "family_id": "ag-fam-p3-graphic-courier-rate-comparison",
+      "scenario": "logistics_shipping",
+      "difficulty": "D4",
+      "item_count": 3,
+      "norm_text": "swiftwing courier domestic shipping tiers 5 10 kg service tier delivery speed rate 5 10 kg economy ground 5 business days 28 standard air 3 business days 46 priority express 2 business days 64 overnight courier next business day 95 maya i just finished packing the scale model for the harborview bridge project it needs to get to the city planning commission in boston before their review session on friday morning let s check the swiftwing courier rate chart since today is tuesday we don t need to pay for next day delivery as long as it arrives in two business days by thursday afternoon that makes sense the padded crate weighs eight kilograms also since the acrylic bridge tower is quite delicate we should add fragile handling insurance okay i ll select the two day shipping tier on their portal and check the box for extra insurance if you bring the crate to the reception desk by three o clock the afternoon driver can scan it what are the speakers shipping to boston look at the graphic what is the base shipping rate for the service tier the speakers choose what does the woman ask the man to do by 3 00 p m what are the speakers shipping to boston signed construction permits an architectural scale model surveying tripods samples of paving stone look at the graphic what is the base shipping rate for the service tier the speakers choose 28 46 64 95 what does the woman ask the man to do by 3 00 p m measure the dimensions of the crate take the package to the front desk email photographs of the bridge model sign a customs declaration form",
+      "version_history": [
+        {
+          "version": 1,
+          "batch_id": "batch-ag-0003"
+        },
+        {
+          "version": 2,
+          "batch_id": "batch-ag-0007"
+        }
+      ]
+    },
+    "ag-g-p3-000006": {
+      "batch_id": "batch-ag-0007",
+      "version": 2,
+      "part": 3,
+      "layout": "conversation",
+      "pool": "training",
+      "family_id": "ag-fam-p3-graphic-workshop-room-change",
+      "scenario": "corporate_training",
+      "difficulty": "D5",
+      "item_count": 3,
+      "norm_text": "westlake training center available rooms friday morning room name max capacity equipment included birch room 25 interactive whiteboard cedar hall 35 dual projection screens maple suite 50 single standard projector redwood room 55 dual projection screens hi oliver i m scheduled to lead the financial modeling workshop in cedar hall this friday morning but forty two people have signed up so far oh cedar hall only holds thirty five let s look at the room availability chart for friday morning and move your session to a larger space keep in mind that attendees need to compare live spreadsheet formulas on one screen while viewing the case study slides on another right so maple suite won t work even though it s big enough i ll reserve the other large room that has the twin screen setup you need wonderful i ll send an automated calendar update to all registered participants this afternoon so nobody goes to the wrong room on friday why does the woman need to change rooms why does the woman mention comparing spreadsheet formulas and case study slides look at the graphic which room will the man reserve for the workshop why does the woman need to change rooms the air conditioning in cedar hall is broken registration has exceeded the current room s seating limit another department booked the room for an all day seminar the workshop has been moved to a different day why does the woman mention comparing spreadsheet formulas and case study slides to request extra printed handouts for attendees to explain a technical requirement for the room s equipment to ask the man to proofread her presentation to suggest shortening the length of the workshop look at the graphic which room will the man reserve for the workshop birch room cedar hall maple suite redwood room",
+      "version_history": [
+        {
+          "version": 1,
+          "batch_id": "batch-ag-0003"
+        },
+        {
+          "version": 2,
+          "batch_id": "batch-ag-0007"
+        }
+      ]
+    },
+    "ag-g-p4-000001": {
+      "batch_id": "batch-ag-0006",
+      "version": 2,
+      "part": 4,
+      "layout": "talk",
+      "pool": "training",
+      "family_id": "ag-fam-p4-voicemail-custom-furniture-delivery",
+      "scenario": "retail_delivery",
+      "difficulty": "D2",
+      "item_count": 3,
+      "norm_text": "hello ms lindqvist this is carlos calling from artisan woodworks i m pleased to let you know that our craftsmen have finished applying the protective finish to your custom walnut conference table and it s ready for delivery this thursday however when i contacted your office building s property manager this morning she informed me that the main freight elevator is undergoing routine cable maintenance until noon on thursday because the tabletop is three meters long our crew cannot bring it up the passenger elevators we ve therefore scheduled your delivery window for between two and four p m once the freight elevator is back in service please call me back at 555 0192 to confirm that someone in your suite will be available to sign for the shipment what did the listener order from artisan woodworks why was the delivery scheduled for thursday afternoon instead of the morning what does the speaker ask the listener to confirm what did the listener order from artisan woodworks a set of reception lobby chairs built in bookshelves a custom conference table hardwood flooring panels why was the delivery scheduled for thursday afternoon instead of the morning the protective coating needs more time to dry all delivery trucks are booked on thursday morning a building freight elevator is being serviced in the morning the street in front of the office will be closed for a parade what does the speaker ask the listener to confirm that the final balance has been paid that a staff member can sign for the delivery that the old conference table has been removed that a loading dock permit has been issued",
+      "version_history": [
+        {
+          "version": 1,
+          "batch_id": "batch-ag-0004"
+        },
+        {
+          "version": 2,
+          "batch_id": "batch-ag-0006"
+        }
+      ]
+    },
+    "ag-g-p4-000002": {
+      "batch_id": "batch-ag-0007",
+      "version": 2,
+      "part": 4,
+      "layout": "talk",
+      "pool": "training",
+      "family_id": "ag-fam-p4-museum-volunteer-orientation-tour",
+      "scenario": "public_museum_tour",
+      "difficulty": "D3",
+      "item_count": 3,
+      "norm_text": "welcome everyone and thank you for volunteering to help out during the opening weekend of our nineteenth century navigation exhibit at the bristol maritime museum before the museum doors open to ticket holders at ten o clock i want to point out a recent change to our lobby layout because we expect large crowds for the antique compass display in gallery b we ve moved the audio headset rental counter from the main entrance to the alcove beside the gift shop also please remember that flash photography is strictly prohibited inside gallery b to protect the fragile parchment sea charts now let s walk over to the security desk so each of you can pick up your name badge and floor assignment sheet who is the speaker addressing what has been moved next to the gift shop what will the listeners do next who is the speaker addressing antique collectors museum volunteers lighting technicians travel journalists what has been moved next to the gift shop the antique compass display the coat check area the audio guide rental counter the ticket kiosk what will the listeners do next test the audio headsets collect their badges and assignment sheets frame the parchment sea charts unlock the main entrance doors",
+      "version_history": [
+        {
+          "version": 1,
+          "batch_id": "batch-ag-0004"
+        },
+        {
+          "version": 2,
+          "batch_id": "batch-ag-0007"
+        }
+      ]
+    },
+    "ag-g-p4-000003": {
+      "batch_id": "batch-ag-0007",
+      "version": 2,
+      "part": 4,
+      "layout": "talk",
+      "pool": "training",
+      "family_id": "ag-fam-p4-factory-safety-briefing-intent",
+      "scenario": "manufacturing_safety",
+      "difficulty": "D4",
+      "item_count": 3,
+      "norm_text": "attention morning shift crew before we begin loading the refrigerated trucks for our dairy distributors i want to review a new safety protocol that goes into effect today across all cold storage bays over the weekend technicians installed digital thermal alarms above each freezer door if a freezer door remains open for more than ninety seconds while forklifts are moving pallets an amber warning light will flash we certainly don t want a repeat of last month s spoiled yogurt incident so if you see that amber light flashing pause your forklift transfers immediately and close the insulated curtain before proceeding finally anyone whose thermal gloves are worn out can exchange them for a new pair at the equipment cage what was installed in the facility over the weekend why does the speaker say we certainly don t want a repeat of last month s spoiled yogurt incident what can employees do at the equipment cage what was installed in the facility over the weekend automated pallet wrappers digital temperature alarms high speed loading ramps overhead security cameras why does the speaker say we certainly don t want a repeat of last month s spoiled yogurt incident to announce the discontinuation of a dairy product to criticize the quality of a supplier s ingredients to emphasize the importance of following the new procedure to explain why employee shifts have been shortened what can employees do at the equipment cage sign out a two way radio charge forklift batteries replace worn protective gloves pick up delivery manifests",
+      "version_history": [
+        {
+          "version": 1,
+          "batch_id": "batch-ag-0004"
+        },
+        {
+          "version": 2,
+          "batch_id": "batch-ag-0007"
+        }
+      ]
+    },
+    "ag-g-p4-000004": {
+      "batch_id": "batch-ag-0007",
+      "version": 2,
+      "part": 4,
+      "layout": "talk",
+      "pool": "training",
+      "family_id": "ag-fam-p4-radio-traffic-commuter-ferry",
+      "scenario": "transportation_commute",
+      "difficulty": "D3",
+      "item_count": 3,
+      "norm_text": "may i have your attention please due to dense coastal fog reducing visibility across the bay all high speed catamaran departures from pier seven to bayside financial district have been suspended until ten thirty this morning to help commuters reach downtown offices with minimal delay the port authority has arranged complimentary express shuttle buses that will depart every fifteen minutes from bus bay c directly outside the west terminal doors simply show your digital or paper ferry ticket to the bus driver when boarding passengers who prefer not to travel by bus may have their unused ferry fare refunded in full at customer service window three why has ferry service from pier seven been suspended how can commuters board the express shuttle bus why should passengers visit customer service window three why has ferry service from pier seven been suspended a pier is undergoing structural repairs a vessel is experiencing engine trouble weather conditions have reduced visibility a harbor regatta is taking place how can commuters board the express shuttle bus by paying a two dollar surcharge in cash by presenting their existing ferry ticket by registering on the port authority app by obtaining a transfer slip from a security guard why should passengers visit customer service window three to report lost luggage to pick up a printed regional map to receive a full refund for an unused ticket to renew a monthly parking pass",
+      "version_history": [
+        {
+          "version": 1,
+          "batch_id": "batch-ag-0004"
+        },
+        {
+          "version": 2,
+          "batch_id": "batch-ag-0007"
+        }
+      ]
+    },
+    "ag-g-p4-000005": {
+      "batch_id": "batch-ag-0007",
+      "version": 2,
+      "part": 4,
+      "layout": "talk",
+      "pool": "training",
+      "family_id": "ag-fam-p4-graphic-quarterly-sales-presentation",
+      "scenario": "sales_analytics",
+      "difficulty": "D5",
+      "item_count": 3,
+      "norm_text": "lumina home appliances q3 regional performance region q3 revenue growth product return rate top selling category north 4 2 2 1 air purifiers south 11 5 6 8 espresso machines east 6 0 1 9 induction cooktops west 1 4 2 5 robotic vacuums good afternoon board members please turn your attention to the third quarter regional performance table on the screen overall three of our four domestic territories posted positive revenue growth this quarter as you can see the territory whose top selling category was espresso machines achieved an impressive eleven point five percent jump in revenue however that same region also recorded an unusually high product return rate of six point eight percent customer survey cards indicate that the espresso machines themselves aren t defective rather buyers find the decalcifying instructions in the printed manual confusing meanwhile for the single region that experienced a slight revenue decline we plan to launch a targeted social media campaign in october to boost robotic vacuum sales before the holiday shopping season look at the graphic which region had both the highest revenue growth and the highest product return rate according to the speaker what caused the high rate of espresso machine returns look at the graphic which region will be the focus of an october social media campaign look at the graphic which region had both the highest revenue growth and the highest product return rate north south east west according to the speaker what caused the high rate of espresso machine returns glass carafes were damaged during shipping the heating element failed after a few uses the printed maintenance instructions were unclear a competitor released a lower priced model look at the graphic which region will be the focus of an october social media campaign north south east west",
+      "version_history": [
+        {
+          "version": 1,
+          "batch_id": "batch-ag-0004"
+        },
+        {
+          "version": 2,
+          "batch_id": "batch-ag-0007"
+        }
+      ]
+    },
+    "ag-g-p7-000001": {
+      "batch_id": "batch-ag-0005",
+      "version": 1,
+      "part": 7,
+      "layout": "single_passage",
+      "pool": "training",
+      "family_id": "ag-fam-p7-single-notice-parking-garage-repaving",
+      "scenario": "office_facilities",
+      "difficulty": "D1",
+      "item_count": 3,
+      "norm_text": "notice to all tenants underground parking garage repaving please be advised that crestview tower management will resurface and repaint both levels of the underground parking garage next week to minimize disruption to commuters the work will be completed in two phases phase 1 level b1 closed from monday november 9 at 6 00 a m through tuesday november 10 at 8 00 p m phase 2 level b2 closed from wednesday november 11 at 6 00 a m through thursday november 12 at 8 00 p m during each closure monthly pass holders who normally park on the affected level may use the overflow surface lot on elm street at no extra cost by displaying their yellow hangtag on the rearview mirror please note that the electric vehicle charging stations on level b1 will be shut off during phase 1 drivers requiring charging stations on monday or tuesday should use the public charging hub across from city hall what is the main purpose of the notice to announce an increase in monthly parking fees to inform tenants about temporary garage closures for maintenance to introduce a new security gate system to recruit attendants for the elm street surface lot when will level b2 be closed on monday and tuesday on tuesday and wednesday on wednesday and thursday on thursday and friday what are monthly pass holders instructed to do to park in the elm street lot register their license plate online display their yellow hangtag in their vehicle pay a temporary deposit at the security desk park only in spaces marked for electric vehicles"
+    },
+    "ag-g-p7-000002": {
+      "batch_id": "batch-ag-0005",
+      "version": 1,
+      "part": 7,
+      "layout": "single_passage",
+      "pool": "training",
+      "family_id": "ag-fam-p7-single-email-supplier-batch-testing",
+      "scenario": "procurement_quality",
+      "difficulty": "D2",
+      "item_count": 3,
+      "norm_text": "subject thermal shock test results verona stoneware line to kenneth cho k cho bistrocollective com from nadia al mansoor nalmansoor kilncraftceramics com date october 19 subject thermal shock test results verona stoneware line dear mr cho thank you for visiting our showroom last week to evaluate tableware options for bistro collective s upcoming restaurant openings in denver and salt lake city during our meeting you asked whether the matte glaze on our verona stoneware soup bowls could withstand high temperature commercial dishwashers without chipping or fading our quality assurance lab completed a 200 cycle thermal durability test yesterday and i am pleased to report that all twelve test bowls showed zero surface wear or discoloration i have attached the official laboratory certificate to this message for your review in addition i have dispatched a box containing four sample place settings in the olive green finish to your denver regional office via express courier once your culinary team has had a chance to inspect the samples please let me know how many sets you would like to include in your initial purchase order so we can reserve kiln capacity for november best regards nadia al mansoor commercial accounts manager kilncraft ceramics what concern did mr cho raise during last week s meeting whether the bowls could endure commercial dishwashing temperatures whether kilncraft ceramics offered an olive green color whether shipping to salt lake city would cost extra whether the soup bowls were too heavy for servers to carry what did ms al mansoor attach to the email a floor plan of the denver showroom a laboratory test certificate a revised price catalog a courier reimbursement form why does ms al mansoor ask mr cho to confirm his order quantity soon raw clay prices are expected to rise in december the olive green glaze is being discontinued production space in the kilns needs to be scheduled for november the showroom will close for renovations next month"
+    },
+    "ag-g-p7-000003": {
+      "batch_id": "batch-ag-0005",
+      "version": 1,
+      "part": 7,
+      "layout": "single_passage",
+      "pool": "training",
+      "family_id": "ag-fam-p7-single-chat-it-deployment-rollout",
+      "scenario": "it_operations",
+      "difficulty": "D3",
+      "item_count": 3,
+      "norm_text": "retail systems support channel october 24 9 12 a m victor morales morning team the manager at our waverly place grocery store just called since the overnight point of sale pos firmware update lanes 1 through 4 haven t been recognizing digital loyalty coupons on customer smartphones 9 15 a m haruka sato did the overnight script update the optical scanner drivers on those registers as well or just the payment terminal software 9 17 a m eliott vance let me check the deployment log ah the scanner driver patch failed on the older model 400 registers because their memory cache was full lanes 5 and 6 at waverly place have the newer model 700 units so they weren t affected 9 18 a m haruka sato that explains it we saw the exact same memory bottleneck at the harborview branch last tuesday 9 21 a m eliott vance i m clearing the temporary cache files on waverly place lanes 1 to 4 remotely right now and pushing the driver patch again it should finish in about ten minutes 9 23 a m victor morales great once your screen shows the installation is complete let me know so i can have the waverly place supervisor run a test scan before the lunch rush starts what problem was reported at the waverly place store credit card receipt printers ran out of paper some checkout registers could not read mobile coupons self checkout screens froze during cash transactions customer loyalty points were calculated twice at 9 18 a m what does ms sato mean when she writes that explains it she understands why only certain registers at the store malfunctioned she has received the store manager s written incident report she agrees that the store should purchase model 700 registers immediately she knows why the harborview branch closed early last tuesday what can be inferred about the waverly place store it opened more recently than the harborview branch it uses two different models of checkout registers it will shut down lanes 5 and 6 for ten minutes it no longer accepts paper coupons"
+    },
+    "ag-g-p7-000004": {
+      "batch_id": "batch-ag-0005",
+      "version": 1,
+      "part": 7,
+      "layout": "single_passage",
+      "pool": "training",
+      "family_id": "ag-fam-p7-single-article-green-rooftop-grant",
+      "scenario": "urban_sustainability",
+      "difficulty": "D4",
+      "item_count": 4,
+      "norm_text": "portland s commercial green roof rebate draws strong corporate interest portland october 22 since the portland office of sustainability launched its commercial rooftop canopy grant eighteen months ago thirty four office and warehouse properties across the metropolitan area have converted bare tar rooftops into vegetated gardens position 1 under the municipal initiative commercial building owners receive a rebate of 15 per square meter up to a maximum of 45 000 per property to offset the cost of waterproof membranes lightweight soil and drought tolerant native plants city engineers designed the program primarily to reduce stormwater runoff into the willamette river during heavy autumn rains position 2 however participating businesses report that the thermal insulation provided by the soil layer has delivered an equally valuable financial benefit at cascade logistics center a 4 000 square meter distribution warehouse near the port summer air conditioning expenses dropped by 22 percent during the first year after installation position 3 because the initial grant fund has been nearly exhausted the city council voted last week to allocate an additional 1 8 million for the upcoming fiscal year position 4 applications for the next funding round open on january 15 and priority will be given to industrial buildings with flat roofs exceeding 1 500 square meters according to the article what was the city s main reason for creating the grant program to attract landscaping companies to relocate to portland to decrease the amount of rainwater flowing into a local river to create outdoor dining spaces for office employees to replace solar panels on older industrial warehouses in paragraph 1 the word offset is closest in meaning to postpone counterbalance inspect publicize what is indicated about cascade logistics center it will submit its grant application on january 15 it lowered its summer cooling costs after installing a green roof it is located less than 1 500 meters from city hall it received 1 8 million in municipal funding in which of the positions marked 1 2 3 and 4 does the following sentence best belong facility manager rosa delgado notes that the cooler indoor temperatures have also reduced wear on the building s rooftop hvac compressors 1 2 3 4"
+    },
+    "ag-g-p7-000005": {
+      "batch_id": "batch-ag-0005",
+      "version": 1,
+      "part": 7,
+      "layout": "double_passage",
+      "pool": "training",
+      "family_id": "ag-fam-p7-double-conference-schedule-and-email",
+      "scenario": "event_conference",
+      "difficulty": "D4",
+      "item_count": 5,
+      "norm_text": "pacific rim supply chain forum friday november 14 afternoon track time session title speaker room 1 00 p m 2 00 p m automated port customs clearance dr henrik lindholm nordic freight harbor room a 2 15 p m 3 15 p m cold chain packaging innovations mei ling zhou freshroute logistics harbor room b 3 30 p m 4 30 p m reducing last mile delivery emissions carlos mendez metrofleet ev grand ballroom 4 45 p m 5 45 p m maritime insurance trends for 2027 priya nair oceanic underwriting harbor room a note conference attendees registered for the standard pass may attend all harbor room sessions admission to sessions held in the grand ballroom requires either an all access badge or a 35 single session upgrade ticket available at the registration desk subject friday session time swap request to priya nair pnair oceanicunderwriting com from gavin cho program coordinator gcho pacificsupplyforum org date november 10 subject friday session time swap request dear ms nair i am writing with a scheduling request regarding your presentation at the pacific rim supply chain forum this friday november 14 dr henrik lindholm s incoming flight from stockholm was rescheduled by the airline and he will now land in vancouver at 1 30 p m on friday consequently he will not be able to reach the convention center in time for his 1 00 p m slot since both of your sessions are assigned to the same room and have a similar number of registered attendees would you be willing to take the 1 00 p m 2 00 p m time slot so that dr lindholm can present during your 4 45 p m slot instead if you agree to this change we will update the mobile event app immediately and provide complimentary airport limousine service for your return trip on saturday please let me know by 5 00 p m today whether this arrangement works for you and remember to upload your final slide deck to the speaker portal by wednesday sincerely gavin cho according to the schedule which speaker will discuss electric delivery vehicles dr henrik lindholm mei ling zhou carlos mendez priya nair which session requires standard pass holders to pay an additional fee to attend automated port customs clearance cold chain packaging innovations reducing last mile delivery emissions maritime insurance trends for 2027 why is mr cho contacting ms nair to invite her to moderate a panel in harbor room b to ask her to switch presentation times with another speaker to inform her that her session has been moved to the grand ballroom to request her biography for the printed program if ms nair agrees to mr cho s request when will automated port customs clearance be presented from 1 00 p m to 2 00 p m from 2 15 p m to 3 15 p m from 3 30 p m to 4 30 p m from 4 45 p m to 5 45 p m in which room is ms nair scheduled to speak harbor room a harbor room b grand ballroom vancouver hall"
+    },
+    "ag-g-p7-000006": {
+      "batch_id": "batch-ag-0005",
+      "version": 1,
+      "part": 7,
+      "layout": "double_passage",
+      "pool": "training",
+      "family_id": "ag-fam-p7-double-warranty-policy-and-claim-form",
+      "scenario": "customer_warranty",
+      "difficulty": "D4",
+      "item_count": 5,
+      "norm_text": "bellini commercial espresso systems limited warranty policy 1 coverage period bellini commercial espresso systems warrants the dual boiler pro 3000 against defects in internal mechanical and electrical components including the brass brew group rotary water pump and digital pressure control board for twenty four 24 months from the original date of purchase 2 exclusions this limited warranty does not cover rubber portafilter gaskets external milk carafes or damage caused by failure to use a certified water softening filter replacement of excluded accessories is billed at standard catalog rates 3 on site service shipping during the first twelve 12 months of ownership bellini provides complimentary on site technician dispatch within 80 kilometers of an authorized service center in months 13 through 24 replacement covered parts remain free of charge but a flat 85 technician travel fee applies to all on site visits bellini authorized service request form field customer entry claim reference sr 90412 business name roast reed book caf distance from service center 18 kilometers model dual boiler pro 3000 original purchase date april 10 2025 service request date october 20 2026 issue description yesterday morning the digital pressure control board stopped displaying the boiler temperature and the right hand steam wand began losing pressure we have always used the official bellini water softening filter cartridge and replaced it every ninety days as instructed in addition to repairing the pressure control board please have the technician bring two new rubber portafilter gaskets as ours are worn according to the warranty policy how long are internal electrical components covered for 3 months for 12 months for 24 months for 36 months why does the customer mention the bellini water softening filter cartridge in the request form to order a box of replacement filter cartridges to show that the caf complied with warranty maintenance requirements to complain that the filter cartridge caused the temperature display to fail to ask the technician how to install a new filter what can be concluded about the digital pressure control board for roast reed book caf the replacement part itself will be provided at no charge it is excluded from the limited warranty policy its warranty expired on april 10 2026 it must be shipped to the factory in italy for repair what will roast reed book caf have to pay for this service visit nothing because the caf is within 80 kilometers of a service center only a 85 technician travel fee an 85 technician travel fee plus the cost of two rubber gaskets the full cost of the pressure control board and technician labor in the warranty policy the word flat in paragraph 3 is closest in meaning to fixed level shallow dull"
+    },
+    "ag-g-p7-000007": {
+      "batch_id": "batch-ag-0005",
+      "version": 1,
+      "part": 7,
+      "layout": "triple_passage",
+      "pool": "training",
+      "family_id": "ag-fam-p7-triple-catering-quote-email-invoice",
+      "scenario": "event_catering",
+      "difficulty": "D5",
+      "item_count": 5,
+      "norm_text": "saffron sage corporate catering 2026 luncheon packages package tier price per guest menu highlights minimum order artisan express 22 assorted wraps seasonal fruit iced tea 20 guests bistro classic 30 herb roasted chicken or grilled salmon two warm sides coffee service 30 guests executive harvest 38 braised short ribs or truffle risotto artisan salad pastry platter 40 guests booking policies volume perk orders for 60 or more guests automatically receive a complimentary artisan dessert platter a 120 value regardless of package tier final headcount changes to guest count or dietary selections must be submitted at least 72 hours before the event late adjustments incur a 75 rush prep surcharge deposit a 300 advance deposit is required upon booking and is deducted from the final invoice subject updated headcount for october 23 client luncheon order cc 418 to orders saffronandsage com from elena vance evance meridianbio com date october 18 subject updated headcount for october 23 client luncheon order cc 418 hello catering team i am writing to update the guest count for meridian biotech s client luncheon next friday october 23 when i paid our 300 deposit last month we estimated 45 attendees for the herb roasted chicken and grilled salmon buffet however twenty additional regional distributors have just registered bringing our final total to 65 guests could you also make sure that 15 of the 65 entr es are vegetarian pasta instead of meat or fish finally since our updated headcount qualifies us for your volume perk please include that platter with the coffee station setup thank you elena vance saffron sage catering final invoice inv 8829 description quantity unit price amount luncheon buffet package order cc 418 65 30 00 1 950 00 vegetarian entr e substitution 15 0 00 0 00 artisan dessert platter 60 guest perk 1 0 00 0 00 delivery chafing dish setup 1 60 00 60 00 less advance deposit paid sept 15 300 00 balance due upon delivery 1 710 00 which catering package did meridian biotech order artisan express bistro classic executive harvest custom weekend buffet why was meridian biotech not charged a 75 rush prep surcharge because ms vance submitted the headcount change more than 72 hours before the event because the company is a first time customer because the number of guests was reduced rather than increased because the vegetarian pasta costs less to prepare than salmon why did meridian biotech receive the artisan dessert platter at no charge it paid its 300 deposit in september its updated guest count exceeded 60 people it ordered the executive harvest package it redeemed a promotional coupon code when did meridian biotech pay its advance deposit on september 15 on october 18 on october 20 on october 23 what is indicated on the final invoice substituting vegetarian entr es did not increase the package price delivery and setup were included at no charge the full balance has already been paid by credit card sixty five vegetarian meals were ordered"
+    },
+    "ag-g-p5-000016": {
+      "batch_id": "batch-ag-0011",
+      "version": 2,
+      "part": 5,
+      "layout": "sentence",
+      "pool": "training",
+      "family_id": "ag-fam-trn-p5-016",
+      "scenario": "office_administration",
+      "difficulty": "D1",
+      "item_count": 1,
+      "norm_text": "all department heads must review the updated travel reimbursement guidelines before friday careful carefully carefulness caring",
+      "version_history": [
+        {
+          "version": 1,
+          "batch_id": "batch-ag-0008"
+        },
+        {
+          "version": 2,
+          "batch_id": "batch-ag-0011"
+        }
+      ]
+    },
+    "ag-g-p5-000017": {
+      "batch_id": "batch-ag-0011",
+      "version": 2,
+      "part": 5,
+      "layout": "sentence",
+      "pool": "training",
+      "family_id": "ag-fam-trn-p5-017",
+      "scenario": "hr_recruitment_training",
+      "difficulty": "D2",
+      "item_count": 1,
+      "norm_text": "the orientation workshop was moved to the main auditorium the unexpectedly high number of registrants because although due to so that",
+      "version_history": [
+        {
+          "version": 1,
+          "batch_id": "batch-ag-0008"
+        },
+        {
+          "version": 2,
+          "batch_id": "batch-ag-0011"
+        }
+      ]
+    },
+    "ag-g-p5-000018": {
+      "batch_id": "batch-ag-0011",
+      "version": 2,
+      "part": 5,
+      "layout": "sentence",
+      "pool": "training",
+      "family_id": "ag-fam-trn-p5-018",
+      "scenario": "manufacturing_quality_control",
+      "difficulty": "D2",
+      "item_count": 1,
+      "norm_text": "two faulty conveyor motors by the night shift maintenance crew before production resumed at dawn replaced were replaced have replaced replacing",
+      "version_history": [
+        {
+          "version": 1,
+          "batch_id": "batch-ag-0008"
+        },
+        {
+          "version": 2,
+          "batch_id": "batch-ag-0011"
+        }
+      ]
+    },
+    "ag-g-p5-000019": {
+      "batch_id": "batch-ag-0011",
+      "version": 2,
+      "part": 5,
+      "layout": "sentence",
+      "pool": "training",
+      "family_id": "ag-fam-trn-p5-019",
+      "scenario": "finance_budgeting_invoicing",
+      "difficulty": "D2",
+      "item_count": 1,
+      "norm_text": "ms lindqvist decided to audit the third quarter expense ledger rather than delegating the task to an intern she her hers herself",
+      "version_history": [
+        {
+          "version": 1,
+          "batch_id": "batch-ag-0008"
+        },
+        {
+          "version": 2,
+          "batch_id": "batch-ag-0011"
+        }
+      ]
+    },
+    "ag-g-p5-000020": {
+      "batch_id": "batch-ag-0011",
+      "version": 2,
+      "part": 5,
+      "layout": "sentence",
+      "pool": "training",
+      "family_id": "ag-fam-trn-p5-020",
+      "scenario": "it_systems_security",
+      "difficulty": "D3",
+      "item_count": 1,
+      "norm_text": "installing multi factor authentication on all remote laptops will help unauthorized access to client databases prevent persuade postpone prescribe",
+      "version_history": [
+        {
+          "version": 1,
+          "batch_id": "batch-ag-0008"
+        },
+        {
+          "version": 2,
+          "batch_id": "batch-ag-0011"
+        }
+      ]
+    },
+    "ag-g-p5-000021": {
+      "batch_id": "batch-ag-0011",
+      "version": 2,
+      "part": 5,
+      "layout": "sentence",
+      "pool": "training",
+      "family_id": "ag-fam-trn-p5-021",
+      "scenario": "logistics_supply_chain",
+      "difficulty": "D3",
+      "item_count": 1,
+      "norm_text": "vanguard freight can guarantee next day delivery to regional warehouses the purchase order is submitted before 2 00 p m provided that even though as if in case of",
+      "version_history": [
+        {
+          "version": 1,
+          "batch_id": "batch-ag-0008"
+        },
+        {
+          "version": 2,
+          "batch_id": "batch-ag-0011"
+        }
+      ]
+    },
+    "ag-g-p5-000022": {
+      "batch_id": "batch-ag-0011",
+      "version": 2,
+      "part": 5,
+      "layout": "sentence",
+      "pool": "training",
+      "family_id": "ag-fam-trn-p5-022",
+      "scenario": "marketing_events_promotions",
+      "difficulty": "D3",
+      "item_count": 1,
+      "norm_text": "the innovation showcase will feature twelve start up companies products reduce commercial packaging waste which whom whose what",
+      "version_history": [
+        {
+          "version": 1,
+          "batch_id": "batch-ag-0008"
+        },
+        {
+          "version": 2,
+          "batch_id": "batch-ag-0011"
+        }
+      ]
+    },
+    "ag-g-p5-000023": {
+      "batch_id": "batch-ag-0011",
+      "version": 2,
+      "part": 5,
+      "layout": "sentence",
+      "pool": "training",
+      "family_id": "ag-fam-trn-p5-023",
+      "scenario": "customer_service_returns",
+      "difficulty": "D3",
+      "item_count": 1,
+      "norm_text": "customers who return unopened electronics within fourteen days of purchase are for a full refund eligible probable accessible reliant",
+      "version_history": [
+        {
+          "version": 1,
+          "batch_id": "batch-ag-0008"
+        },
+        {
+          "version": 2,
+          "batch_id": "batch-ag-0011"
+        }
+      ]
+    },
+    "ag-g-p5-000024": {
+      "batch_id": "batch-ag-0011",
+      "version": 2,
+      "part": 5,
+      "layout": "sentence",
+      "pool": "training",
+      "family_id": "ag-fam-trn-p5-024",
+      "scenario": "real_estate_facilities",
+      "difficulty": "D3",
+      "item_count": 1,
+      "norm_text": "by the time the annex renovation concludes in november sterling law partners the fourth floor suite for ten years occupies occupied will have occupied is occupying",
+      "version_history": [
+        {
+          "version": 1,
+          "batch_id": "batch-ag-0008"
+        },
+        {
+          "version": 2,
+          "batch_id": "batch-ag-0011"
+        }
+      ]
+    },
+    "ag-g-p5-000025": {
+      "batch_id": "batch-ag-0011",
+      "version": 2,
+      "part": 5,
+      "layout": "sentence",
+      "pool": "training",
+      "family_id": "ag-fam-trn-p5-025",
+      "scenario": "corporate_governance_legal",
+      "difficulty": "D4",
+      "item_count": 1,
+      "norm_text": "all external consultants are required to sign a agreement before reviewing proprietary engineering blueprints confide confident confidentially confidentiality",
+      "version_history": [
+        {
+          "version": 1,
+          "batch_id": "batch-ag-0008"
+        },
+        {
+          "version": 2,
+          "batch_id": "batch-ag-0011"
+        }
+      ]
+    },
+    "ag-g-p5-000026": {
+      "batch_id": "batch-ag-0011",
+      "version": 2,
+      "part": 5,
+      "layout": "sentence",
+      "pool": "training",
+      "family_id": "ag-fam-trn-p5-026",
+      "scenario": "procurement_vendor_management",
+      "difficulty": "D4",
+      "item_count": 1,
+      "norm_text": "recent fluctuations in global aluminum prices kestrel components will honor its quoted unit rates through december notwithstanding provided consequently whereas",
+      "version_history": [
+        {
+          "version": 1,
+          "batch_id": "batch-ag-0008"
+        },
+        {
+          "version": 2,
+          "batch_id": "batch-ag-0011"
+        }
+      ]
+    },
+    "ag-g-p5-000027": {
+      "batch_id": "batch-ag-0011",
+      "version": 2,
+      "part": 5,
+      "layout": "sentence",
+      "pool": "training",
+      "family_id": "ag-fam-trn-p5-027",
+      "scenario": "retail_store_operations",
+      "difficulty": "D4",
+      "item_count": 1,
+      "norm_text": "its third quarter revenue target by eighteen percent the ginza flagship store received the regional excellence award exceed exceeded having exceeded to be exceeded",
+      "version_history": [
+        {
+          "version": 1,
+          "batch_id": "batch-ag-0008"
+        },
+        {
+          "version": 2,
+          "batch_id": "batch-ag-0011"
+        }
+      ]
+    },
+    "ag-g-p5-000028": {
+      "batch_id": "batch-ag-0011",
+      "version": 2,
+      "part": 5,
+      "layout": "sentence",
+      "pool": "training",
+      "family_id": "ag-fam-trn-p5-028",
+      "scenario": "product_development_rd",
+      "difficulty": "D4",
+      "item_count": 1,
+      "norm_text": "the beta release of the acoustic sensor firmware is scheduled for april 14 pending final validation from the quality assurance team tentatively permanently reluctantly mutually",
+      "version_history": [
+        {
+          "version": 1,
+          "batch_id": "batch-ag-0008"
+        },
+        {
+          "version": 2,
+          "batch_id": "batch-ag-0011"
+        }
+      ]
+    },
+    "ag-g-p5-000029": {
+      "batch_id": "batch-ag-0011",
+      "version": 2,
+      "part": 5,
+      "layout": "sentence",
+      "pool": "training",
+      "family_id": "ag-fam-trn-p5-029",
+      "scenario": "banking_investment_services",
+      "difficulty": "D4",
+      "item_count": 1,
+      "norm_text": "portfolios managed by aurelia wealth advisory are structured to generate returns commensurate each client s stated risk tolerance with from into over",
+      "version_history": [
+        {
+          "version": 1,
+          "batch_id": "batch-ag-0008"
+        },
+        {
+          "version": 2,
+          "batch_id": "batch-ag-0011"
+        }
+      ]
+    },
+    "ag-g-p5-000030": {
+      "batch_id": "batch-ag-0011",
+      "version": 2,
+      "part": 5,
+      "layout": "sentence",
+      "pool": "training",
+      "family_id": "ag-fam-trn-p5-030",
+      "scenario": "corporate_governance_legal",
+      "difficulty": "D5",
+      "item_count": 1,
+      "norm_text": "the revised procurement charter stipulates that every subcontractor invoice by work order code prior to disbursement itemizes is itemizing be itemized was itemized",
+      "version_history": [
+        {
+          "version": 1,
+          "batch_id": "batch-ag-0008"
+        },
+        {
+          "version": 2,
+          "batch_id": "batch-ag-0011"
+        }
+      ]
+    },
+    "ag-g-p5-000031": {
+      "batch_id": "batch-ag-0011",
+      "version": 2,
+      "part": 5,
+      "layout": "sentence",
+      "pool": "training",
+      "family_id": "ag-fam-trn-p5-031",
+      "scenario": "healthcare_medical_services",
+      "difficulty": "D5",
+      "item_count": 1,
+      "norm_text": "under no circumstances unsealed diagnostic specimens be left unattended on the centrifuge counter should having whether unless",
+      "version_history": [
+        {
+          "version": 1,
+          "batch_id": "batch-ag-0008"
+        },
+        {
+          "version": 2,
+          "batch_id": "batch-ag-0011"
+        }
+      ]
+    },
+    "ag-g-p6-000003": {
+      "batch_id": "batch-ag-0011",
+      "version": 2,
+      "part": 6,
+      "layout": "text_completion",
+      "pool": "training",
+      "family_id": "ag-fam-trn-p6-003",
+      "scenario": "real_estate_facilities",
+      "difficulty": "D3",
+      "item_count": 4,
+      "norm_text": "memorandum upgrade to keycard elevator access to all tenants crestview commercial tower from building management office date october 12 subject transition to smart keycard elevator readers beginning november 1 the passenger elevators in crestview commercial tower blank ag i p6 000003 1 with upgraded optical keycard readers on all floors this modernization project is designed to reduce lobby congestion during morning peak hours while strengthening after hours floor security each tenant company will receive replacement smart badges for all registered staff members at no extra charge blank ag i p6 000003 2 your office administrator must submit an updated employee roster through the tenant portal by october 22 so that the badges can be encoded accurately temporary visitor passes will still be issued at the ground floor concierge desk upon presentation of a photo id blank ag i p6 000003 3 couriers making recurring daily deliveries may apply for a vendor access badge valid for the loading dock elevator we appreciate your blank ag i p6 000003 4 as our technicians complete the installation over the next two weekends select the best word or phrase for blank ag i p6 000003 1 equipped will be equipped have equipped are equipping select the best sentence for blank ag i p6 000003 2 current magnetic stripe cards will automatically deactivate at midnight on october 31 the parking garage on level b2 will remain closed for repainting all month several retail shops on the plaza level have extended their weekend hours elevator maintenance fees were refunded to tenants last quarter select the best word or phrase for blank ag i p6 000003 3 in addition otherwise consequently instead of select the best word or phrase for blank ag i p6 000003 4 cooperation ambition obligation reservation",
+      "version_history": [
+        {
+          "version": 1,
+          "batch_id": "batch-ag-0008"
+        },
+        {
+          "version": 2,
+          "batch_id": "batch-ag-0011"
+        }
+      ]
+    },
+    "ag-g-p6-000004": {
+      "batch_id": "batch-ag-0011",
+      "version": 2,
+      "part": 6,
+      "layout": "text_completion",
+      "pool": "training",
+      "family_id": "ag-fam-trn-p6-004",
+      "scenario": "marketing_events_promotions",
+      "difficulty": "D4",
+      "item_count": 4,
+      "norm_text": "subject feature request solis logistics case study to nadia khatri nkhatri solislogistics com from julian vance jvance routeoptima io date september 19 subject featuring solis logistics in our annual client spotlight dear ms khatri over the past eight months your regional dispatch team has achieved a remarkable 22 percent reduction in fuel consumption using routeoptima s fleet scheduling platform because of these blank ag i p6 000004 1 results our editorial board would like to profile solis logistics in our upcoming client spotlight report participation would involve a 30 minute video interview with our communications writer next week blank ag i p6 000004 2 nothing will be published without your legal department s written sign off as a token of appreciation participating partner organizations receive two complimentary passes to our transport tech summit in chicago this november blank ag i p6 000004 3 your company logo and sustainability metrics will be featured on our conference main stage please let me know by friday whether you would like to blank ag i p6 000004 4 with the interview select the best word or phrase for blank ag i p6 000004 1 impress impressed impressive impressively select the best sentence for blank ag i p6 000004 2 we will send you the full draft article for review before it goes to layout the fleet scheduling software requires a hardware reboot every sunday night tickets to the chicago summit sold out three weeks ahead of schedule our accounting office has already processed your monthly subscription invoice select the best word or phrase for blank ag i p6 000004 3 nevertheless moreover conversely for instance select the best word or phrase for blank ag i p6 000004 4 proceed precede possess prolong",
+      "version_history": [
+        {
+          "version": 1,
+          "batch_id": "batch-ag-0008"
+        },
+        {
+          "version": 2,
+          "batch_id": "batch-ag-0011"
+        }
+      ]
+    },
+    "ag-g-p7-000008": {
+      "batch_id": "batch-ag-0011",
+      "version": 2,
+      "part": 7,
+      "layout": "single_passage",
+      "pool": "training",
+      "family_id": "ag-fam-trn-p7-008",
+      "scenario": "customer_service_returns",
+      "difficulty": "D2",
+      "item_count": 2,
+      "norm_text": "hearthstone ceramic studio custom order exchange policy thank you for shopping at hearthstone ceramic studio standard dinnerware sets purchased from our showroom shelves may be exchanged or returned for a full refund within 30 days of purchase provided they are unused and accompanied by the original printed receipt please note that custom monogrammed platters and bespoke restaurant glaze orders require a 40 percent nonrefundable deposit at the time the order is placed however if any item arrives with a manufacturing crack or glaze defect our studio will fire and ship a replacement piece at no cost if you e mail photographs of the damage to support hearthstoneceramics com within 72 hours of delivery what is required to receive a full refund on a standard dinnerware set returning the unused items with the original receipt within 30 days paying a 40 percent restocking fee at the showroom desk submitting photographs of the tableware within 72 hours exchanging the set for a bespoke restaurant glaze order under what circumstance will the studio replace a custom monogrammed platter free of charge when a customer decides to change the monogram spelling after firing when the item is delivered with a structural crack and reported with photos within three days when the order is canceled before the 30 day showroom return window expires when the buyer visits the showroom in person without a receipt",
+      "version_history": [
+        {
+          "version": 1,
+          "batch_id": "batch-ag-0008"
+        },
+        {
+          "version": 2,
+          "batch_id": "batch-ag-0011"
+        }
+      ]
+    },
+    "ag-g-p7-000009": {
+      "batch_id": "batch-ag-0011",
+      "version": 2,
+      "part": 7,
+      "layout": "single_passage",
+      "pool": "training",
+      "family_id": "ag-fam-trn-p7-009",
+      "scenario": "manufacturing_quality_control",
+      "difficulty": "D4",
+      "item_count": 3,
+      "norm_text": "internal notice calibration shutdown for packaging line b to all shift supervisors brno bottling facility from marek horak director of plant operations date november 4 subject scheduled laser sensor calibration on packaging line b on thursday november 7 packaging line b will be taken offline from 1 00 p m to 5 00 p m so that engineers from viktoria optics can calibrate the high speed fill level sensors position 1 recent quality audits showed a slight variance in bottle fill volumes during peak throughput and this preventive adjustment will ensure full compliance with european export standards position 2 to avoid delaying our friday shipment to munich afternoon bottling runs originally assigned to line b will be rerouted to packaging line a and packaging line c position 3 those two lines have sufficient reserve capacity to absorb the extra 14 000 units without requiring overtime hours position 4 line b operators should report to conference room 2b at 1 15 p m on thursday for a two hour refresher seminar on the updated sensor diagnostic dashboard why is packaging line b being shut down on thursday afternoon to adjust optical sensors that measure liquid levels in bottles to repair a broken conveyor belt damaged during the morning shift to reduce electricity usage during municipal power maintenance to install a brand new labeling machine for domestic orders what is indicated about friday s shipment to munich it has been postponed until next monday morning it will require staff to work four hours of paid overtime its production volume will be handled by two other packaging lines it will be inspected in conference room 2b at 1 15 p m in which of the positions marked 1 2 3 and 4 does the following sentence best belong no products have failed safety standards but fine tuning the equipment now will prevent costly rejects later 1 2 3 4",
+      "version_history": [
+        {
+          "version": 1,
+          "batch_id": "batch-ag-0008"
+        },
+        {
+          "version": 2,
+          "batch_id": "batch-ag-0011"
+        }
+      ]
+    },
+    "ag-g-p1-000301": {
+      "batch_id": "batch-ag-0012",
+      "version": 2,
+      "part": 1,
+      "layout": "photo",
+      "pool": "diagnostic",
+      "family_id": "ag-fam-diag-p1-001",
+      "scenario": "travel_hotel_airport",
+      "difficulty": "D2",
+      "item_count": 1,
+      "norm_text": "a a gate agent is scanning a passenger s boarding pass b a flight attendant is stowing luggage in an overhead bin c passengers are boarding an aircraft via an outdoor stairway d a maintenance crew is inspecting the wing of an airplane a gate agent is scanning a passenger s boarding pass a flight attendant is stowing luggage in an overhead bin passengers are boarding an aircraft via an outdoor stairway a maintenance crew is inspecting the wing of an airplane",
+      "version_history": [
+        {
+          "version": 1,
+          "batch_id": "batch-ag-0009"
+        },
+        {
+          "version": 2,
+          "batch_id": "batch-ag-0012"
+        }
+      ]
+    },
+    "ag-g-p2-000301": {
+      "batch_id": "batch-ag-0014",
+      "version": 3,
+      "part": 2,
+      "layout": "question_response",
+      "pool": "diagnostic",
+      "family_id": "ag-fam-diag-p2-001",
+      "scenario": "meetings_scheduling",
+      "difficulty": "D1",
+      "item_count": 1,
+      "norm_text": "where should we set up the projector for the client briefing a in the third floor boardroom b at two thirty this afternoon c yes the slides are ready in the third floor boardroom at two thirty this afternoon yes the slides are ready",
+      "version_history": [
+        {
+          "version": 1,
+          "batch_id": "batch-ag-0009"
+        },
+        {
+          "version": 2,
+          "batch_id": "batch-ag-0012"
+        },
+        {
+          "version": 3,
+          "batch_id": "batch-ag-0014"
+        }
+      ]
+    },
+    "ag-g-p2-000302": {
+      "batch_id": "batch-ag-0014",
+      "version": 3,
+      "part": 2,
+      "layout": "question_response",
+      "pool": "diagnostic",
+      "family_id": "ag-fam-diag-p2-002",
+      "scenario": "finance_budgeting_invoicing",
+      "difficulty": "D2",
+      "item_count": 1,
+      "norm_text": "when will the preliminary revenue forecast be distributed to the vice presidents a higher than last quarter s sales b as soon as the european branch submits its figures c from the accounting department higher than last quarter s sales as soon as the european branch submits its figures from the accounting department",
+      "version_history": [
+        {
+          "version": 1,
+          "batch_id": "batch-ag-0009"
+        },
+        {
+          "version": 2,
+          "batch_id": "batch-ag-0012"
+        },
+        {
+          "version": 3,
+          "batch_id": "batch-ag-0014"
+        }
+      ]
+    },
+    "ag-g-p2-000303": {
+      "batch_id": "batch-ag-0014",
+      "version": 3,
+      "part": 2,
+      "layout": "question_response",
+      "pool": "diagnostic",
+      "family_id": "ag-fam-diag-p2-003",
+      "scenario": "logistics_supply_chain",
+      "difficulty": "D3",
+      "item_count": 1,
+      "norm_text": "haven t the replacement gaskets for the bottling machine arrived from osaka yet a no they re made of synthetic rubber b i ll check the receiving dock log right now c for the morning production shift no they re made of synthetic rubber i ll check the receiving dock log right now for the morning production shift",
+      "version_history": [
+        {
+          "version": 1,
+          "batch_id": "batch-ag-0009"
+        },
+        {
+          "version": 2,
+          "batch_id": "batch-ag-0012"
+        },
+        {
+          "version": 3,
+          "batch_id": "batch-ag-0014"
+        }
+      ]
+    },
+    "ag-g-p2-000304": {
+      "batch_id": "batch-ag-0014",
+      "version": 3,
+      "part": 2,
+      "layout": "question_response",
+      "pool": "diagnostic",
+      "family_id": "ag-fam-diag-p2-004",
+      "scenario": "office_administration",
+      "difficulty": "D4",
+      "item_count": 1,
+      "norm_text": "the high speed copier in the marketing wing is jamming again a you can print your handouts on the machine near the reception desk b yes fifty copies bound in folders c the marketing director returned yesterday you can print your handouts on the machine near the reception desk yes fifty copies bound in folders the marketing director returned yesterday",
+      "version_history": [
+        {
+          "version": 1,
+          "batch_id": "batch-ag-0009"
+        },
+        {
+          "version": 2,
+          "batch_id": "batch-ag-0012"
+        },
+        {
+          "version": 3,
+          "batch_id": "batch-ag-0014"
+        }
+      ]
+    },
+    "ag-g-p3-000301": {
+      "batch_id": "batch-ag-0012",
+      "version": 2,
+      "part": 3,
+      "layout": "conversation",
+      "pool": "diagnostic",
+      "family_id": "ag-fam-diag-p3-001",
+      "scenario": "hr_recruitment_training",
+      "difficulty": "D3",
+      "item_count": 3,
+      "norm_text": "hi graham i m finalizing the room assignments for thursday s cybersecurity onboarding session are we still expecting eighteen new hires actually elena the engineering division just added six software developers who transferred from our dublin office so we ll have twenty four participants in total in that case training room b won t have enough workstations every attendee needs a desktop terminal for the password encryption lab could we reserve the digital media lab on the fifth floor instead it has thirty terminals and a dual screen podium good idea i ll update the calendar invitation right now and ask it support to preload the training sandbox on those computers why has the number of session participants increased a client company requested guest passes for its auditors six software developers transferred from the dublin branch friday s orientation class was canceled due to weather summer interns were required to retake the examination why is training room b no longer suitable its projector bulb burned out this morning it is being repainted by the facilities crew it does not have enough computer workstations for everyone it is located in a different building across town what will the woman ask the it support team to do install practice software on the fifth floor computers order six additional monitors from a supplier reset the building s wi fi router before thursday print paper manuals for the dublin transfers",
+      "version_history": [
+        {
+          "version": 1,
+          "batch_id": "batch-ag-0009"
+        },
+        {
+          "version": 2,
+          "batch_id": "batch-ag-0012"
+        }
+      ]
+    },
+    "ag-g-p3-000302": {
+      "batch_id": "batch-ag-0012",
+      "version": 2,
+      "part": 3,
+      "layout": "conversation",
+      "pool": "diagnostic",
+      "family_id": "ag-fam-diag-p3-002",
+      "scenario": "logistics_supply_chain",
+      "difficulty": "D4",
+      "item_count": 3,
+      "norm_text": "port of rotterdam refrigerated container bay roster bay id cargo type target temp assigned carrier bay r 12 dairy products 3 c nordic sea line bay r 15 fresh cut flowers 6 c tulip express bay r 19 frozen seafood 18 c baltic star cargo bay r 24 pharmaceuticals 2 c helios medtrans sonia our monitoring console just triggered a voltage warning in the refrigerated yard we have a shipment of fresh cut flowers arriving in twenty minutes that needs a stable plus six degree bay let me look at the power diagnostic screen yes the transformer feeding the bay assigned to tulip express had a circuit breaker trip during the rainstorm can your crew restore power before the delivery trucks pull up to the gate replacing the moisture seal on that breaker will take at least ninety minutes for now you should direct the trucks to spare bay r 30 next to the main office i ve already set its thermostat to six degrees what problem are the speakers discussing an electrical fault at a refrigerated storage bay a customs paperwork delay at the port entrance a shortage of licensed forklift operators a shipping vessel that arrived two days late look at the graphic which bay is currently experiencing a power issue bay r 12 bay r 15 bay r 19 bay r 24 what does the woman recommend doing with the incoming delivery returning the cargo to the greenhouse until tomorrow keeping the flowers inside the delivery trucks for ninety minutes unloading the shipment into a backup bay near the main office lowering the temperature in bay r 19 to minus eighteen degrees",
+      "version_history": [
+        {
+          "version": 1,
+          "batch_id": "batch-ag-0009"
+        },
+        {
+          "version": 2,
+          "batch_id": "batch-ag-0012"
+        }
+      ]
+    },
+    "ag-g-p4-000301": {
+      "batch_id": "batch-ag-0012",
+      "version": 2,
+      "part": 4,
+      "layout": "talk",
+      "pool": "diagnostic",
+      "family_id": "ag-fam-diag-p4-001",
+      "scenario": "product_development_rd",
+      "difficulty": "D4",
+      "item_count": 3,
+      "norm_text": "good morning everyone thank you for joining this update on the solaris portable water purifier last week our external testing lab in zurich completed the durability trials on the ceramic filter cartridge while the filtration purity exceeded ninety nine point nine percent the plastic latch on the outer housing cracked after three hundred drop cycles now we certainly don t want outdoor hikers dealing with a loose cover on the trail therefore our mechanical engineering team has redesigned the latch using reinforced nylon which adds only twelve cents per unit to our manufacturing cost and keeps us well within budget modified molds have already been sent to the injection molding plant and we will review the new prototype samples at our friday morning meeting what is the main topic of the talk results of durability testing and a design modification for a water purifier a marketing campaign for a new line of hiking backpacks the relocation of a research laboratory to zurich annual salary adjustments for mechanical engineers why does the speaker say we certainly don t want outdoor hikers dealing with a loose cover on the trail to criticize the marketing team s choice of target customers to justify why the housing latch needed to be strengthened before launch to announce that the product will only be sold for indoor kitchen use to explain why the ceramic filter purity test failed what will happen on friday morning the team will inspect updated prototype units engineers will fly to the zurich testing facility retail price increases will be announced to distributors the injection molding plant will close for a holiday",
+      "version_history": [
+        {
+          "version": 1,
+          "batch_id": "batch-ag-0009"
+        },
+        {
+          "version": 2,
+          "batch_id": "batch-ag-0012"
+        }
+      ]
+    },
+    "ag-g-p5-000301": {
+      "batch_id": "batch-ag-0012",
+      "version": 2,
+      "part": 5,
+      "layout": "sentence",
+      "pool": "diagnostic",
+      "family_id": "ag-fam-diag-p5-001",
+      "scenario": "office_administration",
+      "difficulty": "D1",
+      "item_count": 1,
+      "norm_text": "visitors entering the research annex must wear temporary security badges in a visible location at all times they them their theirs",
+      "version_history": [
+        {
+          "version": 1,
+          "batch_id": "batch-ag-0009"
+        },
+        {
+          "version": 2,
+          "batch_id": "batch-ag-0012"
+        }
+      ]
+    },
+    "ag-g-p5-000302": {
+      "batch_id": "batch-ag-0012",
+      "version": 2,
+      "part": 5,
+      "layout": "sentence",
+      "pool": "diagnostic",
+      "family_id": "ag-fam-diag-p5-002",
+      "scenario": "procurement_vendor_management",
+      "difficulty": "D2",
+      "item_count": 1,
+      "norm_text": "alden packaging was selected as our primary supplier because it offered the most rates for recycled cardboard compete competitive competitively competitor",
+      "version_history": [
+        {
+          "version": 1,
+          "batch_id": "batch-ag-0009"
+        },
+        {
+          "version": 2,
+          "batch_id": "batch-ag-0012"
+        }
+      ]
+    },
+    "ag-g-p5-000303": {
+      "batch_id": "batch-ag-0012",
+      "version": 2,
+      "part": 5,
+      "layout": "sentence",
+      "pool": "diagnostic",
+      "family_id": "ag-fam-diag-p5-003",
+      "scenario": "it_systems_security",
+      "difficulty": "D3",
+      "item_count": 1,
+      "norm_text": "the cloud backup patch is installed on the main server all regional workstations will synchronize automatically once during despite unless",
+      "version_history": [
+        {
+          "version": 1,
+          "batch_id": "batch-ag-0009"
+        },
+        {
+          "version": 2,
+          "batch_id": "batch-ag-0012"
+        }
+      ]
+    },
+    "ag-g-p5-000304": {
+      "batch_id": "batch-ag-0012",
+      "version": 2,
+      "part": 5,
+      "layout": "sentence",
+      "pool": "diagnostic",
+      "family_id": "ag-fam-diag-p5-004",
+      "scenario": "corporate_governance_legal",
+      "difficulty": "D5",
+      "item_count": 1,
+      "norm_text": "any discrepancy arise between the translated summary and the original contract the english text shall prevail should were had would",
+      "version_history": [
+        {
+          "version": 1,
+          "batch_id": "batch-ag-0009"
+        },
+        {
+          "version": 2,
+          "batch_id": "batch-ag-0012"
+        }
+      ]
+    },
+    "ag-g-p6-000301": {
+      "batch_id": "batch-ag-0012",
+      "version": 2,
+      "part": 6,
+      "layout": "text_completion",
+      "pool": "diagnostic",
+      "family_id": "ag-fam-diag-p6-001",
+      "scenario": "hr_recruitment_training",
+      "difficulty": "D3",
+      "item_count": 4,
+      "norm_text": "professional certification tuition assistance program kestrel biolabs encourages full time staff members to pursue industry certifications that strengthen their technical capabilities under our updated tuition assistance policy employees who have completed at least one year of continuous service may apply for blank ag i p6 000301 1 of up to 1 500 per calendar year eligible expenses include accredited examination fees and required digital study materials blank ag i p6 000301 2 applications must be endorsed by a department director at least three weeks before the course start date once the certification exam has been passed the employee should upload the official score certificate and itemized payment receipts to the hr portal approved claims blank ag i p6 000301 3 in the employee s next regular direct deposit paycheck blank ag i p6 000301 4 staff members who leave the company voluntarily within six months of receiving funds must repay the subsidized amount in full select the best word or phrase for blank ag i p6 000301 1 reimburse reimbursed reimbursement reimbursing select the best sentence for blank ag i p6 000301 2 travel and hotel costs for out of town test centers are not covered under this plan the company cafeteria will introduce a new summer menu next monday all laboratory microscopes were calibrated by an external vendor in august entry level interns are automatically enrolled in the executive bonus pool select the best word or phrase for blank ag i p6 000301 3 disbursed will be disbursed have disbursed disbursing select the best word or phrase for blank ag i p6 000301 4 however similarly therefore for example",
+      "version_history": [
+        {
+          "version": 1,
+          "batch_id": "batch-ag-0009"
+        },
+        {
+          "version": 2,
+          "batch_id": "batch-ag-0012"
+        }
+      ]
+    },
+    "ag-g-p7-000301": {
+      "batch_id": "batch-ag-0012",
+      "version": 2,
+      "part": 7,
+      "layout": "single_passage",
+      "pool": "diagnostic",
+      "family_id": "ag-fam-diag-p7-001",
+      "scenario": "finance_budgeting_invoicing",
+      "difficulty": "D3",
+      "item_count": 2,
+      "norm_text": "subject invoice inv 8842 acoustic wall panels for conference wing to accounts payable ap veridianarchitects com from billing department billing nordicacoustics se date october 3 subject invoice inv 8842 acoustic wall panels dear veridian architects team attached is invoice inv 8842 for the forty custom oak acoustic wall panels delivered and installed in your third floor conference wing on october 1 the total balance due is 12 400 payable within 30 calendar days as a reminder commercial clients who remit full payment via electronic wire transfer within 10 days of the invoice date by october 13 may deduct a 3 percent early settlement discount 372 from the invoice total please include the invoice number in the wire reference field so our accounting system can credit your account promptly what is the purpose of the e mail to request payment for recently installed sound absorbing panels to reschedule the delivery of forty oak conference tables to confirm receipt of a wire transfer sent on october 1 to provide a price quote for renovating a building lobby how can veridian architects reduce the amount it owes by 372 by returning unused mounting brackets to the warehouse by paying the full balance via wire transfer on or before october 13 by signing a two year maintenance contract for the third floor by mailing a paper check within 30 calendar days",
+      "version_history": [
+        {
+          "version": 1,
+          "batch_id": "batch-ag-0009"
+        },
+        {
+          "version": 2,
+          "batch_id": "batch-ag-0012"
+        }
+      ]
+    },
+    "ag-g-p2-000401": {
+      "batch_id": "batch-ag-0015",
+      "version": 3,
+      "part": 2,
+      "layout": "question_response",
+      "pool": "battle",
+      "family_id": "ag-fam-btl-p2-001",
+      "scenario": "office_administration",
+      "difficulty": "D1",
+      "item_count": 1,
+      "norm_text": "who authorized the purchase of the ergonomic desk chairs a ms patel in the facilities department b yes they are very comfortable c next to the conference table ms patel in the facilities department yes they are very comfortable next to the conference table",
+      "version_history": [
+        {
+          "version": 1,
+          "batch_id": "batch-ag-0010"
+        },
+        {
+          "version": 2,
+          "batch_id": "batch-ag-0013"
+        },
+        {
+          "version": 3,
+          "batch_id": "batch-ag-0015"
+        }
+      ]
+    },
+    "ag-g-p2-000402": {
+      "batch_id": "batch-ag-0015",
+      "version": 3,
+      "part": 2,
+      "layout": "question_response",
+      "pool": "battle",
+      "family_id": "ag-fam-btl-p2-002",
+      "scenario": "travel_hotel_airport",
+      "difficulty": "D2",
+      "item_count": 1,
+      "norm_text": "what time does our connecting flight to frankfurt depart a at gate c14 in the north terminal b at six forty five this evening c a window seat in business class at gate c14 in the north terminal at six forty five this evening a window seat in business class",
+      "version_history": [
+        {
+          "version": 1,
+          "batch_id": "batch-ag-0010"
+        },
+        {
+          "version": 2,
+          "batch_id": "batch-ag-0013"
+        },
+        {
+          "version": 3,
+          "batch_id": "batch-ag-0015"
+        }
+      ]
+    },
+    "ag-g-p2-000403": {
+      "batch_id": "batch-ag-0015",
+      "version": 3,
+      "part": 2,
+      "layout": "question_response",
+      "pool": "battle",
+      "family_id": "ag-fam-btl-p2-003",
+      "scenario": "customer_service_returns",
+      "difficulty": "D2",
+      "item_count": 1,
+      "norm_text": "would you like a replacement monitor shipped to your office or would you prefer store credit a please send a replacement to my office b yes the screen resolution is very sharp c about twenty seven inches wide please send a replacement to my office yes the screen resolution is very sharp about twenty seven inches wide",
+      "version_history": [
+        {
+          "version": 1,
+          "batch_id": "batch-ag-0010"
+        },
+        {
+          "version": 2,
+          "batch_id": "batch-ag-0013"
+        },
+        {
+          "version": 3,
+          "batch_id": "batch-ag-0015"
+        }
+      ]
+    },
+    "ag-g-p2-000404": {
+      "batch_id": "batch-ag-0015",
+      "version": 3,
+      "part": 2,
+      "layout": "question_response",
+      "pool": "battle",
+      "family_id": "ag-fam-btl-p2-004",
+      "scenario": "marketing_events_promotions",
+      "difficulty": "D3",
+      "item_count": 1,
+      "norm_text": "why was the keynote speech moved to the morning session a in the grand ballroom on the mezzanine level b the guest speaker has an afternoon flight to tokyo c for about forty five minutes in the grand ballroom on the mezzanine level the guest speaker has an afternoon flight to tokyo for about forty five minutes",
+      "version_history": [
+        {
+          "version": 1,
+          "batch_id": "batch-ag-0010"
+        },
+        {
+          "version": 2,
+          "batch_id": "batch-ag-0013"
+        },
+        {
+          "version": 3,
+          "batch_id": "batch-ag-0015"
+        }
+      ]
+    },
+    "ag-g-p2-000405": {
+      "batch_id": "batch-ag-0015",
+      "version": 3,
+      "part": 2,
+      "layout": "question_response",
+      "pool": "battle",
+      "family_id": "ag-fam-btl-p2-005",
+      "scenario": "manufacturing_quality_control",
+      "difficulty": "D4",
+      "item_count": 1,
+      "norm_text": "the protective coatings on the turbine blades passed the salt spray test didn t they a actually two samples showed minor surface corrosion b no the laboratory coats are in the locker room c every tuesday and thursday afternoon actually two samples showed minor surface corrosion no the laboratory coats are in the locker room every tuesday and thursday afternoon",
+      "version_history": [
+        {
+          "version": 1,
+          "batch_id": "batch-ag-0010"
+        },
+        {
+          "version": 2,
+          "batch_id": "batch-ag-0013"
+        },
+        {
+          "version": 3,
+          "batch_id": "batch-ag-0015"
+        }
+      ]
+    },
+    "ag-g-p2-000406": {
+      "batch_id": "batch-ag-0015",
+      "version": 3,
+      "part": 2,
+      "layout": "question_response",
+      "pool": "battle",
+      "family_id": "ag-fam-btl-p2-006",
+      "scenario": "finance_budgeting_invoicing",
+      "difficulty": "D5",
+      "item_count": 1,
+      "norm_text": "how are we going to fund the expansion of the montreal distribution center a about eighty thousand square feet of floor space b the board is still weighing a bank loan against a bond issue c yes the warehouse manager signed the lease about eighty thousand square feet of floor space the board is still weighing a bank loan against a bond issue yes the warehouse manager signed the lease",
+      "version_history": [
+        {
+          "version": 1,
+          "batch_id": "batch-ag-0010"
+        },
+        {
+          "version": 2,
+          "batch_id": "batch-ag-0013"
+        },
+        {
+          "version": 3,
+          "batch_id": "batch-ag-0015"
+        }
+      ]
+    },
+    "ag-g-p5-000401": {
+      "batch_id": "batch-ag-0013",
+      "version": 2,
+      "part": 5,
+      "layout": "sentence",
+      "pool": "battle",
+      "family_id": "ag-fam-btl-p5-001",
+      "scenario": "retail_store_operations",
+      "difficulty": "D1",
+      "item_count": 1,
+      "norm_text": "customers may redeem their promotional gift vouchers any checkout counter in the store at into among until",
+      "version_history": [
+        {
+          "version": 1,
+          "batch_id": "batch-ag-0010"
+        },
+        {
+          "version": 2,
+          "batch_id": "batch-ag-0013"
+        }
+      ]
+    },
+    "ag-g-p5-000402": {
+      "batch_id": "batch-ag-0013",
+      "version": 2,
+      "part": 5,
+      "layout": "sentence",
+      "pool": "battle",
+      "family_id": "ag-fam-btl-p5-002",
+      "scenario": "office_administration",
+      "difficulty": "D1",
+      "item_count": 1,
+      "norm_text": "all overtime requests require the written of a division supervisor before friday afternoon approve approved approving approval",
+      "version_history": [
+        {
+          "version": 1,
+          "batch_id": "batch-ag-0010"
+        },
+        {
+          "version": 2,
+          "batch_id": "batch-ag-0013"
+        }
+      ]
+    },
+    "ag-g-p5-000403": {
+      "batch_id": "batch-ag-0013",
+      "version": 2,
+      "part": 5,
+      "layout": "sentence",
+      "pool": "battle",
+      "family_id": "ag-fam-btl-p5-003",
+      "scenario": "travel_hotel_airport",
+      "difficulty": "D2",
+      "item_count": 1,
+      "norm_text": "a complimentary shuttle bus runs between the convention center and the downtown train station frequent frequently frequency frequented",
+      "version_history": [
+        {
+          "version": 1,
+          "batch_id": "batch-ag-0010"
+        },
+        {
+          "version": 2,
+          "batch_id": "batch-ag-0013"
+        }
+      ]
+    },
+    "ag-g-p5-000404": {
+      "batch_id": "batch-ag-0013",
+      "version": 2,
+      "part": 5,
+      "layout": "sentence",
+      "pool": "battle",
+      "family_id": "ag-fam-btl-p5-004",
+      "scenario": "hr_recruitment_training",
+      "difficulty": "D2",
+      "item_count": 1,
+      "norm_text": "the updated safety handbook is significantly than the version distributed two years ago comprehensive more comprehensive most comprehensive comprehensively",
+      "version_history": [
+        {
+          "version": 1,
+          "batch_id": "batch-ag-0010"
+        },
+        {
+          "version": 2,
+          "batch_id": "batch-ag-0013"
+        }
+      ]
+    },
+    "ag-g-p5-000405": {
+      "batch_id": "batch-ag-0013",
+      "version": 2,
+      "part": 5,
+      "layout": "sentence",
+      "pool": "battle",
+      "family_id": "ag-fam-btl-p5-005",
+      "scenario": "logistics_supply_chain",
+      "difficulty": "D2",
+      "item_count": 1,
+      "norm_text": "warehouse clerks must every incoming crate for water damage before signing the carrier s delivery receipt inspect inquire install instruct",
+      "version_history": [
+        {
+          "version": 1,
+          "batch_id": "batch-ag-0010"
+        },
+        {
+          "version": 2,
+          "batch_id": "batch-ag-0013"
+        }
+      ]
+    },
+    "ag-g-p5-000406": {
+      "batch_id": "batch-ag-0013",
+      "version": 2,
+      "part": 5,
+      "layout": "sentence",
+      "pool": "battle",
+      "family_id": "ag-fam-btl-p5-006",
+      "scenario": "finance_budgeting_invoicing",
+      "difficulty": "D3",
+      "item_count": 1,
+      "norm_text": "all expense reports from the munich trade fair by the regional controller so reimbursements will be issued tomorrow audit were auditing have already been audited will audit",
+      "version_history": [
+        {
+          "version": 1,
+          "batch_id": "batch-ag-0010"
+        },
+        {
+          "version": 2,
+          "batch_id": "batch-ag-0013"
+        }
+      ]
+    },
+    "ag-g-p5-000407": {
+      "batch_id": "batch-ag-0013",
+      "version": 2,
+      "part": 5,
+      "layout": "sentence",
+      "pool": "battle",
+      "family_id": "ag-fam-btl-p5-007",
+      "scenario": "marketing_events_promotions",
+      "difficulty": "D3",
+      "item_count": 1,
+      "norm_text": "although the webinar was scheduled on short notice a substantial of international distributors logged in live amount number deal volume",
+      "version_history": [
+        {
+          "version": 1,
+          "batch_id": "batch-ag-0010"
+        },
+        {
+          "version": 2,
+          "batch_id": "batch-ag-0013"
+        }
+      ]
+    },
+    "ag-g-p5-000408": {
+      "batch_id": "batch-ag-0013",
+      "version": 2,
+      "part": 5,
+      "layout": "sentence",
+      "pool": "battle",
+      "family_id": "ag-fam-btl-p5-008",
+      "scenario": "it_systems_security",
+      "difficulty": "D3",
+      "item_count": 1,
+      "norm_text": "customer billing records are encrypted and archived strict national data privacy regulations in accordance with on behalf of in contrast to by means of",
+      "version_history": [
+        {
+          "version": 1,
+          "batch_id": "batch-ag-0010"
+        },
+        {
+          "version": 2,
+          "batch_id": "batch-ag-0013"
+        }
+      ]
+    },
+    "ag-g-p5-000409": {
+      "batch_id": "batch-ag-0013",
+      "version": 2,
+      "part": 5,
+      "layout": "sentence",
+      "pool": "battle",
+      "family_id": "ag-fam-btl-p5-009",
+      "scenario": "product_development_rd",
+      "difficulty": "D3",
+      "item_count": 1,
+      "norm_text": "the new lithium battery pack is fully with all handheld scanners manufactured after 2023 compatible comparable commendable comprehensive",
+      "version_history": [
+        {
+          "version": 1,
+          "batch_id": "batch-ag-0010"
+        },
+        {
+          "version": 2,
+          "batch_id": "batch-ag-0013"
+        }
+      ]
+    },
+    "ag-g-p5-000410": {
+      "batch_id": "batch-ag-0013",
+      "version": 2,
+      "part": 5,
+      "layout": "sentence",
+      "pool": "battle",
+      "family_id": "ag-fam-btl-p5-010",
+      "scenario": "real_estate_facilities",
+      "difficulty": "D4",
+      "item_count": 1,
+      "norm_text": "the architectural blueprints are stored in the vault the original property deeds are kept which where whose when",
+      "version_history": [
+        {
+          "version": 1,
+          "batch_id": "batch-ag-0010"
+        },
+        {
+          "version": 2,
+          "batch_id": "batch-ag-0013"
+        }
+      ]
+    },
+    "ag-g-p5-000411": {
+      "batch_id": "batch-ag-0013",
+      "version": 2,
+      "part": 5,
+      "layout": "sentence",
+      "pool": "battle",
+      "family_id": "ag-fam-btl-p5-011",
+      "scenario": "manufacturing_quality_control",
+      "difficulty": "D4",
+      "item_count": 1,
+      "norm_text": "positive pressure ventilation fans run continuously to keep the optical lens assembly room completely sterilize sterile sterility sterilizing",
+      "version_history": [
+        {
+          "version": 1,
+          "batch_id": "batch-ag-0010"
+        },
+        {
+          "version": 2,
+          "batch_id": "batch-ag-0013"
+        }
+      ]
+    },
+    "ag-g-p5-000412": {
+      "batch_id": "batch-ag-0013",
+      "version": 2,
+      "part": 5,
+      "layout": "sentence",
+      "pool": "battle",
+      "family_id": "ag-fam-btl-p5-012",
+      "scenario": "procurement_vendor_management",
+      "difficulty": "D4",
+      "item_count": 1,
+      "norm_text": "bellwether industrial agreed to the expedited shipping surcharge because our order exceeded five hundred units waive waver wander warrant",
+      "version_history": [
+        {
+          "version": 1,
+          "batch_id": "batch-ag-0010"
+        },
+        {
+          "version": 2,
+          "batch_id": "batch-ag-0013"
+        }
+      ]
+    },
+    "ag-g-p5-000413": {
+      "batch_id": "batch-ag-0013",
+      "version": 2,
+      "part": 5,
+      "layout": "sentence",
+      "pool": "battle",
+      "family_id": "ag-fam-btl-p5-013",
+      "scenario": "corporate_governance_legal",
+      "difficulty": "D5",
+      "item_count": 1,
+      "norm_text": "customer retention rate is the primary metric all regional branch managers will be evaluated this fiscal year which by which what whose",
+      "version_history": [
+        {
+          "version": 1,
+          "batch_id": "batch-ag-0010"
+        },
+        {
+          "version": 2,
+          "batch_id": "batch-ag-0013"
+        }
+      ]
+    },
+    "ag-g-p5-000414": {
+      "batch_id": "batch-ag-0013",
+      "version": 2,
+      "part": 5,
+      "layout": "sentence",
+      "pool": "battle",
+      "family_id": "ag-fam-btl-p5-014",
+      "scenario": "banking_investment_services",
+      "difficulty": "D5",
+      "item_count": 1,
+      "norm_text": "only after reviewing three years of audited tax filings the underwriting committee approve the commercial mortgage did has was had",
+      "version_history": [
+        {
+          "version": 1,
+          "batch_id": "batch-ag-0010"
+        },
+        {
+          "version": 2,
+          "batch_id": "batch-ag-0013"
+        }
+      ]
+    },
+    "ag-g-p6-000401": {
+      "batch_id": "batch-ag-0013",
+      "version": 2,
+      "part": 6,
+      "layout": "text_completion",
+      "pool": "battle",
+      "family_id": "ag-fam-btl-p6-001",
+      "scenario": "logistics_supply_chain",
+      "difficulty": "D3",
+      "item_count": 4,
+      "norm_text": "memo rollout of two dimensional qr pallet labels to all receiving and outbound dock staff from tariq mansour warehouse operations manager date october 18 subject transition to 2d qr pallet labels starting monday october 25 our fulfillment center blank ag i p6 000401 1 traditional linear barcodes with high density 2d qr labels on all outbound freight pallets unlike older labels that stored only a seven digit sku the new qr format encodes batch numbers expiration dates and destination bay codes in a single scan all handheld scanners in dock zones 1 through 4 have already received the firmware update needed to read the new labels blank ag i p6 000401 2 simply place the scanner in its charging cradle for ten minutes if the screen prompts for a restart during the first week of the transition incoming shipments from legacy suppliers may still arrive with linear barcodes blank ag i p6 000401 3 the updated scanners remain backward compatible and will process both label styles without manual switching please direct any technical blank ag i p6 000401 4 to lead technician clara gomez at extension 4409 select the best word or phrase for blank ag i p6 000401 1 replaced will replace has been replaced replacing select the best sentence for blank ag i p6 000401 2 no new hardware needs to be checked out from the equipment cage forklift certification classes have been moved to the third tuesday of each month several regional trucking carriers raised their fuel surcharges in september the employee break room on the mezzanine will be closed on friday select the best word or phrase for blank ag i p6 000401 3 fortunately otherwise reluctantly instead select the best word or phrase for blank ag i p6 000401 4 inquiries revenues vacancies itineraries",
+      "version_history": [
+        {
+          "version": 1,
+          "batch_id": "batch-ag-0010"
+        },
+        {
+          "version": 2,
+          "batch_id": "batch-ag-0013"
+        }
+      ]
+    }
+  },
+  "items": {
+    "ag-i-p2-000001-1": {
+      "batch_id": "batch-ag-0006",
+      "group_id": "ag-g-p2-000001",
+      "version": 2
+    },
+    "ag-i-p2-000002-1": {
+      "batch_id": "batch-ag-0007",
+      "group_id": "ag-g-p2-000002",
+      "version": 2
+    },
+    "ag-i-p2-000003-1": {
+      "batch_id": "batch-ag-0007",
+      "group_id": "ag-g-p2-000003",
+      "version": 2
+    },
+    "ag-i-p2-000004-1": {
+      "batch_id": "batch-ag-0007",
+      "group_id": "ag-g-p2-000004",
+      "version": 2
+    },
+    "ag-i-p2-000005-1": {
+      "batch_id": "batch-ag-0007",
+      "group_id": "ag-g-p2-000005",
+      "version": 2
+    },
+    "ag-i-p2-000006-1": {
+      "batch_id": "batch-ag-0007",
+      "group_id": "ag-g-p2-000006",
+      "version": 2
+    },
+    "ag-i-p2-000007-1": {
+      "batch_id": "batch-ag-0007",
+      "group_id": "ag-g-p2-000007",
+      "version": 2
+    },
+    "ag-i-p2-000008-1": {
+      "batch_id": "batch-ag-0007",
+      "group_id": "ag-g-p2-000008",
+      "version": 2
+    },
+    "ag-i-p5-000001-1": "batch-ag-0001",
+    "ag-i-p5-000002-1": "batch-ag-0001",
+    "ag-i-p5-000003-1": "batch-ag-0001",
+    "ag-i-p5-000004-1": "batch-ag-0001",
+    "ag-i-p5-000005-1": "batch-ag-0001",
+    "ag-i-p5-000006-1": "batch-ag-0001",
+    "ag-i-p5-000007-1": "batch-ag-0001",
+    "ag-i-p5-000008-1": "batch-ag-0001",
+    "ag-i-p5-000009-1": "batch-ag-0001",
+    "ag-i-p5-000010-1": "batch-ag-0001",
+    "ag-i-p5-000011-1": "batch-ag-0001",
+    "ag-i-p5-000012-1": "batch-ag-0001",
+    "ag-i-p1-000001-1": {
+      "batch_id": "batch-ag-0006",
+      "group_id": "ag-g-p1-000001",
+      "version": 2
+    },
+    "ag-i-p1-000002-1": {
+      "batch_id": "batch-ag-0007",
+      "group_id": "ag-g-p1-000002",
+      "version": 2
+    },
+    "ag-i-p1-000003-1": {
+      "batch_id": "batch-ag-0007",
+      "group_id": "ag-g-p1-000003",
+      "version": 2
+    },
+    "ag-i-p2-000009-1": {
+      "batch_id": "batch-ag-0007",
+      "group_id": "ag-g-p2-000009",
+      "version": 2
+    },
+    "ag-i-p2-000010-1": {
+      "batch_id": "batch-ag-0007",
+      "group_id": "ag-g-p2-000010",
+      "version": 2
+    },
+    "ag-i-p2-000011-1": {
+      "batch_id": "batch-ag-0007",
+      "group_id": "ag-g-p2-000011",
+      "version": 2
+    },
+    "ag-i-p2-000012-1": {
+      "batch_id": "batch-ag-0007",
+      "group_id": "ag-g-p2-000012",
+      "version": 2
+    },
+    "ag-i-p2-000013-1": {
+      "batch_id": "batch-ag-0007",
+      "group_id": "ag-g-p2-000013",
+      "version": 2
+    },
+    "ag-i-p5-000013-1": "batch-ag-0002",
+    "ag-i-p5-000014-1": "batch-ag-0002",
+    "ag-i-p5-000015-1": "batch-ag-0002",
+    "ag-i-p6-000001-1": "batch-ag-0002",
+    "ag-i-p6-000001-2": "batch-ag-0002",
+    "ag-i-p6-000001-3": "batch-ag-0002",
+    "ag-i-p6-000001-4": "batch-ag-0002",
+    "ag-i-p6-000002-1": "batch-ag-0002",
+    "ag-i-p6-000002-2": "batch-ag-0002",
+    "ag-i-p6-000002-3": "batch-ag-0002",
+    "ag-i-p6-000002-4": "batch-ag-0002",
+    "ag-i-p3-000001-1": {
+      "batch_id": "batch-ag-0006",
+      "group_id": "ag-g-p3-000001",
+      "version": 2
+    },
+    "ag-i-p3-000001-2": {
+      "batch_id": "batch-ag-0006",
+      "group_id": "ag-g-p3-000001",
+      "version": 2
+    },
+    "ag-i-p3-000001-3": {
+      "batch_id": "batch-ag-0006",
+      "group_id": "ag-g-p3-000001",
+      "version": 2
+    },
+    "ag-i-p3-000002-1": {
+      "batch_id": "batch-ag-0007",
+      "group_id": "ag-g-p3-000002",
+      "version": 2
+    },
+    "ag-i-p3-000002-2": {
+      "batch_id": "batch-ag-0007",
+      "group_id": "ag-g-p3-000002",
+      "version": 2
+    },
+    "ag-i-p3-000002-3": {
+      "batch_id": "batch-ag-0007",
+      "group_id": "ag-g-p3-000002",
+      "version": 2
+    },
+    "ag-i-p3-000003-1": {
+      "batch_id": "batch-ag-0007",
+      "group_id": "ag-g-p3-000003",
+      "version": 2
+    },
+    "ag-i-p3-000003-2": {
+      "batch_id": "batch-ag-0007",
+      "group_id": "ag-g-p3-000003",
+      "version": 2
+    },
+    "ag-i-p3-000003-3": {
+      "batch_id": "batch-ag-0007",
+      "group_id": "ag-g-p3-000003",
+      "version": 2
+    },
+    "ag-i-p3-000004-1": {
+      "batch_id": "batch-ag-0007",
+      "group_id": "ag-g-p3-000004",
+      "version": 2
+    },
+    "ag-i-p3-000004-2": {
+      "batch_id": "batch-ag-0007",
+      "group_id": "ag-g-p3-000004",
+      "version": 2
+    },
+    "ag-i-p3-000004-3": {
+      "batch_id": "batch-ag-0007",
+      "group_id": "ag-g-p3-000004",
+      "version": 2
+    },
+    "ag-i-p3-000005-1": {
+      "batch_id": "batch-ag-0007",
+      "group_id": "ag-g-p3-000005",
+      "version": 2
+    },
+    "ag-i-p3-000005-2": {
+      "batch_id": "batch-ag-0007",
+      "group_id": "ag-g-p3-000005",
+      "version": 2
+    },
+    "ag-i-p3-000005-3": {
+      "batch_id": "batch-ag-0007",
+      "group_id": "ag-g-p3-000005",
+      "version": 2
+    },
+    "ag-i-p3-000006-1": {
+      "batch_id": "batch-ag-0007",
+      "group_id": "ag-g-p3-000006",
+      "version": 2
+    },
+    "ag-i-p3-000006-2": {
+      "batch_id": "batch-ag-0007",
+      "group_id": "ag-g-p3-000006",
+      "version": 2
+    },
+    "ag-i-p3-000006-3": {
+      "batch_id": "batch-ag-0007",
+      "group_id": "ag-g-p3-000006",
+      "version": 2
+    },
+    "ag-i-p4-000001-1": {
+      "batch_id": "batch-ag-0006",
+      "group_id": "ag-g-p4-000001",
+      "version": 2
+    },
+    "ag-i-p4-000001-2": {
+      "batch_id": "batch-ag-0006",
+      "group_id": "ag-g-p4-000001",
+      "version": 2
+    },
+    "ag-i-p4-000001-3": {
+      "batch_id": "batch-ag-0006",
+      "group_id": "ag-g-p4-000001",
+      "version": 2
+    },
+    "ag-i-p4-000002-1": {
+      "batch_id": "batch-ag-0007",
+      "group_id": "ag-g-p4-000002",
+      "version": 2
+    },
+    "ag-i-p4-000002-2": {
+      "batch_id": "batch-ag-0007",
+      "group_id": "ag-g-p4-000002",
+      "version": 2
+    },
+    "ag-i-p4-000002-3": {
+      "batch_id": "batch-ag-0007",
+      "group_id": "ag-g-p4-000002",
+      "version": 2
+    },
+    "ag-i-p4-000003-1": {
+      "batch_id": "batch-ag-0007",
+      "group_id": "ag-g-p4-000003",
+      "version": 2
+    },
+    "ag-i-p4-000003-2": {
+      "batch_id": "batch-ag-0007",
+      "group_id": "ag-g-p4-000003",
+      "version": 2
+    },
+    "ag-i-p4-000003-3": {
+      "batch_id": "batch-ag-0007",
+      "group_id": "ag-g-p4-000003",
+      "version": 2
+    },
+    "ag-i-p4-000004-1": {
+      "batch_id": "batch-ag-0007",
+      "group_id": "ag-g-p4-000004",
+      "version": 2
+    },
+    "ag-i-p4-000004-2": {
+      "batch_id": "batch-ag-0007",
+      "group_id": "ag-g-p4-000004",
+      "version": 2
+    },
+    "ag-i-p4-000004-3": {
+      "batch_id": "batch-ag-0007",
+      "group_id": "ag-g-p4-000004",
+      "version": 2
+    },
+    "ag-i-p4-000005-1": {
+      "batch_id": "batch-ag-0007",
+      "group_id": "ag-g-p4-000005",
+      "version": 2
+    },
+    "ag-i-p4-000005-2": {
+      "batch_id": "batch-ag-0007",
+      "group_id": "ag-g-p4-000005",
+      "version": 2
+    },
+    "ag-i-p4-000005-3": {
+      "batch_id": "batch-ag-0007",
+      "group_id": "ag-g-p4-000005",
+      "version": 2
+    },
+    "ag-i-p7-000001-1": "batch-ag-0005",
+    "ag-i-p7-000001-2": "batch-ag-0005",
+    "ag-i-p7-000001-3": "batch-ag-0005",
+    "ag-i-p7-000002-1": "batch-ag-0005",
+    "ag-i-p7-000002-2": "batch-ag-0005",
+    "ag-i-p7-000002-3": "batch-ag-0005",
+    "ag-i-p7-000003-1": "batch-ag-0005",
+    "ag-i-p7-000003-2": "batch-ag-0005",
+    "ag-i-p7-000003-3": "batch-ag-0005",
+    "ag-i-p7-000004-1": "batch-ag-0005",
+    "ag-i-p7-000004-2": "batch-ag-0005",
+    "ag-i-p7-000004-3": "batch-ag-0005",
+    "ag-i-p7-000004-4": "batch-ag-0005",
+    "ag-i-p7-000005-1": "batch-ag-0005",
+    "ag-i-p7-000005-2": "batch-ag-0005",
+    "ag-i-p7-000005-3": "batch-ag-0005",
+    "ag-i-p7-000005-4": "batch-ag-0005",
+    "ag-i-p7-000005-5": "batch-ag-0005",
+    "ag-i-p7-000006-1": "batch-ag-0005",
+    "ag-i-p7-000006-2": "batch-ag-0005",
+    "ag-i-p7-000006-3": "batch-ag-0005",
+    "ag-i-p7-000006-4": "batch-ag-0005",
+    "ag-i-p7-000006-5": "batch-ag-0005",
+    "ag-i-p7-000007-1": "batch-ag-0005",
+    "ag-i-p7-000007-2": "batch-ag-0005",
+    "ag-i-p7-000007-3": "batch-ag-0005",
+    "ag-i-p7-000007-4": "batch-ag-0005",
+    "ag-i-p7-000007-5": "batch-ag-0005",
+    "ag-i-p5-000016-1": {
+      "batch_id": "batch-ag-0011",
+      "group_id": "ag-g-p5-000016",
+      "version": 2
+    },
+    "ag-i-p5-000017-1": {
+      "batch_id": "batch-ag-0011",
+      "group_id": "ag-g-p5-000017",
+      "version": 2
+    },
+    "ag-i-p5-000018-1": {
+      "batch_id": "batch-ag-0011",
+      "group_id": "ag-g-p5-000018",
+      "version": 2
+    },
+    "ag-i-p5-000019-1": {
+      "batch_id": "batch-ag-0011",
+      "group_id": "ag-g-p5-000019",
+      "version": 2
+    },
+    "ag-i-p5-000020-1": {
+      "batch_id": "batch-ag-0011",
+      "group_id": "ag-g-p5-000020",
+      "version": 2
+    },
+    "ag-i-p5-000021-1": {
+      "batch_id": "batch-ag-0011",
+      "group_id": "ag-g-p5-000021",
+      "version": 2
+    },
+    "ag-i-p5-000022-1": {
+      "batch_id": "batch-ag-0011",
+      "group_id": "ag-g-p5-000022",
+      "version": 2
+    },
+    "ag-i-p5-000023-1": {
+      "batch_id": "batch-ag-0011",
+      "group_id": "ag-g-p5-000023",
+      "version": 2
+    },
+    "ag-i-p5-000024-1": {
+      "batch_id": "batch-ag-0011",
+      "group_id": "ag-g-p5-000024",
+      "version": 2
+    },
+    "ag-i-p5-000025-1": {
+      "batch_id": "batch-ag-0011",
+      "group_id": "ag-g-p5-000025",
+      "version": 2
+    },
+    "ag-i-p5-000026-1": {
+      "batch_id": "batch-ag-0011",
+      "group_id": "ag-g-p5-000026",
+      "version": 2
+    },
+    "ag-i-p5-000027-1": {
+      "batch_id": "batch-ag-0011",
+      "group_id": "ag-g-p5-000027",
+      "version": 2
+    },
+    "ag-i-p5-000028-1": {
+      "batch_id": "batch-ag-0011",
+      "group_id": "ag-g-p5-000028",
+      "version": 2
+    },
+    "ag-i-p5-000029-1": {
+      "batch_id": "batch-ag-0011",
+      "group_id": "ag-g-p5-000029",
+      "version": 2
+    },
+    "ag-i-p5-000030-1": {
+      "batch_id": "batch-ag-0011",
+      "group_id": "ag-g-p5-000030",
+      "version": 2
+    },
+    "ag-i-p5-000031-1": {
+      "batch_id": "batch-ag-0011",
+      "group_id": "ag-g-p5-000031",
+      "version": 2
+    },
+    "ag-i-p6-000003-1": {
+      "batch_id": "batch-ag-0011",
+      "group_id": "ag-g-p6-000003",
+      "version": 2
+    },
+    "ag-i-p6-000003-2": {
+      "batch_id": "batch-ag-0011",
+      "group_id": "ag-g-p6-000003",
+      "version": 2
+    },
+    "ag-i-p6-000003-3": {
+      "batch_id": "batch-ag-0011",
+      "group_id": "ag-g-p6-000003",
+      "version": 2
+    },
+    "ag-i-p6-000003-4": {
+      "batch_id": "batch-ag-0011",
+      "group_id": "ag-g-p6-000003",
+      "version": 2
+    },
+    "ag-i-p6-000004-1": {
+      "batch_id": "batch-ag-0011",
+      "group_id": "ag-g-p6-000004",
+      "version": 2
+    },
+    "ag-i-p6-000004-2": {
+      "batch_id": "batch-ag-0011",
+      "group_id": "ag-g-p6-000004",
+      "version": 2
+    },
+    "ag-i-p6-000004-3": {
+      "batch_id": "batch-ag-0011",
+      "group_id": "ag-g-p6-000004",
+      "version": 2
+    },
+    "ag-i-p6-000004-4": {
+      "batch_id": "batch-ag-0011",
+      "group_id": "ag-g-p6-000004",
+      "version": 2
+    },
+    "ag-i-p7-000008-1": {
+      "batch_id": "batch-ag-0011",
+      "group_id": "ag-g-p7-000008",
+      "version": 2
+    },
+    "ag-i-p7-000008-2": {
+      "batch_id": "batch-ag-0011",
+      "group_id": "ag-g-p7-000008",
+      "version": 2
+    },
+    "ag-i-p7-000009-1": {
+      "batch_id": "batch-ag-0011",
+      "group_id": "ag-g-p7-000009",
+      "version": 2
+    },
+    "ag-i-p7-000009-2": {
+      "batch_id": "batch-ag-0011",
+      "group_id": "ag-g-p7-000009",
+      "version": 2
+    },
+    "ag-i-p7-000009-3": {
+      "batch_id": "batch-ag-0011",
+      "group_id": "ag-g-p7-000009",
+      "version": 2
+    },
+    "ag-i-p1-000301-1": {
+      "batch_id": "batch-ag-0012",
+      "group_id": "ag-g-p1-000301",
+      "version": 2
+    },
+    "ag-i-p2-000301-1": {
+      "batch_id": "batch-ag-0014",
+      "group_id": "ag-g-p2-000301",
+      "version": 3
+    },
+    "ag-i-p2-000302-1": {
+      "batch_id": "batch-ag-0014",
+      "group_id": "ag-g-p2-000302",
+      "version": 3
+    },
+    "ag-i-p2-000303-1": {
+      "batch_id": "batch-ag-0014",
+      "group_id": "ag-g-p2-000303",
+      "version": 3
+    },
+    "ag-i-p2-000304-1": {
+      "batch_id": "batch-ag-0014",
+      "group_id": "ag-g-p2-000304",
+      "version": 3
+    },
+    "ag-i-p3-000301-1": {
+      "batch_id": "batch-ag-0012",
+      "group_id": "ag-g-p3-000301",
+      "version": 2
+    },
+    "ag-i-p3-000301-2": {
+      "batch_id": "batch-ag-0012",
+      "group_id": "ag-g-p3-000301",
+      "version": 2
+    },
+    "ag-i-p3-000301-3": {
+      "batch_id": "batch-ag-0012",
+      "group_id": "ag-g-p3-000301",
+      "version": 2
+    },
+    "ag-i-p3-000302-1": {
+      "batch_id": "batch-ag-0012",
+      "group_id": "ag-g-p3-000302",
+      "version": 2
+    },
+    "ag-i-p3-000302-2": {
+      "batch_id": "batch-ag-0012",
+      "group_id": "ag-g-p3-000302",
+      "version": 2
+    },
+    "ag-i-p3-000302-3": {
+      "batch_id": "batch-ag-0012",
+      "group_id": "ag-g-p3-000302",
+      "version": 2
+    },
+    "ag-i-p4-000301-1": {
+      "batch_id": "batch-ag-0012",
+      "group_id": "ag-g-p4-000301",
+      "version": 2
+    },
+    "ag-i-p4-000301-2": {
+      "batch_id": "batch-ag-0012",
+      "group_id": "ag-g-p4-000301",
+      "version": 2
+    },
+    "ag-i-p4-000301-3": {
+      "batch_id": "batch-ag-0012",
+      "group_id": "ag-g-p4-000301",
+      "version": 2
+    },
+    "ag-i-p5-000301-1": {
+      "batch_id": "batch-ag-0012",
+      "group_id": "ag-g-p5-000301",
+      "version": 2
+    },
+    "ag-i-p5-000302-1": {
+      "batch_id": "batch-ag-0012",
+      "group_id": "ag-g-p5-000302",
+      "version": 2
+    },
+    "ag-i-p5-000303-1": {
+      "batch_id": "batch-ag-0012",
+      "group_id": "ag-g-p5-000303",
+      "version": 2
+    },
+    "ag-i-p5-000304-1": {
+      "batch_id": "batch-ag-0012",
+      "group_id": "ag-g-p5-000304",
+      "version": 2
+    },
+    "ag-i-p6-000301-1": {
+      "batch_id": "batch-ag-0012",
+      "group_id": "ag-g-p6-000301",
+      "version": 2
+    },
+    "ag-i-p6-000301-2": {
+      "batch_id": "batch-ag-0012",
+      "group_id": "ag-g-p6-000301",
+      "version": 2
+    },
+    "ag-i-p6-000301-3": {
+      "batch_id": "batch-ag-0012",
+      "group_id": "ag-g-p6-000301",
+      "version": 2
+    },
+    "ag-i-p6-000301-4": {
+      "batch_id": "batch-ag-0012",
+      "group_id": "ag-g-p6-000301",
+      "version": 2
+    },
+    "ag-i-p7-000301-1": {
+      "batch_id": "batch-ag-0012",
+      "group_id": "ag-g-p7-000301",
+      "version": 2
+    },
+    "ag-i-p7-000301-2": {
+      "batch_id": "batch-ag-0012",
+      "group_id": "ag-g-p7-000301",
+      "version": 2
+    },
+    "ag-i-p2-000401-1": {
+      "batch_id": "batch-ag-0015",
+      "group_id": "ag-g-p2-000401",
+      "version": 3
+    },
+    "ag-i-p2-000402-1": {
+      "batch_id": "batch-ag-0015",
+      "group_id": "ag-g-p2-000402",
+      "version": 3
+    },
+    "ag-i-p2-000403-1": {
+      "batch_id": "batch-ag-0015",
+      "group_id": "ag-g-p2-000403",
+      "version": 3
+    },
+    "ag-i-p2-000404-1": {
+      "batch_id": "batch-ag-0015",
+      "group_id": "ag-g-p2-000404",
+      "version": 3
+    },
+    "ag-i-p2-000405-1": {
+      "batch_id": "batch-ag-0015",
+      "group_id": "ag-g-p2-000405",
+      "version": 3
+    },
+    "ag-i-p2-000406-1": {
+      "batch_id": "batch-ag-0015",
+      "group_id": "ag-g-p2-000406",
+      "version": 3
+    },
+    "ag-i-p5-000401-1": {
+      "batch_id": "batch-ag-0013",
+      "group_id": "ag-g-p5-000401",
+      "version": 2
+    },
+    "ag-i-p5-000402-1": {
+      "batch_id": "batch-ag-0013",
+      "group_id": "ag-g-p5-000402",
+      "version": 2
+    },
+    "ag-i-p5-000403-1": {
+      "batch_id": "batch-ag-0013",
+      "group_id": "ag-g-p5-000403",
+      "version": 2
+    },
+    "ag-i-p5-000404-1": {
+      "batch_id": "batch-ag-0013",
+      "group_id": "ag-g-p5-000404",
+      "version": 2
+    },
+    "ag-i-p5-000405-1": {
+      "batch_id": "batch-ag-0013",
+      "group_id": "ag-g-p5-000405",
+      "version": 2
+    },
+    "ag-i-p5-000406-1": {
+      "batch_id": "batch-ag-0013",
+      "group_id": "ag-g-p5-000406",
+      "version": 2
+    },
+    "ag-i-p5-000407-1": {
+      "batch_id": "batch-ag-0013",
+      "group_id": "ag-g-p5-000407",
+      "version": 2
+    },
+    "ag-i-p5-000408-1": {
+      "batch_id": "batch-ag-0013",
+      "group_id": "ag-g-p5-000408",
+      "version": 2
+    },
+    "ag-i-p5-000409-1": {
+      "batch_id": "batch-ag-0013",
+      "group_id": "ag-g-p5-000409",
+      "version": 2
+    },
+    "ag-i-p5-000410-1": {
+      "batch_id": "batch-ag-0013",
+      "group_id": "ag-g-p5-000410",
+      "version": 2
+    },
+    "ag-i-p5-000411-1": {
+      "batch_id": "batch-ag-0013",
+      "group_id": "ag-g-p5-000411",
+      "version": 2
+    },
+    "ag-i-p5-000412-1": {
+      "batch_id": "batch-ag-0013",
+      "group_id": "ag-g-p5-000412",
+      "version": 2
+    },
+    "ag-i-p5-000413-1": {
+      "batch_id": "batch-ag-0013",
+      "group_id": "ag-g-p5-000413",
+      "version": 2
+    },
+    "ag-i-p5-000414-1": {
+      "batch_id": "batch-ag-0013",
+      "group_id": "ag-g-p5-000414",
+      "version": 2
+    },
+    "ag-i-p6-000401-1": {
+      "batch_id": "batch-ag-0013",
+      "group_id": "ag-g-p6-000401",
+      "version": 2
+    },
+    "ag-i-p6-000401-2": {
+      "batch_id": "batch-ag-0013",
+      "group_id": "ag-g-p6-000401",
+      "version": 2
+    },
+    "ag-i-p6-000401-3": {
+      "batch_id": "batch-ag-0013",
+      "group_id": "ag-g-p6-000401",
+      "version": 2
+    },
+    "ag-i-p6-000401-4": {
+      "batch_id": "batch-ag-0013",
+      "group_id": "ag-g-p6-000401",
+      "version": 2
+    }
+  },
+  "families": {
+    "ag-fam-p2-wh-where-warehouse-manifest": "training",
+    "ag-fam-p2-wh-when-equipment-calibration": "training",
+    "ag-fam-p2-wh-who-vendor-contract-review": "training",
+    "ag-fam-p2-yesno-invoice-reimbursement": "training",
+    "ag-fam-p2-choice-catering-menu-selection": "training",
+    "ag-fam-p2-request-projector-setup-help": "training",
+    "ag-fam-p2-suggestion-retail-display-window": "training",
+    "ag-fam-p2-statement-hotel-shuttle-full": "training",
+    "ag-fam-p5-wordform-adverb-modify-verb": "training",
+    "ag-fam-p5-verb-subject-agreement-prepositional": "training",
+    "ag-fam-p5-prep-collocation-compliance": "training",
+    "ag-fam-p5-connector-concession-despite-although": "training",
+    "ag-fam-p5-vocab-adj-confidential-records": "training",
+    "ag-fam-p5-wordform-noun-object-after-adj": "training",
+    "ag-fam-p5-verb-future-perfect-by-deadline": "training",
+    "ag-fam-p5-connector-relative-pronoun-whose": "training",
+    "ag-fam-p5-vocab-verb-waive-fee": "training",
+    "ag-fam-p5-condition-unless-exception": "training",
+    "ag-fam-p5-verb-participle-reduced-clause": "training",
+    "ag-fam-p5-vocab-adverb-tentatively-scheduled": "training",
+    "ag-fam-p1-laboratory-technician-microscope": "training",
+    "ag-fam-p1-bakery-counter-pastry-display": "training",
+    "ag-fam-p1-harbor-walkway-benches-empty": "training",
+    "ag-fam-p2-wh-how-long-new-hire-orientation": "training",
+    "ag-fam-p2-wh-why-packaging-line-stopped": "training",
+    "ag-fam-p2-tag-question-booth-deposit-paid": "training",
+    "ag-fam-p2-offer-carry-sample-catalogs": "training",
+    "ag-fam-p2-indirect-embedded-question-dentist-reschedule": "training",
+    "ag-fam-p5-wordform-comparative-efficiency": "training",
+    "ag-fam-p5-prep-distinguish-between-among": "training",
+    "ag-fam-p5-subjunctive-recommend-that-clause": "training",
+    "ag-fam-p6-community-library-digital-archive": "training",
+    "ag-fam-p6-warehouse-automated-sorting-memo": "training",
+    "ag-fam-p3-printing-brochure-paper-stock": "training",
+    "ag-fam-p3-hotel-banquet-av-adjustment": "training",
+    "ag-fam-p3-three-speaker-product-packaging-redesign": "training",
+    "ag-fam-p3-clinic-software-migration-training": "training",
+    "ag-fam-p3-graphic-courier-rate-comparison": "training",
+    "ag-fam-p3-graphic-workshop-room-change": "training",
+    "ag-fam-p4-voicemail-custom-furniture-delivery": "training",
+    "ag-fam-p4-museum-volunteer-orientation-tour": "training",
+    "ag-fam-p4-factory-safety-briefing-intent": "training",
+    "ag-fam-p4-radio-traffic-commuter-ferry": "training",
+    "ag-fam-p4-graphic-quarterly-sales-presentation": "training",
+    "ag-fam-p7-single-notice-parking-garage-repaving": "training",
+    "ag-fam-p7-single-email-supplier-batch-testing": "training",
+    "ag-fam-p7-single-chat-it-deployment-rollout": "training",
+    "ag-fam-p7-single-article-green-rooftop-grant": "training",
+    "ag-fam-p7-double-conference-schedule-and-email": "training",
+    "ag-fam-p7-double-warranty-policy-and-claim-form": "training",
+    "ag-fam-p7-triple-catering-quote-email-invoice": "training",
+    "ag-fam-trn-p5-016": "training",
+    "ag-fam-trn-p5-017": "training",
+    "ag-fam-trn-p5-018": "training",
+    "ag-fam-trn-p5-019": "training",
+    "ag-fam-trn-p5-020": "training",
+    "ag-fam-trn-p5-021": "training",
+    "ag-fam-trn-p5-022": "training",
+    "ag-fam-trn-p5-023": "training",
+    "ag-fam-trn-p5-024": "training",
+    "ag-fam-trn-p5-025": "training",
+    "ag-fam-trn-p5-026": "training",
+    "ag-fam-trn-p5-027": "training",
+    "ag-fam-trn-p5-028": "training",
+    "ag-fam-trn-p5-029": "training",
+    "ag-fam-trn-p5-030": "training",
+    "ag-fam-trn-p5-031": "training",
+    "ag-fam-trn-p6-003": "training",
+    "ag-fam-trn-p6-004": "training",
+    "ag-fam-trn-p7-008": "training",
+    "ag-fam-trn-p7-009": "training",
+    "ag-fam-diag-p1-001": "diagnostic",
+    "ag-fam-diag-p2-001": "diagnostic",
+    "ag-fam-diag-p2-002": "diagnostic",
+    "ag-fam-diag-p2-003": "diagnostic",
+    "ag-fam-diag-p2-004": "diagnostic",
+    "ag-fam-diag-p3-001": "diagnostic",
+    "ag-fam-diag-p3-002": "diagnostic",
+    "ag-fam-diag-p4-001": "diagnostic",
+    "ag-fam-diag-p5-001": "diagnostic",
+    "ag-fam-diag-p5-002": "diagnostic",
+    "ag-fam-diag-p5-003": "diagnostic",
+    "ag-fam-diag-p5-004": "diagnostic",
+    "ag-fam-diag-p6-001": "diagnostic",
+    "ag-fam-diag-p7-001": "diagnostic",
+    "ag-fam-btl-p2-001": "battle",
+    "ag-fam-btl-p2-002": "battle",
+    "ag-fam-btl-p2-003": "battle",
+    "ag-fam-btl-p2-004": "battle",
+    "ag-fam-btl-p2-005": "battle",
+    "ag-fam-btl-p2-006": "battle",
+    "ag-fam-btl-p5-001": "battle",
+    "ag-fam-btl-p5-002": "battle",
+    "ag-fam-btl-p5-003": "battle",
+    "ag-fam-btl-p5-004": "battle",
+    "ag-fam-btl-p5-005": "battle",
+    "ag-fam-btl-p5-006": "battle",
+    "ag-fam-btl-p5-007": "battle",
+    "ag-fam-btl-p5-008": "battle",
+    "ag-fam-btl-p5-009": "battle",
+    "ag-fam-btl-p5-010": "battle",
+    "ag-fam-btl-p5-011": "battle",
+    "ag-fam-btl-p5-012": "battle",
+    "ag-fam-btl-p5-013": "battle",
+    "ag-fam-btl-p5-014": "battle",
+    "ag-fam-btl-p6-001": "battle"
+  }
+}

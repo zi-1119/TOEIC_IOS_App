@@ -1,0 +1,225 @@
+{
+  "batch_id": "batch-ag-0013",
+  "solver_kind": "ai_isolated_subagent",
+  "blind": true,
+  "solved_at": "2026-10-28T08:43:30Z",
+  "skipped_groups": [],
+  "items": [
+    {
+      "group_id": "ag-g-p2-000401",
+      "item_id": "ag-i-p2-000401-1",
+      "selected_choice_id": "A",
+      "confidence": "high",
+      "ambiguity_flag": false,
+      "evidence_quote": "Who authorized the purchase of the ergonomic desk chairs?",
+      "reasoning_zh": "Who 疑問句詢問授權採購人體工學辦公椅的人員，(A) 回答設施部門的 Patel 女士，直接對應人名與所屬部門；(B) 用 Yes 回應特殊疑問句且語意不合；(C) 回答地點。"
+    },
+    {
+      "group_id": "ag-g-p2-000402",
+      "item_id": "ag-i-p2-000402-1",
+      "selected_choice_id": "B",
+      "confidence": "high",
+      "ambiguity_flag": false,
+      "evidence_quote": "What time does our connecting flight to Frankfurt depart?",
+      "reasoning_zh": "What time 詢問飛往法蘭克福的轉機航班起飛時間，(B) 回答今晚六點四十五分，正確提供時間；(A) 回答登機門位置；(C) 回答艙等與座位。"
+    },
+    {
+      "group_id": "ag-g-p2-000403",
+      "item_id": "ag-i-p2-000403-1",
+      "selected_choice_id": "A",
+      "confidence": "high",
+      "ambiguity_flag": false,
+      "evidence_quote": "Would you like a replacement monitor shipped to your office, or would you prefer store credit?",
+      "reasoning_zh": "選擇疑問句詢問要寄送替換螢幕至辦公室還是選擇商店抵用金，(A) 明確表達請寄送替換品到辦公室；(B) 以 Yes 回應選擇疑問句；(C) 回答螢幕尺寸。"
+    },
+    {
+      "group_id": "ag-g-p2-000404",
+      "item_id": "ag-i-p2-000404-1",
+      "selected_choice_id": "B",
+      "confidence": "high",
+      "ambiguity_flag": false,
+      "evidence_quote": "Why was the keynote speech moved to the morning session?",
+      "reasoning_zh": "Why 詢問主題演講改至上午場次的原因，(B) 說明主講嘉賓下午有飛往東京的班機，合理交代改期原因；(A) 回答場地位置；(C) 回答時間長度。"
+    },
+    {
+      "group_id": "ag-g-p2-000405",
+      "item_id": "ag-i-p2-000405-1",
+      "selected_choice_id": "A",
+      "confidence": "high",
+      "ambiguity_flag": false,
+      "evidence_quote": "The protective coatings on the turbine blades passed the salt-spray test, didn't they?",
+      "reasoning_zh": "附加問句確認渦輪葉片保護塗層是否通過鹽霧測試，(A) 以「事實上，有兩個樣本出現輕微表面腐蝕」回應測試結果；(B) 以 laboratory coats 混淆 protective coatings；(C) 回答頻率時間。"
+    },
+    {
+      "group_id": "ag-g-p2-000406",
+      "item_id": "ag-i-p2-000406-1",
+      "selected_choice_id": "B",
+      "confidence": "high",
+      "ambiguity_flag": false,
+      "evidence_quote": "How are we going to fund the expansion of the Montreal distribution center?",
+      "reasoning_zh": "How 詢問如何為蒙特婁配送中心擴建案籌措資金，(B) 說明董事會仍在權衡銀行貸款與發行債券兩種籌資方案；(A) 回答樓地板面積；(C) 用 Yes 回應 How 疑問句。"
+    },
+    {
+      "group_id": "ag-g-p5-000401",
+      "item_id": "ag-i-p5-000401-1",
+      "selected_choice_id": "A",
+      "confidence": "high",
+      "ambiguity_flag": false,
+      "evidence_quote": "redeem their promotional gift vouchers ____ any checkout counter in the store",
+      "reasoning_zh": "表示「在任何結帳櫃檯」兌換促銷禮券，特定服務櫃檯或定點需搭配介系詞 at（at any checkout counter）。"
+    },
+    {
+      "group_id": "ag-g-p5-000402",
+      "item_id": "ag-i-p5-000402-1",
+      "selected_choice_id": "D",
+      "confidence": "high",
+      "ambiguity_flag": false,
+      "evidence_quote": "require the written ____ of a division supervisor",
+      "reasoning_zh": "定冠詞 the 與形容詞 written 後方、介系詞 of 前方需填入名詞 approval（核准）作為及物動詞 require 的受詞。"
+    },
+    {
+      "group_id": "ag-g-p5-000403",
+      "item_id": "ag-i-p5-000403-1",
+      "selected_choice_id": "B",
+      "confidence": "high",
+      "ambiguity_flag": false,
+      "evidence_quote": "A complimentary shuttle bus runs ____ between the convention center and the downtown train station.",
+      "reasoning_zh": "空格修飾不及物動詞 runs（行駛、運行），需使用副詞 frequently（頻繁地）。"
+    },
+    {
+      "group_id": "ag-g-p5-000404",
+      "item_id": "ag-i-p5-000404-1",
+      "selected_choice_id": "B",
+      "confidence": "high",
+      "ambiguity_flag": false,
+      "evidence_quote": "is significantly ____ than the version distributed two years ago",
+      "reasoning_zh": "be 動詞 is 後接形容詞作主詞補語，且後方有比較級標記 than 與修飾比較級的副詞 significantly，故選比較級形容詞 more comprehensive。"
+    },
+    {
+      "group_id": "ag-g-p5-000405",
+      "item_id": "ag-i-p5-000405-1",
+      "selected_choice_id": "A",
+      "confidence": "high",
+      "ambiguity_flag": false,
+      "evidence_quote": "must ____ every incoming crate for water damage before signing",
+      "reasoning_zh": "inspect something for... 意為「檢查某物是否有（水損）」，符合倉庫人員簽收貨運單據前的驗貨流程；其他選項語意與用法皆不合。"
+    },
+    {
+      "group_id": "ag-g-p5-000406",
+      "item_id": "ag-i-p5-000406-1",
+      "selected_choice_id": "C",
+      "confidence": "high",
+      "ambiguity_flag": false,
+      "evidence_quote": "All expense reports from the Munich trade fair ____ by the regional controller, so reimbursements will be issued tomorrow.",
+      "reasoning_zh": "主詞 expense reports 與動詞 audit 為被動關係（有 by the regional controller），且後半句表示明天將發放核銷款，代表審核已經完成，故選現在完成被動語態 have already been audited。"
+    },
+    {
+      "group_id": "ag-g-p5-000407",
+      "item_id": "ag-i-p5-000407-1",
+      "selected_choice_id": "B",
+      "confidence": "high",
+      "ambiguity_flag": false,
+      "evidence_quote": "a substantial ____ of international distributors logged in live",
+      "reasoning_zh": "後方名詞 international distributors 為複數可數名詞，需搭配 a substantial number of（相當數量的）；amount 與 deal 用於不可數名詞。"
+    },
+    {
+      "group_id": "ag-g-p5-000408",
+      "item_id": "ag-i-p5-000408-1",
+      "selected_choice_id": "A",
+      "confidence": "high",
+      "ambiguity_flag": false,
+      "evidence_quote": "encrypted and archived ____ strict national data-privacy regulations",
+      "reasoning_zh": "in accordance with + 法規（regulations）為標準片語，表示「依據、符合嚴格的國家資料隱私法規」。"
+    },
+    {
+      "group_id": "ag-g-p5-000409",
+      "item_id": "ag-i-p5-000409-1",
+      "selected_choice_id": "A",
+      "confidence": "high",
+      "ambiguity_flag": false,
+      "evidence_quote": "The new lithium battery pack is fully ____ with all handheld scanners",
+      "reasoning_zh": "be compatible with 為固定搭配，表示新款鋰電池組與 2023 年後製造的所有手持掃描器完全「相容」。"
+    },
+    {
+      "group_id": "ag-g-p5-000410",
+      "item_id": "ag-i-p5-000410-1",
+      "selected_choice_id": "B",
+      "confidence": "high",
+      "ambiguity_flag": false,
+      "evidence_quote": "stored in the vault ____ the original property deeds are kept",
+      "reasoning_zh": "先行詞 the vault（金庫）為地點名詞，關係子句 the original property deeds are kept 結構完整，需用關係副詞 where 引導形容詞子句表示「在該金庫中」。"
+    },
+    {
+      "group_id": "ag-g-p5-000411",
+      "item_id": "ag-i-p5-000411-1",
+      "selected_choice_id": "B",
+      "confidence": "high",
+      "ambiguity_flag": false,
+      "evidence_quote": "keep the optical lens assembly room completely ____",
+      "reasoning_zh": "keep + 受詞（the optical lens assembly room）+ 受詞補語（形容詞），且受副詞 completely 修飾，應選形容詞 sterile（無菌的、無塵的）。"
+    },
+    {
+      "group_id": "ag-g-p5-000412",
+      "item_id": "ag-i-p5-000412-1",
+      "selected_choice_id": "A",
+      "confidence": "high",
+      "ambiguity_flag": false,
+      "evidence_quote": "agreed to ____ the expedited shipping surcharge because our order exceeded five hundred units",
+      "reasoning_zh": "waive + surcharge/fee 為常見商務搭配，意為因訂單超過五百件而同意「免除」急件運費附加費。"
+    },
+    {
+      "group_id": "ag-g-p5-000413",
+      "item_id": "ag-i-p5-000413-1",
+      "selected_choice_id": "B",
+      "confidence": "high",
+      "ambiguity_flag": false,
+      "evidence_quote": "the primary metric ____ all regional branch managers will be evaluated",
+      "reasoning_zh": "被動子句還原為 evaluate all regional branch managers by the primary metric，關係子句需保留介系詞 by，故選 by which。"
+    },
+    {
+      "group_id": "ag-g-p5-000414",
+      "item_id": "ag-i-p5-000414-1",
+      "selected_choice_id": "A",
+      "confidence": "high",
+      "ambiguity_flag": false,
+      "evidence_quote": "Only after reviewing three years of audited tax filings ____ the underwriting committee approve",
+      "reasoning_zh": "Only after... 置於句首時，主要子句需採助動詞倒裝；主詞 the underwriting committee 後接原形動詞 approve，故搭配助動詞 did。"
+    },
+    {
+      "group_id": "ag-g-p6-000401",
+      "item_id": "ag-i-p6-000401-1",
+      "selected_choice_id": "B",
+      "confidence": "high",
+      "ambiguity_flag": false,
+      "evidence_quote": "Date: October 18 ... Starting Monday, October 25, our fulfillment center [[blank:ag-i-p6-000401-1]] traditional linear barcodes",
+      "reasoning_zh": "備忘錄日期為 10 月 18 日，而句首時間為 Starting Monday, October 25（自未來週一起），且主詞 fulfillment center 主動執行替換動作，故選未來簡單式 will replace。"
+    },
+    {
+      "group_id": "ag-g-p6-000401",
+      "item_id": "ag-i-p6-000401-2",
+      "selected_choice_id": "A",
+      "confidence": "high",
+      "ambiguity_flag": false,
+      "evidence_quote": "All handheld scanners in Dock Zones 1 through 4 have already received the firmware update needed to read the new labels. [[blank:ag-i-p6-000401-2]] Simply place the scanner in its charging cradle for ten minutes",
+      "reasoning_zh": "前句說明現有手持掃描器已收到讀取新標籤所需的韌體更新，後句說明只需將掃描器放回充電座十分鐘即可，(A)「無須從設備籠領取新硬體」承接上下文最為自然。"
+    },
+    {
+      "group_id": "ag-g-p6-000401",
+      "item_id": "ag-i-p6-000401-3",
+      "selected_choice_id": "A",
+      "confidence": "high",
+      "ambiguity_flag": false,
+      "evidence_quote": "incoming shipments from legacy suppliers may still arrive with linear barcodes. [[blank:ag-i-p6-000401-3]], the updated scanners remain backward-compatible",
+      "reasoning_zh": "前句提到舊供應商的進貨可能仍貼有傳統條碼，後句說明更新後的掃描器保持向下相容並能處理兩種標籤而無須手動切換，屬於令人放心的正面情況，故選 Fortunately（幸運的是）。"
+    },
+    {
+      "group_id": "ag-g-p6-000401",
+      "item_id": "ag-i-p6-000401-4",
+      "selected_choice_id": "A",
+      "confidence": "high",
+      "ambiguity_flag": false,
+      "evidence_quote": "Please direct any technical [[blank:ag-i-p6-000401-4]] to Lead Technician Clara Gomez at extension 4409.",
+      "reasoning_zh": "direct any technical inquiries to Lead Technician... 意為「請將任何技術詢問／問題轉交給首席技術員」，符合備忘錄結尾提供聯絡窗口的語境。"
+    }
+  ]
+}

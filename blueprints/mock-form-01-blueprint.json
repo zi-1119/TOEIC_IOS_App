@@ -1,0 +1,665 @@
+{
+  "schema_version": "1.0.0",
+  "content_schema_version": "1.0.0",
+  "contract_reference": "specs/mock-form-contract-v1.md",
+  "contract_sha256": "0588948a0b61cb43ed9e64abd8b12d35740560108790869f91c11920873a8f6f",
+  "release_status": "unreleased_blueprint_pending_codex_contract_ack_and_200_item_human_qa",
+  "form_id": "mock-form-01",
+  "form_version": 1,
+  "title_zh": "挑戰 990 完整模擬試卷一（藍圖規格，尚未發布）",
+  "pool": "mock",
+  "fixture": false,
+  "reading_time_limit_ms": 4500000,
+  "counts_summary": {
+    "listening_groups": 54,
+    "listening_items": 100,
+    "reading_groups": 49,
+    "reading_items": 100,
+    "total_groups": 103,
+    "total_items": 200,
+    "part7_single_items": 29,
+    "part7_multi_items": 25
+  },
+  "two_batch_packaging_plan": {
+    "source_batch_id": "batch-ag-mock-01-source",
+    "assembly_batch_id": "batch-ag-mock-01-form",
+    "timeline_asset_id": "ag-ast-mock-form-01-listening-timeline",
+    "timeline_asset_path": "assets/mock/mock-form-01/timeline.m4a",
+    "note_zh": "為避免 required_batches.manifest_sha256 自我雜湊循環，200 道 mock 題組先封裝於 source batch，再於 assembly batch 輸出 reports/mock-forms.json 與整卷 timeline.m4a。"
+  },
+  "planned_group_refs": [
+    {
+      "group_id": "ag-g-p1-000121",
+      "version": 1,
+      "part": 1,
+      "expected_item_count": 1
+    },
+    {
+      "group_id": "ag-g-p1-000122",
+      "version": 1,
+      "part": 1,
+      "expected_item_count": 1
+    },
+    {
+      "group_id": "ag-g-p1-000123",
+      "version": 1,
+      "part": 1,
+      "expected_item_count": 1
+    },
+    {
+      "group_id": "ag-g-p1-000124",
+      "version": 1,
+      "part": 1,
+      "expected_item_count": 1
+    },
+    {
+      "group_id": "ag-g-p1-000125",
+      "version": 1,
+      "part": 1,
+      "expected_item_count": 1
+    },
+    {
+      "group_id": "ag-g-p1-000126",
+      "version": 1,
+      "part": 1,
+      "expected_item_count": 1
+    },
+    {
+      "group_id": "ag-g-p2-000501",
+      "version": 1,
+      "part": 2,
+      "expected_item_count": 1
+    },
+    {
+      "group_id": "ag-g-p2-000502",
+      "version": 1,
+      "part": 2,
+      "expected_item_count": 1
+    },
+    {
+      "group_id": "ag-g-p2-000503",
+      "version": 1,
+      "part": 2,
+      "expected_item_count": 1
+    },
+    {
+      "group_id": "ag-g-p2-000504",
+      "version": 1,
+      "part": 2,
+      "expected_item_count": 1
+    },
+    {
+      "group_id": "ag-g-p2-000505",
+      "version": 1,
+      "part": 2,
+      "expected_item_count": 1
+    },
+    {
+      "group_id": "ag-g-p2-000506",
+      "version": 1,
+      "part": 2,
+      "expected_item_count": 1
+    },
+    {
+      "group_id": "ag-g-p2-000507",
+      "version": 1,
+      "part": 2,
+      "expected_item_count": 1
+    },
+    {
+      "group_id": "ag-g-p2-000508",
+      "version": 1,
+      "part": 2,
+      "expected_item_count": 1
+    },
+    {
+      "group_id": "ag-g-p2-000509",
+      "version": 1,
+      "part": 2,
+      "expected_item_count": 1
+    },
+    {
+      "group_id": "ag-g-p2-000510",
+      "version": 1,
+      "part": 2,
+      "expected_item_count": 1
+    },
+    {
+      "group_id": "ag-g-p2-000511",
+      "version": 1,
+      "part": 2,
+      "expected_item_count": 1
+    },
+    {
+      "group_id": "ag-g-p2-000512",
+      "version": 1,
+      "part": 2,
+      "expected_item_count": 1
+    },
+    {
+      "group_id": "ag-g-p2-000513",
+      "version": 1,
+      "part": 2,
+      "expected_item_count": 1
+    },
+    {
+      "group_id": "ag-g-p2-000514",
+      "version": 1,
+      "part": 2,
+      "expected_item_count": 1
+    },
+    {
+      "group_id": "ag-g-p2-000515",
+      "version": 1,
+      "part": 2,
+      "expected_item_count": 1
+    },
+    {
+      "group_id": "ag-g-p2-000516",
+      "version": 1,
+      "part": 2,
+      "expected_item_count": 1
+    },
+    {
+      "group_id": "ag-g-p2-000517",
+      "version": 1,
+      "part": 2,
+      "expected_item_count": 1
+    },
+    {
+      "group_id": "ag-g-p2-000518",
+      "version": 1,
+      "part": 2,
+      "expected_item_count": 1
+    },
+    {
+      "group_id": "ag-g-p2-000519",
+      "version": 1,
+      "part": 2,
+      "expected_item_count": 1
+    },
+    {
+      "group_id": "ag-g-p2-000520",
+      "version": 1,
+      "part": 2,
+      "expected_item_count": 1
+    },
+    {
+      "group_id": "ag-g-p2-000521",
+      "version": 1,
+      "part": 2,
+      "expected_item_count": 1
+    },
+    {
+      "group_id": "ag-g-p2-000522",
+      "version": 1,
+      "part": 2,
+      "expected_item_count": 1
+    },
+    {
+      "group_id": "ag-g-p2-000523",
+      "version": 1,
+      "part": 2,
+      "expected_item_count": 1
+    },
+    {
+      "group_id": "ag-g-p2-000524",
+      "version": 1,
+      "part": 2,
+      "expected_item_count": 1
+    },
+    {
+      "group_id": "ag-g-p2-000525",
+      "version": 1,
+      "part": 2,
+      "expected_item_count": 1
+    },
+    {
+      "group_id": "ag-g-p3-000261",
+      "version": 1,
+      "part": 3,
+      "expected_item_count": 3
+    },
+    {
+      "group_id": "ag-g-p3-000262",
+      "version": 1,
+      "part": 3,
+      "expected_item_count": 3
+    },
+    {
+      "group_id": "ag-g-p3-000263",
+      "version": 1,
+      "part": 3,
+      "expected_item_count": 3
+    },
+    {
+      "group_id": "ag-g-p3-000264",
+      "version": 1,
+      "part": 3,
+      "expected_item_count": 3
+    },
+    {
+      "group_id": "ag-g-p3-000265",
+      "version": 1,
+      "part": 3,
+      "expected_item_count": 3
+    },
+    {
+      "group_id": "ag-g-p3-000266",
+      "version": 1,
+      "part": 3,
+      "expected_item_count": 3
+    },
+    {
+      "group_id": "ag-g-p3-000267",
+      "version": 1,
+      "part": 3,
+      "expected_item_count": 3
+    },
+    {
+      "group_id": "ag-g-p3-000268",
+      "version": 1,
+      "part": 3,
+      "expected_item_count": 3
+    },
+    {
+      "group_id": "ag-g-p3-000269",
+      "version": 1,
+      "part": 3,
+      "expected_item_count": 3
+    },
+    {
+      "group_id": "ag-g-p3-000270",
+      "version": 1,
+      "part": 3,
+      "expected_item_count": 3
+    },
+    {
+      "group_id": "ag-g-p3-000271",
+      "version": 1,
+      "part": 3,
+      "expected_item_count": 3
+    },
+    {
+      "group_id": "ag-g-p3-000272",
+      "version": 1,
+      "part": 3,
+      "expected_item_count": 3
+    },
+    {
+      "group_id": "ag-g-p3-000273",
+      "version": 1,
+      "part": 3,
+      "expected_item_count": 3
+    },
+    {
+      "group_id": "ag-g-p4-000201",
+      "version": 1,
+      "part": 4,
+      "expected_item_count": 3
+    },
+    {
+      "group_id": "ag-g-p4-000202",
+      "version": 1,
+      "part": 4,
+      "expected_item_count": 3
+    },
+    {
+      "group_id": "ag-g-p4-000203",
+      "version": 1,
+      "part": 4,
+      "expected_item_count": 3
+    },
+    {
+      "group_id": "ag-g-p4-000204",
+      "version": 1,
+      "part": 4,
+      "expected_item_count": 3
+    },
+    {
+      "group_id": "ag-g-p4-000205",
+      "version": 1,
+      "part": 4,
+      "expected_item_count": 3
+    },
+    {
+      "group_id": "ag-g-p4-000206",
+      "version": 1,
+      "part": 4,
+      "expected_item_count": 3
+    },
+    {
+      "group_id": "ag-g-p4-000207",
+      "version": 1,
+      "part": 4,
+      "expected_item_count": 3
+    },
+    {
+      "group_id": "ag-g-p4-000208",
+      "version": 1,
+      "part": 4,
+      "expected_item_count": 3
+    },
+    {
+      "group_id": "ag-g-p4-000209",
+      "version": 1,
+      "part": 4,
+      "expected_item_count": 3
+    },
+    {
+      "group_id": "ag-g-p4-000210",
+      "version": 1,
+      "part": 4,
+      "expected_item_count": 3
+    },
+    {
+      "group_id": "ag-g-p5-000601",
+      "version": 1,
+      "part": 5,
+      "expected_item_count": 1
+    },
+    {
+      "group_id": "ag-g-p5-000602",
+      "version": 1,
+      "part": 5,
+      "expected_item_count": 1
+    },
+    {
+      "group_id": "ag-g-p5-000603",
+      "version": 1,
+      "part": 5,
+      "expected_item_count": 1
+    },
+    {
+      "group_id": "ag-g-p5-000604",
+      "version": 1,
+      "part": 5,
+      "expected_item_count": 1
+    },
+    {
+      "group_id": "ag-g-p5-000605",
+      "version": 1,
+      "part": 5,
+      "expected_item_count": 1
+    },
+    {
+      "group_id": "ag-g-p5-000606",
+      "version": 1,
+      "part": 5,
+      "expected_item_count": 1
+    },
+    {
+      "group_id": "ag-g-p5-000607",
+      "version": 1,
+      "part": 5,
+      "expected_item_count": 1
+    },
+    {
+      "group_id": "ag-g-p5-000608",
+      "version": 1,
+      "part": 5,
+      "expected_item_count": 1
+    },
+    {
+      "group_id": "ag-g-p5-000609",
+      "version": 1,
+      "part": 5,
+      "expected_item_count": 1
+    },
+    {
+      "group_id": "ag-g-p5-000610",
+      "version": 1,
+      "part": 5,
+      "expected_item_count": 1
+    },
+    {
+      "group_id": "ag-g-p5-000611",
+      "version": 1,
+      "part": 5,
+      "expected_item_count": 1
+    },
+    {
+      "group_id": "ag-g-p5-000612",
+      "version": 1,
+      "part": 5,
+      "expected_item_count": 1
+    },
+    {
+      "group_id": "ag-g-p5-000613",
+      "version": 1,
+      "part": 5,
+      "expected_item_count": 1
+    },
+    {
+      "group_id": "ag-g-p5-000614",
+      "version": 1,
+      "part": 5,
+      "expected_item_count": 1
+    },
+    {
+      "group_id": "ag-g-p5-000615",
+      "version": 1,
+      "part": 5,
+      "expected_item_count": 1
+    },
+    {
+      "group_id": "ag-g-p5-000616",
+      "version": 1,
+      "part": 5,
+      "expected_item_count": 1
+    },
+    {
+      "group_id": "ag-g-p5-000617",
+      "version": 1,
+      "part": 5,
+      "expected_item_count": 1
+    },
+    {
+      "group_id": "ag-g-p5-000618",
+      "version": 1,
+      "part": 5,
+      "expected_item_count": 1
+    },
+    {
+      "group_id": "ag-g-p5-000619",
+      "version": 1,
+      "part": 5,
+      "expected_item_count": 1
+    },
+    {
+      "group_id": "ag-g-p5-000620",
+      "version": 1,
+      "part": 5,
+      "expected_item_count": 1
+    },
+    {
+      "group_id": "ag-g-p5-000621",
+      "version": 1,
+      "part": 5,
+      "expected_item_count": 1
+    },
+    {
+      "group_id": "ag-g-p5-000622",
+      "version": 1,
+      "part": 5,
+      "expected_item_count": 1
+    },
+    {
+      "group_id": "ag-g-p5-000623",
+      "version": 1,
+      "part": 5,
+      "expected_item_count": 1
+    },
+    {
+      "group_id": "ag-g-p5-000624",
+      "version": 1,
+      "part": 5,
+      "expected_item_count": 1
+    },
+    {
+      "group_id": "ag-g-p5-000625",
+      "version": 1,
+      "part": 5,
+      "expected_item_count": 1
+    },
+    {
+      "group_id": "ag-g-p5-000626",
+      "version": 1,
+      "part": 5,
+      "expected_item_count": 1
+    },
+    {
+      "group_id": "ag-g-p5-000627",
+      "version": 1,
+      "part": 5,
+      "expected_item_count": 1
+    },
+    {
+      "group_id": "ag-g-p5-000628",
+      "version": 1,
+      "part": 5,
+      "expected_item_count": 1
+    },
+    {
+      "group_id": "ag-g-p5-000629",
+      "version": 1,
+      "part": 5,
+      "expected_item_count": 1
+    },
+    {
+      "group_id": "ag-g-p5-000630",
+      "version": 1,
+      "part": 5,
+      "expected_item_count": 1
+    },
+    {
+      "group_id": "ag-g-p6-000081",
+      "version": 1,
+      "part": 6,
+      "expected_item_count": 4
+    },
+    {
+      "group_id": "ag-g-p6-000082",
+      "version": 1,
+      "part": 6,
+      "expected_item_count": 4
+    },
+    {
+      "group_id": "ag-g-p6-000083",
+      "version": 1,
+      "part": 6,
+      "expected_item_count": 4
+    },
+    {
+      "group_id": "ag-g-p6-000084",
+      "version": 1,
+      "part": 6,
+      "expected_item_count": 4
+    },
+    {
+      "group_id": "ag-g-p7-000221",
+      "version": 1,
+      "part": 7,
+      "layout": "single_passage",
+      "expected_item_count": 2
+    },
+    {
+      "group_id": "ag-g-p7-000222",
+      "version": 1,
+      "part": 7,
+      "layout": "single_passage",
+      "expected_item_count": 2
+    },
+    {
+      "group_id": "ag-g-p7-000223",
+      "version": 1,
+      "part": 7,
+      "layout": "single_passage",
+      "expected_item_count": 2
+    },
+    {
+      "group_id": "ag-g-p7-000224",
+      "version": 1,
+      "part": 7,
+      "layout": "single_passage",
+      "expected_item_count": 3
+    },
+    {
+      "group_id": "ag-g-p7-000225",
+      "version": 1,
+      "part": 7,
+      "layout": "single_passage",
+      "expected_item_count": 3
+    },
+    {
+      "group_id": "ag-g-p7-000226",
+      "version": 1,
+      "part": 7,
+      "layout": "single_passage",
+      "expected_item_count": 3
+    },
+    {
+      "group_id": "ag-g-p7-000227",
+      "version": 1,
+      "part": 7,
+      "layout": "single_passage",
+      "expected_item_count": 3
+    },
+    {
+      "group_id": "ag-g-p7-000228",
+      "version": 1,
+      "part": 7,
+      "layout": "single_passage",
+      "expected_item_count": 3
+    },
+    {
+      "group_id": "ag-g-p7-000229",
+      "version": 1,
+      "part": 7,
+      "layout": "single_passage",
+      "expected_item_count": 4
+    },
+    {
+      "group_id": "ag-g-p7-000230",
+      "version": 1,
+      "part": 7,
+      "layout": "single_passage",
+      "expected_item_count": 4
+    },
+    {
+      "group_id": "ag-g-p7-000231",
+      "version": 1,
+      "part": 7,
+      "layout": "double_passage",
+      "expected_item_count": 5
+    },
+    {
+      "group_id": "ag-g-p7-000232",
+      "version": 1,
+      "part": 7,
+      "layout": "double_passage",
+      "expected_item_count": 5
+    },
+    {
+      "group_id": "ag-g-p7-000233",
+      "version": 1,
+      "part": 7,
+      "layout": "double_passage",
+      "expected_item_count": 5
+    },
+    {
+      "group_id": "ag-g-p7-000234",
+      "version": 1,
+      "part": 7,
+      "layout": "triple_passage",
+      "expected_item_count": 5
+    },
+    {
+      "group_id": "ag-g-p7-000235",
+      "version": 1,
+      "part": 7,
+      "layout": "triple_passage",
+      "expected_item_count": 5
+    }
+  ]
+}

@@ -1,0 +1,197 @@
+{
+  "schema_version": "1.0.0",
+  "phase": "phase2_400_expansion",
+  "updated_at": "2026-10-27T16:11:10Z",
+  "pool": "training",
+  "gating_condition_zh": "須先讓現有 100 題閱讀題與四種聽力樣本在 App 完成匯入、作答與解析驗收，始得將第二階段草稿轉為正式匯出批次。",
+  "baseline_accepted_items": 100,
+  "target_cumulative_items": 400,
+  "remaining_quota_items": 300,
+  "part_remaining_quotas": {
+    "1": {
+      "phase1_done": 3,
+      "phase2_target_cumulative": 12,
+      "remaining_to_add": 9
+    },
+    "2": {
+      "phase1_done": 13,
+      "phase2_target_cumulative": 50,
+      "remaining_to_add": 37
+    },
+    "3": {
+      "phase1_done": 18,
+      "phase2_target_cumulative": 78,
+      "remaining_to_add": 60
+    },
+    "4": {
+      "phase1_done": 15,
+      "phase2_target_cumulative": 60,
+      "remaining_to_add": 45
+    },
+    "5": {
+      "phase1_done": 15,
+      "phase2_target_cumulative": 60,
+      "remaining_to_add": 45
+    },
+    "6": {
+      "phase1_done": 8,
+      "phase2_target_cumulative": 32,
+      "remaining_to_add": 24
+    },
+    "7": {
+      "phase1_done": 28,
+      "phase2_target_cumulative": 108,
+      "remaining_to_add": 80
+    }
+  },
+  "planned_jobs": [
+    {
+      "job_id": "job-ag-0008",
+      "output_batch_id": "batch-ag-0008",
+      "parts": [
+        5,
+        6
+      ],
+      "pool": "training",
+      "group_count": 23,
+      "item_count": 32,
+      "status": "draft_in_progress",
+      "unreleased_draft_items_prepared": 10,
+      "retry_count": 0,
+      "description_zh": "Part 5（20題）+ Part 6（3組12題）；目前已於 drafts/phase2-unreleased-batch-ag-0008/ 預備 10 題未發布草稿（Part 5 × 6 + Part 6 × 4），分開統計不計入已發布合格題。"
+    },
+    {
+      "job_id": "job-ag-0009",
+      "output_batch_id": "batch-ag-0009",
+      "parts": [
+        5,
+        6
+      ],
+      "pool": "training",
+      "group_count": 28,
+      "item_count": 37,
+      "status": "planned",
+      "retry_count": 0,
+      "description_zh": "Part 5（25題）+ Part 6（3組12題），完成 400 題里程碑之 Part 5（+45）與 Part 6（+24）全部配額。"
+    },
+    {
+      "job_id": "job-ag-0010",
+      "output_batch_id": "batch-ag-0010",
+      "parts": [
+        1,
+        2
+      ],
+      "pool": "training",
+      "group_count": 23,
+      "item_count": 23,
+      "status": "planned",
+      "retry_count": 0,
+      "description_zh": "Part 1（5題）+ Part 2（18題），涵蓋製造現場、商務會議、物流倉儲與市政工程情境。"
+    },
+    {
+      "job_id": "job-ag-0011",
+      "output_batch_id": "batch-ag-0011",
+      "parts": [
+        1,
+        2
+      ],
+      "pool": "training",
+      "group_count": 23,
+      "item_count": 23,
+      "status": "planned",
+      "retry_count": 0,
+      "description_zh": "Part 1（4題）+ Part 2（19題），完成 400 題里程碑之 Part 1（+9）與 Part 2（+37）全部配額。"
+    },
+    {
+      "job_id": "job-ag-0012",
+      "output_batch_id": "batch-ag-0012",
+      "parts": [
+        3
+      ],
+      "pool": "training",
+      "group_count": 10,
+      "item_count": 30,
+      "status": "planned",
+      "retry_count": 0,
+      "description_zh": "Part 3 簡短對話（10組30題），含三人對話 2 組與圖表整合題 2 組。"
+    },
+    {
+      "job_id": "job-ag-0013",
+      "output_batch_id": "batch-ag-0013",
+      "parts": [
+        3
+      ],
+      "pool": "training",
+      "group_count": 10,
+      "item_count": 30,
+      "status": "planned",
+      "retry_count": 0,
+      "description_zh": "Part 3 簡短對話（10組30題），完成 400 題里程碑之 Part 3（+60）全部配額。"
+    },
+    {
+      "job_id": "job-ag-0014",
+      "output_batch_id": "batch-ag-0014",
+      "parts": [
+        4
+      ],
+      "pool": "training",
+      "group_count": 8,
+      "item_count": 24,
+      "status": "planned",
+      "retry_count": 0,
+      "description_zh": "Part 4 簡短獨白（8組24題），涵蓋機場航班廣播、新產品發表會與園區導覽。"
+    },
+    {
+      "job_id": "job-ag-0015",
+      "output_batch_id": "batch-ag-0015",
+      "parts": [
+        4
+      ],
+      "pool": "training",
+      "group_count": 7,
+      "item_count": 21,
+      "status": "planned",
+      "retry_count": 0,
+      "description_zh": "Part 4 簡短獨白（7組21題），完成 400 題里程碑之 Part 4（+45）全部配額。"
+    },
+    {
+      "job_id": "job-ag-0016",
+      "output_batch_id": "batch-ag-0016",
+      "parts": [
+        7
+      ],
+      "pool": "training",
+      "group_count": 8,
+      "item_count": 26,
+      "status": "planned",
+      "retry_count": 0,
+      "description_zh": "Part 7 單篇閱讀（8組26題），涵蓋企業內部備忘錄、客訴處理信、多人即時訊息串與財經新聞。"
+    },
+    {
+      "job_id": "job-ag-0017",
+      "output_batch_id": "batch-ag-0017",
+      "parts": [
+        7
+      ],
+      "pool": "training",
+      "group_count": 7,
+      "item_count": 29,
+      "status": "planned",
+      "retry_count": 0,
+      "description_zh": "Part 7 單篇（4組14題）+ 雙篇閱讀（3組15題）。"
+    },
+    {
+      "job_id": "job-ag-0018",
+      "output_batch_id": "batch-ag-0018",
+      "parts": [
+        7
+      ],
+      "pool": "training",
+      "group_count": 5,
+      "item_count": 25,
+      "status": "planned",
+      "retry_count": 0,
+      "description_zh": "Part 7 多篇閱讀（雙篇2組10題 + 三篇3組15題），完成 400 題里程碑之 Part 7（+80）全部配額。"
+    }
+  ]
+}

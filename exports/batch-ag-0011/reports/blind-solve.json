@@ -1,0 +1,270 @@
+{
+  "batch_id": "batch-ag-0011",
+  "solver_kind": "ai_isolated_subagent",
+  "blind": true,
+  "solved_at": "2026-10-28T08:44:00Z",
+  "skipped_groups": [],
+  "items": [
+    {
+      "group_id": "ag-g-p5-000016",
+      "item_id": "ag-i-p5-000016-1",
+      "selected_choice_id": "B",
+      "confidence": "high",
+      "ambiguity_flag": false,
+      "evidence_quote": "All department heads must ____ review the updated travel reimbursement guidelines before Friday.",
+      "reasoning_zh": "空格位於助動詞 must 與一般動詞 review 之間，需填入副詞 carefully 修飾動詞 review。"
+    },
+    {
+      "group_id": "ag-g-p5-000017",
+      "item_id": "ag-i-p5-000017-1",
+      "selected_choice_id": "C",
+      "confidence": "high",
+      "ambiguity_flag": false,
+      "evidence_quote": "The orientation workshop was moved to the main auditorium ____ the unexpectedly high number of registrants.",
+      "reasoning_zh": "空格後為名詞片語 the unexpectedly high number of registrants，且語意表原因，故選介系詞片語 due to。其餘選項皆為從屬連接詞，後須接完整子句。"
+    },
+    {
+      "group_id": "ag-g-p5-000018",
+      "item_id": "ag-i-p5-000018-1",
+      "selected_choice_id": "B",
+      "confidence": "high",
+      "ambiguity_flag": false,
+      "evidence_quote": "Two faulty conveyor motors ____ by the night-shift maintenance crew before production resumed at dawn.",
+      "reasoning_zh": "主詞 Two faulty conveyor motors 為動作承受者，且後方有 by the night-shift maintenance crew 與過去時間子句 before production resumed，應使用過去式被動語態 were replaced。"
+    },
+    {
+      "group_id": "ag-g-p5-000019",
+      "item_id": "ag-i-p5-000019-1",
+      "selected_choice_id": "D",
+      "confidence": "high",
+      "ambiguity_flag": false,
+      "evidence_quote": "Ms. Lindqvist decided to audit the third-quarter expense ledger ____ rather than delegating the task to an intern.",
+      "reasoning_zh": "此處需用反身代名詞 herself 作同位語強調主詞 Ms. Lindqvist「親自」查核帳冊，與後方 rather than delegating the task to an intern 形成對比。"
+    },
+    {
+      "group_id": "ag-g-p5-000020",
+      "item_id": "ag-i-p5-000020-1",
+      "selected_choice_id": "A",
+      "confidence": "high",
+      "ambiguity_flag": false,
+      "evidence_quote": "Installing multi-factor authentication on all remote laptops will help ____ unauthorized access to client databases.",
+      "reasoning_zh": "依資安語境，安裝多重要素驗證有助於「防止（prevent）」未經授權存取客戶資料庫。"
+    },
+    {
+      "group_id": "ag-g-p5-000021",
+      "item_id": "ag-i-p5-000021-1",
+      "selected_choice_id": "A",
+      "confidence": "high",
+      "ambiguity_flag": false,
+      "evidence_quote": "Vanguard Freight can guarantee next-day delivery to regional warehouses ____ the purchase order is submitted before 2:00 P.M.",
+      "reasoning_zh": "空格後為完整條件子句，表示「只要（provided that）」採購單於下午兩點前提交，即可保證隔日送達。"
+    },
+    {
+      "group_id": "ag-g-p5-000022",
+      "item_id": "ag-i-p5-000022-1",
+      "selected_choice_id": "C",
+      "confidence": "high",
+      "ambiguity_flag": false,
+      "evidence_quote": "The innovation showcase will feature twelve start-up companies ____ products reduce commercial packaging waste.",
+      "reasoning_zh": "先行詞為 twelve start-up companies，空格後接無冠詞名詞 products，需用所有格關係代名詞 whose 表「這些新創公司的產品」。"
+    },
+    {
+      "group_id": "ag-g-p5-000023",
+      "item_id": "ag-i-p5-000023-1",
+      "selected_choice_id": "A",
+      "confidence": "high",
+      "ambiguity_flag": false,
+      "evidence_quote": "Customers who return unopened electronics within fourteen days of purchase are ____ for a full refund.",
+      "reasoning_zh": "be eligible for 為固定搭配，意為「符合……的資格（可獲得全額退款）」。"
+    },
+    {
+      "group_id": "ag-g-p5-000024",
+      "item_id": "ag-i-p5-000024-1",
+      "selected_choice_id": "C",
+      "confidence": "high",
+      "ambiguity_flag": false,
+      "evidence_quote": "By the time the annex renovation concludes in November, Sterling Law Partners ____ the fourth-floor suite for ten years.",
+      "reasoning_zh": "句首 By the time 搭配現在式表示未來時間點（concludes in November），且句尾有持續時間段 for ten years，主要子句應使用未來完成式 will have occupied。"
+    },
+    {
+      "group_id": "ag-g-p5-000025",
+      "item_id": "ag-i-p5-000025-1",
+      "selected_choice_id": "D",
+      "confidence": "high",
+      "ambiguity_flag": false,
+      "evidence_quote": "All external consultants are required to sign a ____ agreement before reviewing proprietary engineering blueprints.",
+      "reasoning_zh": "confidentiality agreement 為商務常見複合名詞，指「保密協議」。confident 意為「有自信的」，語意不符。"
+    },
+    {
+      "group_id": "ag-g-p5-000026",
+      "item_id": "ag-i-p5-000026-1",
+      "selected_choice_id": "A",
+      "confidence": "high",
+      "ambiguity_flag": false,
+      "evidence_quote": "____ recent fluctuations in global aluminum prices, Kestrel Components will honor its quoted unit rates through December.",
+      "reasoning_zh": "空格後為名詞片語 recent fluctuations in global aluminum prices，前後語意為讓步轉折（「儘管」近期全球鋁價波動，仍將維持原報價），故選介系詞 Notwithstanding。"
+    },
+    {
+      "group_id": "ag-g-p5-000027",
+      "item_id": "ag-i-p5-000027-1",
+      "selected_choice_id": "C",
+      "confidence": "high",
+      "ambiguity_flag": false,
+      "evidence_quote": "____ its third-quarter revenue target by eighteen percent, the Ginza flagship store received the regional excellence award.",
+      "reasoning_zh": "主詞 the Ginza flagship store 主動「超越（exceed）」第三季營收目標，且該動作發生於獲得獎項之前，故用完成式現在分詞構句 Having exceeded。"
+    },
+    {
+      "group_id": "ag-g-p5-000028",
+      "item_id": "ag-i-p5-000028-1",
+      "selected_choice_id": "A",
+      "confidence": "high",
+      "ambiguity_flag": false,
+      "evidence_quote": "The beta release of the acoustic sensor firmware is ____ scheduled for April 14, pending final validation from the quality assurance team.",
+      "reasoning_zh": "後半句提到 pending final validation（尚待品保團隊最終驗證），可知 4 月 14 日為「暫定（tentatively）」排程。"
+    },
+    {
+      "group_id": "ag-g-p5-000029",
+      "item_id": "ag-i-p5-000029-1",
+      "selected_choice_id": "A",
+      "confidence": "high",
+      "ambiguity_flag": false,
+      "evidence_quote": "Portfolios managed by Aurelia Wealth Advisory are structured to generate returns commensurate ____ each client's stated risk tolerance.",
+      "reasoning_zh": "commensurate with 為固定片語搭配，表示「與……相稱／相符」。"
+    },
+    {
+      "group_id": "ag-g-p5-000030",
+      "item_id": "ag-i-p5-000030-1",
+      "selected_choice_id": "C",
+      "confidence": "high",
+      "ambiguity_flag": false,
+      "evidence_quote": "The revised procurement charter stipulates that every subcontractor invoice ____ by work-order code prior to disbursement.",
+      "reasoning_zh": "要求／規定類動詞 stipulates 後接 that 子句時，子句動詞須用假設語氣（省略 should 的原形動詞），且發票為「被逐項列舉」，故選被動原形 be itemized。"
+    },
+    {
+      "group_id": "ag-g-p5-000031",
+      "item_id": "ag-i-p5-000031-1",
+      "selected_choice_id": "A",
+      "confidence": "high",
+      "ambiguity_flag": false,
+      "evidence_quote": "Under no circumstances ____ unsealed diagnostic specimens be left unattended on the centrifuge counter.",
+      "reasoning_zh": "否定副詞片語 Under no circumstances 置於句首時須觸發主詞與助動詞倒裝，配合後方的原形被動 be left，應填入助動詞 should。"
+    },
+    {
+      "group_id": "ag-g-p6-000003",
+      "item_id": "ag-i-p6-000003-1",
+      "selected_choice_id": "B",
+      "confidence": "high",
+      "ambiguity_flag": false,
+      "evidence_quote": "Beginning November 1, the passenger elevators in Crestview Commercial Tower [[blank:ag-i-p6-000003-1]] with upgraded optical keycard readers on all floors.",
+      "reasoning_zh": "備忘錄日期為 10 月 12 日，句首 Beginning November 1 指未來時間，且主詞 elevators 與動詞 equip 為被動關係（be equipped with），故選未來被動語態 will be equipped。"
+    },
+    {
+      "group_id": "ag-g-p6-000003",
+      "item_id": "ag-i-p6-000003-2",
+      "selected_choice_id": "A",
+      "confidence": "high",
+      "ambiguity_flag": false,
+      "evidence_quote": "Each tenant company will receive replacement smart badges for all registered staff members at no extra charge. [[blank:ag-i-p6-000003-2]] Your office administrator must submit an updated employee roster through the tenant portal by October 22 so that the badges can be encoded accurately.",
+      "reasoning_zh": "前句說明將免費發放新智慧感應卡，後句要求於 10 月 22 日前提交員工名冊以利編碼，選項 A「現有磁條卡將於 10 月 31 日午夜自動失效」能自然銜接新舊卡轉換的時程與必要性。"
+    },
+    {
+      "group_id": "ag-g-p6-000003",
+      "item_id": "ag-i-p6-000003-3",
+      "selected_choice_id": "A",
+      "confidence": "high",
+      "ambiguity_flag": false,
+      "evidence_quote": "Temporary visitor passes will still be issued at the ground-floor concierge desk upon presentation of a photo ID. [[blank:ag-i-p6-000003-3]], couriers making recurring daily deliveries may apply for a vendor access badge valid for the loading dock elevator.",
+      "reasoning_zh": "前句說明臨時訪客通行證的發放方式，本句補充說明每日定期送貨員可申請貨梯專用通行證，兩者為並列補充關係，故選 In addition。"
+    },
+    {
+      "group_id": "ag-g-p6-000003",
+      "item_id": "ag-i-p6-000003-4",
+      "selected_choice_id": "A",
+      "confidence": "high",
+      "ambiguity_flag": false,
+      "evidence_quote": "We appreciate your [[blank:ag-i-p6-000003-4]] as our technicians complete the installation over the next two weekends.",
+      "reasoning_zh": "商務通知結尾慣用語，感謝租戶在技師於接下來兩個週末進行安裝工程期間的「配合（cooperation）」。"
+    },
+    {
+      "group_id": "ag-g-p6-000004",
+      "item_id": "ag-i-p6-000004-1",
+      "selected_choice_id": "C",
+      "confidence": "high",
+      "ambiguity_flag": false,
+      "evidence_quote": "Because of these [[blank:ag-i-p6-000004-1]] results, our editorial board would like to profile Solis Logistics in our upcoming Client Spotlight report.",
+      "reasoning_zh": "空格位於指示形容詞 these 與名詞 results 之間，需用形容詞 impressive（令人印象深刻的）修飾成果。"
+    },
+    {
+      "group_id": "ag-g-p6-000004",
+      "item_id": "ag-i-p6-000004-2",
+      "selected_choice_id": "A",
+      "confidence": "high",
+      "ambiguity_flag": false,
+      "evidence_quote": "Participation would involve a 30-minute video interview with our communications writer next week. [[blank:ag-i-p6-000004-2]] Nothing will be published without your legal department's written sign-off.",
+      "reasoning_zh": "前句提及下週進行 30 分鐘視訊專訪，後句保證未經貴司法務部門書面核准絕不刊登，選項 A「在排版前我們會將完整草稿寄給您審閱」完美串聯專訪後到正式刊登前的審稿流程。"
+    },
+    {
+      "group_id": "ag-g-p6-000004",
+      "item_id": "ag-i-p6-000004-3",
+      "selected_choice_id": "B",
+      "confidence": "high",
+      "ambiguity_flag": false,
+      "evidence_quote": "As a token of appreciation, participating partner organizations receive two complimentary passes to our Transport Tech Summit in Chicago this November. [[blank:ag-i-p6-000004-3]], your company logo and sustainability metrics will be featured on our conference main stage.",
+      "reasoning_zh": "前句說明受訪夥伴可獲贈兩張峰會免費通行證，本句進一步指出公司標誌與永續數據也將在大會主舞台展示，屬遞進補充關係，故選 Moreover。"
+    },
+    {
+      "group_id": "ag-g-p6-000004",
+      "item_id": "ag-i-p6-000004-4",
+      "selected_choice_id": "A",
+      "confidence": "high",
+      "ambiguity_flag": false,
+      "evidence_quote": "Please let me know by Friday whether you would like to [[blank:ag-i-p6-000004-4]] with the interview.",
+      "reasoning_zh": "proceed with 為固定搭配，意為「繼續進行／著手進行（這項專訪）」。"
+    },
+    {
+      "group_id": "ag-g-p7-000008",
+      "item_id": "ag-i-p7-000008-1",
+      "selected_choice_id": "A",
+      "confidence": "high",
+      "ambiguity_flag": false,
+      "evidence_quote": "Standard dinnerware sets purchased from our showroom shelves may be exchanged or returned for a full refund within 30 days of purchase, provided they are unused and accompanied by the original printed receipt.",
+      "reasoning_zh": "第一段明文規定，標準餐具組若要辦理全額退款，必須在購買後 30 天內退回未使用之商品並附上原始紙本收據，對應選項 A。"
+    },
+    {
+      "group_id": "ag-g-p7-000008",
+      "item_id": "ag-i-p7-000008-2",
+      "selected_choice_id": "B",
+      "confidence": "high",
+      "ambiguity_flag": false,
+      "evidence_quote": "However, if any item arrives with a manufacturing crack or glaze defect, our studio will fire and ship a replacement piece at no cost if you e-mail photographs of the damage to support@hearthstoneceramics.com within 72 hours of delivery.",
+      "reasoning_zh": "第二段指出，若客製品送達時有製造裂痕或釉面瑕疵，只要在到貨 72 小時（即三天）內透過電子郵件寄送損壞照片，工作室將免費重燒並寄送替換品，對應選項 B。"
+    },
+    {
+      "group_id": "ag-g-p7-000009",
+      "item_id": "ag-i-p7-000009-1",
+      "selected_choice_id": "A",
+      "confidence": "high",
+      "ambiguity_flag": false,
+      "evidence_quote": "On Thursday, November 7, Packaging Line B will be taken offline from 1:00 P.M. to 5:00 P.M. so that engineers from Viktoria Optics can calibrate the high-speed fill-level sensors.",
+      "reasoning_zh": "第一段首句說明 B 包裝線於週四下午停機是為了讓光學工程師校準高速液位感測器（calibrate the high-speed fill-level sensors），對應選項 A。"
+    },
+    {
+      "group_id": "ag-g-p7-000009",
+      "item_id": "ag-i-p7-000009-2",
+      "selected_choice_id": "C",
+      "confidence": "high",
+      "ambiguity_flag": false,
+      "evidence_quote": "To avoid delaying our Friday shipment to Munich, afternoon bottling runs originally assigned to Line B will be rerouted to Packaging Line A and Packaging Line C.",
+      "reasoning_zh": "第二段首句說明，為避免延誤週五運往慕尼黑的貨件，原定於 B 線的裝瓶作業將改由 A 線與 C 線負責，對應選項 C。"
+    },
+    {
+      "group_id": "ag-g-p7-000009",
+      "item_id": "ag-i-p7-000009-3",
+      "selected_choice_id": "B",
+      "confidence": "high",
+      "ambiguity_flag": false,
+      "evidence_quote": "Recent quality audits showed a slight variance in bottle fill volumes during peak throughput, and this preventive adjustment will ensure full compliance with European export standards. [[position:2]]",
+      "reasoning_zh": "待插入句「目前並無產品未達安全標準，但現在微調設備將可避免日後產生昂貴的退貨」承接 [2] 前方關於品質稽核發現微小容量誤差及確保符合歐洲出口標準的說明，故置於 [2] 最為順暢。"
+    }
+  ]
+}

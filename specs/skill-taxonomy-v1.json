@@ -1,0 +1,139 @@
+{
+  "taxonomy_version": "1.0.0",
+  "contract_version": "1.0.0",
+  "updated_at": "2026-10-27T11:36:00Z",
+  "skills": [
+    {
+      "tag": "photo_action",
+      "zh_name": "圖片中的動作",
+      "applicable_parts": [1],
+      "description_zh": "辨識照片中人物正在進行的動作或操作行為。"
+    },
+    {
+      "tag": "photo_state_location",
+      "zh_name": "圖片中的狀態與位置",
+      "applicable_parts": [1],
+      "description_zh": "辨識照片中物件或場景的排列狀態、空間位置與環境特徵。"
+    },
+    {
+      "tag": "question_function",
+      "zh_name": "辨識問句／陳述的溝通功能",
+      "applicable_parts": [2],
+      "description_zh": "聽辨問題或陳述句的疑問詞（WH）、是非、選擇、提議、請求或資訊確認功能。"
+    },
+    {
+      "tag": "direct_response",
+      "zh_name": "直接回應",
+      "applicable_parts": [2],
+      "description_zh": "針對問題提供直接、符合語法與語境預期的回答。"
+    },
+    {
+      "tag": "indirect_response",
+      "zh_name": "間接回應",
+      "applicable_parts": [2, 3],
+      "description_zh": "透過說明原因、轉移責任、表達未知或提出替代方案等自然口語方式間接回應。"
+    },
+    {
+      "tag": "main_idea_purpose",
+      "zh_name": "主旨與目的",
+      "applicable_parts": [3, 4, 7],
+      "description_zh": "歸納對話、獨白或文件的核心主題、溝通目的或發話場合。"
+    },
+    {
+      "tag": "explicit_detail",
+      "zh_name": "明示細節",
+      "applicable_parts": [3, 4, 7],
+      "description_zh": "定位並理解對話、獨白或文章中明確提及的具體事實、時間、地點、人物或數值。"
+    },
+    {
+      "tag": "paraphrase",
+      "zh_name": "同義改寫",
+      "applicable_parts": [1, 2, 3, 4, 6, 7],
+      "description_zh": "將原文或音訊中的詞彙與句構轉換為不同表達但語意等價的選項。"
+    },
+    {
+      "tag": "speaker_intent",
+      "zh_name": "說話者意圖",
+      "applicable_parts": [2, 3, 4, 7],
+      "description_zh": "根據上下文理解說話者或作者某句話背後的言外之意與語用意圖。"
+    },
+    {
+      "tag": "next_action",
+      "zh_name": "下一步行動",
+      "applicable_parts": [3, 4, 7],
+      "description_zh": "判斷對話角色、聽眾或收件人接下來即將執行的具體行動。"
+    },
+    {
+      "tag": "inference",
+      "zh_name": "有文本依據的推論",
+      "applicable_parts": [3, 4, 6, 7],
+      "description_zh": "依據既有對話或文本線索進行合乎邏輯的推論，而非憑空臆測。"
+    },
+    {
+      "tag": "graphic_integration",
+      "zh_name": "音訊與圖表整合",
+      "applicable_parts": [3, 4],
+      "description_zh": "結合聽力音訊資訊與畫面上的表格、時程、平面圖或清單進行交叉比對。"
+    },
+    {
+      "tag": "word_form",
+      "zh_name": "詞性與字形",
+      "applicable_parts": [5, 6],
+      "description_zh": "根據句子結構判斷空格所需的詞性（名詞、動詞、形容詞、副詞）與派生字形。"
+    },
+    {
+      "tag": "verb_form_agreement",
+      "zh_name": "動詞形式、時態與一致性",
+      "applicable_parts": [5, 6],
+      "description_zh": "判斷主詞與動詞單複數一致、時態、主動／被動語態及非限定動詞（不定詞、動名詞、分詞）。"
+    },
+    {
+      "tag": "preposition_collocation",
+      "zh_name": "介系詞與搭配",
+      "applicable_parts": [5, 6],
+      "description_zh": "辨識正確的介系詞用法、片語搭配及商務慣用動詞／名詞搭配。"
+    },
+    {
+      "tag": "connector_clause",
+      "zh_name": "連接詞與子句關係",
+      "applicable_parts": [5, 6],
+      "description_zh": "區分對等連接詞、從屬連接詞、介系詞片語、關係代名詞／副詞與名詞子句結構。"
+    },
+    {
+      "tag": "vocabulary_in_context",
+      "zh_name": "語境詞義",
+      "applicable_parts": [5, 6, 7],
+      "description_zh": "依據前後文語境選出語意最貼切的單字或辨析文章中特定字詞的語境意義。"
+    },
+    {
+      "tag": "reference_cohesion",
+      "zh_name": "指涉與篇章連貫",
+      "applicable_parts": [6, 7],
+      "description_zh": "掌握代名詞指涉、轉折副詞與段落前後句的邏輯銜接。"
+    },
+    {
+      "tag": "sentence_insertion",
+      "zh_name": "句子插入",
+      "applicable_parts": [6, 7],
+      "description_zh": "根據篇章脈絡、指涉線索與因果轉折，將完整句子放入最合適的段落空格或插入點。"
+    },
+    {
+      "tag": "cross_document",
+      "zh_name": "跨文件整合",
+      "applicable_parts": [7],
+      "description_zh": "綜合兩篇或三篇文件（如信件、時程表、帳單、公告）的多重資訊才能推得答案。"
+    },
+    {
+      "tag": "conditions_exceptions",
+      "zh_name": "條件與例外",
+      "applicable_parts": [3, 4, 5, 6, 7],
+      "description_zh": "辨識退換貨規定、優惠門檻、資格限制或合約條款中的條件與例外情況。"
+    },
+    {
+      "tag": "chronology",
+      "zh_name": "時序關係",
+      "applicable_parts": [3, 4, 6, 7],
+      "description_zh": "釐清事件發生的先後順序、截止期限變動或跨階段時程安排。"
+    }
+  ]
+}

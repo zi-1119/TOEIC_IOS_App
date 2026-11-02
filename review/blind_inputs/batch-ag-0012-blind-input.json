@@ -1,0 +1,1037 @@
+{
+  "batch_id": "batch-ag-0012",
+  "pool": "diagnostic",
+  "instructions": "Independent context-isolated blind solve input. All answer_choice_id, evidence, explanation_zh, and distractor_notes have been stripped. Solve each item independently.",
+  "groups": [
+    {
+      "group_id": "ag-g-p1-000301",
+      "part": 1,
+      "layout": "photo",
+      "scenario": "travel_hotel_airport",
+      "blind_solvable": true,
+      "stimulus": {
+        "documents": [],
+        "speakers": [
+          {
+            "speaker_id": "spk1",
+            "role": "Narrator (Female)",
+            "accent": "us"
+          }
+        ],
+        "audio_script": [
+          {
+            "segment_id": "seg1",
+            "speaker_id": "spk1",
+            "text_en": "(A) A gate agent is scanning a passenger's boarding pass."
+          },
+          {
+            "segment_id": "seg2",
+            "speaker_id": "spk1",
+            "text_en": "(B) A flight attendant is stowing luggage in an overhead bin."
+          },
+          {
+            "segment_id": "seg3",
+            "speaker_id": "spk1",
+            "text_en": "(C) Passengers are boarding an aircraft via an outdoor stairway."
+          },
+          {
+            "segment_id": "seg4",
+            "speaker_id": "spk1",
+            "text_en": "(D) A maintenance crew is inspecting the wing of an airplane."
+          }
+        ]
+      },
+      "items": [
+        {
+          "item_id": "ag-i-p1-000301-1",
+          "prompt_en": "Look at the photograph and listen to the four statements. Choose the statement that best describes what you see in the picture.",
+          "choices": [
+            {
+              "id": "A",
+              "text_en": "A gate agent is scanning a passenger's boarding pass."
+            },
+            {
+              "id": "B",
+              "text_en": "A flight attendant is stowing luggage in an overhead bin."
+            },
+            {
+              "id": "C",
+              "text_en": "Passengers are boarding an aircraft via an outdoor stairway."
+            },
+            {
+              "id": "D",
+              "text_en": "A maintenance crew is inspecting the wing of an airplane."
+            }
+          ]
+        }
+      ],
+      "image_path": "/Users/ziii/Desktop/TOEIC_IOS_App/drafts/batch-ag-0009/assets/images/ag-ast-p1-000301-image.jpg"
+    },
+    {
+      "group_id": "ag-g-p2-000301",
+      "part": 2,
+      "layout": "question_response",
+      "scenario": "meetings_scheduling",
+      "blind_solvable": true,
+      "stimulus": {
+        "documents": [],
+        "speakers": [
+          {
+            "speaker_id": "spk1",
+            "role": "Questioner (Male Clerk)",
+            "accent": "us"
+          },
+          {
+            "speaker_id": "spk2",
+            "role": "Responder (Female Coordinator)",
+            "accent": "uk"
+          }
+        ],
+        "audio_script": [
+          {
+            "segment_id": "seg1",
+            "speaker_id": "spk1",
+            "text_en": "Where should we set up the projector for the client briefing?"
+          },
+          {
+            "segment_id": "seg2",
+            "speaker_id": "spk2",
+            "text_en": "(A) In the third-floor boardroom."
+          },
+          {
+            "segment_id": "seg3",
+            "speaker_id": "spk2",
+            "text_en": "(B) At two thirty this afternoon."
+          },
+          {
+            "segment_id": "seg4",
+            "speaker_id": "spk2",
+            "text_en": "(C) Yes, the slides are ready."
+          }
+        ]
+      },
+      "items": [
+        {
+          "item_id": "ag-i-p2-000301-1",
+          "prompt_en": "Listen to the question or statement and three responses. Choose the best response.",
+          "choices": [
+            {
+              "id": "A",
+              "text_en": "In the third-floor boardroom."
+            },
+            {
+              "id": "B",
+              "text_en": "At two thirty this afternoon."
+            },
+            {
+              "id": "C",
+              "text_en": "Yes, the slides are ready."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "group_id": "ag-g-p2-000302",
+      "part": 2,
+      "layout": "question_response",
+      "scenario": "finance_budgeting_invoicing",
+      "blind_solvable": true,
+      "stimulus": {
+        "documents": [],
+        "speakers": [
+          {
+            "speaker_id": "spk1",
+            "role": "Questioner (Female Manager)",
+            "accent": "uk"
+          },
+          {
+            "speaker_id": "spk2",
+            "role": "Responder (Male Analyst)",
+            "accent": "us"
+          }
+        ],
+        "audio_script": [
+          {
+            "segment_id": "seg1",
+            "speaker_id": "spk1",
+            "text_en": "When will the preliminary revenue forecast be distributed to the vice presidents?"
+          },
+          {
+            "segment_id": "seg2",
+            "speaker_id": "spk2",
+            "text_en": "(A) Higher than last quarter's sales."
+          },
+          {
+            "segment_id": "seg3",
+            "speaker_id": "spk2",
+            "text_en": "(B) As soon as the European branch submits its figures."
+          },
+          {
+            "segment_id": "seg4",
+            "speaker_id": "spk2",
+            "text_en": "(C) From the accounting department."
+          }
+        ]
+      },
+      "items": [
+        {
+          "item_id": "ag-i-p2-000302-1",
+          "prompt_en": "Listen to the question or statement and three responses. Choose the best response.",
+          "choices": [
+            {
+              "id": "A",
+              "text_en": "Higher than last quarter's sales."
+            },
+            {
+              "id": "B",
+              "text_en": "As soon as the European branch submits its figures."
+            },
+            {
+              "id": "C",
+              "text_en": "From the accounting department."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "group_id": "ag-g-p2-000303",
+      "part": 2,
+      "layout": "question_response",
+      "scenario": "logistics_supply_chain",
+      "blind_solvable": true,
+      "stimulus": {
+        "documents": [],
+        "speakers": [
+          {
+            "speaker_id": "spk1",
+            "role": "Questioner (Female Supervisor)",
+            "accent": "au"
+          },
+          {
+            "speaker_id": "spk2",
+            "role": "Responder (Male Coordinator)",
+            "accent": "us"
+          }
+        ],
+        "audio_script": [
+          {
+            "segment_id": "seg1",
+            "speaker_id": "spk1",
+            "text_en": "Haven't the replacement gaskets for the bottling machine arrived from Osaka yet?"
+          },
+          {
+            "segment_id": "seg2",
+            "speaker_id": "spk2",
+            "text_en": "(A) No, they're made of synthetic rubber."
+          },
+          {
+            "segment_id": "seg3",
+            "speaker_id": "spk2",
+            "text_en": "(B) I'll check the receiving dock log right now."
+          },
+          {
+            "segment_id": "seg4",
+            "speaker_id": "spk2",
+            "text_en": "(C) For the morning production shift."
+          }
+        ]
+      },
+      "items": [
+        {
+          "item_id": "ag-i-p2-000303-1",
+          "prompt_en": "Listen to the question or statement and three responses. Choose the best response.",
+          "choices": [
+            {
+              "id": "A",
+              "text_en": "No, they're made of synthetic rubber."
+            },
+            {
+              "id": "B",
+              "text_en": "I'll check the receiving dock log right now."
+            },
+            {
+              "id": "C",
+              "text_en": "For the morning production shift."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "group_id": "ag-g-p2-000304",
+      "part": 2,
+      "layout": "question_response",
+      "scenario": "office_administration",
+      "blind_solvable": true,
+      "stimulus": {
+        "documents": [],
+        "speakers": [
+          {
+            "speaker_id": "spk1",
+            "role": "Questioner (Male Officer)",
+            "accent": "us"
+          },
+          {
+            "speaker_id": "spk2",
+            "role": "Responder (Female Assistant)",
+            "accent": "uk"
+          }
+        ],
+        "audio_script": [
+          {
+            "segment_id": "seg1",
+            "speaker_id": "spk1",
+            "text_en": "The high-speed copier in the marketing wing is jamming again."
+          },
+          {
+            "segment_id": "seg2",
+            "speaker_id": "spk2",
+            "text_en": "(A) You can print your handouts on the machine near the reception desk."
+          },
+          {
+            "segment_id": "seg3",
+            "speaker_id": "spk2",
+            "text_en": "(B) Yes, fifty copies bound in folders."
+          },
+          {
+            "segment_id": "seg4",
+            "speaker_id": "spk2",
+            "text_en": "(C) The marketing director returned yesterday."
+          }
+        ]
+      },
+      "items": [
+        {
+          "item_id": "ag-i-p2-000304-1",
+          "prompt_en": "Listen to the question or statement and three responses. Choose the best response.",
+          "choices": [
+            {
+              "id": "A",
+              "text_en": "You can print your handouts on the machine near the reception desk."
+            },
+            {
+              "id": "B",
+              "text_en": "Yes, fifty copies bound in folders."
+            },
+            {
+              "id": "C",
+              "text_en": "The marketing director returned yesterday."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "group_id": "ag-g-p3-000301",
+      "part": 3,
+      "layout": "conversation",
+      "scenario": "hr_recruitment_training",
+      "blind_solvable": true,
+      "stimulus": {
+        "documents": [],
+        "speakers": [
+          {
+            "speaker_id": "spk1",
+            "role": "Female Coordinator (Elena)",
+            "accent": "us"
+          },
+          {
+            "speaker_id": "spk2",
+            "role": "Male Instructor (Graham)",
+            "accent": "uk"
+          }
+        ],
+        "audio_script": [
+          {
+            "segment_id": "seg1",
+            "speaker_id": "spk1",
+            "text_en": "Hi Graham, I'm finalizing the room assignments for Thursday's cybersecurity onboarding session. Are we still expecting eighteen new hires?"
+          },
+          {
+            "segment_id": "seg2",
+            "speaker_id": "spk2",
+            "text_en": "Actually, Elena, the engineering division just added six software developers who transferred from our Dublin office, so we'll have twenty-four participants in total."
+          },
+          {
+            "segment_id": "seg3",
+            "speaker_id": "spk1",
+            "text_en": "In that case, Training Room B won't have enough workstations. Every attendee needs a desktop terminal for the password-encryption lab."
+          },
+          {
+            "segment_id": "seg4",
+            "speaker_id": "spk2",
+            "text_en": "Could we reserve the Digital Media Lab on the fifth floor instead? It has thirty terminals and a dual-screen podium."
+          },
+          {
+            "segment_id": "seg5",
+            "speaker_id": "spk1",
+            "text_en": "Good idea. I'll update the calendar invitation right now and ask IT support to preload the training sandbox on those computers."
+          }
+        ]
+      },
+      "items": [
+        {
+          "item_id": "ag-i-p3-000301-1",
+          "prompt_en": "Why has the number of session participants increased?",
+          "choices": [
+            {
+              "id": "A",
+              "text_en": "A client company requested guest passes for its auditors."
+            },
+            {
+              "id": "B",
+              "text_en": "Six software developers transferred from the Dublin branch."
+            },
+            {
+              "id": "C",
+              "text_en": "Friday's orientation class was canceled due to weather."
+            },
+            {
+              "id": "D",
+              "text_en": "Summer interns were required to retake the examination."
+            }
+          ]
+        },
+        {
+          "item_id": "ag-i-p3-000301-2",
+          "prompt_en": "Why is Training Room B no longer suitable?",
+          "choices": [
+            {
+              "id": "A",
+              "text_en": "Its projector bulb burned out this morning."
+            },
+            {
+              "id": "B",
+              "text_en": "It is being repainted by the facilities crew."
+            },
+            {
+              "id": "C",
+              "text_en": "It does not have enough computer workstations for everyone."
+            },
+            {
+              "id": "D",
+              "text_en": "It is located in a different building across town."
+            }
+          ]
+        },
+        {
+          "item_id": "ag-i-p3-000301-3",
+          "prompt_en": "What will the woman ask the IT support team to do?",
+          "choices": [
+            {
+              "id": "A",
+              "text_en": "Install practice software on the fifth-floor computers"
+            },
+            {
+              "id": "B",
+              "text_en": "Order six additional monitors from a supplier"
+            },
+            {
+              "id": "C",
+              "text_en": "Reset the building's Wi-Fi router before Thursday"
+            },
+            {
+              "id": "D",
+              "text_en": "Print paper manuals for the Dublin transfers"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "group_id": "ag-g-p3-000302",
+      "part": 3,
+      "layout": "conversation",
+      "scenario": "logistics_supply_chain",
+      "blind_solvable": true,
+      "stimulus": {
+        "documents": [
+          {
+            "doc_id": "ag-doc-p3-000302-1",
+            "doc_type": "schedule",
+            "title_en": "Port of Rotterdam — Refrigerated Container Bay Roster",
+            "blocks": [
+              {
+                "block_id": "ag-blk-p3-000302-1",
+                "type": "table",
+                "columns": [
+                  "Bay ID",
+                  "Cargo Type",
+                  "Target Temp",
+                  "Assigned Carrier"
+                ],
+                "rows": [
+                  [
+                    "Bay R-12",
+                    "Dairy Products",
+                    "+3°C",
+                    "Nordic Sea Line"
+                  ],
+                  [
+                    "Bay R-15",
+                    "Fresh Cut Flowers",
+                    "+6°C",
+                    "Tulip Express"
+                  ],
+                  [
+                    "Bay R-19",
+                    "Frozen Seafood",
+                    "-18°C",
+                    "Baltic Star Cargo"
+                  ],
+                  [
+                    "Bay R-24",
+                    "Pharmaceuticals",
+                    "+2°C",
+                    "Helios MedTrans"
+                  ]
+                ]
+              }
+            ]
+          }
+        ],
+        "speakers": [
+          {
+            "speaker_id": "spk1",
+            "role": "Male Dispatcher (Henrik)",
+            "accent": "uk"
+          },
+          {
+            "speaker_id": "spk2",
+            "role": "Female Engineer (Sonia)",
+            "accent": "au"
+          }
+        ],
+        "audio_script": [
+          {
+            "segment_id": "seg1",
+            "speaker_id": "spk1",
+            "text_en": "Sonia, our monitoring console just triggered a voltage warning in the refrigerated yard. We have a shipment of fresh cut flowers arriving in twenty minutes that needs a stable plus-six-degree bay."
+          },
+          {
+            "segment_id": "seg2",
+            "speaker_id": "spk2",
+            "text_en": "Let me look at the power diagnostic screen. Yes, the transformer feeding the bay assigned to Tulip Express had a circuit breaker trip during the rainstorm."
+          },
+          {
+            "segment_id": "seg3",
+            "speaker_id": "spk1",
+            "text_en": "Can your crew restore power before the delivery trucks pull up to the gate?"
+          },
+          {
+            "segment_id": "seg4",
+            "speaker_id": "spk2",
+            "text_en": "Replacing the moisture seal on that breaker will take at least ninety minutes. For now, you should direct the trucks to Spare Bay R-30 next to the main office—I've already set its thermostat to six degrees."
+          }
+        ]
+      },
+      "items": [
+        {
+          "item_id": "ag-i-p3-000302-1",
+          "prompt_en": "What problem are the speakers discussing?",
+          "choices": [
+            {
+              "id": "A",
+              "text_en": "An electrical fault at a refrigerated storage bay"
+            },
+            {
+              "id": "B",
+              "text_en": "A customs paperwork delay at the port entrance"
+            },
+            {
+              "id": "C",
+              "text_en": "A shortage of licensed forklift operators"
+            },
+            {
+              "id": "D",
+              "text_en": "A shipping vessel that arrived two days late"
+            }
+          ]
+        },
+        {
+          "item_id": "ag-i-p3-000302-2",
+          "prompt_en": "Look at the graphic. Which bay is currently experiencing a power issue?",
+          "choices": [
+            {
+              "id": "A",
+              "text_en": "Bay R-12"
+            },
+            {
+              "id": "B",
+              "text_en": "Bay R-15"
+            },
+            {
+              "id": "C",
+              "text_en": "Bay R-19"
+            },
+            {
+              "id": "D",
+              "text_en": "Bay R-24"
+            }
+          ]
+        },
+        {
+          "item_id": "ag-i-p3-000302-3",
+          "prompt_en": "What does the woman recommend doing with the incoming delivery?",
+          "choices": [
+            {
+              "id": "A",
+              "text_en": "Returning the cargo to the greenhouse until tomorrow"
+            },
+            {
+              "id": "B",
+              "text_en": "Keeping the flowers inside the delivery trucks for ninety minutes"
+            },
+            {
+              "id": "C",
+              "text_en": "Unloading the shipment into a backup bay near the main office"
+            },
+            {
+              "id": "D",
+              "text_en": "Lowering the temperature in Bay R-19 to minus eighteen degrees"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "group_id": "ag-g-p4-000301",
+      "part": 4,
+      "layout": "talk",
+      "scenario": "product_development_rd",
+      "blind_solvable": true,
+      "stimulus": {
+        "documents": [],
+        "speakers": [
+          {
+            "speaker_id": "spk1",
+            "role": "Female Director (Dr. Lin)",
+            "accent": "us"
+          }
+        ],
+        "audio_script": [
+          {
+            "segment_id": "seg1",
+            "speaker_id": "spk1",
+            "text_en": "Good morning, everyone. Thank you for joining this update on the Solaris portable water purifier. Last week, our external testing lab in Zurich completed the durability trials on the ceramic filter cartridge."
+          },
+          {
+            "segment_id": "seg2",
+            "speaker_id": "spk1",
+            "text_en": "While the filtration purity exceeded ninety-nine point nine percent, the plastic latch on the outer housing cracked after three hundred drop cycles. Now, we certainly don't want outdoor hikers dealing with a loose cover on the trail."
+          },
+          {
+            "segment_id": "seg3",
+            "speaker_id": "spk1",
+            "text_en": "Therefore, our mechanical engineering team has redesigned the latch using reinforced nylon, which adds only twelve cents per unit to our manufacturing cost and keeps us well within budget."
+          },
+          {
+            "segment_id": "seg4",
+            "speaker_id": "spk1",
+            "text_en": "Modified molds have already been sent to the injection-molding plant, and we will review the new prototype samples at our Friday morning meeting."
+          }
+        ]
+      },
+      "items": [
+        {
+          "item_id": "ag-i-p4-000301-1",
+          "prompt_en": "What is the main topic of the talk?",
+          "choices": [
+            {
+              "id": "A",
+              "text_en": "Results of durability testing and a design modification for a water purifier"
+            },
+            {
+              "id": "B",
+              "text_en": "A marketing campaign for a new line of hiking backpacks"
+            },
+            {
+              "id": "C",
+              "text_en": "The relocation of a research laboratory to Zurich"
+            },
+            {
+              "id": "D",
+              "text_en": "Annual salary adjustments for mechanical engineers"
+            }
+          ]
+        },
+        {
+          "item_id": "ag-i-p4-000301-2",
+          "prompt_en": "Why does the speaker say, \"we certainly don't want outdoor hikers dealing with a loose cover on the trail\"?",
+          "choices": [
+            {
+              "id": "A",
+              "text_en": "To criticize the marketing team's choice of target customers"
+            },
+            {
+              "id": "B",
+              "text_en": "To justify why the housing latch needed to be strengthened before launch"
+            },
+            {
+              "id": "C",
+              "text_en": "To announce that the product will only be sold for indoor kitchen use"
+            },
+            {
+              "id": "D",
+              "text_en": "To explain why the ceramic filter purity test failed"
+            }
+          ]
+        },
+        {
+          "item_id": "ag-i-p4-000301-3",
+          "prompt_en": "What will happen on Friday morning?",
+          "choices": [
+            {
+              "id": "A",
+              "text_en": "The team will inspect updated prototype units."
+            },
+            {
+              "id": "B",
+              "text_en": "Engineers will fly to the Zurich testing facility."
+            },
+            {
+              "id": "C",
+              "text_en": "Retail price increases will be announced to distributors."
+            },
+            {
+              "id": "D",
+              "text_en": "The injection-molding plant will close for a holiday."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "group_id": "ag-g-p5-000301",
+      "part": 5,
+      "layout": "sentence",
+      "scenario": "office_administration",
+      "blind_solvable": true,
+      "stimulus": {
+        "documents": [],
+        "speakers": [],
+        "audio_script": []
+      },
+      "items": [
+        {
+          "item_id": "ag-i-p5-000301-1",
+          "prompt_en": "Visitors entering the research annex must wear ____ temporary security badges in a visible location at all times.",
+          "choices": [
+            {
+              "id": "A",
+              "text_en": "they"
+            },
+            {
+              "id": "B",
+              "text_en": "them"
+            },
+            {
+              "id": "C",
+              "text_en": "their"
+            },
+            {
+              "id": "D",
+              "text_en": "theirs"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "group_id": "ag-g-p5-000302",
+      "part": 5,
+      "layout": "sentence",
+      "scenario": "procurement_vendor_management",
+      "blind_solvable": true,
+      "stimulus": {
+        "documents": [],
+        "speakers": [],
+        "audio_script": []
+      },
+      "items": [
+        {
+          "item_id": "ag-i-p5-000302-1",
+          "prompt_en": "Alden Packaging was selected as our primary supplier because it offered the most ____ rates for recycled cardboard.",
+          "choices": [
+            {
+              "id": "A",
+              "text_en": "compete"
+            },
+            {
+              "id": "B",
+              "text_en": "competitive"
+            },
+            {
+              "id": "C",
+              "text_en": "competitively"
+            },
+            {
+              "id": "D",
+              "text_en": "competitor"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "group_id": "ag-g-p5-000303",
+      "part": 5,
+      "layout": "sentence",
+      "scenario": "it_systems_security",
+      "blind_solvable": true,
+      "stimulus": {
+        "documents": [],
+        "speakers": [],
+        "audio_script": []
+      },
+      "items": [
+        {
+          "item_id": "ag-i-p5-000303-1",
+          "prompt_en": "____ the cloud backup patch is installed on the main server, all regional workstations will synchronize automatically.",
+          "choices": [
+            {
+              "id": "A",
+              "text_en": "Once"
+            },
+            {
+              "id": "B",
+              "text_en": "During"
+            },
+            {
+              "id": "C",
+              "text_en": "Despite"
+            },
+            {
+              "id": "D",
+              "text_en": "Unless"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "group_id": "ag-g-p5-000304",
+      "part": 5,
+      "layout": "sentence",
+      "scenario": "corporate_governance_legal",
+      "blind_solvable": true,
+      "stimulus": {
+        "documents": [],
+        "speakers": [],
+        "audio_script": []
+      },
+      "items": [
+        {
+          "item_id": "ag-i-p5-000304-1",
+          "prompt_en": "____ any discrepancy arise between the translated summary and the original contract, the English text shall prevail.",
+          "choices": [
+            {
+              "id": "A",
+              "text_en": "Should"
+            },
+            {
+              "id": "B",
+              "text_en": "Were"
+            },
+            {
+              "id": "C",
+              "text_en": "Had"
+            },
+            {
+              "id": "D",
+              "text_en": "Would"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "group_id": "ag-g-p6-000301",
+      "part": 6,
+      "layout": "text_completion",
+      "scenario": "hr_recruitment_training",
+      "blind_solvable": true,
+      "stimulus": {
+        "documents": [
+          {
+            "doc_id": "ag-doc-p6-000301-1",
+            "doc_type": "notice",
+            "title_en": "Professional Certification Tuition Assistance Program",
+            "blocks": [
+              {
+                "block_id": "ag-blk-p6-000301-1",
+                "type": "text",
+                "text_en": "Kestrel BioLabs encourages full-time staff members to pursue industry certifications that strengthen their technical capabilities. Under our updated Tuition Assistance Policy, employees who have completed at least one year of continuous service may apply for [[blank:ag-i-p6-000301-1]] of up to $1,500 per calendar year.\n\nEligible expenses include accredited examination fees and required digital study materials. [[blank:ag-i-p6-000301-2]] Applications must be endorsed by a department director at least three weeks before the course start date.\n\nOnce the certification exam has been passed, the employee should upload the official score certificate and itemized payment receipts to the HR portal. Approved claims [[blank:ag-i-p6-000301-3]] in the employee's next regular direct-deposit paycheck. [[blank:ag-i-p6-000301-4]], staff members who leave the company voluntarily within six months of receiving funds must repay the subsidized amount in full."
+              }
+            ]
+          }
+        ],
+        "speakers": [],
+        "audio_script": []
+      },
+      "items": [
+        {
+          "item_id": "ag-i-p6-000301-1",
+          "prompt_en": "Select the best word or phrase for [[blank:ag-i-p6-000301-1]].",
+          "choices": [
+            {
+              "id": "A",
+              "text_en": "reimburse"
+            },
+            {
+              "id": "B",
+              "text_en": "reimbursed"
+            },
+            {
+              "id": "C",
+              "text_en": "reimbursement"
+            },
+            {
+              "id": "D",
+              "text_en": "reimbursing"
+            }
+          ]
+        },
+        {
+          "item_id": "ag-i-p6-000301-2",
+          "prompt_en": "Select the best sentence for [[blank:ag-i-p6-000301-2]].",
+          "choices": [
+            {
+              "id": "A",
+              "text_en": "Travel and hotel costs for out-of-town test centers are not covered under this plan."
+            },
+            {
+              "id": "B",
+              "text_en": "The company cafeteria will introduce a new summer menu next Monday."
+            },
+            {
+              "id": "C",
+              "text_en": "All laboratory microscopes were calibrated by an external vendor in August."
+            },
+            {
+              "id": "D",
+              "text_en": "Entry-level interns are automatically enrolled in the executive bonus pool."
+            }
+          ]
+        },
+        {
+          "item_id": "ag-i-p6-000301-3",
+          "prompt_en": "Select the best word or phrase for [[blank:ag-i-p6-000301-3]].",
+          "choices": [
+            {
+              "id": "A",
+              "text_en": "disbursed"
+            },
+            {
+              "id": "B",
+              "text_en": "will be disbursed"
+            },
+            {
+              "id": "C",
+              "text_en": "have disbursed"
+            },
+            {
+              "id": "D",
+              "text_en": "disbursing"
+            }
+          ]
+        },
+        {
+          "item_id": "ag-i-p6-000301-4",
+          "prompt_en": "Select the best word or phrase for [[blank:ag-i-p6-000301-4]].",
+          "choices": [
+            {
+              "id": "A",
+              "text_en": "However"
+            },
+            {
+              "id": "B",
+              "text_en": "Similarly"
+            },
+            {
+              "id": "C",
+              "text_en": "Therefore"
+            },
+            {
+              "id": "D",
+              "text_en": "For example"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "group_id": "ag-g-p7-000301",
+      "part": 7,
+      "layout": "single_passage",
+      "scenario": "finance_budgeting_invoicing",
+      "blind_solvable": true,
+      "stimulus": {
+        "documents": [
+          {
+            "doc_id": "ag-doc-p7-000301-1",
+            "doc_type": "email",
+            "title_en": "Subject: Invoice #INV-8842 — Acoustic Wall Panels for Conference Wing",
+            "blocks": [
+              {
+                "block_id": "ag-blk-p7-000301-1",
+                "type": "text",
+                "text_en": "To: Accounts Payable <ap@veridianarchitects.com>\nFrom: Billing Department <billing@nordicacoustics.se>\nDate: October 3\nSubject: Invoice #INV-8842 — Acoustic Wall Panels\n\nDear Veridian Architects Team,\n\nAttached is Invoice #INV-8842 for the forty custom oak acoustic wall panels delivered and installed in your third-floor conference wing on October 1. The total balance due is $12,400, payable within 30 calendar days.\n\nAs a reminder, commercial clients who remit full payment via electronic wire transfer within 10 days of the invoice date (by October 13) may deduct a 3 percent early-settlement discount ($372) from the invoice total. Please include the invoice number in the wire reference field so our accounting system can credit your account promptly."
+              }
+            ]
+          }
+        ],
+        "speakers": [],
+        "audio_script": []
+      },
+      "items": [
+        {
+          "item_id": "ag-i-p7-000301-1",
+          "prompt_en": "What is the purpose of the e-mail?",
+          "choices": [
+            {
+              "id": "A",
+              "text_en": "To request payment for recently installed sound-absorbing panels"
+            },
+            {
+              "id": "B",
+              "text_en": "To reschedule the delivery of forty oak conference tables"
+            },
+            {
+              "id": "C",
+              "text_en": "To confirm receipt of a wire transfer sent on October 1"
+            },
+            {
+              "id": "D",
+              "text_en": "To provide a price quote for renovating a building lobby"
+            }
+          ]
+        },
+        {
+          "item_id": "ag-i-p7-000301-2",
+          "prompt_en": "How can Veridian Architects reduce the amount it owes by $372?",
+          "choices": [
+            {
+              "id": "A",
+              "text_en": "By returning unused mounting brackets to the warehouse"
+            },
+            {
+              "id": "B",
+              "text_en": "By paying the full balance via wire transfer on or before October 13"
+            },
+            {
+              "id": "C",
+              "text_en": "By signing a two-year maintenance contract for the third floor"
+            },
+            {
+              "id": "D",
+              "text_en": "By mailing a paper check within 30 calendar days"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

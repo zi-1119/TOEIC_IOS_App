@@ -1,0 +1,922 @@
+{
+  "batch_id": "batch-ag-0003",
+  "instructions": "Independent blind solving sheet. Answer keys, evidence, and explanations have been stripped. For each group where blind_solvable is true, solve each item independently based ONLY on the provided stimulus and choices.",
+  "groups": [
+    {
+      "group_id": "ag-g-p3-000001",
+      "part": 3,
+      "layout": "conversation",
+      "scenario": "marketing_printing",
+      "blind_solvable": true,
+      "blind_skip_reason": null,
+      "stimulus": {
+        "documents": [],
+        "speakers": [
+          {
+            "speaker_id": "spk_1",
+            "role": "print_shop_account_manager",
+            "accent": "us"
+          },
+          {
+            "speaker_id": "spk_2",
+            "role": "marketing_specialist",
+            "accent": "uk"
+          },
+          {
+            "speaker_id": "spk_narrator",
+            "role": "narrator",
+            "accent": "us"
+          }
+        ],
+        "audio_script": [
+          {
+            "segment_id": "ag-g-p3-000001-seg-1",
+            "speaker_id": "spk_1",
+            "text_en": "Hi, Clara. I'm calling from Apex Printing about the five hundred product brochures you ordered for the Milan Trade Fair next week."
+          },
+          {
+            "segment_id": "ag-g-p3-000001-seg-2",
+            "speaker_id": "spk_2",
+            "text_en": "Hello, Devon. Is everything on track for Thursday delivery? Our sales team flies out on Friday evening."
+          },
+          {
+            "segment_id": "ag-g-p3-000001-seg-3",
+            "speaker_id": "spk_1",
+            "text_en": "Well, our supplier just notified us that the glossy cardstock you requested is on backorder until next month. However, we do have a heavy matte recycled paper in stock that has a very similar thickness."
+          },
+          {
+            "segment_id": "ag-g-p3-000001-seg-4",
+            "speaker_id": "spk_2",
+            "text_en": "Hmm, matte paper might actually look quite sophisticated with our new brand colors. Would using that material change the total cost?"
+          },
+          {
+            "segment_id": "ag-g-p3-000001-seg-5",
+            "speaker_id": "spk_1",
+            "text_en": "It's normally a bit pricier, but since the shortage is on our end, we'll honor your original quote and still deliver by Thursday afternoon."
+          },
+          {
+            "segment_id": "ag-g-p3-000001-seg-6",
+            "speaker_id": "spk_2",
+            "text_en": "That sounds fair. Please go ahead with the matte stock, and send me a revised order confirmation for our accounting files."
+          },
+          {
+            "segment_id": "ag-g-p3-000001-seg-q1",
+            "speaker_id": "spk_narrator",
+            "text_en": "Why is the man calling the woman?"
+          },
+          {
+            "segment_id": "ag-g-p3-000001-seg-q2",
+            "speaker_id": "spk_narrator",
+            "text_en": "What does the man offer to do to resolve the issue?"
+          },
+          {
+            "segment_id": "ag-g-p3-000001-seg-q3",
+            "speaker_id": "spk_narrator",
+            "text_en": "What does the woman ask the man to send her?"
+          }
+        ]
+      },
+      "items": [
+        {
+          "item_id": "ag-i-p3-000001-1",
+          "prompt_en": "Why is the man calling the woman?",
+          "choices": [
+            {
+              "id": "A",
+              "text_en": "To verify the spelling of a company name"
+            },
+            {
+              "id": "B",
+              "text_en": "To report a shortage of a requested material"
+            },
+            {
+              "id": "C",
+              "text_en": "To request an extension on an invoice payment"
+            },
+            {
+              "id": "D",
+              "text_en": "To confirm flight reservations for a trade fair"
+            }
+          ]
+        },
+        {
+          "item_id": "ag-i-p3-000001-2",
+          "prompt_en": "What does the man offer to do to resolve the issue?",
+          "choices": [
+            {
+              "id": "A",
+              "text_en": "Deliver the brochures directly to the airport"
+            },
+            {
+              "id": "B",
+              "text_en": "Print a smaller quantity of brochures"
+            },
+            {
+              "id": "C",
+              "text_en": "Provide a higher-priced paper at no extra charge"
+            },
+            {
+              "id": "D",
+              "text_en": "Outsource the printing job to another facility"
+            }
+          ]
+        },
+        {
+          "item_id": "ag-i-p3-000001-3",
+          "prompt_en": "What does the woman ask the man to send her?",
+          "choices": [
+            {
+              "id": "A",
+              "text_en": "A physical paper sample"
+            },
+            {
+              "id": "B",
+              "text_en": "An updated order confirmation"
+            },
+            {
+              "id": "C",
+              "text_en": "A catalog of display stands"
+            },
+            {
+              "id": "D",
+              "text_en": "A shipping tracking number"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "group_id": "ag-g-p3-000002",
+      "part": 3,
+      "layout": "conversation",
+      "scenario": "hospitality_events",
+      "blind_solvable": true,
+      "blind_skip_reason": null,
+      "stimulus": {
+        "documents": [],
+        "speakers": [
+          {
+            "speaker_id": "spk_1",
+            "role": "hotel_event_coordinator",
+            "accent": "ca"
+          },
+          {
+            "speaker_id": "spk_2",
+            "role": "corporate_client",
+            "accent": "us"
+          },
+          {
+            "speaker_id": "spk_narrator",
+            "role": "narrator",
+            "accent": "us"
+          }
+        ],
+        "audio_script": [
+          {
+            "segment_id": "ag-g-p3-000002-seg-1",
+            "speaker_id": "spk_1",
+            "text_en": "Welcome to the Grand Ballroom, Mr. Morales. Our banquet staff has finished setting up the twenty round tables for your company's awards dinner tonight."
+          },
+          {
+            "segment_id": "ag-g-p3-000002-seg-2",
+            "speaker_id": "spk_2",
+            "text_en": "The floral centerpieces look wonderful, thank you. However, I just found out that four additional regional managers will be joining our executive panel on stage after dessert."
+          },
+          {
+            "segment_id": "ag-g-p3-000002-seg-3",
+            "speaker_id": "spk_1",
+            "text_en": "That's no problem at all. We can place four more armchairs on the main platform right away. Will they also need extra microphones?"
+          },
+          {
+            "segment_id": "ag-g-p3-000002-seg-4",
+            "speaker_id": "spk_2",
+            "text_en": "Yes, please. Right now there's only one podium microphone, so having two handheld wireless ones to pass around would be ideal."
+          },
+          {
+            "segment_id": "ag-g-p3-000002-seg-5",
+            "speaker_id": "spk_1",
+            "text_en": "I'll contact our audiovisual technician immediately so he can bring those up and test the sound levels before your guests arrive at six."
+          },
+          {
+            "segment_id": "ag-g-p3-000002-seg-q1",
+            "speaker_id": "spk_narrator",
+            "text_en": "What event is taking place tonight?"
+          },
+          {
+            "segment_id": "ag-g-p3-000002-seg-q2",
+            "speaker_id": "spk_narrator",
+            "text_en": "Why does the man request a change to the stage setup?"
+          },
+          {
+            "segment_id": "ag-g-p3-000002-seg-q3",
+            "speaker_id": "spk_narrator",
+            "text_en": "What will the audiovisual technician do before 6:00 P.M.?"
+          }
+        ]
+      },
+      "items": [
+        {
+          "item_id": "ag-i-p3-000002-1",
+          "prompt_en": "What event is taking place tonight?",
+          "choices": [
+            {
+              "id": "A",
+              "text_en": "A charity art auction"
+            },
+            {
+              "id": "B",
+              "text_en": "A corporate awards banquet"
+            },
+            {
+              "id": "C",
+              "text_en": "A press conference for a new hotel"
+            },
+            {
+              "id": "D",
+              "text_en": "A floral arrangement workshop"
+            }
+          ]
+        },
+        {
+          "item_id": "ag-i-p3-000002-2",
+          "prompt_en": "Why does the man request a change to the stage setup?",
+          "choices": [
+            {
+              "id": "A",
+              "text_en": "The projection screen is partially blocked."
+            },
+            {
+              "id": "B",
+              "text_en": "The keynote speaker canceled at the last minute."
+            },
+            {
+              "id": "C",
+              "text_en": "More participants will take part in a panel discussion."
+            },
+            {
+              "id": "D",
+              "text_en": "A musical group needs room for its instruments."
+            }
+          ]
+        },
+        {
+          "item_id": "ag-i-p3-000002-3",
+          "prompt_en": "What will the audiovisual technician do before 6:00 P.M.?",
+          "choices": [
+            {
+              "id": "A",
+              "text_en": "Replace the spotlight bulbs"
+            },
+            {
+              "id": "B",
+              "text_en": "Set up and test wireless microphones"
+            },
+            {
+              "id": "C",
+              "text_en": "Record a video of the speeches"
+            },
+            {
+              "id": "D",
+              "text_en": "Install a backup power generator"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "group_id": "ag-g-p3-000003",
+      "part": 3,
+      "layout": "conversation",
+      "scenario": "product_development",
+      "blind_solvable": true,
+      "blind_skip_reason": null,
+      "stimulus": {
+        "documents": [],
+        "speakers": [
+          {
+            "speaker_id": "spk_1",
+            "role": "product_manager_female",
+            "accent": "us"
+          },
+          {
+            "speaker_id": "spk_2",
+            "role": "packaging_designer_male",
+            "accent": "au"
+          },
+          {
+            "speaker_id": "spk_3",
+            "role": "procurement_lead_female",
+            "accent": "uk"
+          },
+          {
+            "speaker_id": "spk_narrator",
+            "role": "narrator",
+            "accent": "us"
+          }
+        ],
+        "audio_script": [
+          {
+            "segment_id": "ag-g-p3-000003-seg-1",
+            "speaker_id": "spk_1",
+            "text_en": "Thanks for meeting, everyone. As you know, Greenleaf Supermarkets agreed to carry our herbal iced tea line starting in July, provided we switch from glass bottles to lightweight aluminum cans."
+          },
+          {
+            "segment_id": "ag-g-p3-000003-seg-2",
+            "speaker_id": "spk_2",
+            "text_en": "My design team has already adapted the label artwork to fit twelve-ounce cans. However, printing the metallic gold leaf border directly onto aluminum will increase unit production costs by fifteen percent."
+          },
+          {
+            "segment_id": "ag-g-p3-000003-seg-3",
+            "speaker_id": "spk_3",
+            "text_en": "Our profit margin on wholesale supermarket orders is already very tight."
+          },
+          {
+            "segment_id": "ag-g-p3-000003-seg-4",
+            "speaker_id": "spk_2",
+            "text_en": "I figured that might be an issue. If we replace the metallic foil with a standard matte yellow ink, we can keep the vibrant look without paying a premium."
+          },
+          {
+            "segment_id": "ag-g-p3-000003-seg-5",
+            "speaker_id": "spk_1",
+            "text_en": "Let's go with the standard yellow ink, then. Liam, can you have physical mock-ups ready for the supermarket buyers by Wednesday?"
+          },
+          {
+            "segment_id": "ag-g-p3-000003-seg-6",
+            "speaker_id": "spk_2",
+            "text_en": "Yes, I'll print three sample cans this afternoon and send them to your office."
+          },
+          {
+            "segment_id": "ag-g-p3-000003-seg-q1",
+            "speaker_id": "spk_narrator",
+            "text_en": "What condition did Greenleaf Supermarkets set for carrying the beverage line?"
+          },
+          {
+            "segment_id": "ag-g-p3-000003-seg-q2",
+            "speaker_id": "spk_narrator",
+            "text_en": "Why does the second woman say, 'Our profit margin on wholesale supermarket orders is already very tight'?"
+          },
+          {
+            "segment_id": "ag-g-p3-000003-seg-q3",
+            "speaker_id": "spk_narrator",
+            "text_en": "What will Liam do this afternoon?"
+          }
+        ]
+      },
+      "items": [
+        {
+          "item_id": "ag-i-p3-000003-1",
+          "prompt_en": "What condition did Greenleaf Supermarkets set for carrying the beverage line?",
+          "choices": [
+            {
+              "id": "A",
+              "text_en": "The beverages must be certified organic by June."
+            },
+            {
+              "id": "B",
+              "text_en": "The drink containers must be changed to aluminum cans."
+            },
+            {
+              "id": "C",
+              "text_en": "The company must provide free promotional display racks."
+            },
+            {
+              "id": "D",
+              "text_en": "The wholesale price must be reduced by fifteen percent."
+            }
+          ]
+        },
+        {
+          "item_id": "ag-i-p3-000003-2",
+          "prompt_en": "Why does the second woman say, \"Our profit margin on wholesale supermarket orders is already very tight\"?",
+          "choices": [
+            {
+              "id": "A",
+              "text_en": "To object to an option that would raise manufacturing costs"
+            },
+            {
+              "id": "B",
+              "text_en": "To explain why a supermarket contract was rejected"
+            },
+            {
+              "id": "C",
+              "text_en": "To request a bonus for the sales department"
+            },
+            {
+              "id": "D",
+              "text_en": "To suggest increasing the retail price of glass bottles"
+            }
+          ]
+        },
+        {
+          "item_id": "ag-i-p3-000003-3",
+          "prompt_en": "What will Liam do this afternoon?",
+          "choices": [
+            {
+              "id": "A",
+              "text_en": "Visit a bottling plant"
+            },
+            {
+              "id": "B",
+              "text_en": "Produce sample cans"
+            },
+            {
+              "id": "C",
+              "text_en": "Negotiate with an ink supplier"
+            },
+            {
+              "id": "D",
+              "text_en": "Update a website banner"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "group_id": "ag-g-p3-000004",
+      "part": 3,
+      "layout": "conversation",
+      "scenario": "healthcare_administration",
+      "blind_solvable": true,
+      "blind_skip_reason": null,
+      "stimulus": {
+        "documents": [],
+        "speakers": [
+          {
+            "speaker_id": "spk_1",
+            "role": "clinic_office_manager",
+            "accent": "uk"
+          },
+          {
+            "speaker_id": "spk_2",
+            "role": "reception_supervisor",
+            "accent": "us"
+          },
+          {
+            "speaker_id": "spk_narrator",
+            "role": "narrator",
+            "accent": "us"
+          }
+        ],
+        "audio_script": [
+          {
+            "segment_id": "ag-g-p3-000004-seg-1",
+            "speaker_id": "spk_1",
+            "text_en": "Good morning, Arthur. Now that our clinic has switched to the new patient scheduling software, how is the front desk staff adjusting to it?"
+          },
+          {
+            "segment_id": "ag-g-p3-000004-seg-2",
+            "speaker_id": "spk_2",
+            "text_en": "Overall, booking routine checkups is much faster. However, several receptionists mentioned that transferring dental X-ray files from the old database takes quite a few steps."
+          },
+          {
+            "segment_id": "ag-g-p3-000004-seg-3",
+            "speaker_id": "spk_1",
+            "text_en": "Actually, the software vendor sent over a one-page shortcut guide yesterday that shows how to batch-import imaging records with a single click."
+          },
+          {
+            "segment_id": "ag-g-p3-000004-seg-4",
+            "speaker_id": "spk_2",
+            "text_en": "Oh, that would save us a lot of time during morning check-in!"
+          },
+          {
+            "segment_id": "ag-g-p3-000004-seg-5",
+            "speaker_id": "spk_1",
+            "text_en": "I'll print laminated copies for each workstation before lunch, and we can walk through the procedure during tomorrow's fifteen-minute staff huddle."
+          },
+          {
+            "segment_id": "ag-g-p3-000004-seg-q1",
+            "speaker_id": "spk_narrator",
+            "text_en": "Where do the speakers most likely work?"
+          },
+          {
+            "segment_id": "ag-g-p3-000004-seg-q2",
+            "speaker_id": "spk_narrator",
+            "text_en": "What difficulty have receptionists experienced with the new software?"
+          },
+          {
+            "segment_id": "ag-g-p3-000004-seg-q3",
+            "speaker_id": "spk_narrator",
+            "text_en": "What does the woman say she will do before lunch?"
+          }
+        ]
+      },
+      "items": [
+        {
+          "item_id": "ag-i-p3-000004-1",
+          "prompt_en": "Where do the speakers most likely work?",
+          "choices": [
+            {
+              "id": "A",
+              "text_en": "At a software development firm"
+            },
+            {
+              "id": "B",
+              "text_en": "At a dental clinic"
+            },
+            {
+              "id": "C",
+              "text_en": "At a pharmacy"
+            },
+            {
+              "id": "D",
+              "text_en": "At a medical equipment factory"
+            }
+          ]
+        },
+        {
+          "item_id": "ag-i-p3-000004-2",
+          "prompt_en": "What difficulty have receptionists experienced with the new software?",
+          "choices": [
+            {
+              "id": "A",
+              "text_en": "It frequently logs users out without warning."
+            },
+            {
+              "id": "B",
+              "text_en": "It cannot print appointment reminder cards."
+            },
+            {
+              "id": "C",
+              "text_en": "Moving imaging records from the previous system is complicated."
+            },
+            {
+              "id": "D",
+              "text_en": "Billing codes must be entered manually."
+            }
+          ]
+        },
+        {
+          "item_id": "ag-i-p3-000004-3",
+          "prompt_en": "What does the woman say she will do before lunch?",
+          "choices": [
+            {
+              "id": "A",
+              "text_en": "Call the software vendor's help desk"
+            },
+            {
+              "id": "B",
+              "text_en": "Distribute reference sheets to the workstations"
+            },
+            {
+              "id": "C",
+              "text_en": "Back up the clinic's server"
+            },
+            {
+              "id": "D",
+              "text_en": "Reschedule tomorrow's staff meeting"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "group_id": "ag-g-p3-000005",
+      "part": 3,
+      "layout": "conversation",
+      "scenario": "logistics_shipping",
+      "blind_solvable": true,
+      "blind_skip_reason": null,
+      "stimulus": {
+        "documents": [
+          {
+            "document_id": "ag-doc-p3-000005-1",
+            "genre": "schedule_table",
+            "title_en": "SwiftWing Courier — Domestic Shipping Tiers (5–10 kg)",
+            "blocks": [
+              {
+                "block_id": "ag-blk-p3-000005-1",
+                "type": "table",
+                "columns": [
+                  "Service Tier",
+                  "Delivery Speed",
+                  "Rate (5–10 kg)"
+                ],
+                "rows": [
+                  [
+                    "Economy Ground",
+                    "5 Business Days",
+                    "$28"
+                  ],
+                  [
+                    "Standard Air",
+                    "3 Business Days",
+                    "$46"
+                  ],
+                  [
+                    "Priority Express",
+                    "2 Business Days",
+                    "$64"
+                  ],
+                  [
+                    "Overnight Courier",
+                    "Next Business Day",
+                    "$95"
+                  ]
+                ]
+              }
+            ]
+          }
+        ],
+        "speakers": [
+          {
+            "speaker_id": "spk_1",
+            "role": "architect_male",
+            "accent": "us"
+          },
+          {
+            "speaker_id": "spk_2",
+            "role": "office_administrator_female",
+            "accent": "ca"
+          },
+          {
+            "speaker_id": "spk_narrator",
+            "role": "narrator",
+            "accent": "us"
+          }
+        ],
+        "audio_script": [
+          {
+            "segment_id": "ag-g-p3-000005-seg-1",
+            "speaker_id": "spk_1",
+            "text_en": "Maya, I just finished packing the scale model for the Harborview Bridge project. It needs to get to the city planning commission in Boston before their review session on Friday morning."
+          },
+          {
+            "segment_id": "ag-g-p3-000005-seg-2",
+            "speaker_id": "spk_2",
+            "text_en": "Let's check the SwiftWing Courier rate chart. Since today is Tuesday, we don't need to pay for next-day delivery, as long as it arrives in two business days—by Thursday afternoon."
+          },
+          {
+            "segment_id": "ag-g-p3-000005-seg-3",
+            "speaker_id": "spk_1",
+            "text_en": "That makes sense. The padded crate weighs eight kilograms. Also, since the acrylic bridge tower is quite delicate, we should add fragile-handling insurance."
+          },
+          {
+            "segment_id": "ag-g-p3-000005-seg-4",
+            "speaker_id": "spk_2",
+            "text_en": "Okay, I'll select the two-day shipping tier on their portal and check the box for extra insurance. If you bring the crate to the reception desk by three o'clock, the afternoon driver can scan it."
+          },
+          {
+            "segment_id": "ag-g-p3-000005-seg-q1",
+            "speaker_id": "spk_narrator",
+            "text_en": "What are the speakers shipping to Boston?"
+          },
+          {
+            "segment_id": "ag-g-p3-000005-seg-q2",
+            "speaker_id": "spk_narrator",
+            "text_en": "Look at the graphic. What is the base shipping rate for the service tier the speakers choose?"
+          },
+          {
+            "segment_id": "ag-g-p3-000005-seg-q3",
+            "speaker_id": "spk_narrator",
+            "text_en": "What does the woman ask the man to do by 3:00 P.M.?"
+          }
+        ]
+      },
+      "items": [
+        {
+          "item_id": "ag-i-p3-000005-1",
+          "prompt_en": "What are the speakers shipping to Boston?",
+          "choices": [
+            {
+              "id": "A",
+              "text_en": "Signed construction permits"
+            },
+            {
+              "id": "B",
+              "text_en": "An architectural scale model"
+            },
+            {
+              "id": "C",
+              "text_en": "Surveying tripods"
+            },
+            {
+              "id": "D",
+              "text_en": "Samples of paving stone"
+            }
+          ]
+        },
+        {
+          "item_id": "ag-i-p3-000005-2",
+          "prompt_en": "Look at the graphic. What is the base shipping rate for the service tier the speakers choose?",
+          "choices": [
+            {
+              "id": "A",
+              "text_en": "$28"
+            },
+            {
+              "id": "B",
+              "text_en": "$46"
+            },
+            {
+              "id": "C",
+              "text_en": "$64"
+            },
+            {
+              "id": "D",
+              "text_en": "$95"
+            }
+          ]
+        },
+        {
+          "item_id": "ag-i-p3-000005-3",
+          "prompt_en": "What does the woman ask the man to do by 3:00 P.M.?",
+          "choices": [
+            {
+              "id": "A",
+              "text_en": "Measure the dimensions of the crate"
+            },
+            {
+              "id": "B",
+              "text_en": "Take the package to the front desk"
+            },
+            {
+              "id": "C",
+              "text_en": "Email photographs of the bridge model"
+            },
+            {
+              "id": "D",
+              "text_en": "Sign a customs declaration form"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "group_id": "ag-g-p3-000006",
+      "part": 3,
+      "layout": "conversation",
+      "scenario": "corporate_training",
+      "blind_solvable": true,
+      "blind_skip_reason": null,
+      "stimulus": {
+        "documents": [
+          {
+            "document_id": "ag-doc-p3-000006-1",
+            "genre": "facility_directory",
+            "title_en": "Westlake Training Center — Available Rooms (Friday Morning)",
+            "blocks": [
+              {
+                "block_id": "ag-blk-p3-000006-1",
+                "type": "table",
+                "columns": [
+                  "Room Name",
+                  "Max Capacity",
+                  "Equipment Included"
+                ],
+                "rows": [
+                  [
+                    "Birch Room",
+                    "25",
+                    "Interactive Whiteboard"
+                  ],
+                  [
+                    "Cedar Hall",
+                    "35",
+                    "Dual Projection Screens"
+                  ],
+                  [
+                    "Maple Suite",
+                    "50",
+                    "Single Standard Projector"
+                  ],
+                  [
+                    "Redwood Room",
+                    "55",
+                    "Dual Projection Screens"
+                  ]
+                ]
+              }
+            ]
+          }
+        ],
+        "speakers": [
+          {
+            "speaker_id": "spk_1",
+            "role": "workshop_instructor_female",
+            "accent": "au"
+          },
+          {
+            "speaker_id": "spk_2",
+            "role": "facility_coordinator_male",
+            "accent": "uk"
+          },
+          {
+            "speaker_id": "spk_narrator",
+            "role": "narrator",
+            "accent": "us"
+          }
+        ],
+        "audio_script": [
+          {
+            "segment_id": "ag-g-p3-000006-seg-1",
+            "speaker_id": "spk_1",
+            "text_en": "Hi, Oliver. I'm scheduled to lead the financial modeling workshop in Cedar Hall this Friday morning, but forty-two people have signed up so far."
+          },
+          {
+            "segment_id": "ag-g-p3-000006-seg-2",
+            "speaker_id": "spk_2",
+            "text_en": "Oh, Cedar Hall only holds thirty-five. Let's look at the room availability chart for Friday morning and move your session to a larger space."
+          },
+          {
+            "segment_id": "ag-g-p3-000006-seg-3",
+            "speaker_id": "spk_1",
+            "text_en": "Keep in mind that attendees need to compare live spreadsheet formulas on one screen while viewing the case study slides on another."
+          },
+          {
+            "segment_id": "ag-g-p3-000006-seg-4",
+            "speaker_id": "spk_2",
+            "text_en": "Right, so Maple Suite won't work even though it's big enough. I'll reserve the other large room that has the twin screen setup you need."
+          },
+          {
+            "segment_id": "ag-g-p3-000006-seg-5",
+            "speaker_id": "spk_1",
+            "text_en": "Wonderful. I'll send an automated calendar update to all registered participants this afternoon so nobody goes to the wrong room on Friday."
+          },
+          {
+            "segment_id": "ag-g-p3-000006-seg-q1",
+            "speaker_id": "spk_narrator",
+            "text_en": "Why does the woman need to change rooms?"
+          },
+          {
+            "segment_id": "ag-g-p3-000006-seg-q2",
+            "speaker_id": "spk_narrator",
+            "text_en": "Why does the woman mention comparing spreadsheet formulas and case study slides?"
+          },
+          {
+            "segment_id": "ag-g-p3-000006-seg-q3",
+            "speaker_id": "spk_narrator",
+            "text_en": "Look at the graphic. Which room will the man reserve for the workshop?"
+          }
+        ]
+      },
+      "items": [
+        {
+          "item_id": "ag-i-p3-000006-1",
+          "prompt_en": "Why does the woman need to change rooms?",
+          "choices": [
+            {
+              "id": "A",
+              "text_en": "The air-conditioning in Cedar Hall is broken."
+            },
+            {
+              "id": "B",
+              "text_en": "Registration has exceeded the current room's seating limit."
+            },
+            {
+              "id": "C",
+              "text_en": "Another department booked the room for an all-day seminar."
+            },
+            {
+              "id": "D",
+              "text_en": "The workshop has been moved to a different day."
+            }
+          ]
+        },
+        {
+          "item_id": "ag-i-p3-000006-2",
+          "prompt_en": "Why does the woman mention comparing spreadsheet formulas and case study slides?",
+          "choices": [
+            {
+              "id": "A",
+              "text_en": "To request extra printed handouts for attendees"
+            },
+            {
+              "id": "B",
+              "text_en": "To explain a technical requirement for the room's equipment"
+            },
+            {
+              "id": "C",
+              "text_en": "To ask the man to proofread her presentation"
+            },
+            {
+              "id": "D",
+              "text_en": "To suggest shortening the length of the workshop"
+            }
+          ]
+        },
+        {
+          "item_id": "ag-i-p3-000006-3",
+          "prompt_en": "Look at the graphic. Which room will the man reserve for the workshop?",
+          "choices": [
+            {
+              "id": "A",
+              "text_en": "Birch Room"
+            },
+            {
+              "id": "B",
+              "text_en": "Cedar Hall"
+            },
+            {
+              "id": "C",
+              "text_en": "Maple Suite"
+            },
+            {
+              "id": "D",
+              "text_en": "Redwood Room"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

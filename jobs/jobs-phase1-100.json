@@ -1,0 +1,372 @@
+{
+  "schema_version": "1.0.0",
+  "phase": "phase1_100_trial",
+  "updated_at": "2026-10-27T16:11:10Z",
+  "jobs": [
+    {
+      "job_id": "job-ag-0001",
+      "parts": [
+        2,
+        5
+      ],
+      "pool": "training",
+      "group_count": 20,
+      "item_count": 20,
+      "skills": [
+        "question_function",
+        "direct_response",
+        "indirect_response",
+        "paraphrase",
+        "speaker_intent",
+        "word_form",
+        "verb_form_agreement",
+        "preposition_collocation",
+        "connector_clause",
+        "vocabulary_in_context",
+        "conditions_exceptions",
+        "chronology"
+      ],
+      "scenarios": [
+        "logistics_shipping",
+        "maintenance_inspection",
+        "procurement_contract",
+        "finance_reimbursement",
+        "event_catering",
+        "it_support",
+        "retail_merchandising",
+        "hospitality_transport",
+        "manufacturing_quality",
+        "corporate_training",
+        "public_facilities_safety",
+        "logistics_weather",
+        "hr_personnel",
+        "real_estate_leasing",
+        "construction_renovation",
+        "customer_warranty",
+        "banking_account",
+        "procurement_purchasing",
+        "publishing_editorial",
+        "event_conference"
+      ],
+      "difficulty_targets": {
+        "D1": 3,
+        "D2": 6,
+        "D3": 5,
+        "D4": 3,
+        "D5": 3
+      },
+      "constraints": [
+        "Part 2 標準模式不洩漏問題稿與選項稿，audio_script 完整涵蓋問題與 A/B/C 朗讀稿",
+        "Part 5 空格統一使用 ____，詳解逐項說明正解語法與三個干擾項錯誤原因",
+        "Part 2 音檔標示 status=planned 且 path/sha256/duration_ms=null，不偽造音檔"
+      ],
+      "output_batch_id": "batch-ag-0001",
+      "status": "exported",
+      "retry_count": 0,
+      "notes_zh": "首發 20 題快速驗證批次（Part 2 × 8 + Part 5 × 12），含 8 個待製音訊（status=planned）與 20 題待人工複核。"
+    },
+    {
+      "job_id": "job-ag-0002",
+      "parts": [
+        1,
+        2,
+        5,
+        6
+      ],
+      "pool": "training",
+      "group_count": 13,
+      "item_count": 19,
+      "skills": [
+        "photo_action",
+        "photo_state_location",
+        "paraphrase",
+        "question_function",
+        "direct_response",
+        "indirect_response",
+        "speaker_intent",
+        "conditions_exceptions",
+        "word_form",
+        "verb_form_agreement",
+        "preposition_collocation",
+        "connector_clause",
+        "vocabulary_in_context",
+        "reference_cohesion",
+        "sentence_insertion"
+      ],
+      "scenarios": [
+        "research_laboratory",
+        "retail_bakery",
+        "public_waterfront",
+        "hr_onboarding",
+        "manufacturing_operations",
+        "trade_show_exhibition",
+        "sales_visit",
+        "medical_appointment",
+        "energy_sustainability",
+        "retail_loyalty_program",
+        "it_cybersecurity",
+        "public_library_service",
+        "logistics_automation"
+      ],
+      "difficulty_targets": {
+        "D1": 2,
+        "D2": 2,
+        "D3": 6,
+        "D4": 7,
+        "D5": 2
+      },
+      "constraints": [
+        "Part 1 包含清楚 image brief（寫入 asset.source_note_zh）及 4 個朗讀選項稿，圖片未就緒前標示 blind=false 並排入圖片完成後重審",
+        "Part 6 每組恰 4 題，正文使用 [[blank:ITEM_ID]] 標記，每篇各含 1 題完整句插入題"
+      ],
+      "output_batch_id": "batch-ag-0002",
+      "status": "exported",
+      "retry_count": 0,
+      "notes_zh": "補齊 Part 1（3題）、Part 2（剩餘5題）、Part 5（剩餘3題）與 Part 6（2組8題）。"
+    },
+    {
+      "job_id": "job-ag-0003",
+      "parts": [
+        3
+      ],
+      "pool": "training",
+      "group_count": 6,
+      "item_count": 18,
+      "skills": [
+        "main_idea_purpose",
+        "explicit_detail",
+        "paraphrase",
+        "speaker_intent",
+        "next_action",
+        "inference",
+        "graphic_integration",
+        "conditions_exceptions",
+        "chronology"
+      ],
+      "scenarios": [
+        "marketing_printing",
+        "hospitality_events",
+        "product_development",
+        "healthcare_administration",
+        "logistics_shipping",
+        "corporate_training"
+      ],
+      "difficulty_targets": {
+        "D1": 0,
+        "D2": 3,
+        "D3": 6,
+        "D4": 6,
+        "D5": 3
+      },
+      "constraints": [
+        "每組恰 3 題，至少兩位實際對話角色另加旁白播報題幹",
+        "涵蓋三人對話 1 組與圖表整合（graphic_integration）2 組，表格數據與對白完全一致"
+      ],
+      "output_batch_id": "batch-ag-0003",
+      "status": "exported",
+      "retry_count": 0,
+      "notes_zh": "Part 3 簡短對話 6 組共 18 題，音訊素材為 status=planned。"
+    },
+    {
+      "job_id": "job-ag-0004",
+      "parts": [
+        4
+      ],
+      "pool": "training",
+      "group_count": 5,
+      "item_count": 15,
+      "skills": [
+        "main_idea_purpose",
+        "explicit_detail",
+        "paraphrase",
+        "speaker_intent",
+        "next_action",
+        "inference",
+        "graphic_integration",
+        "conditions_exceptions",
+        "chronology"
+      ],
+      "scenarios": [
+        "retail_delivery",
+        "public_museum_tour",
+        "manufacturing_safety",
+        "transportation_commute",
+        "sales_analytics"
+      ],
+      "difficulty_targets": {
+        "D1": 0,
+        "D2": 3,
+        "D3": 6,
+        "D4": 3,
+        "D5": 3
+      },
+      "constraints": [
+        "每組恰 3 題，單一主講者獨白另加旁白播報題幹",
+        "涵蓋語音留言、博物館導覽、工廠安全簡報（含意圖題）、市政交通廣播與銷售圖表簡報（含表格）"
+      ],
+      "output_batch_id": "batch-ag-0004",
+      "status": "exported",
+      "retry_count": 0,
+      "notes_zh": "Part 4 簡短獨白 5 組共 15 題，音訊素材為 status=planned。"
+    },
+    {
+      "job_id": "job-ag-0005",
+      "parts": [
+        7
+      ],
+      "pool": "training",
+      "group_count": 7,
+      "item_count": 28,
+      "skills": [
+        "main_idea_purpose",
+        "explicit_detail",
+        "paraphrase",
+        "speaker_intent",
+        "next_action",
+        "inference",
+        "vocabulary_in_context",
+        "sentence_insertion",
+        "cross_document",
+        "conditions_exceptions",
+        "chronology"
+      ],
+      "scenarios": [
+        "office_facilities",
+        "procurement_quality",
+        "it_operations",
+        "urban_sustainability",
+        "event_conference",
+        "customer_warranty",
+        "event_catering"
+      ],
+      "difficulty_targets": {
+        "D1": 3,
+        "D2": 3,
+        "D3": 3,
+        "D4": 14,
+        "D5": 5
+      },
+      "constraints": [
+        "單篇 4 組（3+3+3+4=13題），含 [[position:SLOT_ID]] 插句題",
+        "多篇 3 組（雙篇 2 組 × 5 題 + 三篇 1 組 × 5 題 = 15題），必含需跨兩份以上文件整合才能作答的題目",
+        "純閱讀無須外部音圖素材，全數通過獨立上下文盲解後達 ai_checked"
+      ],
+      "output_batch_id": "batch-ag-0005",
+      "status": "exported",
+      "retry_count": 0,
+      "notes_zh": "Part 7 閱讀理解 7 組共 28 題，完成第一階段 100 題試行。"
+    },
+    {
+      "job_id": "job-ag-0006",
+      "parts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "pool": "training",
+      "group_count": 4,
+      "item_count": 8,
+      "skills": [
+        "photo_action",
+        "question_function",
+        "direct_response",
+        "main_idea_purpose",
+        "explicit_detail",
+        "paraphrase",
+        "next_action"
+      ],
+      "scenarios": [
+        "research_laboratory",
+        "logistics_shipping",
+        "marketing_printing",
+        "retail_delivery"
+      ],
+      "difficulty_targets": {
+        "D1": 2,
+        "D2": 6,
+        "D3": 0,
+        "D4": 0,
+        "D5": 0
+      },
+      "constraints": [
+        "不覆寫 exports/batch-ag-0001..0005；保留原 group_id/item_id/family_id 並升版為 version=2",
+        "Part 1 補齊真實 1200x896 JPEG 照片並完成獨立視覺盲解 (blind=true)",
+        "Part 1-4 補齊實測毫秒時間碼 segment_times 之 AAC .m4a 音檔 (status=ready)"
+      ],
+      "output_batch_id": "batch-ag-0006",
+      "status": "exported",
+      "retry_count": 0,
+      "notes_zh": "第一階段聽力四題型可播放樣本包（ag-g-p1-000001、ag-g-p2-000001、ag-g-p3-000001、ag-g-p4-000001，v2 實體音圖就緒）。"
+    },
+    {
+      "job_id": "job-ag-0007",
+      "parts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "pool": "training",
+      "group_count": 23,
+      "item_count": 41,
+      "skills": [
+        "photo_action",
+        "photo_state_location",
+        "question_function",
+        "direct_response",
+        "indirect_response",
+        "main_idea_purpose",
+        "explicit_detail",
+        "paraphrase",
+        "speaker_intent",
+        "next_action",
+        "inference",
+        "graphic_integration",
+        "conditions_exceptions",
+        "chronology"
+      ],
+      "scenarios": [
+        "retail_bakery",
+        "public_waterfront",
+        "maintenance_inspection",
+        "procurement_contract",
+        "finance_reimbursement",
+        "event_catering",
+        "it_support",
+        "retail_merchandising",
+        "hospitality_transport",
+        "hr_onboarding",
+        "manufacturing_operations",
+        "trade_show_exhibition",
+        "sales_visit",
+        "medical_appointment",
+        "hospitality_events",
+        "product_development",
+        "healthcare_administration",
+        "logistics_shipping",
+        "corporate_training",
+        "public_museum_tour",
+        "manufacturing_safety",
+        "transportation_commute",
+        "sales_analytics"
+      ],
+      "difficulty_targets": {
+        "D1": 1,
+        "D2": 6,
+        "D3": 14,
+        "D4": 10,
+        "D5": 10
+      },
+      "constraints": [
+        "不覆寫 exports/batch-ag-0001..0005；保留原 group_id/item_id/family_id 並升版為 version=2",
+        "補齊第一階段剩餘 2 張 Part 1 圖片與 23 個 Part 1-4 音檔 (status=ready)，使 100 題試行集全數 3 張圖片與 27 個音檔就緒",
+        "ca 口音標記角色誠實揭露使用 macOS 北美英語語音代用合成，不捏造原生加拿大口音驗收"
+      ],
+      "output_batch_id": "batch-ag-0007",
+      "status": "exported",
+      "retry_count": 0,
+      "notes_zh": "第一階段其餘 23 組聽力題組媒體補齊包（2 張 Part 1 圖片 + 23 個 Part 1-4 音檔，v2 素材就緒）。"
+    }
+  ]
+}

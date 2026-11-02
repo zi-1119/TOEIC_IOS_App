@@ -1,0 +1,30 @@
+{
+  "schema_version": "1.0.0",
+  "batch_id": "batch-ag-0001",
+  "created_at": "2026-10-27T11:52:39Z",
+  "producer": "antigravity-toeic-factory/1.0.0 (model: unknown)",
+  "group_count": 20,
+  "item_count": 20,
+  "files": [
+    {
+      "path": "groups.jsonl",
+      "sha256": "5c76fbc6101e0bfe798109f297e7447a0301d5ba034e4b0f2b1a0cdfaf0ab177"
+    },
+    {
+      "path": "reports/blind-solve.json",
+      "sha256": "22a499b9bc7139a56c8e55755733afb1b5545d828d0cfb35745e94b0f3430e1e"
+    },
+    {
+      "path": "reports/summary.md",
+      "sha256": "ad15ff77f6568582b435707977ef8c783437d8e426a3e593d60f9d5eb173c153"
+    },
+    {
+      "path": "reports/validation.json",
+      "sha256": "599bacc212a3b5fafe27e3124a89ab6f4f260f5fd95faae4cdff39722388a824"
+    },
+    {
+      "path": "reviews.jsonl",
+      "sha256": "ace853f887ed1ded87fe32e78dbfee44677dde7bb55fa9ae7510bac7c082afd3"
+    }
+  ]
+}

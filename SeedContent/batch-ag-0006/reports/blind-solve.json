@@ -1,0 +1,66 @@
+{
+  "batch_id": "batch-ag-0006",
+  "solver_kind": "ai_isolated_subagent",
+  "blind": true,
+  "solved_at": "2026-10-27T16:07:23Z",
+  "items": [
+    {
+      "group_id": "ag-g-p1-000001",
+      "item_id": "ag-i-p1-000001-1",
+      "selected_choice_id": "A",
+      "confidence": "high",
+      "ambiguity_flag": false,
+      "evidence_quote": "A woman wearing safety glasses, a white lab coat, and blue gloves is seated at a laboratory table looking directly through the eyepieces of a microscope while adjusting its focus knob.",
+      "reasoning_zh": "照片中一名身穿白色實驗袍、戴著護目鏡與藍色手套的女性正透過顯微鏡觀察，故 (A)「她正在看顯微鏡」完全符合畫面。(B) 水槽在背景中且無人清洗玻璃器皿、(C) 背景白板空白無人書寫、(D) 她已經穿好實驗袍而非正在穿上。"
+    },
+    {
+      "group_id": "ag-g-p2-000001",
+      "item_id": "ag-i-p2-000001-1",
+      "selected_choice_id": "A",
+      "confidence": "high",
+      "reasoning_zh": "問句以 Where 詢問已簽署的貨運清單放在哪裡，選項 (A)「在 Henderson 女士桌上的最上層文件盤裡」明確回答地點。"
+    },
+    {
+      "group_id": "ag-g-p3-000001",
+      "item_id": "ag-i-p3-000001-1",
+      "selected_choice_id": "B",
+      "confidence": "high",
+      "reasoning_zh": "男士致電表示供應商通知客戶原本要求的亮面卡紙（glossy cardstock）缺貨需延期至下個月，對應選項 B 報告所要求材料的短缺。"
+    },
+    {
+      "group_id": "ag-g-p3-000001",
+      "item_id": "ag-i-p3-000001-2",
+      "selected_choice_id": "C",
+      "confidence": "high",
+      "reasoning_zh": "男士提出改用庫存的厚霧面再生紙，並說明雖然該紙材平時價格較高（a bit pricier），但因短缺問題在印務公司端，將維持原報價（honor your original quote），對應選項 C 不加價提供較高價紙材。"
+    },
+    {
+      "group_id": "ag-g-p3-000001",
+      "item_id": "ag-i-p3-000001-3",
+      "selected_choice_id": "B",
+      "confidence": "high",
+      "reasoning_zh": "女士在對話結尾請男士寄送一份修訂後的訂單確認書（send me a revised order confirmation），對應選項 B 更新後的訂單確認書。"
+    },
+    {
+      "group_id": "ag-g-p4-000001",
+      "item_id": "ag-i-p4-000001-1",
+      "selected_choice_id": "C",
+      "confidence": "high",
+      "reasoning_zh": "講者在開頭明確提到工匠已完成聽眾訂購的客製化胡桃木會議桌（custom walnut conference table）的保護塗層，對應選項 C。"
+    },
+    {
+      "group_id": "ag-g-p4-000001",
+      "item_id": "ag-i-p4-000001-2",
+      "selected_choice_id": "C",
+      "confidence": "high",
+      "reasoning_zh": "講者指出大樓的主要貨梯在週四中午前進行例行纜線維護（undergoing routine cable maintenance until noon），且桌面太長無法使用客梯，因此改約下午兩點至四點，對應選項 C。"
+    },
+    {
+      "group_id": "ag-g-p4-000001",
+      "item_id": "ag-i-p4-000001-3",
+      "selected_choice_id": "B",
+      "confidence": "high",
+      "reasoning_zh": "講者請聽眾回電確認辦公室是否有人能簽收貨物（confirm that someone in your suite will be available to sign for the shipment），對應選項 B。"
+    }
+  ]
+}

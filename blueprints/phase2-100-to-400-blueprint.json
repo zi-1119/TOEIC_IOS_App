@@ -1,0 +1,205 @@
+{
+  "schema_version": "1.0.0",
+  "blueprint_id": "blueprint-phase2-100-to-400",
+  "created_at": "2026-10-27T16:11:10Z",
+  "pool": "training",
+  "gating_rule_zh": "必須待第一階段 100 題（含閱讀題與 Part 1-4 四種聽力樣本）於 iOS App 完成匯入、作答與詳解顯示驗證後，始得將第二階段草稿轉為已發布批次。",
+  "quota_summary": {
+    "phase1_completed_items": 100,
+    "phase2_addition_items": 300,
+    "phase2_cumulative_target_items": 400,
+    "master_4800_remaining_after_phase2": 4400
+  },
+  "difficulty_distribution_targets_300": {
+    "D1": {
+      "ratio": 0.15,
+      "target_items": 45
+    },
+    "D2": {
+      "ratio": 0.25,
+      "target_items": 75
+    },
+    "D3": {
+      "ratio": 0.2,
+      "target_items": 60
+    },
+    "D4": {
+      "ratio": 0.15,
+      "target_items": 45
+    },
+    "D5": {
+      "ratio": 0.25,
+      "target_items": 75
+    }
+  },
+  "part_blueprints": [
+    {
+      "part": 1,
+      "layout": "photo",
+      "phase1_done": 3,
+      "phase2_add_groups": 9,
+      "phase2_add_items": 9,
+      "phase2_cumulative_items": 12,
+      "reserved_group_ids": "ag-g-p1-000004 .. ag-g-p1-000012",
+      "target_skills": [
+        "photo_action",
+        "photo_state_location",
+        "paraphrase"
+      ],
+      "planned_scenarios": [
+        "construction_site_inspection",
+        "conference_room_setup",
+        "warehouse_forklift_loading",
+        "outdoor_cafe_patio",
+        "airport_check_in_counter",
+        "library_reading_area",
+        "hotel_lobby_luggage",
+        "bicycle_repair_workshop",
+        "supermarket_produce_aisle"
+      ]
+    },
+    {
+      "part": 2,
+      "layout": "question_response",
+      "phase1_done": 13,
+      "phase2_add_groups": 37,
+      "phase2_add_items": 37,
+      "phase2_cumulative_items": 50,
+      "reserved_group_ids": "ag-g-p2-000014 .. ag-g-p2-000050",
+      "target_skills": [
+        "question_function",
+        "direct_response",
+        "indirect_response",
+        "paraphrase",
+        "speaker_intent"
+      ],
+      "question_type_mix": {
+        "wh_questions": 16,
+        "yes_no_and_negative_questions": 8,
+        "tag_and_choice_questions": 6,
+        "indirect_requests_and_statements": 7
+      }
+    },
+    {
+      "part": 3,
+      "layout": "conversation",
+      "phase1_done": 18,
+      "phase2_add_groups": 20,
+      "phase2_add_items": 60,
+      "phase2_cumulative_items": 78,
+      "reserved_group_ids": "ag-g-p3-000007 .. ag-g-p3-000026",
+      "target_skills": [
+        "main_idea_purpose",
+        "explicit_detail",
+        "paraphrase",
+        "speaker_intent",
+        "next_action",
+        "inference",
+        "graphic_integration",
+        "conditions_exceptions",
+        "chronology"
+      ],
+      "special_group_quotas": {
+        "three_speaker_conversations": 3,
+        "graphic_integration_conversations": 4,
+        "spoken_intent_quote_questions": 5
+      }
+    },
+    {
+      "part": 4,
+      "layout": "talk",
+      "phase1_done": 15,
+      "phase2_add_groups": 15,
+      "phase2_add_items": 45,
+      "phase2_cumulative_items": 60,
+      "reserved_group_ids": "ag-g-p4-000006 .. ag-g-p4-000020",
+      "target_skills": [
+        "main_idea_purpose",
+        "explicit_detail",
+        "paraphrase",
+        "speaker_intent",
+        "next_action",
+        "inference",
+        "graphic_integration",
+        "conditions_exceptions",
+        "chronology"
+      ],
+      "special_group_quotas": {
+        "graphic_integration_talks": 3,
+        "spoken_intent_quote_questions": 4
+      }
+    },
+    {
+      "part": 5,
+      "layout": "sentence",
+      "phase1_done": 15,
+      "phase2_add_groups": 45,
+      "phase2_add_items": 45,
+      "phase2_cumulative_items": 60,
+      "reserved_group_ids": "ag-g-p5-000016 .. ag-g-p5-000060",
+      "target_skills": [
+        "word_form",
+        "verb_form_agreement",
+        "preposition_collocation",
+        "connector_clause",
+        "vocabulary_in_context",
+        "reference_cohesion",
+        "conditions_exceptions",
+        "chronology"
+      ]
+    },
+    {
+      "part": 6,
+      "layout": "text_completion",
+      "phase1_done": 8,
+      "phase2_add_groups": 6,
+      "phase2_add_items": 24,
+      "phase2_cumulative_items": 32,
+      "reserved_group_ids": "ag-g-p6-000003 .. ag-g-p6-000008",
+      "target_skills": [
+        "word_form",
+        "verb_form_agreement",
+        "connector_clause",
+        "vocabulary_in_context",
+        "reference_cohesion",
+        "sentence_insertion"
+      ]
+    },
+    {
+      "part": 7,
+      "layout": "single_passage / double_passage / triple_passage",
+      "phase1_done": 28,
+      "phase2_add_groups": 20,
+      "phase2_add_items": 80,
+      "phase2_cumulative_items": 108,
+      "reserved_group_ids": "ag-g-p7-000008 .. ag-g-p7-000027",
+      "structure_breakdown": {
+        "single_passage": {
+          "groups": 12,
+          "items": 40
+        },
+        "double_passage": {
+          "groups": 5,
+          "items": 25
+        },
+        "triple_passage": {
+          "groups": 3,
+          "items": 15
+        }
+      },
+      "target_skills": [
+        "main_idea_purpose",
+        "explicit_detail",
+        "paraphrase",
+        "speaker_intent",
+        "next_action",
+        "inference",
+        "vocabulary_in_context",
+        "sentence_insertion",
+        "cross_document",
+        "conditions_exceptions",
+        "chronology"
+      ]
+    }
+  ]
+}

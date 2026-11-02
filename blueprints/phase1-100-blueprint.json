@@ -1,0 +1,625 @@
+{
+  "blueprint_id": "bp-phase1-100-training",
+  "schema_version": "1.0.0",
+  "created_at": "2026-10-27T11:42:00Z",
+  "pool": "training",
+  "total_groups": 51,
+  "total_items": 100,
+  "part_item_counts": {
+    "1": 3,
+    "2": 13,
+    "3": 18,
+    "4": 15,
+    "5": 15,
+    "6": 8,
+    "7": 28
+  },
+  "batches": [
+    {
+      "batch_id": "batch-ag-0001",
+      "job_id": "job-ag-0001",
+      "title_zh": "第一階段首發驗證批次：Part 2（8題）＋ Part 5（12題）共 20 題",
+      "group_count": 20,
+      "item_count": 20,
+      "groups": [
+        {
+          "group_id": "ag-g-p2-000001",
+          "family_id": "ag-fam-p2-wh-where-warehouse-manifest",
+          "part": 2,
+          "layout": "question_response",
+          "item_count": 1,
+          "scenario": "logistics_shipping",
+          "difficulty": "D1",
+          "target_skills": ["question_function", "direct_response"],
+          "design_plan_zh": "測驗 Where 疑問句詢問貨運清單存放位置；干擾項設計同音異義詞（shipping/shopping）與時間副詞錯置。"
+        },
+        {
+          "group_id": "ag-g-p2-000002",
+          "family_id": "ag-fam-p2-wh-when-equipment-calibration",
+          "part": 2,
+          "layout": "question_response",
+          "item_count": 1,
+          "scenario": "maintenance_inspection",
+          "difficulty": "D2",
+          "target_skills": ["question_function", "direct_response"],
+          "design_plan_zh": "測驗 When 被動疑問句詢問實驗室儀器校準時間；干擾項使用相似字根（calibrated/collaborated）與地點回答。"
+        },
+        {
+          "group_id": "ag-g-p2-000003",
+          "family_id": "ag-fam-p2-wh-who-vendor-contract-review",
+          "part": 2,
+          "layout": "question_response",
+          "item_count": 1,
+          "scenario": "procurement_contract",
+          "difficulty": "D3",
+          "target_skills": ["question_function", "indirect_response"],
+          "design_plan_zh": "測驗 Who 疑問句詢問誰負責審查供應商合約，正解採間接回應（法務部今天休假所以尚未指派）；干擾項利用 Yes/No 與動詞重複。"
+        },
+        {
+          "group_id": "ag-g-p2-000004",
+          "family_id": "ag-fam-p2-yesno-invoice-reimbursement",
+          "part": 2,
+          "layout": "question_response",
+          "item_count": 1,
+          "scenario": "finance_reimbursement",
+          "difficulty": "D2",
+          "target_skills": ["question_function", "direct_response", "paraphrase"],
+          "design_plan_zh": "測驗否定助動詞開頭問句（Hasn't the travel expense report been approved yet?），正解以不帶 Yes/No 的具體進度說明回答。"
+        },
+        {
+          "group_id": "ag-g-p2-000005",
+          "family_id": "ag-fam-p2-choice-catering-menu-selection",
+          "part": 2,
+          "layout": "question_response",
+          "item_count": 1,
+          "scenario": "event_catering",
+          "difficulty": "D3",
+          "target_skills": ["question_function", "indirect_response"],
+          "design_plan_zh": "測驗選擇問句（Should we order boxed lunches or a buffet...），正解跳脫二選一，以預算尚未核定間接回應。"
+        },
+        {
+          "group_id": "ag-g-p2-000006",
+          "family_id": "ag-fam-p2-request-projector-setup-help",
+          "part": 2,
+          "layout": "question_response",
+          "item_count": 1,
+          "scenario": "it_support",
+          "difficulty": "D2",
+          "target_skills": ["question_function", "direct_response"],
+          "design_plan_zh": "測驗禮貌請求句（Could you check why the ceiling projector isn't connecting?），干擾項以連接詞或名詞重音近音詞誤導。"
+        },
+        {
+          "group_id": "ag-g-p2-000007",
+          "family_id": "ag-fam-p2-suggestion-retail-display-window",
+          "part": 2,
+          "layout": "question_response",
+          "item_count": 1,
+          "scenario": "retail_merchandising",
+          "difficulty": "D4",
+          "target_skills": ["question_function", "indirect_response", "speaker_intent"],
+          "design_plan_zh": "測驗 Why don't we 提議更換櫥窗陳列，正解以新促銷海報週四才送到間接婉拒立即更換。"
+        },
+        {
+          "group_id": "ag-g-p2-000008",
+          "family_id": "ag-fam-p2-statement-hotel-shuttle-full",
+          "part": 2,
+          "layout": "question_response",
+          "item_count": 1,
+          "scenario": "hospitality_transport",
+          "difficulty": "D5",
+          "target_skills": ["question_function", "indirect_response", "speaker_intent"],
+          "design_plan_zh": "測驗陳述句（The 8:00 airport shuttle is completely booked.），正解提供實用替代方案（下一班 20 分鐘後發車），干擾項利用 book 多義性（書籍 vs 預訂）。"
+        },
+        {
+          "group_id": "ag-g-p5-000001",
+          "family_id": "ag-fam-p5-wordform-adverb-modify-verb",
+          "part": 5,
+          "layout": "sentence",
+          "item_count": 1,
+          "scenario": "manufacturing_quality",
+          "difficulty": "D1",
+          "target_skills": ["word_form"],
+          "design_plan_zh": "測驗副詞修飾被動語態過去分詞（thoroughly inspected），四個選項為同字根派生詞。"
+        },
+        {
+          "group_id": "ag-g-p5-000002",
+          "family_id": "ag-fam-p5-verb-subject-agreement-prepositional",
+          "part": 5,
+          "layout": "sentence",
+          "item_count": 1,
+          "scenario": "corporate_training",
+          "difficulty": "D2",
+          "target_skills": ["verb_form_agreement"],
+          "design_plan_zh": "測驗受介系詞片語隔開之單數主詞（A comprehensive list of optional workshops）與單數動詞一致性及時態。"
+        },
+        {
+          "group_id": "ag-g-p5-000003",
+          "family_id": "ag-fam-p5-prep-collocation-compliance",
+          "part": 5,
+          "layout": "sentence",
+          "item_count": 1,
+          "scenario": "public_facilities_safety",
+          "difficulty": "D2",
+          "target_skills": ["preposition_collocation"],
+          "design_plan_zh": "測驗商務固定介系詞片語搭配（in accordance with municipal fire regulations）。"
+        },
+        {
+          "group_id": "ag-g-p5-000004",
+          "family_id": "ag-fam-p5-connector-concession-despite-although",
+          "part": 5,
+          "layout": "sentence",
+          "item_count": 1,
+          "scenario": "logistics_weather",
+          "difficulty": "D3",
+          "target_skills": ["connector_clause"],
+          "design_plan_zh": "測驗讓步從屬連接詞（Even though + 完整子句）與介系詞（Despite / In spite of + 名詞片語）及副詞（Nevertheless）之語法區辨。"
+        },
+        {
+          "group_id": "ag-g-p5-000005",
+          "family_id": "ag-fam-p5-vocab-adj-confidential-records",
+          "part": 5,
+          "layout": "sentence",
+          "item_count": 1,
+          "scenario": "hr_personnel",
+          "difficulty": "D2",
+          "target_skills": ["vocabulary_in_context"],
+          "design_plan_zh": "測驗人事檔案情境下的形容詞語境詞義（confidential 機密的 vs confident 自信的 / cordial 熱誠的 / consecutive 連續的）。"
+        },
+        {
+          "group_id": "ag-g-p5-000006",
+          "family_id": "ag-fam-p5-wordform-noun-object-after-adj",
+          "part": 5,
+          "layout": "sentence",
+          "item_count": 1,
+          "scenario": "real_estate_leasing",
+          "difficulty": "D1",
+          "target_skills": ["word_form"],
+          "design_plan_zh": "測驗冠詞與形容詞後接抽象名詞（require prior authorization from the property manager）。"
+        },
+        {
+          "group_id": "ag-g-p5-000007",
+          "family_id": "ag-fam-p5-verb-future-perfect-by-deadline",
+          "part": 5,
+          "layout": "sentence",
+          "item_count": 1,
+          "scenario": "construction_renovation",
+          "difficulty": "D4",
+          "target_skills": ["verb_form_agreement", "chronology"],
+          "design_plan_zh": "測驗 by the time + 現在簡單式子句搭配主要子句未來完成式（will have completed）。"
+        },
+        {
+          "group_id": "ag-g-p5-000008",
+          "family_id": "ag-fam-p5-connector-relative-pronoun-whose",
+          "part": 5,
+          "layout": "sentence",
+          "item_count": 1,
+          "scenario": "customer_warranty",
+          "difficulty": "D3",
+          "target_skills": ["connector_clause"],
+          "design_plan_zh": "測驗關係代名詞所有格（whose warranty has expired）修飾先行詞 customers。"
+        },
+        {
+          "group_id": "ag-g-p5-000009",
+          "family_id": "ag-fam-p5-vocab-verb-waive-fee",
+          "part": 5,
+          "layout": "sentence",
+          "item_count": 1,
+          "scenario": "banking_account",
+          "difficulty": "D4",
+          "target_skills": ["vocabulary_in_context", "preposition_collocation"],
+          "design_plan_zh": "測驗金融服務語境動詞搭配（waive the annual maintenance fee 免除年費），干擾項為近義或拼字相近動詞。"
+        },
+        {
+          "group_id": "ag-g-p5-000010",
+          "family_id": "ag-fam-p5-condition-unless-exception",
+          "part": 5,
+          "layout": "sentence",
+          "item_count": 1,
+          "scenario": "procurement_purchasing",
+          "difficulty": "D3",
+          "target_skills": ["connector_clause", "conditions_exceptions"],
+          "design_plan_zh": "測驗條件連接詞（unless accompanied by an itemized receipt）表達報銷例外條件。"
+        },
+        {
+          "group_id": "ag-g-p5-000011",
+          "family_id": "ag-fam-p5-verb-participle-reduced-clause",
+          "part": 5,
+          "layout": "sentence",
+          "item_count": 1,
+          "scenario": "publishing_editorial",
+          "difficulty": "D5",
+          "target_skills": ["verb_form_agreement", "connector_clause"],
+          "design_plan_zh": "測驗簡化關係子句之現在分詞與過去分詞區辨（manuscripts submitted after Friday）。"
+        },
+        {
+          "group_id": "ag-g-p5-000012",
+          "family_id": "ag-fam-p5-vocab-adverb-tentatively-scheduled",
+          "part": 5,
+          "layout": "sentence",
+          "item_count": 1,
+          "scenario": "event_conference",
+          "difficulty": "D5",
+          "target_skills": ["vocabulary_in_context", "preposition_collocation"],
+          "design_plan_zh": "測驗高階副詞與動詞搭配（tentatively scheduled 暫定排程 vs reluctantly / mutually / Stringently）。"
+        }
+      ]
+    },
+    {
+      "batch_id": "batch-ag-0002",
+      "job_id": "job-ag-0002",
+      "title_zh": "第一階段第二批：Part 1（3題）＋ Part 2（5題）＋ Part 5（3題）＋ Part 6（2組8題）共 19 題",
+      "group_count": 13,
+      "item_count": 19,
+      "groups": [
+        {
+          "group_id": "ag-g-p1-000001",
+          "family_id": "ag-fam-p1-laboratory-technician-microscope",
+          "part": 1,
+          "layout": "photo",
+          "item_count": 1,
+          "scenario": "research_laboratory",
+          "difficulty": "D1",
+          "target_skills": ["photo_action"],
+          "design_plan_zh": "單人近景動作照：研究員戴手套正在調整顯微鏡；干擾項設計同場景未發生的動作（washing glassware / writing on whiteboard）。"
+        },
+        {
+          "group_id": "ag-g-p1-000002",
+          "family_id": "ag-fam-p1-bakery-counter-pastry-display",
+          "part": 1,
+          "layout": "photo",
+          "item_count": 1,
+          "scenario": "retail_bakery",
+          "difficulty": "D3",
+          "target_skills": ["photo_action", "photo_state_location"],
+          "design_plan_zh": "雙人與店面陳列照：糕點擺在玻璃展示櫃內，店員正將紙袋遞給顧客；干擾項混用進行式被動語態陷阱（are being baked）。"
+        },
+        {
+          "group_id": "ag-g-p1-000003",
+          "family_id": "ag-fam-p1-harbor-walkway-benches-empty",
+          "part": 1,
+          "layout": "photo",
+          "item_count": 1,
+          "scenario": "public_waterfront",
+          "difficulty": "D4",
+          "target_skills": ["photo_state_location", "paraphrase"],
+          "design_plan_zh": "無人景觀照：木製長椅沿著水岸步道排列，船隻停靠在碼頭旁；干擾項放入錯誤的「人物正在施工／登船」進行式被動陷阱（being boarded）。"
+        },
+        {
+          "group_id": "ag-g-p2-000009",
+          "family_id": "ag-fam-p2-wh-how-long-new-hire-orientation",
+          "part": 2,
+          "layout": "question_response",
+          "item_count": 1,
+          "scenario": "hr_onboarding",
+          "difficulty": "D1",
+          "target_skills": ["question_function", "direct_response"],
+          "design_plan_zh": "測驗 How long 詢問新進員工訓練時長；干擾項以長寬距離（twelve meters）與地點回答。"
+        },
+        {
+          "group_id": "ag-g-p2-000010",
+          "family_id": "ag-fam-p2-wh-why-packaging-line-stopped",
+          "part": 2,
+          "layout": "question_response",
+          "item_count": 1,
+          "scenario": "manufacturing_operations",
+          "difficulty": "D2",
+          "target_skills": ["question_function", "direct_response"],
+          "design_plan_zh": "測驗 Why 詢問包裝產線暫停原因；正解不帶 Because 直接說明感應器需要更換。"
+        },
+        {
+          "group_id": "ag-g-p2-000011",
+          "family_id": "ag-fam-p2-tag-question-booth-deposit-paid",
+          "part": 2,
+          "layout": "question_response",
+          "item_count": 1,
+          "scenario": "trade_show_exhibition",
+          "difficulty": "D3",
+          "target_skills": ["question_function", "direct_response"],
+          "design_plan_zh": "測驗附加問句確認展覽攤位訂金是否已付；正解具體指出匯款單今天早上已寄出。"
+        },
+        {
+          "group_id": "ag-g-p2-000012",
+          "family_id": "ag-fam-p2-offer-carry-sample-catalogs",
+          "part": 2,
+          "layout": "question_response",
+          "item_count": 1,
+          "scenario": "sales_visit",
+          "difficulty": "D4",
+          "target_skills": ["question_function", "indirect_response", "speaker_intent"],
+          "design_plan_zh": "測驗主動提供協助（Would you like me to carry those product catalogs to your car?），正解以推車就在走廊轉角間接婉謝。"
+        },
+        {
+          "group_id": "ag-g-p2-000013",
+          "family_id": "ag-fam-p2-indirect-embedded-question-dentist-reschedule",
+          "part": 2,
+          "layout": "question_response",
+          "item_count": 1,
+          "scenario": "medical_appointment",
+          "difficulty": "D5",
+          "target_skills": ["question_function", "indirect_response", "conditions_exceptions"],
+          "design_plan_zh": "測驗間接疑問句（Do you know if Dr. Patel has any openings this Thursday afternoon?），不能只聽 Do you know 回答 Yes/No，正解說明週四下午休診但週五早上可預約。"
+        },
+        {
+          "group_id": "ag-g-p5-000013",
+          "family_id": "ag-fam-p5-wordform-comparative-efficiency",
+          "part": 5,
+          "layout": "sentence",
+          "item_count": 1,
+          "scenario": "energy_sustainability",
+          "difficulty": "D2",
+          "target_skills": ["word_form", "connector_clause"],
+          "design_plan_zh": "測驗比較級結構（significantly more efficient than the previous heating model）中副詞修飾形容詞比較級。"
+        },
+        {
+          "group_id": "ag-g-p5-000014",
+          "family_id": "ag-fam-p5-prep-distinguish-between-among",
+          "part": 5,
+          "layout": "sentence",
+          "item_count": 1,
+          "scenario": "retail_loyalty_program",
+          "difficulty": "D4",
+          "target_skills": ["preposition_collocation", "conditions_exceptions"],
+          "design_plan_zh": "測驗介系詞片語（valid at participating branches throughout the region, except for airport kiosks）。"
+        },
+        {
+          "group_id": "ag-g-p5-000015",
+          "family_id": "ag-fam-p5-subjunctive-recommend-that-clause",
+          "part": 5,
+          "layout": "sentence",
+          "item_count": 1,
+          "scenario": "it_cybersecurity",
+          "difficulty": "D5",
+          "target_skills": ["verb_form_agreement", "connector_clause"],
+          "design_plan_zh": "測驗建議動詞（recommended that every remote employee update...）後接 that 子句使用原形動詞之假設法結構。"
+        },
+        {
+          "group_id": "ag-g-p6-000001",
+          "family_id": "ag-fam-p6-community-library-digital-archive",
+          "part": 6,
+          "layout": "text_completion",
+          "item_count": 4,
+          "scenario": "public_library_service",
+          "difficulty": "D3",
+          "target_skills": ["verb_form_agreement", "vocabulary_in_context", "reference_cohesion", "sentence_insertion"],
+          "design_plan_zh": "社區圖書館數位典藏服務升級公告，包含時態、語境詞彙、轉折副詞與完整句插入題。"
+        },
+        {
+          "group_id": "ag-g-p6-000002",
+          "family_id": "ag-fam-p6-warehouse-automated-sorting-memo",
+          "part": 6,
+          "layout": "text_completion",
+          "item_count": 4,
+          "scenario": "logistics_automation",
+          "difficulty": "D4",
+          "target_skills": ["word_form", "preposition_collocation", "reference_cohesion", "sentence_insertion"],
+          "design_plan_zh": "物流中心導入自動分揀系統內部備忘錄，強調跨句時序與指涉連貫，含一題完整句插入題。"
+        }
+      ]
+    },
+    {
+      "batch_id": "batch-ag-0003",
+      "job_id": "job-ag-0003",
+      "title_zh": "第一階段第三批：Part 3 簡短對話（6組共 18 題，含三人對話與圖表整合）",
+      "group_count": 6,
+      "item_count": 18,
+      "groups": [
+        {
+          "group_id": "ag-g-p3-000001",
+          "family_id": "ag-fam-p3-printing-brochure-paper-stock",
+          "part": 3,
+          "layout": "conversation",
+          "item_count": 3,
+          "scenario": "marketing_printing",
+          "difficulty": "D2",
+          "target_skills": ["main_idea_purpose", "explicit_detail", "next_action"],
+          "design_plan_zh": "雙人對話：討論貿易展宣傳冊紙張缺貨問題與改用霧面再生紙方案。"
+        },
+        {
+          "group_id": "ag-g-p3-000002",
+          "family_id": "ag-fam-p3-hotel-banquet-av-adjustment",
+          "part": 3,
+          "layout": "conversation",
+          "item_count": 3,
+          "scenario": "hospitality_events",
+          "difficulty": "D3",
+          "target_skills": ["explicit_detail", "paraphrase", "next_action"],
+          "design_plan_zh": "雙人對話：飯店宴會廳協調員與客戶確認頒獎晚宴座位調整與無線麥克風追加需求。"
+        },
+        {
+          "group_id": "ag-g-p3-000003",
+          "family_id": "ag-fam-p3-three-speaker-product-packaging-redesign",
+          "part": 3,
+          "layout": "conversation",
+          "item_count": 3,
+          "scenario": "product_development",
+          "difficulty": "D4",
+          "target_skills": ["main_idea_purpose", "speaker_intent", "conditions_exceptions"],
+          "design_plan_zh": "三人對話（研發、行銷、採購）：討論有機茶飲新包裝材質成本與零售商上架期限，含一題口語意圖題。"
+        },
+        {
+          "group_id": "ag-g-p3-000004",
+          "family_id": "ag-fam-p3-clinic-software-migration-training",
+          "part": 3,
+          "layout": "conversation",
+          "item_count": 3,
+          "scenario": "healthcare_administration",
+          "difficulty": "D3",
+          "target_skills": ["inference", "explicit_detail", "next_action"],
+          "design_plan_zh": "雙人對話：診所行政人員討論病歷預約系統升級後的排班與教學手冊分發。"
+        },
+        {
+          "group_id": "ag-g-p3-000005",
+          "family_id": "ag-fam-p3-graphic-courier-rate-comparison",
+          "part": 3,
+          "layout": "conversation",
+          "item_count": 3,
+          "scenario": "logistics_shipping",
+          "difficulty": "D4",
+          "target_skills": ["main_idea_purpose", "graphic_integration", "paraphrase"],
+          "design_plan_zh": "圖表整合對話：兩人根據快遞費率表（依重量與送達天數）選擇寄送建築模型至芝加哥的方案。"
+        },
+        {
+          "group_id": "ag-g-p3-000006",
+          "family_id": "ag-fam-p3-graphic-workshop-room-change",
+          "part": 3,
+          "layout": "conversation",
+          "item_count": 3,
+          "scenario": "corporate_training",
+          "difficulty": "D5",
+          "target_skills": ["speaker_intent", "graphic_integration", "chronology"],
+          "design_plan_zh": "圖表整合＋意圖高難度對話：對照研討會樓層教室配置表，因報名人數超額與投影設備限制而調換時段與場地。"
+        }
+      ]
+    },
+    {
+      "batch_id": "batch-ag-0004",
+      "job_id": "job-ag-0004",
+      "title_zh": "第一階段第四批：Part 4 簡短獨白（5組共 15 題，含語音留言、導覽、廣播與圖表整合）",
+      "group_count": 5,
+      "item_count": 15,
+      "groups": [
+        {
+          "group_id": "ag-g-p4-000001",
+          "family_id": "ag-fam-p4-voicemail-custom-furniture-delivery",
+          "part": 4,
+          "layout": "talk",
+          "item_count": 3,
+          "scenario": "retail_delivery",
+          "difficulty": "D2",
+          "target_skills": ["main_idea_purpose", "explicit_detail", "next_action"],
+          "design_plan_zh": "語音留言：家具行通知客戶訂製會議桌已完工，惟貨梯維修需改由裝卸區進場並確認簽收時段。"
+        },
+        {
+          "group_id": "ag-g-p4-000002",
+          "family_id": "ag-fam-p4-museum-volunteer-orientation-tour",
+          "part": 4,
+          "layout": "talk",
+          "item_count": 3,
+          "scenario": "public_museum_tour",
+          "difficulty": "D3",
+          "target_skills": ["inference", "explicit_detail", "chronology"],
+          "design_plan_zh": "導覽介紹：海事博物館志工領隊向新進導覽員說明特展動線、語音導覽租借櫃檯位置與閉館清場流程。"
+        },
+        {
+          "group_id": "ag-g-p4-000003",
+          "family_id": "ag-fam-p4-factory-safety-briefing-intent",
+          "part": 4,
+          "layout": "talk",
+          "item_count": 3,
+          "scenario": "manufacturing_safety",
+          "difficulty": "D4",
+          "target_skills": ["main_idea_purpose", "speaker_intent", "conditions_exceptions"],
+          "design_plan_zh": "工廠主管晨間簡報：說明冷藏庫溫度監控異常處理程序與防護裝備規定，含一題口語意圖題。"
+        },
+        {
+          "group_id": "ag-g-p4-000004",
+          "family_id": "ag-fam-p4-radio-traffic-commuter-ferry",
+          "part": 4,
+          "layout": "talk",
+          "item_count": 3,
+          "scenario": "transportation_commute",
+          "difficulty": "D3",
+          "target_skills": ["explicit_detail", "paraphrase", "next_action"],
+          "design_plan_zh": "市政交通廣播：因港灣濃霧與橋樑例行檢修，調整通勤渡輪班次並提供免費接駁巴士。"
+        },
+        {
+          "group_id": "ag-g-p4-000005",
+          "family_id": "ag-fam-p4-graphic-quarterly-sales-presentation",
+          "part": 4,
+          "layout": "talk",
+          "item_count": 3,
+          "scenario": "sales_analytics",
+          "difficulty": "D5",
+          "target_skills": ["graphic_integration", "inference", "next_action"],
+          "design_plan_zh": "圖表整合簡報：業務總監對照四個區域門市季度營收與退貨率表格，指出北區成長原因與南區包裝改善計畫。"
+        }
+      ]
+    },
+    {
+      "batch_id": "batch-ag-0005",
+      "job_id": "job-ag-0005",
+      "title_zh": "第一階段第五批：Part 7 閱讀理解（單篇 4 組 13 題 ＋ 雙篇 2 組 10 題 ＋ 三篇 1 組 5 題，共 28 題）",
+      "group_count": 7,
+      "item_count": 28,
+      "groups": [
+        {
+          "group_id": "ag-g-p7-000001",
+          "family_id": "ag-fam-p7-single-notice-parking-garage-repaving",
+          "part": 7,
+          "layout": "single_passage",
+          "item_count": 3,
+          "scenario": "office_facilities",
+          "difficulty": "D1",
+          "target_skills": ["main_idea_purpose", "explicit_detail", "conditions_exceptions"],
+          "design_plan_zh": "單篇（3題）：辦公大樓地下停車場分層重新鋪面公告，考施工期間臨時停車證領取與電動車充電樁停用規定。"
+        },
+        {
+          "group_id": "ag-g-p7-000002",
+          "family_id": "ag-fam-p7-single-email-supplier-batch-testing",
+          "part": 7,
+          "layout": "single_passage",
+          "item_count": 3,
+          "scenario": "procurement_quality",
+          "difficulty": "D2",
+          "target_skills": ["explicit_detail", "paraphrase", "next_action"],
+          "design_plan_zh": "單篇（3題）：陶瓷器皿製造商寄給連鎖餐廳採購經理的電子郵件，說明耐熱測試結果與樣品寄送時程。"
+        },
+        {
+          "group_id": "ag-g-p7-000003",
+          "family_id": "ag-fam-p7-single-chat-it-deployment-rollout",
+          "part": 7,
+          "layout": "single_passage",
+          "item_count": 3,
+          "scenario": "it_operations",
+          "difficulty": "D3",
+          "target_skills": ["speaker_intent", "inference", "chronology"],
+          "design_plan_zh": "單篇（3題）：三位技術人員在企業即時通訊軟體討論門市結帳系統更新異常，含一題訊號句意圖推論題。"
+        },
+        {
+          "group_id": "ag-g-p7-000004",
+          "family_id": "ag-fam-p7-single-article-green-rooftop-grant",
+          "part": 7,
+          "layout": "single_passage",
+          "item_count": 4,
+          "scenario": "urban_sustainability",
+          "difficulty": "D4",
+          "target_skills": ["main_idea_purpose", "vocabulary_in_context", "inference", "sentence_insertion"],
+          "design_plan_zh": "單篇（4題）：商業週刊報導市政商業建築綠屋頂補助計畫與企業節能成效，含 [[position:1]]–[[position:4]] 句子插入題。"
+        },
+        {
+          "group_id": "ag-g-p7-000005",
+          "family_id": "ag-fam-p7-double-conference-schedule-and-email",
+          "part": 7,
+          "layout": "double_passage",
+          "item_count": 5,
+          "scenario": "event_conference",
+          "difficulty": "D4",
+          "target_skills": ["explicit_detail", "paraphrase", "cross_document", "chronology"],
+          "design_plan_zh": "雙篇（5題）：亞太物流論壇議程表（含表格）＋講者與主辦方協調換場的電子郵件，其中兩題須跨兩份文件比對時間與講題才能作答。"
+        },
+        {
+          "group_id": "ag-g-p7-000006",
+          "family_id": "ag-fam-p7-double-warranty-policy-and-claim-form",
+          "part": 7,
+          "layout": "double_passage",
+          "item_count": 5,
+          "scenario": "customer_warranty",
+          "difficulty": "D4",
+          "target_skills": ["conditions_exceptions", "vocabulary_in_context", "cross_document", "inference"],
+          "design_plan_zh": "雙篇（5題）：商用咖啡機保固條款說明＋客戶填寫之維修申請表，需跨文件比對購買日期、故障零件與保固免責條款。"
+        },
+        {
+          "group_id": "ag-g-p7-000007",
+          "family_id": "ag-fam-p7-triple-catering-quote-email-invoice",
+          "part": 7,
+          "layout": "triple_passage",
+          "item_count": 5,
+          "scenario": "event_catering",
+          "difficulty": "D5",
+          "target_skills": ["explicit_detail", "cross_document", "conditions_exceptions", "inference"],
+          "design_plan_zh": "三篇（5題）：外燴公司報價單表格＋客戶更改人數與素食比例之電子郵件＋最終結算發票，須同時比對三份文件推算折扣條件與最終差額。"
+        }
+      ]
+    }
+  ]
+}

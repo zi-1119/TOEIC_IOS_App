@@ -1,0 +1,16 @@
+.DS_Store
+.build/
+.build-device/
+.build-tests/
+.build-sim/
+.build-simulator/
+.swiftpm-build/
+.swift-module-cache/
+__pycache__/
+*.pyc
+DerivedData/
+xcuserdata/
+*.xcuserstate
+*.ipa
+Secrets.xcconfig
+.env

@@ -1,0 +1,121 @@
+{
+  "schema_version": "1.0.0",
+  "created_at": "2026-10-27T11:40:00Z",
+  "total_target_items": 4800,
+  "quotas_by_part_and_pool": {
+    "1": { "training": 90, "battle": 18, "diagnostic": 12, "mock": 24, "total": 144 },
+    "2": { "training": 375, "battle": 75, "diagnostic": 50, "mock": 100, "total": 600 },
+    "3": { "training": 585, "battle": 117, "diagnostic": 78, "mock": 156, "total": 936 },
+    "4": { "training": 450, "battle": 90, "diagnostic": 60, "mock": 120, "total": 720 },
+    "5": { "training": 450, "battle": 90, "diagnostic": 60, "mock": 120, "total": 720 },
+    "6": { "training": 240, "battle": 48, "diagnostic": 32, "mock": 64, "total": 384 },
+    "7": { "training": 810, "battle": 162, "diagnostic": 108, "mock": 216, "total": 1296 }
+  },
+  "totals_by_pool": {
+    "training": 3000,
+    "battle": 600,
+    "diagnostic": 400,
+    "mock": 800,
+    "total": 4800
+  },
+  "training_editorial_difficulty_target_ratio": {
+    "D1": 0.15,
+    "D2": 0.25,
+    "D3": 0.20,
+    "D4": 0.15,
+    "D5": 0.25
+  },
+  "mock_forms_plan": [
+    {
+      "form_id": "mock-form-01",
+      "pool": "mock",
+      "total_items": 200,
+      "listening_minutes": 45,
+      "reading_minutes": 75,
+      "parts": {
+        "1": { "groups": 6, "items": 6 },
+        "2": { "groups": 25, "items": 25 },
+        "3": { "groups": 13, "items": 39 },
+        "4": { "groups": 10, "items": 30 },
+        "5": { "groups": 30, "items": 30 },
+        "6": { "groups": 4, "items": 16 },
+        "7": { "single_passage_items": 29, "multi_passage_items": 25, "items": 54 }
+      },
+      "status": "planned"
+    },
+    {
+      "form_id": "mock-form-02",
+      "pool": "mock",
+      "total_items": 200,
+      "listening_minutes": 45,
+      "reading_minutes": 75,
+      "parts": {
+        "1": { "groups": 6, "items": 6 },
+        "2": { "groups": 25, "items": 25 },
+        "3": { "groups": 13, "items": 39 },
+        "4": { "groups": 10, "items": 30 },
+        "5": { "groups": 30, "items": 30 },
+        "6": { "groups": 4, "items": 16 },
+        "7": { "single_passage_items": 29, "multi_passage_items": 25, "items": 54 }
+      },
+      "status": "planned"
+    },
+    {
+      "form_id": "mock-form-03",
+      "pool": "mock",
+      "total_items": 200,
+      "listening_minutes": 45,
+      "reading_minutes": 75,
+      "parts": {
+        "1": { "groups": 6, "items": 6 },
+        "2": { "groups": 25, "items": 25 },
+        "3": { "groups": 13, "items": 39 },
+        "4": { "groups": 10, "items": 30 },
+        "5": { "groups": 30, "items": 30 },
+        "6": { "groups": 4, "items": 16 },
+        "7": { "single_passage_items": 29, "multi_passage_items": 25, "items": 54 }
+      },
+      "status": "planned"
+    },
+    {
+      "form_id": "mock-form-04",
+      "pool": "mock",
+      "total_items": 200,
+      "listening_minutes": 45,
+      "reading_minutes": 75,
+      "parts": {
+        "1": { "groups": 6, "items": 6 },
+        "2": { "groups": 25, "items": 25 },
+        "3": { "groups": 13, "items": 39 },
+        "4": { "groups": 10, "items": 30 },
+        "5": { "groups": 30, "items": 30 },
+        "6": { "groups": 4, "items": 16 },
+        "7": { "single_passage_items": 29, "multi_passage_items": 25, "items": 54 }
+      },
+      "status": "planned"
+    }
+  ],
+  "milestones": [
+    {
+      "phase": "phase1_100_trial",
+      "pool": "training",
+      "target_items": 100,
+      "part_breakdown": { "1": 3, "2": 13, "3": 18, "4": 15, "5": 15, "6": 8, "7": 28 },
+      "description_zh": "第一階段 100 題試行（全數計入 training 配額），首批 20 題為 Part 2/5 快速驗證，共 5 批涵蓋 Part 1–7 全部題型。"
+    },
+    {
+      "phase": "phase2_400_expansion",
+      "pool": "training",
+      "target_items": 400,
+      "part_breakdown": { "1": 12, "2": 50, "3": 78, "4": 60, "5": 60, "6": 32, "7": 108 },
+      "description_zh": "第二階段擴充至累計 400 題 training，全面檢驗情境覆蓋率、歧義率、近似題比例與音圖製作成本。"
+    },
+    {
+      "phase": "phase3_4800_full_production",
+      "pool": "all",
+      "target_items": 4800,
+      "part_breakdown": { "1": 144, "2": 600, "3": 936, "4": 720, "5": 720, "6": 384, "7": 1296 },
+      "description_zh": "第三階段按 Part × pool 配額逐批推進至 4,800 道去重合格小題，並保持家族跨池完全隔離。"
+    }
+  ]
+}

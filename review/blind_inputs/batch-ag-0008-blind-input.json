@@ -1,0 +1,977 @@
+{
+  "batch_id": "batch-ag-0008",
+  "pool": "training",
+  "instructions": "Independent context-isolated blind solve input. All answer_choice_id, evidence, explanation_zh, and distractor_notes have been stripped. Solve each item independently.",
+  "groups": [
+    {
+      "group_id": "ag-g-p5-000016",
+      "part": 5,
+      "layout": "sentence",
+      "scenario": "office_administration",
+      "blind_solvable": true,
+      "stimulus": {
+        "documents": [],
+        "speakers": [],
+        "audio_script": []
+      },
+      "items": [
+        {
+          "item_id": "ag-i-p5-000016-1",
+          "prompt_en": "All department heads must ____ review the updated travel reimbursement guidelines before Friday.",
+          "choices": [
+            {
+              "id": "A",
+              "text_en": "careful"
+            },
+            {
+              "id": "B",
+              "text_en": "carefully"
+            },
+            {
+              "id": "C",
+              "text_en": "carefulness"
+            },
+            {
+              "id": "D",
+              "text_en": "caring"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "group_id": "ag-g-p5-000017",
+      "part": 5,
+      "layout": "sentence",
+      "scenario": "hr_recruitment_training",
+      "blind_solvable": true,
+      "stimulus": {
+        "documents": [],
+        "speakers": [],
+        "audio_script": []
+      },
+      "items": [
+        {
+          "item_id": "ag-i-p5-000017-1",
+          "prompt_en": "The orientation workshop was moved to the main auditorium ____ the unexpectedly high number of registrants.",
+          "choices": [
+            {
+              "id": "A",
+              "text_en": "because"
+            },
+            {
+              "id": "B",
+              "text_en": "although"
+            },
+            {
+              "id": "C",
+              "text_en": "due to"
+            },
+            {
+              "id": "D",
+              "text_en": "so that"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "group_id": "ag-g-p5-000018",
+      "part": 5,
+      "layout": "sentence",
+      "scenario": "manufacturing_quality_control",
+      "blind_solvable": true,
+      "stimulus": {
+        "documents": [],
+        "speakers": [],
+        "audio_script": []
+      },
+      "items": [
+        {
+          "item_id": "ag-i-p5-000018-1",
+          "prompt_en": "Two faulty conveyor motors ____ by the night-shift maintenance crew before production resumed at dawn.",
+          "choices": [
+            {
+              "id": "A",
+              "text_en": "replaced"
+            },
+            {
+              "id": "B",
+              "text_en": "were replaced"
+            },
+            {
+              "id": "C",
+              "text_en": "have replaced"
+            },
+            {
+              "id": "D",
+              "text_en": "replacing"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "group_id": "ag-g-p5-000019",
+      "part": 5,
+      "layout": "sentence",
+      "scenario": "finance_budgeting_invoicing",
+      "blind_solvable": true,
+      "stimulus": {
+        "documents": [],
+        "speakers": [],
+        "audio_script": []
+      },
+      "items": [
+        {
+          "item_id": "ag-i-p5-000019-1",
+          "prompt_en": "Ms. Lindqvist decided to audit the third-quarter expense ledger ____ rather than delegating the task to an intern.",
+          "choices": [
+            {
+              "id": "A",
+              "text_en": "she"
+            },
+            {
+              "id": "B",
+              "text_en": "her"
+            },
+            {
+              "id": "C",
+              "text_en": "hers"
+            },
+            {
+              "id": "D",
+              "text_en": "herself"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "group_id": "ag-g-p5-000020",
+      "part": 5,
+      "layout": "sentence",
+      "scenario": "it_systems_security",
+      "blind_solvable": true,
+      "stimulus": {
+        "documents": [],
+        "speakers": [],
+        "audio_script": []
+      },
+      "items": [
+        {
+          "item_id": "ag-i-p5-000020-1",
+          "prompt_en": "Installing multi-factor authentication on all remote laptops will help ____ unauthorized access to client databases.",
+          "choices": [
+            {
+              "id": "A",
+              "text_en": "prevent"
+            },
+            {
+              "id": "B",
+              "text_en": "persuade"
+            },
+            {
+              "id": "C",
+              "text_en": "postpone"
+            },
+            {
+              "id": "D",
+              "text_en": "prescribe"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "group_id": "ag-g-p5-000021",
+      "part": 5,
+      "layout": "sentence",
+      "scenario": "logistics_supply_chain",
+      "blind_solvable": true,
+      "stimulus": {
+        "documents": [],
+        "speakers": [],
+        "audio_script": []
+      },
+      "items": [
+        {
+          "item_id": "ag-i-p5-000021-1",
+          "prompt_en": "Vanguard Freight can guarantee next-day delivery to regional warehouses ____ the purchase order is submitted before 2:00 P.M.",
+          "choices": [
+            {
+              "id": "A",
+              "text_en": "provided that"
+            },
+            {
+              "id": "B",
+              "text_en": "even though"
+            },
+            {
+              "id": "C",
+              "text_en": "as if"
+            },
+            {
+              "id": "D",
+              "text_en": "in case of"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "group_id": "ag-g-p5-000022",
+      "part": 5,
+      "layout": "sentence",
+      "scenario": "marketing_events_promotions",
+      "blind_solvable": true,
+      "stimulus": {
+        "documents": [],
+        "speakers": [],
+        "audio_script": []
+      },
+      "items": [
+        {
+          "item_id": "ag-i-p5-000022-1",
+          "prompt_en": "The innovation showcase will feature twelve start-up companies ____ products reduce commercial packaging waste.",
+          "choices": [
+            {
+              "id": "A",
+              "text_en": "which"
+            },
+            {
+              "id": "B",
+              "text_en": "whom"
+            },
+            {
+              "id": "C",
+              "text_en": "whose"
+            },
+            {
+              "id": "D",
+              "text_en": "what"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "group_id": "ag-g-p5-000023",
+      "part": 5,
+      "layout": "sentence",
+      "scenario": "customer_service_returns",
+      "blind_solvable": true,
+      "stimulus": {
+        "documents": [],
+        "speakers": [],
+        "audio_script": []
+      },
+      "items": [
+        {
+          "item_id": "ag-i-p5-000023-1",
+          "prompt_en": "Customers who return unopened electronics within fourteen days of purchase are ____ for a full refund.",
+          "choices": [
+            {
+              "id": "A",
+              "text_en": "eligible"
+            },
+            {
+              "id": "B",
+              "text_en": "probable"
+            },
+            {
+              "id": "C",
+              "text_en": "accessible"
+            },
+            {
+              "id": "D",
+              "text_en": "reliant"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "group_id": "ag-g-p5-000024",
+      "part": 5,
+      "layout": "sentence",
+      "scenario": "real_estate_facilities",
+      "blind_solvable": true,
+      "stimulus": {
+        "documents": [],
+        "speakers": [],
+        "audio_script": []
+      },
+      "items": [
+        {
+          "item_id": "ag-i-p5-000024-1",
+          "prompt_en": "By the time the annex renovation concludes in November, Sterling Law Partners ____ the fourth-floor suite for ten years.",
+          "choices": [
+            {
+              "id": "A",
+              "text_en": "occupies"
+            },
+            {
+              "id": "B",
+              "text_en": "occupied"
+            },
+            {
+              "id": "C",
+              "text_en": "will have occupied"
+            },
+            {
+              "id": "D",
+              "text_en": "is occupying"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "group_id": "ag-g-p5-000025",
+      "part": 5,
+      "layout": "sentence",
+      "scenario": "corporate_governance_legal",
+      "blind_solvable": true,
+      "stimulus": {
+        "documents": [],
+        "speakers": [],
+        "audio_script": []
+      },
+      "items": [
+        {
+          "item_id": "ag-i-p5-000025-1",
+          "prompt_en": "All external consultants are required to sign a ____ agreement before reviewing proprietary engineering blueprints.",
+          "choices": [
+            {
+              "id": "A",
+              "text_en": "confide"
+            },
+            {
+              "id": "B",
+              "text_en": "confident"
+            },
+            {
+              "id": "C",
+              "text_en": "confidentially"
+            },
+            {
+              "id": "D",
+              "text_en": "confidentiality"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "group_id": "ag-g-p5-000026",
+      "part": 5,
+      "layout": "sentence",
+      "scenario": "procurement_vendor_management",
+      "blind_solvable": true,
+      "stimulus": {
+        "documents": [],
+        "speakers": [],
+        "audio_script": []
+      },
+      "items": [
+        {
+          "item_id": "ag-i-p5-000026-1",
+          "prompt_en": "____ recent fluctuations in global aluminum prices, Kestrel Components will honor its quoted unit rates through December.",
+          "choices": [
+            {
+              "id": "A",
+              "text_en": "Notwithstanding"
+            },
+            {
+              "id": "B",
+              "text_en": "Provided"
+            },
+            {
+              "id": "C",
+              "text_en": "Consequently"
+            },
+            {
+              "id": "D",
+              "text_en": "Whereas"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "group_id": "ag-g-p5-000027",
+      "part": 5,
+      "layout": "sentence",
+      "scenario": "retail_store_operations",
+      "blind_solvable": true,
+      "stimulus": {
+        "documents": [],
+        "speakers": [],
+        "audio_script": []
+      },
+      "items": [
+        {
+          "item_id": "ag-i-p5-000027-1",
+          "prompt_en": "____ its third-quarter revenue target by eighteen percent, the Ginza flagship store received the regional excellence award.",
+          "choices": [
+            {
+              "id": "A",
+              "text_en": "Exceed"
+            },
+            {
+              "id": "B",
+              "text_en": "Exceeded"
+            },
+            {
+              "id": "C",
+              "text_en": "Having exceeded"
+            },
+            {
+              "id": "D",
+              "text_en": "To be exceeded"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "group_id": "ag-g-p5-000028",
+      "part": 5,
+      "layout": "sentence",
+      "scenario": "product_development_rd",
+      "blind_solvable": true,
+      "stimulus": {
+        "documents": [],
+        "speakers": [],
+        "audio_script": []
+      },
+      "items": [
+        {
+          "item_id": "ag-i-p5-000028-1",
+          "prompt_en": "The beta release of the acoustic sensor firmware is ____ scheduled for April 14, pending final validation from the quality assurance team.",
+          "choices": [
+            {
+              "id": "A",
+              "text_en": "tentatively"
+            },
+            {
+              "id": "B",
+              "text_en": "permanently"
+            },
+            {
+              "id": "C",
+              "text_en": "reluctantly"
+            },
+            {
+              "id": "D",
+              "text_en": "mutually"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "group_id": "ag-g-p5-000029",
+      "part": 5,
+      "layout": "sentence",
+      "scenario": "banking_investment_services",
+      "blind_solvable": true,
+      "stimulus": {
+        "documents": [],
+        "speakers": [],
+        "audio_script": []
+      },
+      "items": [
+        {
+          "item_id": "ag-i-p5-000029-1",
+          "prompt_en": "Portfolios managed by Aurelia Wealth Advisory are structured to generate returns commensurate ____ each client's stated risk tolerance.",
+          "choices": [
+            {
+              "id": "A",
+              "text_en": "with"
+            },
+            {
+              "id": "B",
+              "text_en": "from"
+            },
+            {
+              "id": "C",
+              "text_en": "into"
+            },
+            {
+              "id": "D",
+              "text_en": "over"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "group_id": "ag-g-p5-000030",
+      "part": 5,
+      "layout": "sentence",
+      "scenario": "corporate_governance_legal",
+      "blind_solvable": true,
+      "stimulus": {
+        "documents": [],
+        "speakers": [],
+        "audio_script": []
+      },
+      "items": [
+        {
+          "item_id": "ag-i-p5-000030-1",
+          "prompt_en": "The revised procurement charter stipulates that every subcontractor invoice ____ by work-order code prior to disbursement.",
+          "choices": [
+            {
+              "id": "A",
+              "text_en": "itemizes"
+            },
+            {
+              "id": "B",
+              "text_en": "is itemizing"
+            },
+            {
+              "id": "C",
+              "text_en": "be itemized"
+            },
+            {
+              "id": "D",
+              "text_en": "was itemized"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "group_id": "ag-g-p5-000031",
+      "part": 5,
+      "layout": "sentence",
+      "scenario": "healthcare_medical_services",
+      "blind_solvable": true,
+      "stimulus": {
+        "documents": [],
+        "speakers": [],
+        "audio_script": []
+      },
+      "items": [
+        {
+          "item_id": "ag-i-p5-000031-1",
+          "prompt_en": "Under no circumstances ____ unsealed diagnostic specimens be left unattended on the centrifuge counter.",
+          "choices": [
+            {
+              "id": "A",
+              "text_en": "should"
+            },
+            {
+              "id": "B",
+              "text_en": "having"
+            },
+            {
+              "id": "C",
+              "text_en": "whether"
+            },
+            {
+              "id": "D",
+              "text_en": "unless"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "group_id": "ag-g-p6-000003",
+      "part": 6,
+      "layout": "text_completion",
+      "scenario": "real_estate_facilities",
+      "blind_solvable": true,
+      "stimulus": {
+        "documents": [
+          {
+            "doc_id": "ag-doc-p6-000003-1",
+            "doc_type": "memo",
+            "title_en": "MEMORANDUM: Upgrade to Keycard Elevator Access",
+            "blocks": [
+              {
+                "block_id": "ag-blk-p6-000003-1",
+                "type": "text",
+                "text_en": "To: All Tenants, Crestview Commercial Tower\nFrom: Building Management Office\nDate: October 12\nSubject: Transition to Smart Keycard Elevator Readers\n\nBeginning November 1, the passenger elevators in Crestview Commercial Tower [[blank:ag-i-p6-000003-1]] with upgraded optical keycard readers on all floors. This modernization project is designed to reduce lobby congestion during morning peak hours while strengthening after-hours floor security.\n\nEach tenant company will receive replacement smart badges for all registered staff members at no extra charge. [[blank:ag-i-p6-000003-2]] Your office administrator must submit an updated employee roster through the tenant portal by October 22 so that the badges can be encoded accurately.\n\nTemporary visitor passes will still be issued at the ground-floor concierge desk upon presentation of a photo ID. [[blank:ag-i-p6-000003-3]], couriers making recurring daily deliveries may apply for a vendor access badge valid for the loading dock elevator. We appreciate your [[blank:ag-i-p6-000003-4]] as our technicians complete the installation over the next two weekends."
+              }
+            ]
+          }
+        ],
+        "speakers": [],
+        "audio_script": []
+      },
+      "items": [
+        {
+          "item_id": "ag-i-p6-000003-1",
+          "prompt_en": "Select the best word or phrase for [[blank:ag-i-p6-000003-1]].",
+          "choices": [
+            {
+              "id": "A",
+              "text_en": "equipped"
+            },
+            {
+              "id": "B",
+              "text_en": "will be equipped"
+            },
+            {
+              "id": "C",
+              "text_en": "have equipped"
+            },
+            {
+              "id": "D",
+              "text_en": "are equipping"
+            }
+          ]
+        },
+        {
+          "item_id": "ag-i-p6-000003-2",
+          "prompt_en": "Select the best sentence for [[blank:ag-i-p6-000003-2]].",
+          "choices": [
+            {
+              "id": "A",
+              "text_en": "Current magnetic-stripe cards will automatically deactivate at midnight on October 31."
+            },
+            {
+              "id": "B",
+              "text_en": "The parking garage on Level B2 will remain closed for repainting all month."
+            },
+            {
+              "id": "C",
+              "text_en": "Several retail shops on the plaza level have extended their weekend hours."
+            },
+            {
+              "id": "D",
+              "text_en": "Elevator maintenance fees were refunded to tenants last quarter."
+            }
+          ]
+        },
+        {
+          "item_id": "ag-i-p6-000003-3",
+          "prompt_en": "Select the best word or phrase for [[blank:ag-i-p6-000003-3]].",
+          "choices": [
+            {
+              "id": "A",
+              "text_en": "In addition"
+            },
+            {
+              "id": "B",
+              "text_en": "Otherwise"
+            },
+            {
+              "id": "C",
+              "text_en": "Consequently"
+            },
+            {
+              "id": "D",
+              "text_en": "Instead of"
+            }
+          ]
+        },
+        {
+          "item_id": "ag-i-p6-000003-4",
+          "prompt_en": "Select the best word or phrase for [[blank:ag-i-p6-000003-4]].",
+          "choices": [
+            {
+              "id": "A",
+              "text_en": "cooperation"
+            },
+            {
+              "id": "B",
+              "text_en": "ambition"
+            },
+            {
+              "id": "C",
+              "text_en": "obligation"
+            },
+            {
+              "id": "D",
+              "text_en": "reservation"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "group_id": "ag-g-p6-000004",
+      "part": 6,
+      "layout": "text_completion",
+      "scenario": "marketing_events_promotions",
+      "blind_solvable": true,
+      "stimulus": {
+        "documents": [
+          {
+            "doc_id": "ag-doc-p6-000004-1",
+            "doc_type": "email",
+            "title_en": "Subject: Feature Request — Solis Logistics Case Study",
+            "blocks": [
+              {
+                "block_id": "ag-blk-p6-000004-1",
+                "type": "text",
+                "text_en": "To: Nadia Khatri <nkhatri@solislogistics.com>\nFrom: Julian Vance <jvance@routeoptima.io>\nDate: September 19\nSubject: Featuring Solis Logistics in Our Annual Client Spotlight\n\nDear Ms. Khatri,\n\nOver the past eight months, your regional dispatch team has achieved a remarkable 22 percent reduction in fuel consumption using RouteOptima's fleet-scheduling platform. Because of these [[blank:ag-i-p6-000004-1]] results, our editorial board would like to profile Solis Logistics in our upcoming Client Spotlight report.\n\nParticipation would involve a 30-minute video interview with our communications writer next week. [[blank:ag-i-p6-000004-2]] Nothing will be published without your legal department's written sign-off.\n\nAs a token of appreciation, participating partner organizations receive two complimentary passes to our Transport Tech Summit in Chicago this November. [[blank:ag-i-p6-000004-3]], your company logo and sustainability metrics will be featured on our conference main stage.\n\nPlease let me know by Friday whether you would like to [[blank:ag-i-p6-000004-4]] with the interview."
+              }
+            ]
+          }
+        ],
+        "speakers": [],
+        "audio_script": []
+      },
+      "items": [
+        {
+          "item_id": "ag-i-p6-000004-1",
+          "prompt_en": "Select the best word or phrase for [[blank:ag-i-p6-000004-1]].",
+          "choices": [
+            {
+              "id": "A",
+              "text_en": "impress"
+            },
+            {
+              "id": "B",
+              "text_en": "impressed"
+            },
+            {
+              "id": "C",
+              "text_en": "impressive"
+            },
+            {
+              "id": "D",
+              "text_en": "impressively"
+            }
+          ]
+        },
+        {
+          "item_id": "ag-i-p6-000004-2",
+          "prompt_en": "Select the best sentence for [[blank:ag-i-p6-000004-2]].",
+          "choices": [
+            {
+              "id": "A",
+              "text_en": "We will send you the full draft article for review before it goes to layout."
+            },
+            {
+              "id": "B",
+              "text_en": "The fleet-scheduling software requires a hardware reboot every Sunday night."
+            },
+            {
+              "id": "C",
+              "text_en": "Tickets to the Chicago summit sold out three weeks ahead of schedule."
+            },
+            {
+              "id": "D",
+              "text_en": "Our accounting office has already processed your monthly subscription invoice."
+            }
+          ]
+        },
+        {
+          "item_id": "ag-i-p6-000004-3",
+          "prompt_en": "Select the best word or phrase for [[blank:ag-i-p6-000004-3]].",
+          "choices": [
+            {
+              "id": "A",
+              "text_en": "Nevertheless"
+            },
+            {
+              "id": "B",
+              "text_en": "Moreover"
+            },
+            {
+              "id": "C",
+              "text_en": "Conversely"
+            },
+            {
+              "id": "D",
+              "text_en": "For instance"
+            }
+          ]
+        },
+        {
+          "item_id": "ag-i-p6-000004-4",
+          "prompt_en": "Select the best word or phrase for [[blank:ag-i-p6-000004-4]].",
+          "choices": [
+            {
+              "id": "A",
+              "text_en": "proceed"
+            },
+            {
+              "id": "B",
+              "text_en": "precede"
+            },
+            {
+              "id": "C",
+              "text_en": "possess"
+            },
+            {
+              "id": "D",
+              "text_en": "prolong"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "group_id": "ag-g-p7-000008",
+      "part": 7,
+      "layout": "single_passage",
+      "scenario": "customer_service_returns",
+      "blind_solvable": true,
+      "stimulus": {
+        "documents": [
+          {
+            "doc_id": "ag-doc-p7-000008-1",
+            "doc_type": "notice",
+            "title_en": "Hearthstone Ceramic Studio — Custom Order & Exchange Policy",
+            "blocks": [
+              {
+                "block_id": "ag-blk-p7-000008-1",
+                "type": "text",
+                "text_en": "Thank you for shopping at Hearthstone Ceramic Studio. Standard dinnerware sets purchased from our showroom shelves may be exchanged or returned for a full refund within 30 days of purchase, provided they are unused and accompanied by the original printed receipt.\n\nPlease note that custom-monogrammed platters and bespoke restaurant glaze orders require a 40 percent nonrefundable deposit at the time the order is placed. However, if any item arrives with a manufacturing crack or glaze defect, our studio will fire and ship a replacement piece at no cost if you e-mail photographs of the damage to support@hearthstoneceramics.com within 72 hours of delivery."
+              }
+            ]
+          }
+        ],
+        "speakers": [],
+        "audio_script": []
+      },
+      "items": [
+        {
+          "item_id": "ag-i-p7-000008-1",
+          "prompt_en": "What is required to receive a full refund on a standard dinnerware set?",
+          "choices": [
+            {
+              "id": "A",
+              "text_en": "Returning the unused items with the original receipt within 30 days"
+            },
+            {
+              "id": "B",
+              "text_en": "Paying a 40 percent restocking fee at the showroom desk"
+            },
+            {
+              "id": "C",
+              "text_en": "Submitting photographs of the tableware within 72 hours"
+            },
+            {
+              "id": "D",
+              "text_en": "Exchanging the set for a bespoke restaurant glaze order"
+            }
+          ]
+        },
+        {
+          "item_id": "ag-i-p7-000008-2",
+          "prompt_en": "Under what circumstance will the studio replace a custom-monogrammed platter free of charge?",
+          "choices": [
+            {
+              "id": "A",
+              "text_en": "When a customer decides to change the monogram spelling after firing"
+            },
+            {
+              "id": "B",
+              "text_en": "When the item is delivered with a structural crack and reported with photos within three days"
+            },
+            {
+              "id": "C",
+              "text_en": "When the order is canceled before the 30-day showroom return window expires"
+            },
+            {
+              "id": "D",
+              "text_en": "When the buyer visits the showroom in person without a receipt"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "group_id": "ag-g-p7-000009",
+      "part": 7,
+      "layout": "single_passage",
+      "scenario": "manufacturing_quality_control",
+      "blind_solvable": true,
+      "stimulus": {
+        "documents": [
+          {
+            "doc_id": "ag-doc-p7-000009-1",
+            "doc_type": "memo",
+            "title_en": "Internal Notice: Calibration Shutdown for Packaging Line B",
+            "blocks": [
+              {
+                "block_id": "ag-blk-p7-000009-1",
+                "type": "text",
+                "text_en": "To: All Shift Supervisors, Brno Bottling Facility\nFrom: Marek Horak, Director of Plant Operations\nDate: November 4\nSubject: Scheduled Laser-Sensor Calibration on Packaging Line B\n\nOn Thursday, November 7, Packaging Line B will be taken offline from 1:00 P.M. to 5:00 P.M. so that engineers from Viktoria Optics can calibrate the high-speed fill-level sensors. [[position:1]] Recent quality audits showed a slight variance in bottle fill volumes during peak throughput, and this preventive adjustment will ensure full compliance with European export standards. [[position:2]]\n\nTo avoid delaying our Friday shipment to Munich, afternoon bottling runs originally assigned to Line B will be rerouted to Packaging Line A and Packaging Line C. [[position:3]] Those two lines have sufficient reserve capacity to absorb the extra 14,000 units without requiring overtime hours. [[position:4]] Line B operators should report to Conference Room 2B at 1:15 P.M. on Thursday for a two-hour refresher seminar on the updated sensor diagnostic dashboard."
+              }
+            ]
+          }
+        ],
+        "speakers": [],
+        "audio_script": []
+      },
+      "items": [
+        {
+          "item_id": "ag-i-p7-000009-1",
+          "prompt_en": "Why is Packaging Line B being shut down on Thursday afternoon?",
+          "choices": [
+            {
+              "id": "A",
+              "text_en": "To adjust optical sensors that measure liquid levels in bottles"
+            },
+            {
+              "id": "B",
+              "text_en": "To repair a broken conveyor belt damaged during the morning shift"
+            },
+            {
+              "id": "C",
+              "text_en": "To reduce electricity usage during municipal power maintenance"
+            },
+            {
+              "id": "D",
+              "text_en": "To install a brand-new labeling machine for domestic orders"
+            }
+          ]
+        },
+        {
+          "item_id": "ag-i-p7-000009-2",
+          "prompt_en": "What is indicated about Friday's shipment to Munich?",
+          "choices": [
+            {
+              "id": "A",
+              "text_en": "It has been postponed until next Monday morning."
+            },
+            {
+              "id": "B",
+              "text_en": "It will require staff to work four hours of paid overtime."
+            },
+            {
+              "id": "C",
+              "text_en": "Its production volume will be handled by two other packaging lines."
+            },
+            {
+              "id": "D",
+              "text_en": "It will be inspected in Conference Room 2B at 1:15 P.M."
+            }
+          ]
+        },
+        {
+          "item_id": "ag-i-p7-000009-3",
+          "prompt_en": "In which of the positions marked [1], [2], [3], and [4] does the following sentence best belong?\n\"No products have failed safety standards, but fine-tuning the equipment now will prevent costly rejects later.\"",
+          "choices": [
+            {
+              "id": "A",
+              "text_en": "[1]"
+            },
+            {
+              "id": "B",
+              "text_en": "[2]"
+            },
+            {
+              "id": "C",
+              "text_en": "[3]"
+            },
+            {
+              "id": "D",
+              "text_en": "[4]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

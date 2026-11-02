@@ -1,0 +1,35 @@
+{
+  "batch_id": "part1-visual-blind",
+  "solver_kind": "ai_isolated_subagent",
+  "blind": true,
+  "solved_at": "2026-10-27T15:10:00Z",
+  "items": [
+    {
+      "group_id": "ag-g-p1-000001",
+      "item_id": "ag-i-p1-000001-1",
+      "selected_choice_id": "A",
+      "confidence": "high",
+      "ambiguity_flag": false,
+      "evidence_quote": "A woman wearing safety glasses, a white lab coat, and blue gloves is seated at a laboratory table looking directly through the eyepieces of a microscope while adjusting its focus knob.",
+      "reasoning_zh": "照片中一名身穿白色實驗袍、戴著護目鏡與藍色手套的女性正透過顯微鏡觀察，故 (A)「她正在看顯微鏡」完全符合畫面。(B) 水槽在背景中且無人清洗玻璃器皿、(C) 背景白板空白無人書寫、(D) 她已經穿好實驗袍而非正在穿上。"
+    },
+    {
+      "group_id": "ag-g-p1-000002",
+      "item_id": "ag-i-p1-000002-1",
+      "selected_choice_id": "C",
+      "confidence": "high",
+      "ambiguity_flag": false,
+      "evidence_quote": "Behind a glass pastry display case, a smiling bakery clerk wearing an apron holds out a brown paper bag and hands it across the counter to a male customer who is reaching both hands to receive it.",
+      "reasoning_zh": "照片中烘焙店玻璃展示櫃後的店員正將一個棕色紙袋遞給櫃檯前的男顧客，故 (C)「店員正把紙袋遞給顧客」完全正確。(A) 後方烤箱門關閉並未取出糕點、(B) 顧客並未在櫃檯堆疊托盤、(D) 地板乾淨且無人正在拖地。"
+    },
+    {
+      "group_id": "ag-g-p1-000003",
+      "item_id": "ag-i-p1-000003-1",
+      "selected_choice_id": "B",
+      "confidence": "high",
+      "ambiguity_flag": false,
+      "evidence_quote": "A row of empty wooden benches with black metal frames and street lamps are lined up along a curved stone-paved walkway right beside the harbor water and moored boats.",
+      "reasoning_zh": "照片右側的濱水石板步道旁整齊排列著一排木製長椅，故 (B)「木製長椅沿著濱水步道排列」完全符合畫面。照片中空無一人，因此 (A) 乘客正在登船、(C) 工人正在鋪設石板路、(D) 帆船正被拉上岸皆與畫面不符。"
+    }
+  ]
+}

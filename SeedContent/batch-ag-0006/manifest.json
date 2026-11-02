@@ -1,0 +1,54 @@
+{
+  "schema_version": "1.0.0",
+  "batch_id": "batch-ag-0006",
+  "created_at": "2026-10-27T16:09:05Z",
+  "producer": "antigravity-toeic-factory/1.0.0 (model: unknown)",
+  "group_count": 4,
+  "item_count": 8,
+  "files": [
+    {
+      "path": "assets/ag-ast-p1-000001-audio.m4a",
+      "sha256": "684cd4b76474d8dc727975321314eac90c070a2b720a0274f908a82453ebbef9"
+    },
+    {
+      "path": "assets/ag-ast-p1-000001-image.jpg",
+      "sha256": "70bbdf4c595f122addc4c781137b870310e3b35069e5f78d9a361fa4cdc516a1"
+    },
+    {
+      "path": "assets/ag-ast-p2-000001-audio.m4a",
+      "sha256": "b878ab1d5df76583a88298dad57c6d6ebe4d8c5b4160b376a66f85920c185c08"
+    },
+    {
+      "path": "assets/ag-ast-p3-000001-audio.m4a",
+      "sha256": "7a8ddb3b6b038c1119256e950bbd2b5c4e2c05c63c252ffbb5c6495768fd20b7"
+    },
+    {
+      "path": "assets/ag-ast-p4-000001-audio.m4a",
+      "sha256": "d962cacb040a0ec150de29ffd5e77bcd72bb9931a92d06666bd8b14690b87850"
+    },
+    {
+      "path": "groups.jsonl",
+      "sha256": "16300e74eccaa99d02450a341c4e9d980a8d2b59aabf3ab1f1eb1b1ac9cb40f5"
+    },
+    {
+      "path": "reports/blind-solve.json",
+      "sha256": "eb71a42c7e7dbe5f58da95e9cb154258d264dd95d71629d7b3dd19601489b2ae"
+    },
+    {
+      "path": "reports/changelog.md",
+      "sha256": "fc2800f7083d869b69557645edb68d2b582c25e14d24c579cd2e59e8200bc985"
+    },
+    {
+      "path": "reports/summary.md",
+      "sha256": "b09087f6582d70c42ba6656b2592d033d068ccc4b933efd14c3e4882880e3537"
+    },
+    {
+      "path": "reports/validation.json",
+      "sha256": "acd9a8a2c75079c1858f7ac659412134b817f5a0ee5e02b857d6e2edc5c33b07"
+    },
+    {
+      "path": "reviews.jsonl",
+      "sha256": "b0113e712732876b2a4fdd45b2abc167a875179641445a5a5754b92fc3ebf895"
+    }
+  ]
+}

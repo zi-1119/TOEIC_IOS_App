@@ -1,0 +1,55 @@
+# 第一階段 51 題組 / 100 小題真人審閱總簽核表（Full 100-Item Human Review Checklist）
+
+| 序號 | 批次 (版本) | 題組 ID | Part | 小題數 | 難度 | 是否列入優先抽樣 (26組/52題) | 含 `ca` 語音替代 | 真人審閱狀態 | 審閱者簽名與備註 |
+|---:|---|---|---:|---:|---:|:---:|:---:|---|---|
+| 1 | `batch-ag-0006` (v2) | `ag-g-p2-000001` | Part 2 | 1 | D1 | 是 | 否 | `[ ] pending` | |
+| 2 | `batch-ag-0007` (v2) | `ag-g-p2-000002` | Part 2 | 1 | D2 | 是 | 否 | `[ ] pending` | |
+| 3 | `batch-ag-0007` (v2) | `ag-g-p2-000003` | Part 2 | 1 | D3 | 是 | 是 | `[ ] pending` | |
+| 4 | `batch-ag-0007` (v2) | `ag-g-p2-000004` | Part 2 | 1 | D2 | 否 | 否 | `[ ] pending` | |
+| 5 | `batch-ag-0007` (v2) | `ag-g-p2-000005` | Part 2 | 1 | D3 | 否 | 否 | `[ ] pending` | |
+| 6 | `batch-ag-0007` (v2) | `ag-g-p2-000006` | Part 2 | 1 | D2 | 是 | 是 | `[ ] pending` | |
+| 7 | `batch-ag-0007` (v2) | `ag-g-p2-000007` | Part 2 | 1 | D4 | 是 | 否 | `[ ] pending` | |
+| 8 | `batch-ag-0007` (v2) | `ag-g-p2-000008` | Part 2 | 1 | D5 | 是 | 是 | `[ ] pending` | |
+| 9 | `batch-ag-0001` (v1) | `ag-g-p5-000001` | Part 5 | 1 | D1 | 是 | 否 | `[ ] pending` | |
+| 10 | `batch-ag-0001` (v1) | `ag-g-p5-000002` | Part 5 | 1 | D2 | 否 | 否 | `[ ] pending` | |
+| 11 | `batch-ag-0001` (v1) | `ag-g-p5-000003` | Part 5 | 1 | D2 | 否 | 否 | `[ ] pending` | |
+| 12 | `batch-ag-0001` (v1) | `ag-g-p5-000004` | Part 5 | 1 | D3 | 否 | 否 | `[ ] pending` | |
+| 13 | `batch-ag-0001` (v1) | `ag-g-p5-000005` | Part 5 | 1 | D2 | 否 | 否 | `[ ] pending` | |
+| 14 | `batch-ag-0001` (v1) | `ag-g-p5-000006` | Part 5 | 1 | D1 | 否 | 否 | `[ ] pending` | |
+| 15 | `batch-ag-0001` (v1) | `ag-g-p5-000007` | Part 5 | 1 | D4 | 否 | 否 | `[ ] pending` | |
+| 16 | `batch-ag-0001` (v1) | `ag-g-p5-000008` | Part 5 | 1 | D3 | 否 | 否 | `[ ] pending` | |
+| 17 | `batch-ag-0001` (v1) | `ag-g-p5-000009` | Part 5 | 1 | D4 | 否 | 否 | `[ ] pending` | |
+| 18 | `batch-ag-0001` (v1) | `ag-g-p5-000010` | Part 5 | 1 | D3 | 否 | 否 | `[ ] pending` | |
+| 19 | `batch-ag-0001` (v1) | `ag-g-p5-000011` | Part 5 | 1 | D5 | 是 | 否 | `[ ] pending` | |
+| 20 | `batch-ag-0001` (v1) | `ag-g-p5-000012` | Part 5 | 1 | D5 | 是 | 否 | `[ ] pending` | |
+| 21 | `batch-ag-0006` (v2) | `ag-g-p1-000001` | Part 1 | 1 | D1 | 是 | 否 | `[ ] pending` | |
+| 22 | `batch-ag-0007` (v2) | `ag-g-p1-000002` | Part 1 | 1 | D3 | 是 | 否 | `[ ] pending` | |
+| 23 | `batch-ag-0007` (v2) | `ag-g-p1-000003` | Part 1 | 1 | D4 | 是 | 否 | `[ ] pending` | |
+| 24 | `batch-ag-0007` (v2) | `ag-g-p2-000009` | Part 2 | 1 | D1 | 否 | 否 | `[ ] pending` | |
+| 25 | `batch-ag-0007` (v2) | `ag-g-p2-000010` | Part 2 | 1 | D2 | 否 | 否 | `[ ] pending` | |
+| 26 | `batch-ag-0007` (v2) | `ag-g-p2-000011` | Part 2 | 1 | D3 | 是 | 是 | `[ ] pending` | |
+| 27 | `batch-ag-0007` (v2) | `ag-g-p2-000012` | Part 2 | 1 | D4 | 是 | 是 | `[ ] pending` | |
+| 28 | `batch-ag-0007` (v2) | `ag-g-p2-000013` | Part 2 | 1 | D5 | 是 | 否 | `[ ] pending` | |
+| 29 | `batch-ag-0002` (v1) | `ag-g-p5-000013` | Part 5 | 1 | D2 | 否 | 否 | `[ ] pending` | |
+| 30 | `batch-ag-0002` (v1) | `ag-g-p5-000014` | Part 5 | 1 | D4 | 否 | 否 | `[ ] pending` | |
+| 31 | `batch-ag-0002` (v1) | `ag-g-p5-000015` | Part 5 | 1 | D5 | 是 | 否 | `[ ] pending` | |
+| 32 | `batch-ag-0002` (v1) | `ag-g-p6-000001` | Part 6 | 4 | D3 | 是 | 否 | `[ ] pending` | |
+| 33 | `batch-ag-0002` (v1) | `ag-g-p6-000002` | Part 6 | 4 | D4 | 是 | 否 | `[ ] pending` | |
+| 34 | `batch-ag-0006` (v2) | `ag-g-p3-000001` | Part 3 | 3 | D2 | 是 | 否 | `[ ] pending` | |
+| 35 | `batch-ag-0007` (v2) | `ag-g-p3-000002` | Part 3 | 3 | D3 | 是 | 是 | `[ ] pending` | |
+| 36 | `batch-ag-0007` (v2) | `ag-g-p3-000003` | Part 3 | 3 | D4 | 否 | 否 | `[ ] pending` | |
+| 37 | `batch-ag-0007` (v2) | `ag-g-p3-000004` | Part 3 | 3 | D3 | 否 | 否 | `[ ] pending` | |
+| 38 | `batch-ag-0007` (v2) | `ag-g-p3-000005` | Part 3 | 3 | D4 | 是 | 是 | `[ ] pending` | |
+| 39 | `batch-ag-0007` (v2) | `ag-g-p3-000006` | Part 3 | 3 | D5 | 是 | 否 | `[ ] pending` | |
+| 40 | `batch-ag-0006` (v2) | `ag-g-p4-000001` | Part 4 | 3 | D2 | 是 | 否 | `[ ] pending` | |
+| 41 | `batch-ag-0007` (v2) | `ag-g-p4-000002` | Part 4 | 3 | D3 | 否 | 否 | `[ ] pending` | |
+| 42 | `batch-ag-0007` (v2) | `ag-g-p4-000003` | Part 4 | 3 | D4 | 否 | 否 | `[ ] pending` | |
+| 43 | `batch-ag-0007` (v2) | `ag-g-p4-000004` | Part 4 | 3 | D3 | 是 | 是 | `[ ] pending` | |
+| 44 | `batch-ag-0007` (v2) | `ag-g-p4-000005` | Part 4 | 3 | D5 | 是 | 否 | `[ ] pending` | |
+| 45 | `batch-ag-0005` (v1) | `ag-g-p7-000001` | Part 7 | 3 | D1 | 是 | 否 | `[ ] pending` | |
+| 46 | `batch-ag-0005` (v1) | `ag-g-p7-000002` | Part 7 | 3 | D2 | 否 | 否 | `[ ] pending` | |
+| 47 | `batch-ag-0005` (v1) | `ag-g-p7-000003` | Part 7 | 3 | D3 | 否 | 否 | `[ ] pending` | |
+| 48 | `batch-ag-0005` (v1) | `ag-g-p7-000004` | Part 7 | 4 | D4 | 否 | 否 | `[ ] pending` | |
+| 49 | `batch-ag-0005` (v1) | `ag-g-p7-000005` | Part 7 | 5 | D4 | 否 | 否 | `[ ] pending` | |
+| 50 | `batch-ag-0005` (v1) | `ag-g-p7-000006` | Part 7 | 5 | D4 | 否 | 否 | `[ ] pending` | |
+| 51 | `batch-ag-0005` (v1) | `ag-g-p7-000007` | Part 7 | 5 | D5 | 是 | 否 | `[ ] pending` | |

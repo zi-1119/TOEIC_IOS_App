@@ -1,0 +1,134 @@
+{
+  "schema_version": "1.0.0",
+  "batch_id": "batch-ag-0007",
+  "created_at": "2026-10-27T16:09:05Z",
+  "producer": "antigravity-toeic-factory/1.0.0 (model: unknown)",
+  "group_count": 23,
+  "item_count": 41,
+  "files": [
+    {
+      "path": "assets/ag-ast-p1-000002-audio.m4a",
+      "sha256": "08b0874cf58aa9763625ad82b8f4490c219a50d7dcfb8b435f66e402e8cadcde"
+    },
+    {
+      "path": "assets/ag-ast-p1-000002-image.jpg",
+      "sha256": "c10826d474887cad0b4ec21911be06bfe7858e7299ffe989d8099770a8cd1825"
+    },
+    {
+      "path": "assets/ag-ast-p1-000003-audio.m4a",
+      "sha256": "5f92a455908bf43b0ee0b6cee6205d275a5ab027577fdc0cfd973d62acbbfade"
+    },
+    {
+      "path": "assets/ag-ast-p1-000003-image.jpg",
+      "sha256": "132171adeb68b305dc2eb7ab477d9d7974addd9ce50cf6e614191d5f96193159"
+    },
+    {
+      "path": "assets/ag-ast-p2-000002-audio.m4a",
+      "sha256": "6cd520ed297f651af8551f17e564f1706de00d70d6cea63a76e6c015bb07dbf6"
+    },
+    {
+      "path": "assets/ag-ast-p2-000003-audio.m4a",
+      "sha256": "9e7e31e75bfb0ae352c9f9482b518844d073acb8d240117d18b03c1bdc9fa308"
+    },
+    {
+      "path": "assets/ag-ast-p2-000004-audio.m4a",
+      "sha256": "eb30fe79d8abb0bab1ec6627e51e14ddff30da26289761589c51a08a98bc0848"
+    },
+    {
+      "path": "assets/ag-ast-p2-000005-audio.m4a",
+      "sha256": "ba1d48e422d2eef2c5bdfb7419609b704b78a4b1127fc28d3dbae786fd21f1ed"
+    },
+    {
+      "path": "assets/ag-ast-p2-000006-audio.m4a",
+      "sha256": "db845330acf0ceb13fce8e74380dcb089431e6449a842bd9895851161152edc7"
+    },
+    {
+      "path": "assets/ag-ast-p2-000007-audio.m4a",
+      "sha256": "0cb1496fe0871ec0511ea1a7b8fc2a5504f6029ce96976b420de24e83d01ccf4"
+    },
+    {
+      "path": "assets/ag-ast-p2-000008-audio.m4a",
+      "sha256": "c28fae32dbc48c2cab3898bc831c35441541e3fecc3b1134502d59f66c68059c"
+    },
+    {
+      "path": "assets/ag-ast-p2-000009-audio.m4a",
+      "sha256": "155db6f33c7b56846d4c64b31ce0ddd5618282103f19b68f8d87ffbe28a5fef2"
+    },
+    {
+      "path": "assets/ag-ast-p2-000010-audio.m4a",
+      "sha256": "7c3a0b9772a56e198543298274020f98dd1ddc498270b4d267f195bc19f11fa5"
+    },
+    {
+      "path": "assets/ag-ast-p2-000011-audio.m4a",
+      "sha256": "2fd9d1ba673273792f65738c6ad398f60de325bd525c7029eb192a692fa552e2"
+    },
+    {
+      "path": "assets/ag-ast-p2-000012-audio.m4a",
+      "sha256": "7f1120cbadb67404a928ecac3511a0dd8d5f27643a4cf00caa2e6b5fef5d12e1"
+    },
+    {
+      "path": "assets/ag-ast-p2-000013-audio.m4a",
+      "sha256": "1aeaf2ba80861c704384535c5ef9ad57a32c803c1e84d39907d190f865d8dd51"
+    },
+    {
+      "path": "assets/ag-ast-p3-000002-audio.m4a",
+      "sha256": "e9b0aadd884bddb39965876770fa6632be30f9b4f76b993a9de5d8b03af010fb"
+    },
+    {
+      "path": "assets/ag-ast-p3-000003-audio.m4a",
+      "sha256": "10daf9f5bac8ba69b9051b1589b0192c4af21952b361e06f4ed905d4b5f1d146"
+    },
+    {
+      "path": "assets/ag-ast-p3-000004-audio.m4a",
+      "sha256": "f47b8074299bdfec782f590a87d4ea1d829a48ec3e76ab3102a9bb721eb911be"
+    },
+    {
+      "path": "assets/ag-ast-p3-000005-audio.m4a",
+      "sha256": "da1136e3a445503322eef6b69a839a8418941e4ebcd3a6ccabaabad5fd3e3524"
+    },
+    {
+      "path": "assets/ag-ast-p3-000006-audio.m4a",
+      "sha256": "5b80ef2a1cddfad79f2666a5f53a22c09c870b2fafcdc0b0455a9acb3c0f771e"
+    },
+    {
+      "path": "assets/ag-ast-p4-000002-audio.m4a",
+      "sha256": "8d6f9d122fdc90c3fc44e0fa56855e09200a3367d4eeb152e34d5c49d663a7a8"
+    },
+    {
+      "path": "assets/ag-ast-p4-000003-audio.m4a",
+      "sha256": "98ad2fe4ad820e4eabaa1a00dda5beb13c1b19b758ab7c56cadc1001378e85c2"
+    },
+    {
+      "path": "assets/ag-ast-p4-000004-audio.m4a",
+      "sha256": "e1989f8dc4e4bf34772ff1b59f28649bfaf3743aba44d4a5773b5b4f624a83aa"
+    },
+    {
+      "path": "assets/ag-ast-p4-000005-audio.m4a",
+      "sha256": "cfc5a4a40bfb9f41f4bab488c095274b8a310a93c68a589bbb69de9d9b68809d"
+    },
+    {
+      "path": "groups.jsonl",
+      "sha256": "44c5f6819899b1f4284f09099834ddaf04bbd0b51bbbf258094f862ff2ec5301"
+    },
+    {
+      "path": "reports/blind-solve.json",
+      "sha256": "30c8cc295968a721ba162d1ef6b231058af5b76dc192a8109ffec9411cc8ae56"
+    },
+    {
+      "path": "reports/changelog.md",
+      "sha256": "9674aaa20d0ec00ec5378da92f01502ef4451f81263f24ec567c9475da246873"
+    },
+    {
+      "path": "reports/summary.md",
+      "sha256": "5899562e6b6e603cb38adfacdc919b0ee9c4ed076c766768305302bc9b452dc3"
+    },
+    {
+      "path": "reports/validation.json",
+      "sha256": "ed69f64fa3aab26dbebd16142bc7fe755943b01beb04875c37aafcb84d64c3bc"
+    },
+    {
+      "path": "reviews.jsonl",
+      "sha256": "51e2c2b8709cf1787e8ff01c4949853964837702479b64063f97d3791ca0b425"
+    }
+  ]
+}

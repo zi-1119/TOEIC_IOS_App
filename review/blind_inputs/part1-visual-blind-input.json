@@ -1,0 +1,56 @@
+{
+  "instructions": "Read ONLY this JSON file and view the 3 referenced photograph files using read_file. Do NOT read any other file in the workspace. For each Part 1 item, inspect the photograph and select the single best statement from choices A, B, C, D.",
+  "groups": [
+    {
+      "group_id": "ag-g-p1-000001",
+      "part": 1,
+      "image_path": "/Users/ziii/Desktop/TOEIC_IOS_App/assets_work/part1_images/ag-ast-p1-000001-image.jpg",
+      "items": [
+        {
+          "item_id": "ag-i-p1-000001-1",
+          "prompt_en": "Look at the photograph and listen to the four statements. Choose the statement that best describes what you see in the photograph.",
+          "choices": [
+            { "id": "A", "text_en": "She is looking through a microscope." },
+            { "id": "B", "text_en": "She is washing glassware in the sink." },
+            { "id": "C", "text_en": "She is writing a formula on the whiteboard." },
+            { "id": "D", "text_en": "She is putting on a laboratory coat." }
+          ]
+        }
+      ]
+    },
+    {
+      "group_id": "ag-g-p1-000002",
+      "part": 1,
+      "image_path": "/Users/ziii/Desktop/TOEIC_IOS_App/assets_work/part1_images/ag-ast-p1-000002-image.jpg",
+      "items": [
+        {
+          "item_id": "ag-i-p1-000002-1",
+          "prompt_en": "Look at the photograph and listen to the four statements. Choose the statement that best describes what you see in the photograph.",
+          "choices": [
+            { "id": "A", "text_en": "Pastries are being removed from the oven." },
+            { "id": "B", "text_en": "A customer is stacking trays on the counter." },
+            { "id": "C", "text_en": "A clerk is handing a paper bag to a patron." },
+            { "id": "D", "text_en": "The bakery floor is being mopped." }
+          ]
+        }
+      ]
+    },
+    {
+      "group_id": "ag-g-p1-000003",
+      "part": 1,
+      "image_path": "/Users/ziii/Desktop/TOEIC_IOS_App/assets_work/part1_images/ag-ast-p1-000003-image.jpg",
+      "items": [
+        {
+          "item_id": "ag-i-p1-000003-1",
+          "prompt_en": "Look at the photograph and listen to the four statements. Choose the statement that best describes what you see in the photograph.",
+          "choices": [
+            { "id": "A", "text_en": "Passengers are boarding a ferry at the dock." },
+            { "id": "B", "text_en": "Wooden benches are lined up along the waterfront walkway." },
+            { "id": "C", "text_en": "Workers are paving a stone path near the harbor." },
+            { "id": "D", "text_en": "Sailboats are being pulled onto the shore." }
+          ]
+        }
+      ]
+    }
+  ]
+}

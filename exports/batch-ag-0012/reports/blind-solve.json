@@ -1,0 +1,225 @@
+{
+  "batch_id": "batch-ag-0012",
+  "solver_kind": "ai_isolated_subagent",
+  "blind": true,
+  "solved_at": "2026-10-28T08:43:30Z",
+  "skipped_groups": [],
+  "items": [
+    {
+      "group_id": "ag-g-p1-000301",
+      "item_id": "ag-i-p1-000301-1",
+      "selected_choice_id": "A",
+      "confidence": "high",
+      "ambiguity_flag": false,
+      "evidence_quote": "(A) A gate agent is scanning a passenger's boarding pass.",
+      "reasoning_zh": "照片中一名身穿制服的登機門地勤人員站在標有 BOARDING 的櫃檯後，正手持條碼掃描器掃描男性旅客手中的登機證，與選項 (A) 完全吻合。"
+    },
+    {
+      "group_id": "ag-g-p2-000301",
+      "item_id": "ag-i-p2-000301-1",
+      "selected_choice_id": "A",
+      "confidence": "high",
+      "ambiguity_flag": false,
+      "evidence_quote": "Where should we set up the projector for the client briefing? ... (A) In the third-floor boardroom.",
+      "reasoning_zh": "問句以 Where 詢問客戶簡報投影機的架設地點，選項 (A)「在三樓董事會議室」直接回答地點。"
+    },
+    {
+      "group_id": "ag-g-p2-000302",
+      "item_id": "ag-i-p2-000302-1",
+      "selected_choice_id": "B",
+      "confidence": "high",
+      "ambiguity_flag": false,
+      "evidence_quote": "When will the preliminary revenue forecast be distributed to the vice presidents? ... (B) As soon as the European branch submits its figures.",
+      "reasoning_zh": "問句以 When 詢問初步營收預測何時分發給副總裁們，選項 (B)「一旦歐洲分部提交數據就立刻發送」明確回答時間條件。"
+    },
+    {
+      "group_id": "ag-g-p2-000303",
+      "item_id": "ag-i-p2-000303-1",
+      "selected_choice_id": "B",
+      "confidence": "high",
+      "ambiguity_flag": false,
+      "evidence_quote": "Haven't the replacement gaskets for the bottling machine arrived from Osaka yet? ... (B) I'll check the receiving dock log right now.",
+      "reasoning_zh": "問句詢問從大阪寄出的裝瓶機替換墊片是否尚未送達，選項 (B)「我現在馬上查一下收貨碼頭紀錄」為合理的職場回應。"
+    },
+    {
+      "group_id": "ag-g-p2-000304",
+      "item_id": "ag-i-p2-000304-1",
+      "selected_choice_id": "A",
+      "confidence": "high",
+      "ambiguity_flag": false,
+      "evidence_quote": "The high-speed copier in the marketing wing is jamming again. ... (A) You can print your handouts on the machine near the reception desk.",
+      "reasoning_zh": "陳述句指出行銷部門的高速影印機又卡紙了，選項 (A) 建議改用接待處附近的機器列印講義，提供具體替代方案。"
+    },
+    {
+      "group_id": "ag-g-p3-000301",
+      "item_id": "ag-i-p3-000301-1",
+      "selected_choice_id": "B",
+      "confidence": "high",
+      "ambiguity_flag": false,
+      "evidence_quote": "the engineering division just added six software developers who transferred from our Dublin office, so we'll have twenty-four participants in total.",
+      "reasoning_zh": "男士說明工程部門剛新增了六名從都柏林辦公室調任過來的軟體開發人員，使參加人數增至 24 人，對應選項 (B)。"
+    },
+    {
+      "group_id": "ag-g-p3-000301",
+      "item_id": "ag-i-p3-000301-2",
+      "selected_choice_id": "C",
+      "confidence": "high",
+      "ambiguity_flag": false,
+      "evidence_quote": "In that case, Training Room B won't have enough workstations. Every attendee needs a desktop terminal for the password-encryption lab.",
+      "reasoning_zh": "女士表示若人數增加，B 訓練室將沒有足夠的工作站（電腦終端機）供每位學員操作，故選 (C)。"
+    },
+    {
+      "group_id": "ag-g-p3-000301",
+      "item_id": "ag-i-p3-000301-3",
+      "selected_choice_id": "A",
+      "confidence": "high",
+      "ambiguity_flag": false,
+      "evidence_quote": "Could we reserve the Digital Media Lab on the fifth floor instead? ... I'll update the calendar invitation right now and ask IT support to preload the training sandbox on those computers.",
+      "reasoning_zh": "女士同意改訂五樓數位媒體實驗室，並表示會請 IT 支援團隊在那些電腦上預先載入訓練沙盒軟體（preload the training sandbox），對應選項 (A)。"
+    },
+    {
+      "group_id": "ag-g-p3-000302",
+      "item_id": "ag-i-p3-000302-1",
+      "selected_choice_id": "A",
+      "confidence": "high",
+      "ambiguity_flag": false,
+      "evidence_quote": "our monitoring console just triggered a voltage warning in the refrigerated yard. ... the transformer feeding the bay assigned to Tulip Express had a circuit breaker trip during the rainstorm.",
+      "reasoning_zh": "對話討論冷藏貨櫃區觸發電壓警告，供電給某貨櫃車位的變壓器斷路器在暴風雨中跳電，屬於冷藏儲位電力故障，故選 (A)。"
+    },
+    {
+      "group_id": "ag-g-p3-000302",
+      "item_id": "ag-i-p3-000302-2",
+      "selected_choice_id": "B",
+      "confidence": "high",
+      "ambiguity_flag": false,
+      "evidence_quote": "the transformer feeding the bay assigned to Tulip Express had a circuit breaker trip during the rainstorm.",
+      "reasoning_zh": "女士指出分配給 Tulip Express 的車位斷路器跳電；對照圖表，Tulip Express 對應的車位為 Bay R-15，故選 (B)。"
+    },
+    {
+      "group_id": "ag-g-p3-000302",
+      "item_id": "ag-i-p3-000302-3",
+      "selected_choice_id": "C",
+      "confidence": "high",
+      "ambiguity_flag": false,
+      "evidence_quote": "For now, you should direct the trucks to Spare Bay R-30 next to the main office—I've already set its thermostat to six degrees.",
+      "reasoning_zh": "女士建議先引導貨車前往主辦公室旁的備用車位 Spare Bay R-30 卸貨，對應選項 (C)。"
+    },
+    {
+      "group_id": "ag-g-p4-000301",
+      "item_id": "ag-i-p4-000301-1",
+      "selected_choice_id": "A",
+      "confidence": "high",
+      "ambiguity_flag": false,
+      "evidence_quote": "Thank you for joining this update on the Solaris portable water purifier. Last week, our external testing lab in Zurich completed the durability trials ... our mechanical engineering team has redesigned the latch",
+      "reasoning_zh": "講者報告 Solaris 攜帶式淨水器的耐用度測試結果以及針對外殼卡扣的強化設計變更，對應選項 (A)。"
+    },
+    {
+      "group_id": "ag-g-p4-000301",
+      "item_id": "ag-i-p4-000301-2",
+      "selected_choice_id": "B",
+      "confidence": "high",
+      "ambiguity_flag": false,
+      "evidence_quote": "the plastic latch on the outer housing cracked after three hundred drop cycles. Now, we certainly don't want outdoor hikers dealing with a loose cover on the trail. Therefore, our mechanical engineering team has redesigned the latch",
+      "reasoning_zh": "講者提到塑膠卡扣在摔落測試後出現裂痕，接著說「我們當然不希望戶外登山客在步道上遇到蓋子鬆脫的情況」，藉此說明為何必須在上市前強化外殼卡扣，故選 (B)。"
+    },
+    {
+      "group_id": "ag-g-p4-000301",
+      "item_id": "ag-i-p4-000301-3",
+      "selected_choice_id": "A",
+      "confidence": "high",
+      "ambiguity_flag": false,
+      "evidence_quote": "we will review the new prototype samples at our Friday morning meeting.",
+      "reasoning_zh": "講者在結尾表示團隊將在週五早上的會議中檢視新的原型樣品，對應選項 (A)。"
+    },
+    {
+      "group_id": "ag-g-p5-000301",
+      "item_id": "ag-i-p5-000301-1",
+      "selected_choice_id": "C",
+      "confidence": "high",
+      "ambiguity_flag": false,
+      "evidence_quote": "Visitors entering the research annex must wear ____ temporary security badges in a visible location at all times.",
+      "reasoning_zh": "空格後為名詞詞組 temporary security badges，需填入所有格代名詞（限定詞）their 修飾，故選 (C)。"
+    },
+    {
+      "group_id": "ag-g-p5-000302",
+      "item_id": "ag-i-p5-000302-1",
+      "selected_choice_id": "B",
+      "confidence": "high",
+      "ambiguity_flag": false,
+      "evidence_quote": "because it offered the most ____ rates for recycled cardboard.",
+      "reasoning_zh": "the most 後接形容詞以構成最高級並修飾名詞 rates，competitive（具競爭力的）符合語法與語意，故選 (B)。"
+    },
+    {
+      "group_id": "ag-g-p5-000303",
+      "item_id": "ag-i-p5-000303-1",
+      "selected_choice_id": "A",
+      "confidence": "high",
+      "ambiguity_flag": false,
+      "evidence_quote": "____ the cloud backup patch is installed on the main server, all regional workstations will synchronize automatically.",
+      "reasoning_zh": "空格引導完整的副詞子句，需使用從屬連接詞；Once（一旦……之後）符合「一旦主伺服器安裝修補程式，所有區域工作站將自動同步」的語意，故選 (A)。"
+    },
+    {
+      "group_id": "ag-g-p5-000304",
+      "item_id": "ag-i-p5-000304-1",
+      "selected_choice_id": "A",
+      "confidence": "high",
+      "ambiguity_flag": false,
+      "evidence_quote": "____ any discrepancy arise between the translated summary and the original contract, the English text shall prevail.",
+      "reasoning_zh": "子句動詞為原形動詞 arise，且主要子句為未來/規定義務語氣 shall prevail，為省略 if 的萬一條件倒裝句（Should + 主詞 + 原形動詞），故選 (A)。"
+    },
+    {
+      "group_id": "ag-g-p6-000301",
+      "item_id": "ag-i-p6-000301-1",
+      "selected_choice_id": "C",
+      "confidence": "high",
+      "ambiguity_flag": false,
+      "evidence_quote": "employees who have completed at least one year of continuous service may apply for [[blank:ag-i-p6-000301-1]] of up to $1,500 per calendar year.",
+      "reasoning_zh": "介系詞 for 後且接 of up to $1,500，需填入名詞 reimbursement（費用核銷／補助），故選 (C)。"
+    },
+    {
+      "group_id": "ag-g-p6-000301",
+      "item_id": "ag-i-p6-000301-2",
+      "selected_choice_id": "A",
+      "confidence": "high",
+      "ambiguity_flag": false,
+      "evidence_quote": "Eligible expenses include accredited examination fees and required digital study materials. [[blank:ag-i-p6-000301-2]] Applications must be endorsed by a department director",
+      "reasoning_zh": "前句列出符合資格的費用項目（認證考試費與數位教材），選項 (A) 補充說明「前往外地考場的差旅與住宿費用不在本計畫補助範圍內」，段落銜接最自然。"
+    },
+    {
+      "group_id": "ag-g-p6-000301",
+      "item_id": "ag-i-p6-000301-3",
+      "selected_choice_id": "B",
+      "confidence": "high",
+      "ambiguity_flag": false,
+      "evidence_quote": "Approved claims [[blank:ag-i-p6-000301-3]] in the employee's next regular direct-deposit paycheck.",
+      "reasoning_zh": "主詞 Approved claims（核准的申請款項）與動詞 disburse（撥付）為被動關係，且搭配 in the employee's next regular direct-deposit paycheck 表未來發放，應選未來被動式 will be disbursed (B)。"
+    },
+    {
+      "group_id": "ag-g-p6-000301",
+      "item_id": "ag-i-p6-000301-4",
+      "selected_choice_id": "A",
+      "confidence": "high",
+      "ambiguity_flag": false,
+      "evidence_quote": "Approved claims will be disbursed in the employee's next regular direct-deposit paycheck. [[blank:ag-i-p6-000301-4]], staff members who leave the company voluntarily within six months of receiving funds must repay the subsidized amount in full.",
+      "reasoning_zh": "前句說明款項將於下次發薪時撥付，後句說明領取補助六個月內自願離職者須全額退還，前後為轉折與但書關係，應選 However (A)。"
+    },
+    {
+      "group_id": "ag-g-p7-000301",
+      "item_id": "ag-i-p7-000301-1",
+      "selected_choice_id": "A",
+      "confidence": "high",
+      "ambiguity_flag": false,
+      "evidence_quote": "Attached is Invoice #INV-8842 for the forty custom oak acoustic wall panels delivered and installed in your third-floor conference wing on October 1. The total balance due is $12,400, payable within 30 calendar days.",
+      "reasoning_zh": "信件主旨與首段表明隨信附上 10 月 1 日已交付並安裝之 40 片客製橡木吸音牆板的請款發票（應付總額 12,400 美元），目的為請求付款，故選 (A)。"
+    },
+    {
+      "group_id": "ag-g-p7-000301",
+      "item_id": "ag-i-p7-000301-2",
+      "selected_choice_id": "B",
+      "confidence": "high",
+      "ambiguity_flag": false,
+      "evidence_quote": "commercial clients who remit full payment via electronic wire transfer within 10 days of the invoice date (by October 13) may deduct a 3 percent early-settlement discount ($372) from the invoice total.",
+      "reasoning_zh": "信件第二段指出，若客戶於發票日起 10 天內（10 月 13 日前）透過電子電匯全額付清，即可扣除 3% 提早結清折扣（372 美元），對應選項 (B)。"
+    }
+  ]
+}

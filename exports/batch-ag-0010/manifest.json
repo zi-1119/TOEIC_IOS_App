@@ -1,0 +1,54 @@
+{
+  "schema_version": "1.0.0",
+  "batch_id": "batch-ag-0010",
+  "created_at": "2026-10-28T08:45:25Z",
+  "producer": "antigravity-toeic-factory/1.0.0 (model: unknown)",
+  "group_count": 21,
+  "item_count": 24,
+  "files": [
+    {
+      "path": "assets/audio/ag-ast-p2-000401-audio.m4a",
+      "sha256": "091ab1e95822bd86d5add6da4005964aa6548239fad621c361c8768bf46549e5"
+    },
+    {
+      "path": "assets/audio/ag-ast-p2-000402-audio.m4a",
+      "sha256": "be4ba89745253efbd459ca9b71a40434c3ba429fb6bc059a6d476d3a8096dfa2"
+    },
+    {
+      "path": "assets/audio/ag-ast-p2-000403-audio.m4a",
+      "sha256": "6272a3f8f0403ad117fba401db95519cdc40b6f2654faeb3d2008c260c2fbd16"
+    },
+    {
+      "path": "assets/audio/ag-ast-p2-000404-audio.m4a",
+      "sha256": "43381550242f4fcd07b68a9a6d7f61d1ce8126d578178aa8c56d4453660c47b3"
+    },
+    {
+      "path": "assets/audio/ag-ast-p2-000405-audio.m4a",
+      "sha256": "7d7ce34620c7285acf41e4a41fdec343e335f088a8673701b169c661b6565791"
+    },
+    {
+      "path": "assets/audio/ag-ast-p2-000406-audio.m4a",
+      "sha256": "6d6a52192afe039572412b7dd7db4e903cb186cd33138ce0b14339246d3b163e"
+    },
+    {
+      "path": "groups.jsonl",
+      "sha256": "d47f280fca318cfe3b156cbb7fca58b0b2463d5c41f8967d5d66e19f33a8c432"
+    },
+    {
+      "path": "reports/blind-solve.json",
+      "sha256": "94815058a0c0d1b0d1d7f6c77643605f6a187281fb4dd6868cf1d19847ea3dd3"
+    },
+    {
+      "path": "reports/summary.md",
+      "sha256": "93050bf21deaa1715c7278f6b40c2af95339adeeca91d11d74c1c5f1c280b220"
+    },
+    {
+      "path": "reports/validation.json",
+      "sha256": "e7102f52bed630f206e9a81975e20aea631e90fceb26034fe3f8f290a7bfff22"
+    },
+    {
+      "path": "reviews.jsonl",
+      "sha256": "de564d85b9cb1fb646e5d8c01af23e3552f87077da42a9ce2172d974c1a005af"
+    }
+  ]
+}

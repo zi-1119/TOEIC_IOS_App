@@ -1,0 +1,66 @@
+{
+  "schema_version": "1.0.0",
+  "batch_id": "batch-ag-0012",
+  "created_at": "2026-10-30T10:37:53Z",
+  "producer": "antigravity-toeic-factory/1.1.0 (model: unknown)",
+  "group_count": 14,
+  "item_count": 24,
+  "files": [
+    {
+      "path": "assets/audio/ag-ast-p1-000301-audio.m4a",
+      "sha256": "d92d412192b142b902d01856a3fc8c0c95e3d937f5c971c03734d4a36ea65044"
+    },
+    {
+      "path": "assets/audio/ag-ast-p2-000301-audio.m4a",
+      "sha256": "a337d793c8d39016f5548d9bb5aa0754886864e3a9fba2c86767fd5c4b0b8f6c"
+    },
+    {
+      "path": "assets/audio/ag-ast-p2-000302-audio.m4a",
+      "sha256": "9fa6d020a28c92b46f27d31bb72e79b496ab5fc2b97fc89d62a2f9aea85a32ef"
+    },
+    {
+      "path": "assets/audio/ag-ast-p2-000303-audio.m4a",
+      "sha256": "47e57c2de1bfee4d5449f68f10c75aa729b532ade0e1944fcee6bd733c0bc249"
+    },
+    {
+      "path": "assets/audio/ag-ast-p2-000304-audio.m4a",
+      "sha256": "71fc834ede1a1c013f7f7d3156584da801113ff27792c0d5705a4dcbe0c02785"
+    },
+    {
+      "path": "assets/audio/ag-ast-p3-000301-audio.m4a",
+      "sha256": "53bd43601e30895694239a79360fdabfbf5c20d19d6e86e044dab34d75d9b266"
+    },
+    {
+      "path": "assets/audio/ag-ast-p3-000302-audio.m4a",
+      "sha256": "a84d2a12d1a3ee0fa78a66ddd6436cc0082efa983d2f02d109dd9a1befe30eae"
+    },
+    {
+      "path": "assets/audio/ag-ast-p4-000301-audio.m4a",
+      "sha256": "72ac8d33b1b8526ed80e0cfc6d4ca1edc4c4d2204b089ff52d9f0b46588a7b56"
+    },
+    {
+      "path": "assets/images/ag-ast-p1-000301-image.jpg",
+      "sha256": "294f87f2bdc9d7940eb5992f37a5190c74459e390dfeaedcc6307cab5951076f"
+    },
+    {
+      "path": "groups.jsonl",
+      "sha256": "bbedacb133740f4a71f17878efba4bc30fafde0ab13bde0daadd0d3e02b3d5e4"
+    },
+    {
+      "path": "reports/blind-solve.json",
+      "sha256": "755c420c222b594ef278358a3288035711577558c92e3eddb2fb6f7c55ffeb4f"
+    },
+    {
+      "path": "reports/summary.md",
+      "sha256": "3357a8fbfb7315bb77b3a1d4635e7d022b3553b7c1dd3d8fca8bb150b3d99a80"
+    },
+    {
+      "path": "reports/validation.json",
+      "sha256": "c67cdfc2a5b99f41d4bb08e7e07547d12dad3cbc5395a354d20da083c9e7d88e"
+    },
+    {
+      "path": "reviews.jsonl",
+      "sha256": "273732e119ff9089518c518152cf75a7fb611ea7e3df3593cb8c1383fe9ced0b"
+    }
+  ]
+}

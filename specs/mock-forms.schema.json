@@ -1,0 +1,161 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://toeic-ios-app.local/schemas/mock-forms.schema.json",
+  "title": "TOEIC Mock Form Additive Contract 1.0.0",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "form_schema_version",
+    "content_schema_version",
+    "content_set",
+    "assets",
+    "forms"
+  ],
+  "properties": {
+    "form_schema_version": { "type": "string", "const": "1.0.0" },
+    "content_schema_version": { "type": "string", "const": "1.0.0" },
+    "content_set": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["content_set_id", "required_batches"],
+      "properties": {
+        "content_set_id": { "type": "string", "minLength": 1 },
+        "required_batches": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["batch_id", "manifest_sha256"],
+            "properties": {
+              "batch_id": { "type": "string", "minLength": 1 },
+              "manifest_sha256": { "type": "string", "pattern": "^[0-9a-f]{64}$" }
+            }
+          }
+        }
+      }
+    },
+    "assets": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "asset_id",
+          "kind",
+          "path",
+          "sha256",
+          "mime_type",
+          "duration_ms",
+          "review_state"
+        ],
+        "properties": {
+          "asset_id": { "type": "string", "minLength": 1 },
+          "kind": { "type": "string", "const": "mock_audio_timeline" },
+          "path": { "type": "string", "pattern": "^assets/mock/[^/]+/.+$" },
+          "sha256": { "type": "string", "pattern": "^[0-9a-f]{64}$" },
+          "mime_type": { "type": "string", "pattern": "^audio/.+$" },
+          "duration_ms": { "type": "integer", "minimum": 1 },
+          "review_state": {
+            "type": "string",
+            "enum": ["pending", "ai_checked", "human_reviewed"]
+          }
+        }
+      }
+    },
+    "forms": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "form_id",
+          "revision",
+          "group_refs",
+          "ordered_item_ids",
+          "listening_item_ids",
+          "reading_item_ids",
+          "listening_timeline",
+          "reading_time_limit_ms"
+        ],
+        "properties": {
+          "form_id": { "type": "string", "minLength": 1 },
+          "revision": { "type": "integer", "minimum": 1 },
+          "group_refs": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": ["group_id", "version", "source_batch_id"],
+              "properties": {
+                "group_id": { "type": "string", "minLength": 1 },
+                "version": { "type": "integer", "minimum": 1 },
+                "source_batch_id": { "type": "string", "minLength": 1 }
+              }
+            }
+          },
+          "ordered_item_ids": {
+            "type": "array",
+            "minItems": 200,
+            "maxItems": 200,
+            "items": { "type": "string", "minLength": 1 }
+          },
+          "listening_item_ids": {
+            "type": "array",
+            "minItems": 100,
+            "maxItems": 100,
+            "items": { "type": "string", "minLength": 1 }
+          },
+          "reading_item_ids": {
+            "type": "array",
+            "minItems": 100,
+            "maxItems": 100,
+            "items": { "type": "string", "minLength": 1 }
+          },
+          "listening_timeline": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["asset_id", "duration_ms", "events"],
+            "properties": {
+              "asset_id": { "type": "string", "minLength": 1 },
+              "duration_ms": { "type": "integer", "minimum": 1 },
+              "events": {
+                "type": "array",
+                "minItems": 1,
+                "items": {
+                  "type": "object",
+                  "additionalProperties": false,
+                  "required": ["sequence", "kind", "start_ms", "end_ms", "item_ids"],
+                  "properties": {
+                    "sequence": { "type": "integer", "minimum": 0 },
+                    "kind": {
+                      "type": "string",
+                      "enum": [
+                        "directions",
+                        "item_unlock",
+                        "stimulus",
+                        "response_options",
+                        "response_window",
+                        "pause"
+                      ]
+                    },
+                    "start_ms": { "type": "integer", "minimum": 0 },
+                    "end_ms": { "type": "integer", "minimum": 0 },
+                    "item_ids": {
+                      "type": "array",
+                      "items": { "type": "string", "minLength": 1 }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "reading_time_limit_ms": { "type": "integer", "const": 4500000 }
+        }
+      }
+    }
+  }
+}

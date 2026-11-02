@@ -1,0 +1,299 @@
+{
+  "batch_id": "batch-ag-0007",
+  "solver_kind": "ai_isolated_subagent",
+  "blind": true,
+  "solved_at": "2026-10-27T16:07:35Z",
+  "items": [
+    {
+      "group_id": "ag-g-p1-000002",
+      "item_id": "ag-i-p1-000002-1",
+      "selected_choice_id": "C",
+      "confidence": "high",
+      "ambiguity_flag": false,
+      "evidence_quote": "Behind a glass pastry display case, a smiling bakery clerk wearing an apron holds out a brown paper bag and hands it across the counter to a male customer who is reaching both hands to receive it.",
+      "reasoning_zh": "照片中烘焙店玻璃展示櫃後的店員正將一個棕色紙袋遞給櫃檯前的男顧客，故 (C)「店員正把紙袋遞給顧客」完全正確。(A) 後方烤箱門關閉並未取出糕點、(B) 顧客並未在櫃檯堆疊托盤、(D) 地板乾淨且無人正在拖地。"
+    },
+    {
+      "group_id": "ag-g-p1-000003",
+      "item_id": "ag-i-p1-000003-1",
+      "selected_choice_id": "B",
+      "confidence": "high",
+      "ambiguity_flag": false,
+      "evidence_quote": "A row of empty wooden benches with black metal frames and street lamps are lined up along a curved stone-paved walkway right beside the harbor water and moored boats.",
+      "reasoning_zh": "照片右側的濱水石板步道旁整齊排列著一排木製長椅，故 (B)「木製長椅沿著濱水步道排列」完全符合畫面。照片中空無一人，因此 (A) 乘客正在登船、(C) 工人正在鋪設石板路、(D) 帆船正被拉上岸皆與畫面不符。"
+    },
+    {
+      "group_id": "ag-g-p2-000002",
+      "item_id": "ag-i-p2-000002-1",
+      "selected_choice_id": "B",
+      "confidence": "high",
+      "reasoning_zh": "問句以 When 詢問 C 棟的壓力錶何時進行校準，選項 (B)「下週二早上例行停機期間」直接提供時間；(A) 為 calibrated 與 collaborated 的近似音陷阱。"
+    },
+    {
+      "group_id": "ag-g-p2-000003",
+      "item_id": "ag-i-p2-000003-1",
+      "selected_choice_id": "C",
+      "confidence": "high",
+      "reasoning_zh": "問句以 Who 詢問誰被指派審閱原料供應商合約，選項 (C)「法務總監今天不在，所以目前還沒有人」合理解釋尚未指派人選的狀況。"
+    },
+    {
+      "group_id": "ag-g-p2-000004",
+      "item_id": "ag-i-p2-000004-1",
+      "selected_choice_id": "A",
+      "confidence": "high",
+      "reasoning_zh": "否定疑問句詢問差旅費報銷是否尚未核准，選項 (A)「會計部今天下午稍早已經核准放行了」直接回應審核進度。"
+    },
+    {
+      "group_id": "ag-g-p2-000005",
+      "item_id": "ag-i-p2-000005-1",
+      "selected_choice_id": "A",
+      "confidence": "high",
+      "reasoning_zh": "選擇疑問句詢問客戶研討會該訂餐盒還是熱食自助餐，選項 (A)「等我們今天下午拿到最終出席人數再說」合理延後決定。"
+    },
+    {
+      "group_id": "ag-g-p2-000006",
+      "item_id": "ag-i-p2-000006-1",
+      "selected_choice_id": "A",
+      "confidence": "high",
+      "reasoning_zh": "問句請求幫忙檢查吊掛投影機無法連上筆電的原因，選項 (A)「好，我來看看是不是顯示器傳輸線鬆脫了」正面答應並提出排查方式。"
+    },
+    {
+      "group_id": "ag-g-p2-000007",
+      "item_id": "ag-i-p2-000007-1",
+      "selected_choice_id": "B",
+      "confidence": "high",
+      "reasoning_zh": "Why don't we... 為提議句型（建議明天開店前更新前排櫥窗陳列），選項 (B)「秋季促銷橫幅要到週四才會寄達」委婉說明無法明天更新的原因。"
+    },
+    {
+      "group_id": "ag-g-p2-000008",
+      "item_id": "ag-i-p2-000008-1",
+      "selected_choice_id": "C",
+      "confidence": "high",
+      "reasoning_zh": "陳述句表示八點的機場接駁車已客滿，選項 (C)「八點半的廂型車還有空位，如果您方便的話」提供替代班次解決問題。"
+    },
+    {
+      "group_id": "ag-g-p2-000009",
+      "item_id": "ag-i-p2-000009-1",
+      "selected_choice_id": "A",
+      "confidence": "high",
+      "reasoning_zh": "問句以 How long 詢問新進員工訓練計畫持續多久，選項 (A) 回答「整整兩天，從週一早上開始」直接對應時間長度；(B) 回答地點，(C) 為物理寬度陷阱。"
+    },
+    {
+      "group_id": "ag-g-p2-000010",
+      "item_id": "ag-i-p2-000010-1",
+      "selected_choice_id": "A",
+      "confidence": "high",
+      "reasoning_zh": "問句以 Why 詢問第四號包裝產線為何停機，選項 (A) 說明「其中一個光學感測器需要更換」，合理交代停機原因；(B) 為重複 shut 的字音陷阱且誤用 Yes，(C) 回答時間。"
+    },
+    {
+      "group_id": "ag-g-p2-000011",
+      "item_id": "ag-i-p2-000011-1",
+      "selected_choice_id": "B",
+      "confidence": "high",
+      "reasoning_zh": "附加問句詢問是否錯過商展攤位訂金的截止期限，選項 (B) 回答「沒有（沒錯過），我昨天下午已經電匯款項了」語意完全吻合；(A) 回答位置，(C) 為無關的演講時間。"
+    },
+    {
+      "group_id": "ag-g-p2-000012",
+      "item_id": "ag-i-p2-000012-1",
+      "selected_choice_id": "A",
+      "confidence": "high",
+      "reasoning_zh": "問句主動提議幫忙把產品型錄搬到車上，選項 (A) 禮貌婉拒並說明「謝謝，但我自己帶了折疊推車」最自然得體；(B) 重複 catalog，(C) 僅說明停車位置。"
+    },
+    {
+      "group_id": "ag-g-p2-000013",
+      "item_id": "ag-i-p2-000013-1",
+      "selected_choice_id": "B",
+      "confidence": "high",
+      "reasoning_zh": "問句詢問 Patel 醫師本週四下午是否有空檔（openings），選項 (B) 說明「她週四不看診，但週五十點有空檔」正面回應預約時段；(A) 為 opening 一詞多義陷阱，(C) 誤解 Do you know 為認識與否。"
+    },
+    {
+      "group_id": "ag-g-p3-000002",
+      "item_id": "ag-i-p3-000002-1",
+      "selected_choice_id": "B",
+      "confidence": "high",
+      "reasoning_zh": "女士開場提到宴會人員已完成今晚貴公司頒獎晚宴（your company's awards dinner tonight）的圓桌擺設，對應選項 B 企業頒獎晚宴。"
+    },
+    {
+      "group_id": "ag-g-p3-000002",
+      "item_id": "ag-i-p3-000002-2",
+      "selected_choice_id": "C",
+      "confidence": "high",
+      "reasoning_zh": "男士表示剛得知甜點後將有四位額外的區域經理加入台上的高階主管座談會（joining our executive panel on stage），因此需要調整舞台配置，對應選項 C 更多參與者將參加座談會。"
+    },
+    {
+      "group_id": "ag-g-p3-000002",
+      "item_id": "ag-i-p3-000002-3",
+      "selected_choice_id": "B",
+      "confidence": "high",
+      "reasoning_zh": "男士要求兩支手提無線麥克風，女士表示會立即聯繫視聽技術人員在六點賓客抵達前送達並測試音量（bring those up and test the sound levels before your guests arrive at six），對應選項 B 架設並測試無線麥克風。"
+    },
+    {
+      "group_id": "ag-g-p3-000003",
+      "item_id": "ag-i-p3-000003-1",
+      "selected_choice_id": "B",
+      "confidence": "high",
+      "reasoning_zh": "第一位女士指出 Greenleaf 超市同意上架花草冰茶系列的條件是必須將玻璃瓶改為輕量鋁罐（provided we switch from glass bottles to lightweight aluminum cans），對應選項 B 飲料容器必須改為鋁罐。"
+    },
+    {
+      "group_id": "ag-g-p3-000003",
+      "item_id": "ag-i-p3-000003-2",
+      "selected_choice_id": "A",
+      "confidence": "high",
+      "reasoning_zh": "在男士提到直接印製金屬金箔邊框會使單位生產成本增加 15% 後，第二位女士表示超市批發訂單的利潤空間已經非常緊縮，意在反對這項會提高製造成本的方案，對應選項 A。"
+    },
+    {
+      "group_id": "ag-g-p3-000003",
+      "item_id": "ag-i-p3-000003-3",
+      "selected_choice_id": "B",
+      "confidence": "high",
+      "reasoning_zh": "Liam 在結尾表示今天下午會印製三個樣品罐（print three sample cans this afternoon）並送到辦公室，對應選項 B 製作樣品罐。"
+    },
+    {
+      "group_id": "ag-g-p3-000004",
+      "item_id": "ag-i-p3-000004-1",
+      "selected_choice_id": "B",
+      "confidence": "high",
+      "reasoning_zh": "對話中提到診所（clinic）、病患排程軟體、例行檢查預約以及轉移牙科 X 光檔案（dental X-ray files），可推知兩人最可能在牙醫診所工作，對應選項 B。"
+    },
+    {
+      "group_id": "ag-g-p3-000004",
+      "item_id": "ag-i-p3-000004-2",
+      "selected_choice_id": "C",
+      "confidence": "high",
+      "reasoning_zh": "男士提到櫃檯人員反映從舊資料庫轉移牙科 X 光檔案需要好幾個步驟（takes quite a few steps），對應選項 C 從舊系統移轉影像紀錄很繁複。"
+    },
+    {
+      "group_id": "ag-g-p3-000004",
+      "item_id": "ag-i-p3-000004-3",
+      "selected_choice_id": "B",
+      "confidence": "high",
+      "reasoning_zh": "女士表示軟體商寄來了一頁式捷徑指南，她會在午餐前為每個工作站印製護貝副本（print laminated copies for each workstation before lunch），對應選項 B 發放參考指南至各工作站。"
+    },
+    {
+      "group_id": "ag-g-p3-000005",
+      "item_id": "ag-i-p3-000005-1",
+      "selected_choice_id": "B",
+      "confidence": "high",
+      "reasoning_zh": "男士開場即說明剛打包好 Harborview 大橋專案的比例模型（scale model for the Harborview Bridge project）要寄往波士頓，對應選項 B 建築比例模型。"
+    },
+    {
+      "group_id": "ag-g-p3-000005",
+      "item_id": "ag-i-p3-000005-2",
+      "selected_choice_id": "C",
+      "confidence": "high",
+      "reasoning_zh": "女士提到只需在兩個工作天內送達，並表示會選擇兩日送達方案（two-day shipping tier）。對照圖表中 2 Business Days 對應的 Priority Express 費率為 $64，故選 C。"
+    },
+    {
+      "group_id": "ag-g-p3-000005",
+      "item_id": "ag-i-p3-000005-3",
+      "selected_choice_id": "B",
+      "confidence": "high",
+      "reasoning_zh": "女士在結尾請男士在三點前將木箱拿到接待櫃檯（bring the crate to the reception desk by three o'clock），對應選項 B 將包裹拿到前台。"
+    },
+    {
+      "group_id": "ag-g-p3-000006",
+      "item_id": "ag-i-p3-000006-1",
+      "selected_choice_id": "B",
+      "confidence": "high",
+      "reasoning_zh": "女士表示目前已有 42 人報名，而男士指出原訂的 Cedar Hall 僅能容納 35 人，因此必須換到更大的空間，對應選項 B 報名人數超過目前教室的座位上限。"
+    },
+    {
+      "group_id": "ag-g-p3-000006",
+      "item_id": "ag-i-p3-000006-2",
+      "selected_choice_id": "B",
+      "confidence": "high",
+      "reasoning_zh": "女士提醒學員需要在一個螢幕上比對試算表公式、同時在另一個螢幕看案例投影片，藉此說明教室設備需要雙螢幕的技術條件，對應選項 B。"
+    },
+    {
+      "group_id": "ag-g-p3-000006",
+      "item_id": "ag-i-p3-000006-3",
+      "selected_choice_id": "D",
+      "confidence": "high",
+      "reasoning_zh": "需要容納 42 人以上且具備雙投影螢幕（Dual Projection Screens）。排除僅有單投影機的 Maple Suite 後，男士決定預訂另一間有雙螢幕的大教室，對照圖表即為容量 55 人且有雙投影螢幕的 Redwood Room，故選 D。"
+    },
+    {
+      "group_id": "ag-g-p4-000002",
+      "item_id": "ag-i-p4-000002-1",
+      "selected_choice_id": "B",
+      "confidence": "high",
+      "reasoning_zh": "講者開頭感謝大家在海事博物館展覽開幕週末擔任志工協助（thank you for volunteering to help out... at the Bristol Maritime Museum），對應選項 B。"
+    },
+    {
+      "group_id": "ag-g-p4-000002",
+      "item_id": "ag-i-p4-000002-2",
+      "selected_choice_id": "C",
+      "confidence": "high",
+      "reasoning_zh": "講者提到已將語音導覽耳機租借櫃檯（audio headset rental counter）從大門移至禮品店旁的凹室，對應選項 C。"
+    },
+    {
+      "group_id": "ag-g-p4-000002",
+      "item_id": "ag-i-p4-000002-3",
+      "selected_choice_id": "B",
+      "confidence": "high",
+      "reasoning_zh": "講者最後說現在一起走到安檢台領取名牌與樓層分配表（pick up your name badge and floor assignment sheet），對應選項 B。"
+    },
+    {
+      "group_id": "ag-g-p4-000003",
+      "item_id": "ag-i-p4-000003-1",
+      "selected_choice_id": "B",
+      "confidence": "high",
+      "reasoning_zh": "講者說明技術人員在週末於每個冷凍庫門上方安裝了數位溫度警報器（installed digital thermal alarms），對應選項 B。"
+    },
+    {
+      "group_id": "ag-g-p4-000003",
+      "item_id": "ag-i-p4-000003-2",
+      "selected_choice_id": "C",
+      "confidence": "high",
+      "reasoning_zh": "講者提及上個月優格變質事件後，隨即要求員工看到黃燈閃爍時立即暫停堆高機作業並拉上隔熱簾，藉此強調遵守新安全程序的重要性，對應選項 C。"
+    },
+    {
+      "group_id": "ag-g-p4-000003",
+      "item_id": "ag-i-p4-000003-3",
+      "selected_choice_id": "C",
+      "confidence": "high",
+      "reasoning_zh": "講者最後提到保暖手套磨損的人可以到設備籠換新（exchange them for a new pair at the equipment cage），對應選項 C。"
+    },
+    {
+      "group_id": "ag-g-p4-000004",
+      "item_id": "ag-i-p4-000004-1",
+      "selected_choice_id": "C",
+      "confidence": "high",
+      "reasoning_zh": "廣播開頭指出因沿岸濃霧降低海灣能見度（Due to dense coastal fog reducing visibility across the bay），因此七號碼頭渡輪暫停服務，對應選項 C。"
+    },
+    {
+      "group_id": "ag-g-p4-000004",
+      "item_id": "ag-i-p4-000004-2",
+      "selected_choice_id": "B",
+      "confidence": "high",
+      "reasoning_zh": "講者說明上車時只需向公車司機出示電子或紙本渡輪船票即可（Simply show your digital or paper ferry ticket to the bus driver when boarding），對應選項 B。"
+    },
+    {
+      "group_id": "ag-g-p4-000004",
+      "item_id": "ag-i-p4-000004-3",
+      "selected_choice_id": "C",
+      "confidence": "high",
+      "reasoning_zh": "講者表示不想搭公車的乘客可至三號客服窗口全額退還未使用的渡輪票款（have their unused ferry fare refunded in full at Customer Service Window Three），對應選項 C。"
+    },
+    {
+      "group_id": "ag-g-p4-000005",
+      "item_id": "ag-i-p4-000005-1",
+      "selected_choice_id": "B",
+      "confidence": "high",
+      "reasoning_zh": "根據圖表與講者所述，營收成長最高（+11.5%）且退貨率最高（6.8%）、熱銷品類為義式濃縮咖啡機的地區是 South，對應選項 B。"
+    },
+    {
+      "group_id": "ag-g-p4-000005",
+      "item_id": "ag-i-p4-000005-2",
+      "selected_choice_id": "C",
+      "confidence": "high",
+      "reasoning_zh": "講者指出顧客問卷顯示咖啡機本身沒有瑕疵，而是買家覺得紙本手冊中的除垢保養說明令人困惑（find the decalcifying instructions in the printed manual confusing），對應選項 C。"
+    },
+    {
+      "group_id": "ag-g-p4-000005",
+      "item_id": "ag-i-p4-000005-3",
+      "selected_choice_id": "D",
+      "confidence": "high",
+      "reasoning_zh": "講者提到針對唯一營收微幅下滑、且要促銷掃地機器人（robotic vacuum）的地區將在十月推出社群媒體活動，對照圖表營收成長為 -1.4% 的地區是 West，對應選項 D。"
+    }
+  ]
+}

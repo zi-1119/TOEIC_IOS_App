@@ -1,0 +1,970 @@
+{
+  "batch_id": "batch-ag-0001",
+  "instructions": "Independent blind solving sheet. Answer keys, evidence, and explanations have been stripped. For each group where blind_solvable is true, solve each item independently based ONLY on the provided stimulus and choices.",
+  "groups": [
+    {
+      "group_id": "ag-g-p2-000001",
+      "part": 2,
+      "layout": "question_response",
+      "scenario": "logistics_shipping",
+      "blind_solvable": true,
+      "blind_skip_reason": null,
+      "stimulus": {
+        "documents": [],
+        "speakers": [
+          {
+            "speaker_id": "spk_q",
+            "role": "warehouse_supervisor",
+            "accent": "us"
+          },
+          {
+            "speaker_id": "spk_r",
+            "role": "shipping_clerk",
+            "accent": "uk"
+          }
+        ],
+        "audio_script": [
+          {
+            "segment_id": "ag-g-p2-000001-seg-q",
+            "speaker_id": "spk_q",
+            "text_en": "Where did you leave the signed shipping manifests?"
+          },
+          {
+            "segment_id": "ag-g-p2-000001-seg-a",
+            "speaker_id": "spk_r",
+            "text_en": "In the top tray on Ms. Henderson's desk."
+          },
+          {
+            "segment_id": "ag-g-p2-000001-seg-b",
+            "speaker_id": "spk_r",
+            "text_en": "Before the courier arrives at noon."
+          },
+          {
+            "segment_id": "ag-g-p2-000001-seg-c",
+            "speaker_id": "spk_r",
+            "text_en": "No, the shipment hasn't been weighed."
+          }
+        ]
+      },
+      "items": [
+        {
+          "item_id": "ag-i-p2-000001-1",
+          "prompt_en": "Listen to the question or statement and choose the best response.",
+          "choices": [
+            {
+              "id": "A",
+              "text_en": "In the top tray on Ms. Henderson's desk."
+            },
+            {
+              "id": "B",
+              "text_en": "Before the courier arrives at noon."
+            },
+            {
+              "id": "C",
+              "text_en": "No, the shipment hasn't been weighed."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "group_id": "ag-g-p2-000002",
+      "part": 2,
+      "layout": "question_response",
+      "scenario": "maintenance_inspection",
+      "blind_solvable": true,
+      "blind_skip_reason": null,
+      "stimulus": {
+        "documents": [],
+        "speakers": [
+          {
+            "speaker_id": "spk_q",
+            "role": "lab_manager",
+            "accent": "uk"
+          },
+          {
+            "speaker_id": "spk_r",
+            "role": "maintenance_technician",
+            "accent": "us"
+          }
+        ],
+        "audio_script": [
+          {
+            "segment_id": "ag-g-p2-000002-seg-q",
+            "speaker_id": "spk_q",
+            "text_en": "When will the pressure gauges in Building C be calibrated?"
+          },
+          {
+            "segment_id": "ag-g-p2-000002-seg-a",
+            "speaker_id": "spk_r",
+            "text_en": "They collaborated on the quarterly report."
+          },
+          {
+            "segment_id": "ag-g-p2-000002-seg-b",
+            "speaker_id": "spk_r",
+            "text_en": "Next Tuesday morning during the scheduled shutdown."
+          },
+          {
+            "segment_id": "ag-g-p2-000002-seg-c",
+            "speaker_id": "spk_r",
+            "text_en": "At the main engineering warehouse."
+          }
+        ]
+      },
+      "items": [
+        {
+          "item_id": "ag-i-p2-000002-1",
+          "prompt_en": "Listen to the question or statement and choose the best response.",
+          "choices": [
+            {
+              "id": "A",
+              "text_en": "They collaborated on the quarterly report."
+            },
+            {
+              "id": "B",
+              "text_en": "Next Tuesday morning during the scheduled shutdown."
+            },
+            {
+              "id": "C",
+              "text_en": "At the main engineering warehouse."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "group_id": "ag-g-p2-000003",
+      "part": 2,
+      "layout": "question_response",
+      "scenario": "procurement_contract",
+      "blind_solvable": true,
+      "blind_skip_reason": null,
+      "stimulus": {
+        "documents": [],
+        "speakers": [
+          {
+            "speaker_id": "spk_q",
+            "role": "procurement_officer",
+            "accent": "ca"
+          },
+          {
+            "speaker_id": "spk_r",
+            "role": "legal_assistant",
+            "accent": "us"
+          }
+        ],
+        "audio_script": [
+          {
+            "segment_id": "ag-g-p2-000003-seg-q",
+            "speaker_id": "spk_q",
+            "text_en": "Who was assigned to review the raw material supplier's contract?"
+          },
+          {
+            "segment_id": "ag-g-p2-000003-seg-a",
+            "speaker_id": "spk_r",
+            "text_en": "Yes, we signed the lease last month."
+          },
+          {
+            "segment_id": "ag-g-p2-000003-seg-b",
+            "speaker_id": "spk_r",
+            "text_en": "A three-year renewal option."
+          },
+          {
+            "segment_id": "ag-g-p2-000003-seg-c",
+            "speaker_id": "spk_r",
+            "text_en": "The legal director is out today, so no one yet."
+          }
+        ]
+      },
+      "items": [
+        {
+          "item_id": "ag-i-p2-000003-1",
+          "prompt_en": "Listen to the question or statement and choose the best response.",
+          "choices": [
+            {
+              "id": "A",
+              "text_en": "Yes, we signed the lease last month."
+            },
+            {
+              "id": "B",
+              "text_en": "A three-year renewal option."
+            },
+            {
+              "id": "C",
+              "text_en": "The legal director is out today, so no one yet."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "group_id": "ag-g-p2-000004",
+      "part": 2,
+      "layout": "question_response",
+      "scenario": "finance_reimbursement",
+      "blind_solvable": true,
+      "blind_skip_reason": null,
+      "stimulus": {
+        "documents": [],
+        "speakers": [
+          {
+            "speaker_id": "spk_q",
+            "role": "sales_representative",
+            "accent": "us"
+          },
+          {
+            "speaker_id": "spk_r",
+            "role": "accounting_clerk",
+            "accent": "au"
+          }
+        ],
+        "audio_script": [
+          {
+            "segment_id": "ag-g-p2-000004-seg-q",
+            "speaker_id": "spk_q",
+            "text_en": "Hasn't the travel expense reimbursement been approved yet?"
+          },
+          {
+            "segment_id": "ag-g-p2-000004-seg-a",
+            "speaker_id": "spk_r",
+            "text_en": "Accounting cleared it earlier this afternoon."
+          },
+          {
+            "segment_id": "ag-g-p2-000004-seg-b",
+            "speaker_id": "spk_r",
+            "text_en": "To the regional conference in Seattle."
+          },
+          {
+            "segment_id": "ag-g-p2-000004-seg-c",
+            "speaker_id": "spk_r",
+            "text_en": "Direct flights are usually more expensive."
+          }
+        ]
+      },
+      "items": [
+        {
+          "item_id": "ag-i-p2-000004-1",
+          "prompt_en": "Listen to the question or statement and choose the best response.",
+          "choices": [
+            {
+              "id": "A",
+              "text_en": "Accounting cleared it earlier this afternoon."
+            },
+            {
+              "id": "B",
+              "text_en": "To the regional conference in Seattle."
+            },
+            {
+              "id": "C",
+              "text_en": "Direct flights are usually more expensive."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "group_id": "ag-g-p2-000005",
+      "part": 2,
+      "layout": "question_response",
+      "scenario": "event_catering",
+      "blind_solvable": true,
+      "blind_skip_reason": null,
+      "stimulus": {
+        "documents": [],
+        "speakers": [
+          {
+            "speaker_id": "spk_q",
+            "role": "event_planner",
+            "accent": "au"
+          },
+          {
+            "speaker_id": "spk_r",
+            "role": "department_head",
+            "accent": "uk"
+          }
+        ],
+        "audio_script": [
+          {
+            "segment_id": "ag-g-p2-000005-seg-q",
+            "speaker_id": "spk_q",
+            "text_en": "Should we order boxed lunches or a hot buffet for the client seminar?"
+          },
+          {
+            "segment_id": "ag-g-p2-000005-seg-a",
+            "speaker_id": "spk_r",
+            "text_en": "Wait until we get the final headcount this afternoon."
+          },
+          {
+            "segment_id": "ag-g-p2-000005-seg-b",
+            "speaker_id": "spk_r",
+            "text_en": "Yes, the seminar speaker confirmed her topic."
+          },
+          {
+            "segment_id": "ag-g-p2-000005-seg-c",
+            "speaker_id": "spk_r",
+            "text_en": "Put the extra boxes in the storage closet."
+          }
+        ]
+      },
+      "items": [
+        {
+          "item_id": "ag-i-p2-000005-1",
+          "prompt_en": "Listen to the question or statement and choose the best response.",
+          "choices": [
+            {
+              "id": "A",
+              "text_en": "Wait until we get the final headcount this afternoon."
+            },
+            {
+              "id": "B",
+              "text_en": "Yes, the seminar speaker confirmed her topic."
+            },
+            {
+              "id": "C",
+              "text_en": "Put the extra boxes in the storage closet."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "group_id": "ag-g-p2-000006",
+      "part": 2,
+      "layout": "question_response",
+      "scenario": "it_support",
+      "blind_solvable": true,
+      "blind_skip_reason": null,
+      "stimulus": {
+        "documents": [],
+        "speakers": [
+          {
+            "speaker_id": "spk_q",
+            "role": "training_coordinator",
+            "accent": "us"
+          },
+          {
+            "speaker_id": "spk_r",
+            "role": "it_specialist",
+            "accent": "ca"
+          }
+        ],
+        "audio_script": [
+          {
+            "segment_id": "ag-g-p2-000006-seg-q",
+            "speaker_id": "spk_q",
+            "text_en": "Could you check why the ceiling projector isn't connecting to my laptop?"
+          },
+          {
+            "segment_id": "ag-g-p2-000006-seg-a",
+            "speaker_id": "spk_r",
+            "text_en": "Sure, let me see if the display cable is loose."
+          },
+          {
+            "segment_id": "ag-g-p2-000006-seg-b",
+            "speaker_id": "spk_r",
+            "text_en": "The architectural project was approved in May."
+          },
+          {
+            "segment_id": "ag-g-p2-000006-seg-c",
+            "speaker_id": "spk_r",
+            "text_en": "No, on the top shelf."
+          }
+        ]
+      },
+      "items": [
+        {
+          "item_id": "ag-i-p2-000006-1",
+          "prompt_en": "Listen to the question or statement and choose the best response.",
+          "choices": [
+            {
+              "id": "A",
+              "text_en": "Sure, let me see if the display cable is loose."
+            },
+            {
+              "id": "B",
+              "text_en": "The architectural project was approved in May."
+            },
+            {
+              "id": "C",
+              "text_en": "No, on the top shelf."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "group_id": "ag-g-p2-000007",
+      "part": 2,
+      "layout": "question_response",
+      "scenario": "retail_merchandising",
+      "blind_solvable": true,
+      "blind_skip_reason": null,
+      "stimulus": {
+        "documents": [],
+        "speakers": [
+          {
+            "speaker_id": "spk_q",
+            "role": "store_associate",
+            "accent": "uk"
+          },
+          {
+            "speaker_id": "spk_r",
+            "role": "visual_merchandiser",
+            "accent": "au"
+          }
+        ],
+        "audio_script": [
+          {
+            "segment_id": "ag-g-p2-000007-seg-q",
+            "speaker_id": "spk_q",
+            "text_en": "Why don't we update the front window display before the store opens tomorrow?"
+          },
+          {
+            "segment_id": "ag-g-p2-000007-seg-a",
+            "speaker_id": "spk_r",
+            "text_en": "Because the main entrance faces Oak Street."
+          },
+          {
+            "segment_id": "ag-g-p2-000007-seg-b",
+            "speaker_id": "spk_r",
+            "text_en": "The autumn promotional banners won't arrive until Thursday."
+          },
+          {
+            "segment_id": "ag-g-p2-000007-seg-c",
+            "speaker_id": "spk_r",
+            "text_en": "Yes, I updated my contact information."
+          }
+        ]
+      },
+      "items": [
+        {
+          "item_id": "ag-i-p2-000007-1",
+          "prompt_en": "Listen to the question or statement and choose the best response.",
+          "choices": [
+            {
+              "id": "A",
+              "text_en": "Because the main entrance faces Oak Street."
+            },
+            {
+              "id": "B",
+              "text_en": "The autumn promotional banners won't arrive until Thursday."
+            },
+            {
+              "id": "C",
+              "text_en": "Yes, I updated my contact information."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "group_id": "ag-g-p2-000008",
+      "part": 2,
+      "layout": "question_response",
+      "scenario": "hospitality_transport",
+      "blind_solvable": true,
+      "blind_skip_reason": null,
+      "stimulus": {
+        "documents": [],
+        "speakers": [
+          {
+            "speaker_id": "spk_q",
+            "role": "hotel_guest",
+            "accent": "ca"
+          },
+          {
+            "speaker_id": "spk_r",
+            "role": "concierge",
+            "accent": "uk"
+          }
+        ],
+        "audio_script": [
+          {
+            "segment_id": "ag-g-p2-000008-seg-q",
+            "speaker_id": "spk_q",
+            "text_en": "The eight o'clock airport shuttle is completely booked."
+          },
+          {
+            "segment_id": "ag-g-p2-000008-seg-a",
+            "speaker_id": "spk_r",
+            "text_en": "I read that book on my flight home."
+          },
+          {
+            "segment_id": "ag-g-p2-000008-seg-b",
+            "speaker_id": "spk_r",
+            "text_en": "Terminal Two handles all international departures."
+          },
+          {
+            "segment_id": "ag-g-p2-000008-seg-c",
+            "speaker_id": "spk_r",
+            "text_en": "There's still room in the eight-thirty van if that works for you."
+          }
+        ]
+      },
+      "items": [
+        {
+          "item_id": "ag-i-p2-000008-1",
+          "prompt_en": "Listen to the question or statement and choose the best response.",
+          "choices": [
+            {
+              "id": "A",
+              "text_en": "I read that book on my flight home."
+            },
+            {
+              "id": "B",
+              "text_en": "Terminal Two handles all international departures."
+            },
+            {
+              "id": "C",
+              "text_en": "There's still room in the eight-thirty van if that works for you."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "group_id": "ag-g-p5-000001",
+      "part": 5,
+      "layout": "sentence",
+      "scenario": "manufacturing_quality",
+      "blind_solvable": true,
+      "blind_skip_reason": null,
+      "stimulus": {
+        "documents": [],
+        "speakers": [],
+        "audio_script": []
+      },
+      "items": [
+        {
+          "item_id": "ag-i-p5-000001-1",
+          "prompt_en": "Every batch of ceramic insulators is ____ inspected for microscopic cracks before leaving the factory floor.",
+          "choices": [
+            {
+              "id": "A",
+              "text_en": "thorough"
+            },
+            {
+              "id": "B",
+              "text_en": "thoroughly"
+            },
+            {
+              "id": "C",
+              "text_en": "thoroughness"
+            },
+            {
+              "id": "D",
+              "text_en": "more thorough"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "group_id": "ag-g-p5-000002",
+      "part": 5,
+      "layout": "sentence",
+      "scenario": "corporate_training",
+      "blind_solvable": true,
+      "blind_skip_reason": null,
+      "stimulus": {
+        "documents": [],
+        "speakers": [],
+        "audio_script": []
+      },
+      "items": [
+        {
+          "item_id": "ag-i-p5-000002-1",
+          "prompt_en": "A comprehensive list of optional leadership workshops ____ posted on the employee intranet every quarter.",
+          "choices": [
+            {
+              "id": "A",
+              "text_en": "are"
+            },
+            {
+              "id": "B",
+              "text_en": "were"
+            },
+            {
+              "id": "C",
+              "text_en": "is"
+            },
+            {
+              "id": "D",
+              "text_en": "have been"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "group_id": "ag-g-p5-000003",
+      "part": 5,
+      "layout": "sentence",
+      "scenario": "public_facilities_safety",
+      "blind_solvable": true,
+      "blind_skip_reason": null,
+      "stimulus": {
+        "documents": [],
+        "speakers": [],
+        "audio_script": []
+      },
+      "items": [
+        {
+          "item_id": "ag-i-p5-000003-1",
+          "prompt_en": "All emergency exit corridors must remain unobstructed at all times in ____ with municipal fire safety codes.",
+          "choices": [
+            {
+              "id": "A",
+              "text_en": "accordance"
+            },
+            {
+              "id": "B",
+              "text_en": "authority"
+            },
+            {
+              "id": "C",
+              "text_en": "admission"
+            },
+            {
+              "id": "D",
+              "text_en": "observation"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "group_id": "ag-g-p5-000004",
+      "part": 5,
+      "layout": "sentence",
+      "scenario": "logistics_weather",
+      "blind_solvable": true,
+      "blind_skip_reason": null,
+      "stimulus": {
+        "documents": [],
+        "speakers": [],
+        "audio_script": []
+      },
+      "items": [
+        {
+          "item_id": "ag-i-p5-000004-1",
+          "prompt_en": "____ heavy fog delayed morning cargo flights out of Anchorage, the perishable seafood shipment still reached Chicago on schedule.",
+          "choices": [
+            {
+              "id": "A",
+              "text_en": "Despite"
+            },
+            {
+              "id": "B",
+              "text_en": "Even though"
+            },
+            {
+              "id": "C",
+              "text_en": "In spite of"
+            },
+            {
+              "id": "D",
+              "text_en": "Nevertheless"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "group_id": "ag-g-p5-000005",
+      "part": 5,
+      "layout": "sentence",
+      "scenario": "hr_personnel",
+      "blind_solvable": true,
+      "blind_skip_reason": null,
+      "stimulus": {
+        "documents": [],
+        "speakers": [],
+        "audio_script": []
+      },
+      "items": [
+        {
+          "item_id": "ag-i-p5-000005-1",
+          "prompt_en": "Access to ____ employee payroll and performance appraisal files is restricted to authorized human resources personnel.",
+          "choices": [
+            {
+              "id": "A",
+              "text_en": "confident"
+            },
+            {
+              "id": "B",
+              "text_en": "confidential"
+            },
+            {
+              "id": "C",
+              "text_en": "cordial"
+            },
+            {
+              "id": "D",
+              "text_en": "consecutive"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "group_id": "ag-g-p5-000006",
+      "part": 5,
+      "layout": "sentence",
+      "scenario": "real_estate_leasing",
+      "blind_solvable": true,
+      "blind_skip_reason": null,
+      "stimulus": {
+        "documents": [],
+        "speakers": [],
+        "audio_script": []
+      },
+      "items": [
+        {
+          "item_id": "ag-i-p5-000006-1",
+          "prompt_en": "Commercial tenants wishing to install exterior signage must obtain written ____ from the building management office.",
+          "choices": [
+            {
+              "id": "A",
+              "text_en": "authorize"
+            },
+            {
+              "id": "B",
+              "text_en": "authorized"
+            },
+            {
+              "id": "C",
+              "text_en": "authorizing"
+            },
+            {
+              "id": "D",
+              "text_en": "authorization"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "group_id": "ag-g-p5-000007",
+      "part": 5,
+      "layout": "sentence",
+      "scenario": "construction_renovation",
+      "blind_solvable": true,
+      "blind_skip_reason": null,
+      "stimulus": {
+        "documents": [],
+        "speakers": [],
+        "audio_script": []
+      },
+      "items": [
+        {
+          "item_id": "ag-i-p5-000007-1",
+          "prompt_en": "By the time the flagship retail store reopens in November, the contractors ____ the entire second-floor lighting system.",
+          "choices": [
+            {
+              "id": "A",
+              "text_en": "replaced"
+            },
+            {
+              "id": "B",
+              "text_en": "had replaced"
+            },
+            {
+              "id": "C",
+              "text_en": "will have replaced"
+            },
+            {
+              "id": "D",
+              "text_en": "are replacing"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "group_id": "ag-g-p5-000008",
+      "part": 5,
+      "layout": "sentence",
+      "scenario": "customer_warranty",
+      "blind_solvable": true,
+      "blind_skip_reason": null,
+      "stimulus": {
+        "documents": [],
+        "speakers": [],
+        "audio_script": []
+      },
+      "items": [
+        {
+          "item_id": "ag-i-p5-000008-1",
+          "prompt_en": "Customers ____ standard two-year warranty has expired may still purchase an extended maintenance plan at a discounted rate.",
+          "choices": [
+            {
+              "id": "A",
+              "text_en": "who"
+            },
+            {
+              "id": "B",
+              "text_en": "whom"
+            },
+            {
+              "id": "C",
+              "text_en": "whose"
+            },
+            {
+              "id": "D",
+              "text_en": "which"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "group_id": "ag-g-p5-000009",
+      "part": 5,
+      "layout": "sentence",
+      "scenario": "banking_account",
+      "blind_solvable": true,
+      "blind_skip_reason": null,
+      "stimulus": {
+        "documents": [],
+        "speakers": [],
+        "audio_script": []
+      },
+      "items": [
+        {
+          "item_id": "ag-i-p5-000009-1",
+          "prompt_en": " Horizon Commercial Bank has agreed to ____ the monthly account maintenance fee for small businesses that maintain a minimum balance of $10,000.",
+          "choices": [
+            {
+              "id": "A",
+              "text_en": "waive"
+            },
+            {
+              "id": "B",
+              "text_en": "wander"
+            },
+            {
+              "id": "C",
+              "text_en": "warrant"
+            },
+            {
+              "id": "D",
+              "text_en": "withstand"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "group_id": "ag-g-p5-000010",
+      "part": 5,
+      "layout": "sentence",
+      "scenario": "procurement_purchasing",
+      "blind_solvable": true,
+      "blind_skip_reason": null,
+      "stimulus": {
+        "documents": [],
+        "speakers": [],
+        "audio_script": []
+      },
+      "items": [
+        {
+          "item_id": "ag-i-p5-000010-1",
+          "prompt_en": "Reimbursement requests for client entertainment meals will not be processed ____ accompanied by an itemized receipt and a list of attendees.",
+          "choices": [
+            {
+              "id": "A",
+              "text_en": "unless"
+            },
+            {
+              "id": "B",
+              "text_en": "whereas"
+            },
+            {
+              "id": "C",
+              "text_en": "so that"
+            },
+            {
+              "id": "D",
+              "text_en": "as long as"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "group_id": "ag-g-p5-000011",
+      "part": 5,
+      "layout": "sentence",
+      "scenario": "publishing_editorial",
+      "blind_solvable": true,
+      "blind_skip_reason": null,
+      "stimulus": {
+        "documents": [],
+        "speakers": [],
+        "audio_script": []
+      },
+      "items": [
+        {
+          "item_id": "ag-i-p5-000011-1",
+          "prompt_en": "Manuscripts ____ after the Friday editorial deadline will be held over for publication in the following month's issue.",
+          "choices": [
+            {
+              "id": "A",
+              "text_en": "submit"
+            },
+            {
+              "id": "B",
+              "text_en": "submitting"
+            },
+            {
+              "id": "C",
+              "text_en": "submitted"
+            },
+            {
+              "id": "D",
+              "text_en": "will submit"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "group_id": "ag-g-p5-000012",
+      "part": 5,
+      "layout": "sentence",
+      "scenario": "event_conference",
+      "blind_solvable": true,
+      "blind_skip_reason": null,
+      "stimulus": {
+        "documents": [],
+        "speakers": [],
+        "audio_script": []
+      },
+      "items": [
+        {
+          "item_id": "ag-i-p5-000012-1",
+          "prompt_en": "The keynote address by Dr. Elena Rostova is ____ scheduled for 9:00 A.M. on Wednesday, pending final confirmation of her international flight.",
+          "choices": [
+            {
+              "id": "A",
+              "text_en": "tentatively"
+            },
+            {
+              "id": "B",
+              "text_en": "reluctantly"
+            },
+            {
+              "id": "C",
+              "text_en": "mutually"
+            },
+            {
+              "id": "D",
+              "text_en": "stringently"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

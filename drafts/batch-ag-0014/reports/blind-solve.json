@@ -1,0 +1,46 @@
+{
+  "batch_id": "batch-ag-0014",
+  "solver_kind": "ai_isolated_subagent",
+  "blind": true,
+  "solved_at": "2026-10-28T08:43:30Z",
+  "skipped_groups": [],
+  "items": [
+    {
+      "group_id": "ag-g-p2-000301",
+      "item_id": "ag-i-p2-000301-1",
+      "selected_choice_id": "A",
+      "confidence": "high",
+      "ambiguity_flag": false,
+      "evidence_quote": "Where should we set up the projector for the client briefing? ... (A) In the third-floor boardroom.",
+      "reasoning_zh": "問句以 Where 詢問客戶簡報投影機的架設地點，選項 (A)「在三樓董事會議室」直接回答地點。"
+    },
+    {
+      "group_id": "ag-g-p2-000302",
+      "item_id": "ag-i-p2-000302-1",
+      "selected_choice_id": "B",
+      "confidence": "high",
+      "ambiguity_flag": false,
+      "evidence_quote": "When will the preliminary revenue forecast be distributed to the vice presidents? ... (B) As soon as the European branch submits its figures.",
+      "reasoning_zh": "問句以 When 詢問初步營收預測何時分發給副總裁們，選項 (B)「一旦歐洲分部提交數據就立刻發送」明確回答時間條件。"
+    },
+    {
+      "group_id": "ag-g-p2-000303",
+      "item_id": "ag-i-p2-000303-1",
+      "selected_choice_id": "B",
+      "confidence": "high",
+      "ambiguity_flag": false,
+      "evidence_quote": "Haven't the replacement gaskets for the bottling machine arrived from Osaka yet? ... (B) I'll check the receiving dock log right now.",
+      "reasoning_zh": "問句詢問從大阪寄出的裝瓶機替換墊片是否尚未送達，選項 (B)「我現在馬上查一下收貨碼頭紀錄」為合理的職場回應。"
+    },
+    {
+      "group_id": "ag-g-p2-000304",
+      "item_id": "ag-i-p2-000304-1",
+      "selected_choice_id": "A",
+      "confidence": "high",
+      "ambiguity_flag": false,
+      "evidence_quote": "The high-speed copier in the marketing wing is jamming again. ... (A) You can print your handouts on the machine near the reception desk.",
+      "reasoning_zh": "陳述句指出行銷部門的高速影印機又卡紙了，選項 (A) 建議改用接待處附近的機器列印講義，提供具體替代方案。"
+    }
+  ],
+  "note_zh": "沿用 batch-ag-0012 之獨立上下文盲解紀錄；v3 未改動任何盲解輸入（題幹／選項／音訊稿）。"
+}

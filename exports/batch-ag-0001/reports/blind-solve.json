@@ -1,0 +1,149 @@
+{
+  "batch_id": "batch-ag-0001",
+  "solver_kind": "ai_isolated_subagent",
+  "blind": true,
+  "solved_at": "2026-10-27T11:50:15Z",
+  "items": [
+    {
+      "group_id": "ag-g-p2-000001",
+      "item_id": "ag-i-p2-000001-1",
+      "selected_choice_id": "A",
+      "confidence": "high",
+      "reasoning_zh": "問句以 Where 詢問已簽署的貨運清單放在哪裡，選項 (A)「在 Henderson 女士桌上的最上層文件盤裡」明確回答地點。"
+    },
+    {
+      "group_id": "ag-g-p2-000002",
+      "item_id": "ag-i-p2-000002-1",
+      "selected_choice_id": "B",
+      "confidence": "high",
+      "reasoning_zh": "問句以 When 詢問 C 棟的壓力錶何時進行校準，選項 (B)「下週二早上例行停機期間」直接提供時間；(A) 為 calibrated 與 collaborated 的近似音陷阱。"
+    },
+    {
+      "group_id": "ag-g-p2-000003",
+      "item_id": "ag-i-p2-000003-1",
+      "selected_choice_id": "C",
+      "confidence": "high",
+      "reasoning_zh": "問句以 Who 詢問誰被指派審閱原料供應商合約，選項 (C)「法務總監今天不在，所以目前還沒有人」合理解釋尚未指派人選的狀況。"
+    },
+    {
+      "group_id": "ag-g-p2-000004",
+      "item_id": "ag-i-p2-000004-1",
+      "selected_choice_id": "A",
+      "confidence": "high",
+      "reasoning_zh": "否定疑問句詢問差旅費報銷是否尚未核准，選項 (A)「會計部今天下午稍早已經核准放行了」直接回應審核進度。"
+    },
+    {
+      "group_id": "ag-g-p2-000005",
+      "item_id": "ag-i-p2-000005-1",
+      "selected_choice_id": "A",
+      "confidence": "high",
+      "reasoning_zh": "選擇疑問句詢問客戶研討會該訂餐盒還是熱食自助餐，選項 (A)「等我們今天下午拿到最終出席人數再說」合理延後決定。"
+    },
+    {
+      "group_id": "ag-g-p2-000006",
+      "item_id": "ag-i-p2-000006-1",
+      "selected_choice_id": "A",
+      "confidence": "high",
+      "reasoning_zh": "問句請求幫忙檢查吊掛投影機無法連上筆電的原因，選項 (A)「好，我來看看是不是顯示器傳輸線鬆脫了」正面答應並提出排查方式。"
+    },
+    {
+      "group_id": "ag-g-p2-000007",
+      "item_id": "ag-i-p2-000007-1",
+      "selected_choice_id": "B",
+      "confidence": "high",
+      "reasoning_zh": "Why don't we... 為提議句型（建議明天開店前更新前排櫥窗陳列），選項 (B)「秋季促銷橫幅要到週四才會寄達」委婉說明無法明天更新的原因。"
+    },
+    {
+      "group_id": "ag-g-p2-000008",
+      "item_id": "ag-i-p2-000008-1",
+      "selected_choice_id": "C",
+      "confidence": "high",
+      "reasoning_zh": "陳述句表示八點的機場接駁車已客滿，選項 (C)「八點半的廂型車還有空位，如果您方便的話」提供替代班次解決問題。"
+    },
+    {
+      "group_id": "ag-g-p5-000001",
+      "item_id": "ag-i-p5-000001-1",
+      "selected_choice_id": "B",
+      "confidence": "high",
+      "reasoning_zh": "空格位於助動詞 is 與過去分詞 inspected 之間，需用副詞 thoroughly（徹底地）修飾動詞。"
+    },
+    {
+      "group_id": "ag-g-p5-000002",
+      "item_id": "ag-i-p5-000002-1",
+      "selected_choice_id": "C",
+      "confidence": "high",
+      "reasoning_zh": "主詞核心為單數名詞 A comprehensive list，且句尾有頻率副詞片語 every quarter 表常態，故選單數現在式動詞 is。"
+    },
+    {
+      "group_id": "ag-g-p5-000003",
+      "item_id": "ag-i-p5-000003-1",
+      "selected_choice_id": "A",
+      "confidence": "high",
+      "reasoning_zh": "in accordance with 為固定介系詞片語，意為「依照、符合（法規）」。"
+    },
+    {
+      "group_id": "ag-g-p5-000004",
+      "item_id": "ag-i-p5-000004-1",
+      "selected_choice_id": "B",
+      "confidence": "high",
+      "reasoning_zh": "空格後為完整子句 heavy fog delayed morning cargo flights...，需填入從屬連接詞 Even though（儘管）；Despite 與 In spite of 為介系詞，Nevertheless 為副詞。"
+    },
+    {
+      "group_id": "ag-g-p5-000005",
+      "item_id": "ag-i-p5-000005-1",
+      "selected_choice_id": "B",
+      "confidence": "high",
+      "reasoning_zh": "修飾「員工薪資與績效考核檔案」且「僅限授權人資人員存取」，語意應選形容詞 confidential（機密的）。"
+    },
+    {
+      "group_id": "ag-g-p5-000006",
+      "item_id": "ag-i-p5-000006-1",
+      "selected_choice_id": "D",
+      "confidence": "high",
+      "reasoning_zh": "空格受形容詞 written 修飾並作為動詞 obtain 的受詞，需用名詞 authorization（授權、許可）。"
+    },
+    {
+      "group_id": "ag-g-p5-000007",
+      "item_id": "ag-i-p5-000007-1",
+      "selected_choice_id": "C",
+      "confidence": "high",
+      "reasoning_zh": "By the time 引導的時間副詞子句使用現在簡單式 reopens 表未來時間點，主要子句應使用未來完成式 will have replaced 表屆時將已完成。"
+    },
+    {
+      "group_id": "ag-g-p5-000008",
+      "item_id": "ag-i-p5-000008-1",
+      "selected_choice_id": "C",
+      "confidence": "high",
+      "reasoning_zh": "先行詞為 Customers，關係子句中缺少所有格以修飾名詞片語 standard two-year warranty，故選關係代名詞所有格 whose。"
+    },
+    {
+      "group_id": "ag-g-p5-000009",
+      "item_id": "ag-i-p5-000009-1",
+      "selected_choice_id": "A",
+      "confidence": "high",
+      "reasoning_zh": "waive the fee 為常見商務搭配詞，意為「免除（帳戶管理費）」。"
+    },
+    {
+      "group_id": "ag-g-p5-000010",
+      "item_id": "ag-i-p5-000010-1",
+      "selected_choice_id": "A",
+      "confidence": "high",
+      "reasoning_zh": "主要子句為否定（will not be processed），搭配 unless（除非）引導省略主詞與 be 動詞的分詞構句（unless accompanied by...），語意為「除非附有明細收據與出席名單，否則不予受理」。"
+    },
+    {
+      "group_id": "ag-g-p5-000011",
+      "item_id": "ag-i-p5-000011-1",
+      "selected_choice_id": "C",
+      "confidence": "high",
+      "reasoning_zh": "主詞 Manuscripts 與動詞 submit 為被動關係，主要動詞為 will be held over，此處需用過去分詞 submitted 作後位修飾（省略 which are）。"
+    },
+    {
+      "group_id": "ag-g-p5-000012",
+      "item_id": "ag-i-p5-000012-1",
+      "selected_choice_id": "A",
+      "confidence": "high",
+      "reasoning_zh": "後半句提到 pending final confirmation of her international flight（待她的國際航班最終確認），可知演講時間為「暫定地」排在週三早上九點，故選 tentatively。"
+    }
+  ],
+  "skipped_groups": []
+}

@@ -1,0 +1,134 @@
+{
+  "batch_id": "batch-ag-0003",
+  "solver_kind": "ai_isolated_subagent",
+  "blind": true,
+  "solved_at": "2026-10-27T12:00:00Z",
+  "items": [
+    {
+      "group_id": "ag-g-p3-000001",
+      "item_id": "ag-i-p3-000001-1",
+      "selected_choice_id": "B",
+      "confidence": "high",
+      "reasoning_zh": "男士致電表示供應商通知客戶原本要求的亮面卡紙（glossy cardstock）缺貨需延期至下個月，對應選項 B 報告所要求材料的短缺。"
+    },
+    {
+      "group_id": "ag-g-p3-000001",
+      "item_id": "ag-i-p3-000001-2",
+      "selected_choice_id": "C",
+      "confidence": "high",
+      "reasoning_zh": "男士提出改用庫存的厚霧面再生紙，並說明雖然該紙材平時價格較高（a bit pricier），但因短缺問題在印務公司端，將維持原報價（honor your original quote），對應選項 C 不加價提供較高價紙材。"
+    },
+    {
+      "group_id": "ag-g-p3-000001",
+      "item_id": "ag-i-p3-000001-3",
+      "selected_choice_id": "B",
+      "confidence": "high",
+      "reasoning_zh": "女士在對話結尾請男士寄送一份修訂後的訂單確認書（send me a revised order confirmation），對應選項 B 更新後的訂單確認書。"
+    },
+    {
+      "group_id": "ag-g-p3-000002",
+      "item_id": "ag-i-p3-000002-1",
+      "selected_choice_id": "B",
+      "confidence": "high",
+      "reasoning_zh": "女士開場提到宴會人員已完成今晚貴公司頒獎晚宴（your company's awards dinner tonight）的圓桌擺設，對應選項 B 企業頒獎晚宴。"
+    },
+    {
+      "group_id": "ag-g-p3-000002",
+      "item_id": "ag-i-p3-000002-2",
+      "selected_choice_id": "C",
+      "confidence": "high",
+      "reasoning_zh": "男士表示剛得知甜點後將有四位額外的區域經理加入台上的高階主管座談會（joining our executive panel on stage），因此需要調整舞台配置，對應選項 C 更多參與者將參加座談會。"
+    },
+    {
+      "group_id": "ag-g-p3-000002",
+      "item_id": "ag-i-p3-000002-3",
+      "selected_choice_id": "B",
+      "confidence": "high",
+      "reasoning_zh": "男士要求兩支手提無線麥克風，女士表示會立即聯繫視聽技術人員在六點賓客抵達前送達並測試音量（bring those up and test the sound levels before your guests arrive at six），對應選項 B 架設並測試無線麥克風。"
+    },
+    {
+      "group_id": "ag-g-p3-000003",
+      "item_id": "ag-i-p3-000003-1",
+      "selected_choice_id": "B",
+      "confidence": "high",
+      "reasoning_zh": "第一位女士指出 Greenleaf 超市同意上架花草冰茶系列的條件是必須將玻璃瓶改為輕量鋁罐（provided we switch from glass bottles to lightweight aluminum cans），對應選項 B 飲料容器必須改為鋁罐。"
+    },
+    {
+      "group_id": "ag-g-p3-000003",
+      "item_id": "ag-i-p3-000003-2",
+      "selected_choice_id": "A",
+      "confidence": "high",
+      "reasoning_zh": "在男士提到直接印製金屬金箔邊框會使單位生產成本增加 15% 後，第二位女士表示超市批發訂單的利潤空間已經非常緊縮，意在反對這項會提高製造成本的方案，對應選項 A。"
+    },
+    {
+      "group_id": "ag-g-p3-000003",
+      "item_id": "ag-i-p3-000003-3",
+      "selected_choice_id": "B",
+      "confidence": "high",
+      "reasoning_zh": "Liam 在結尾表示今天下午會印製三個樣品罐（print three sample cans this afternoon）並送到辦公室，對應選項 B 製作樣品罐。"
+    },
+    {
+      "group_id": "ag-g-p3-000004",
+      "item_id": "ag-i-p3-000004-1",
+      "selected_choice_id": "B",
+      "confidence": "high",
+      "reasoning_zh": "對話中提到診所（clinic）、病患排程軟體、例行檢查預約以及轉移牙科 X 光檔案（dental X-ray files），可推知兩人最可能在牙醫診所工作，對應選項 B。"
+    },
+    {
+      "group_id": "ag-g-p3-000004",
+      "item_id": "ag-i-p3-000004-2",
+      "selected_choice_id": "C",
+      "confidence": "high",
+      "reasoning_zh": "男士提到櫃檯人員反映從舊資料庫轉移牙科 X 光檔案需要好幾個步驟（takes quite a few steps），對應選項 C 從舊系統移轉影像紀錄很繁複。"
+    },
+    {
+      "group_id": "ag-g-p3-000004",
+      "item_id": "ag-i-p3-000004-3",
+      "selected_choice_id": "B",
+      "confidence": "high",
+      "reasoning_zh": "女士表示軟體商寄來了一頁式捷徑指南，她會在午餐前為每個工作站印製護貝副本（print laminated copies for each workstation before lunch），對應選項 B 發放參考指南至各工作站。"
+    },
+    {
+      "group_id": "ag-g-p3-000005",
+      "item_id": "ag-i-p3-000005-1",
+      "selected_choice_id": "B",
+      "confidence": "high",
+      "reasoning_zh": "男士開場即說明剛打包好 Harborview 大橋專案的比例模型（scale model for the Harborview Bridge project）要寄往波士頓，對應選項 B 建築比例模型。"
+    },
+    {
+      "group_id": "ag-g-p3-000005",
+      "item_id": "ag-i-p3-000005-2",
+      "selected_choice_id": "C",
+      "confidence": "high",
+      "reasoning_zh": "女士提到只需在兩個工作天內送達，並表示會選擇兩日送達方案（two-day shipping tier）。對照圖表中 2 Business Days 對應的 Priority Express 費率為 $64，故選 C。"
+    },
+    {
+      "group_id": "ag-g-p3-000005",
+      "item_id": "ag-i-p3-000005-3",
+      "selected_choice_id": "B",
+      "confidence": "high",
+      "reasoning_zh": "女士在結尾請男士在三點前將木箱拿到接待櫃檯（bring the crate to the reception desk by three o'clock），對應選項 B 將包裹拿到前台。"
+    },
+    {
+      "group_id": "ag-g-p3-000006",
+      "item_id": "ag-i-p3-000006-1",
+      "selected_choice_id": "B",
+      "confidence": "high",
+      "reasoning_zh": "女士表示目前已有 42 人報名，而男士指出原訂的 Cedar Hall 僅能容納 35 人，因此必須換到更大的空間，對應選項 B 報名人數超過目前教室的座位上限。"
+    },
+    {
+      "group_id": "ag-g-p3-000006",
+      "item_id": "ag-i-p3-000006-2",
+      "selected_choice_id": "B",
+      "confidence": "high",
+      "reasoning_zh": "女士提醒學員需要在一個螢幕上比對試算表公式、同時在另一個螢幕看案例投影片，藉此說明教室設備需要雙螢幕的技術條件，對應選項 B。"
+    },
+    {
+      "group_id": "ag-g-p3-000006",
+      "item_id": "ag-i-p3-000006-3",
+      "selected_choice_id": "D",
+      "confidence": "high",
+      "reasoning_zh": "需要容納 42 人以上且具備雙投影螢幕（Dual Projection Screens）。排除僅有單投影機的 Maple Suite 後，男士決定預訂另一間有雙螢幕的大教室，對照圖表即為容量 55 人且有雙投影螢幕的 Redwood Room，故選 D。"
+    }
+  ]
+}

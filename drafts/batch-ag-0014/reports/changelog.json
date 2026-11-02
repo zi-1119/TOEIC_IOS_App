@@ -1,0 +1,42 @@
+{
+  "batch_id": "batch-ag-0014",
+  "supersedes_groups_in": "batch-ag-0012",
+  "groups": [
+    {
+      "group_id": "ag-g-p2-000301",
+      "from_version": 2,
+      "to_version": 3,
+      "source_batch": "batch-ag-0012",
+      "changes": [
+        "ag-i-p2-000301-1 evidence[1].source_id: seg1 -> seg2 （引文「(A) In the third-floor boardroom.」）"
+      ]
+    },
+    {
+      "group_id": "ag-g-p2-000302",
+      "from_version": 2,
+      "to_version": 3,
+      "source_batch": "batch-ag-0012",
+      "changes": [
+        "ag-i-p2-000302-1 evidence[1].source_id: seg2 -> seg3 （引文「(B) As soon as the European branch submits its figures.」）"
+      ]
+    },
+    {
+      "group_id": "ag-g-p2-000303",
+      "from_version": 2,
+      "to_version": 3,
+      "source_batch": "batch-ag-0012",
+      "changes": [
+        "ag-i-p2-000303-1 evidence[1].source_id: seg2 -> seg3 （引文「(B) I'll check the receiving dock log right now.」）"
+      ]
+    },
+    {
+      "group_id": "ag-g-p2-000304",
+      "from_version": 2,
+      "to_version": 3,
+      "source_batch": "batch-ag-0012",
+      "changes": [
+        "ag-i-p2-000304-1 evidence[1].source_id: seg1 -> seg2 （引文「(A) You can print your handouts on the machine near the reception desk.」）"
+      ]
+    }
+  ]
+}

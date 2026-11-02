@@ -1,0 +1,870 @@
+{
+  "created_for": "handoff/2026-10-29-mvp/03-antigravity-audio-regression.md",
+  "status": "candidate_only_not_exported_not_human_reviewed",
+  "pipeline": "macOS /usr/bin/say 172 WPM, LEI16@22050 → afconvert AAC 64 kbps mono (no upsampling/gain tricks)",
+  "samples": [
+    {
+      "sample": 1,
+      "group_id": "ag-g-p1-000001",
+      "group_version_in_export": 2,
+      "source_batch": "batch-ag-0006",
+      "part": 1,
+      "note_zh": "實機回報混濁、無標號之原題（研究室顯微鏡）",
+      "answer_choice_id": "A",
+      "original": {
+        "file": "01-ag-g-p1-000001-A-original.m4a",
+        "sha256": "684cd4b76474d8dc727975321314eac90c070a2b720a0274f908a82453ebbef9",
+        "export_segment_times": [
+          {
+            "segment_id": "ag-g-p1-000001-seg-a",
+            "start_ms": 300,
+            "end_ms": 2763
+          },
+          {
+            "segment_id": "ag-g-p1-000001-seg-b",
+            "start_ms": 3963,
+            "end_ms": 6553
+          },
+          {
+            "segment_id": "ag-g-p1-000001-seg-c",
+            "start_ms": 7753,
+            "end_ms": 10632
+          },
+          {
+            "segment_id": "ag-g-p1-000001-seg-d",
+            "start_ms": 11832,
+            "end_ms": 14567
+          }
+        ],
+        "metrics": {
+          "codec": "aac",
+          "sample_rate": 22050,
+          "channels": 1,
+          "bit_rate": 37617,
+          "duration_s": 15.139,
+          "integrated_lufs": -19.0,
+          "true_peak_dbfs": "-3.7",
+          "silences_ms": [
+            {
+              "end_ms": 300,
+              "duration_ms": 300
+            },
+            {
+              "end_ms": 3963,
+              "duration_ms": 1625
+            },
+            {
+              "end_ms": 7754,
+              "duration_ms": 1626
+            },
+            {
+              "end_ms": 11832,
+              "duration_ms": 1723
+            },
+            {
+              "end_ms": 15044,
+              "duration_ms": 893
+            }
+          ]
+        }
+      },
+      "candidate": {
+        "file": "01-ag-g-p1-000001-B-karen-labels-400ms.m4a",
+        "sha256": "8a639bb87401ceb9cc4dd33aacafd997c28a9cf1931f678585eb27e9a1967afe",
+        "duration_ms": 15556,
+        "segment_times": [
+          {
+            "segment_id": "ag-g-p1-000001-seg-a",
+            "start_ms": 300,
+            "end_ms": 2735
+          },
+          {
+            "segment_id": "ag-g-p1-000001-seg-b",
+            "start_ms": 3935,
+            "end_ms": 6810
+          },
+          {
+            "segment_id": "ag-g-p1-000001-seg-c",
+            "start_ms": 8010,
+            "end_ms": 11059
+          },
+          {
+            "segment_id": "ag-g-p1-000001-seg-d",
+            "start_ms": 12259,
+            "end_ms": 15106
+          }
+        ],
+        "voice_cast": [
+          {
+            "speaker_id": "spk_narrator",
+            "role": "narrator",
+            "planned_accent": "au",
+            "voice_name": "Karen",
+            "locale": "en_AU",
+            "ca_fallback": false
+          }
+        ],
+        "requested_label_gap_ms": 400,
+        "spoken_script": [
+          {
+            "segment_id": "ag-g-p1-000001-seg-a",
+            "text_en": "(A) She is looking through a microscope."
+          },
+          {
+            "segment_id": "ag-g-p1-000001-seg-b",
+            "text_en": "(B) She is washing glassware in the sink."
+          },
+          {
+            "segment_id": "ag-g-p1-000001-seg-c",
+            "text_en": "(C) She is writing a formula on the whiteboard."
+          },
+          {
+            "segment_id": "ag-g-p1-000001-seg-d",
+            "text_en": "(D) She is putting on a laboratory coat."
+          }
+        ],
+        "metrics": {
+          "codec": "aac",
+          "sample_rate": 22050,
+          "channels": 1,
+          "bit_rate": 56988,
+          "duration_s": 15.697,
+          "integrated_lufs": -16.8,
+          "true_peak_dbfs": "-2.1",
+          "silences_ms": [
+            {
+              "end_ms": 301,
+              "duration_ms": 301
+            },
+            {
+              "end_ms": 754,
+              "duration_ms": 359
+            },
+            {
+              "end_ms": 3982,
+              "duration_ms": 1288
+            },
+            {
+              "end_ms": 4694,
+              "duration_ms": 359
+            },
+            {
+              "end_ms": 8016,
+              "duration_ms": 1329
+            },
+            {
+              "end_ms": 8869,
+              "duration_ms": 357
+            },
+            {
+              "end_ms": 12271,
+              "duration_ms": 1243
+            },
+            {
+              "end_ms": 13057,
+              "duration_ms": 357
+            },
+            {
+              "end_ms": 15601,
+              "duration_ms": 531
+            }
+          ]
+        }
+      },
+      "audio_only_blind_solve": "not_run",
+      "human_listening": "pending_user_iphone_speaker"
+    },
+    {
+      "sample": 2,
+      "group_id": "ag-g-p1-000002",
+      "group_version_in_export": 2,
+      "source_batch": "batch-ag-0007",
+      "part": 1,
+      "note_zh": "原為 uk 聲線（麵包店）",
+      "answer_choice_id": "C",
+      "original": {
+        "file": "02-ag-g-p1-000002-A-original.m4a",
+        "sha256": "08b0874cf58aa9763625ad82b8f4490c219a50d7dcfb8b435f66e402e8cadcde",
+        "export_segment_times": [
+          {
+            "segment_id": "ag-g-p1-000002-seg-a",
+            "start_ms": 300,
+            "end_ms": 3157
+          },
+          {
+            "segment_id": "ag-g-p1-000002-seg-b",
+            "start_ms": 4357,
+            "end_ms": 7555
+          },
+          {
+            "segment_id": "ag-g-p1-000002-seg-c",
+            "start_ms": 8755,
+            "end_ms": 12274
+          },
+          {
+            "segment_id": "ag-g-p1-000002-seg-d",
+            "start_ms": 13474,
+            "end_ms": 15840
+          }
+        ],
+        "metrics": {
+          "codec": "aac",
+          "sample_rate": 22050,
+          "channels": 1,
+          "bit_rate": 38883,
+          "duration_s": 16.393,
+          "integrated_lufs": -18.9,
+          "true_peak_dbfs": "-4.0",
+          "silences_ms": [
+            {
+              "end_ms": 300,
+              "duration_ms": 300
+            },
+            {
+              "end_ms": 4357,
+              "duration_ms": 1669
+            },
+            {
+              "end_ms": 8755,
+              "duration_ms": 1617
+            },
+            {
+              "end_ms": 13474,
+              "duration_ms": 1673
+            },
+            {
+              "end_ms": 16298,
+              "duration_ms": 882
+            }
+          ]
+        }
+      },
+      "candidate": {
+        "file": "02-ag-g-p1-000002-B-karen-labels-400ms.m4a",
+        "sha256": "b37e752a6c360c46fa373418e68564ebf532aaeb21aad0d00ed0bc4f2f300127",
+        "duration_ms": 16195,
+        "segment_times": [
+          {
+            "segment_id": "ag-g-p1-000002-seg-a",
+            "start_ms": 300,
+            "end_ms": 2805
+          },
+          {
+            "segment_id": "ag-g-p1-000002-seg-b",
+            "start_ms": 4005,
+            "end_ms": 7275
+          },
+          {
+            "segment_id": "ag-g-p1-000002-seg-c",
+            "start_ms": 8475,
+            "end_ms": 11953
+          },
+          {
+            "segment_id": "ag-g-p1-000002-seg-d",
+            "start_ms": 13153,
+            "end_ms": 15745
+          }
+        ],
+        "voice_cast": [
+          {
+            "speaker_id": "spk_narrator",
+            "role": "narrator",
+            "planned_accent": "au",
+            "voice_name": "Karen",
+            "locale": "en_AU",
+            "ca_fallback": false
+          }
+        ],
+        "requested_label_gap_ms": 400,
+        "spoken_script": [
+          {
+            "segment_id": "ag-g-p1-000002-seg-a",
+            "text_en": "(A) Pastries are being removed from the oven."
+          },
+          {
+            "segment_id": "ag-g-p1-000002-seg-b",
+            "text_en": "(B) A customer is stacking trays on the counter."
+          },
+          {
+            "segment_id": "ag-g-p1-000002-seg-c",
+            "text_en": "(C) A clerk is handing a paper bag to a patron."
+          },
+          {
+            "segment_id": "ag-g-p1-000002-seg-d",
+            "text_en": "(D) The bakery floor is being mopped."
+          }
+        ],
+        "metrics": {
+          "codec": "aac",
+          "sample_rate": 22050,
+          "channels": 1,
+          "bit_rate": 56667,
+          "duration_s": 16.3,
+          "integrated_lufs": -17.1,
+          "true_peak_dbfs": "-2.0",
+          "silences_ms": [
+            {
+              "end_ms": 301,
+              "duration_ms": 301
+            },
+            {
+              "end_ms": 766,
+              "duration_ms": 371
+            },
+            {
+              "end_ms": 4052,
+              "duration_ms": 1268
+            },
+            {
+              "end_ms": 4759,
+              "duration_ms": 352
+            },
+            {
+              "end_ms": 8480,
+              "duration_ms": 1233
+            },
+            {
+              "end_ms": 9330,
+              "duration_ms": 353
+            },
+            {
+              "end_ms": 13165,
+              "duration_ms": 1234
+            },
+            {
+              "end_ms": 13965,
+              "duration_ms": 371
+            },
+            {
+              "end_ms": 16205,
+              "duration_ms": 492
+            }
+          ]
+        }
+      },
+      "audio_only_blind_solve": "not_run",
+      "human_listening": "pending_user_iphone_speaker"
+    },
+    {
+      "sample": 3,
+      "group_id": "ag-g-p1-000003",
+      "group_version_in_export": 2,
+      "source_batch": "batch-ag-0007",
+      "part": 1,
+      "note_zh": "原即 Karen，實機評為最清楚；本候選只加標號＋間隔",
+      "answer_choice_id": "B",
+      "original": {
+        "file": "03-ag-g-p1-000003-A-original.m4a",
+        "sha256": "5f92a455908bf43b0ee0b6cee6205d275a5ab027577fdc0cfd973d62acbbfade",
+        "export_segment_times": [
+          {
+            "segment_id": "ag-g-p1-000003-seg-a",
+            "start_ms": 300,
+            "end_ms": 2360
+          },
+          {
+            "segment_id": "ag-g-p1-000003-seg-b",
+            "start_ms": 3560,
+            "end_ms": 6540
+          },
+          {
+            "segment_id": "ag-g-p1-000003-seg-c",
+            "start_ms": 7740,
+            "end_ms": 10185
+          },
+          {
+            "segment_id": "ag-g-p1-000003-seg-d",
+            "start_ms": 11385,
+            "end_ms": 13350
+          }
+        ],
+        "metrics": {
+          "codec": "aac",
+          "sample_rate": 22050,
+          "channels": 1,
+          "bit_rate": 54001,
+          "duration_s": 13.932,
+          "integrated_lufs": -16.6,
+          "true_peak_dbfs": "-2.7",
+          "silences_ms": [
+            {
+              "end_ms": 302,
+              "duration_ms": 302
+            },
+            {
+              "end_ms": 3567,
+              "duration_ms": 1336
+            },
+            {
+              "end_ms": 7747,
+              "duration_ms": 1225
+            },
+            {
+              "end_ms": 11388,
+              "duration_ms": 1231
+            },
+            {
+              "end_ms": 13836,
+              "duration_ms": 515
+            }
+          ]
+        }
+      },
+      "candidate": {
+        "file": "03-ag-g-p1-000003-B-karen-labels-400ms.m4a",
+        "sha256": "44f46c136209bed4daadc1d5705570d38502ab519691291d69ad3bbbdb4d8098",
+        "duration_ms": 16705,
+        "segment_times": [
+          {
+            "segment_id": "ag-g-p1-000003-seg-a",
+            "start_ms": 300,
+            "end_ms": 2816
+          },
+          {
+            "segment_id": "ag-g-p1-000003-seg-b",
+            "start_ms": 4016,
+            "end_ms": 7774
+          },
+          {
+            "segment_id": "ag-g-p1-000003-seg-c",
+            "start_ms": 8974,
+            "end_ms": 12290
+          },
+          {
+            "segment_id": "ag-g-p1-000003-seg-d",
+            "start_ms": 13490,
+            "end_ms": 16256
+          }
+        ],
+        "voice_cast": [
+          {
+            "speaker_id": "spk_narrator",
+            "role": "narrator",
+            "planned_accent": "au",
+            "voice_name": "Karen",
+            "locale": "en_AU",
+            "ca_fallback": false
+          }
+        ],
+        "requested_label_gap_ms": 400,
+        "spoken_script": [
+          {
+            "segment_id": "ag-g-p1-000003-seg-a",
+            "text_en": "(A) Passengers are boarding a ferry at the dock."
+          },
+          {
+            "segment_id": "ag-g-p1-000003-seg-b",
+            "text_en": "(B) Wooden benches are lined up along the waterfront walkway."
+          },
+          {
+            "segment_id": "ag-g-p1-000003-seg-c",
+            "text_en": "(C) Workers are paving a stone path near the harbor."
+          },
+          {
+            "segment_id": "ag-g-p1-000003-seg-d",
+            "text_en": "(D) Sailboats are being pulled onto the shore."
+          }
+        ],
+        "metrics": {
+          "codec": "aac",
+          "sample_rate": 22050,
+          "channels": 1,
+          "bit_rate": 57293,
+          "duration_s": 16.811,
+          "integrated_lufs": -16.9,
+          "true_peak_dbfs": "-2.7",
+          "silences_ms": [
+            {
+              "end_ms": 301,
+              "duration_ms": 301
+            },
+            {
+              "end_ms": 766,
+              "duration_ms": 371
+            },
+            {
+              "end_ms": 4063,
+              "duration_ms": 1368
+            },
+            {
+              "end_ms": 4792,
+              "duration_ms": 375
+            },
+            {
+              "end_ms": 8979,
+              "duration_ms": 1232
+            },
+            {
+              "end_ms": 9850,
+              "duration_ms": 374
+            },
+            {
+              "end_ms": 13502,
+              "duration_ms": 1240
+            },
+            {
+              "end_ms": 14293,
+              "duration_ms": 362
+            },
+            {
+              "end_ms": 16715,
+              "duration_ms": 488
+            }
+          ]
+        }
+      },
+      "audio_only_blind_solve": "not_run",
+      "human_listening": "pending_user_iphone_speaker"
+    },
+    {
+      "sample": 4,
+      "group_id": "ag-g-p2-000004",
+      "group_version_in_export": 2,
+      "source_batch": "batch-ag-0007",
+      "part": 2,
+      "note_zh": "Part 2：回應者原即 Karen；題目句不加標號，只加 A–C",
+      "answer_choice_id": "A",
+      "original": {
+        "file": "04-ag-g-p2-000004-A-original.m4a",
+        "sha256": "eb30fe79d8abb0bab1ec6627e51e14ddff30da26289761589c51a08a98bc0848",
+        "export_segment_times": [
+          {
+            "segment_id": "ag-g-p2-000004-seg-q",
+            "start_ms": 300,
+            "end_ms": 3408
+          },
+          {
+            "segment_id": "ag-g-p2-000004-seg-a",
+            "start_ms": 4608,
+            "end_ms": 6787
+          },
+          {
+            "segment_id": "ag-g-p2-000004-seg-b",
+            "start_ms": 7787,
+            "end_ms": 9869
+          },
+          {
+            "segment_id": "ag-g-p2-000004-seg-c",
+            "start_ms": 10869,
+            "end_ms": 13295
+          }
+        ],
+        "metrics": {
+          "codec": "aac",
+          "sample_rate": 22050,
+          "channels": 1,
+          "bit_rate": 54657,
+          "duration_s": 13.886,
+          "integrated_lufs": -16.6,
+          "true_peak_dbfs": "-2.3",
+          "silences_ms": [
+            {
+              "end_ms": 309,
+              "duration_ms": 309
+            },
+            {
+              "end_ms": 4609,
+              "duration_ms": 1243
+            },
+            {
+              "end_ms": 7791,
+              "duration_ms": 1024
+            },
+            {
+              "end_ms": 10915,
+              "duration_ms": 1069
+            },
+            {
+              "end_ms": 13790,
+              "duration_ms": 506
+            }
+          ]
+        }
+      },
+      "candidate": {
+        "file": "04-ag-g-p2-000004-B-karen-labels-400ms.m4a",
+        "sha256": "512b5f6e441b72d4fae9ff2ad11b4dee6dccb8a315aecfdea4268a840931d9bf",
+        "duration_ms": 15788,
+        "segment_times": [
+          {
+            "segment_id": "ag-g-p2-000004-seg-q",
+            "start_ms": 300,
+            "end_ms": 3408
+          },
+          {
+            "segment_id": "ag-g-p2-000004-seg-a",
+            "start_ms": 4608,
+            "end_ms": 7240
+          },
+          {
+            "segment_id": "ag-g-p2-000004-seg-b",
+            "start_ms": 8240,
+            "end_ms": 11092
+          },
+          {
+            "segment_id": "ag-g-p2-000004-seg-c",
+            "start_ms": 12092,
+            "end_ms": 15338
+          }
+        ],
+        "voice_cast": [
+          {
+            "speaker_id": "spk_q",
+            "role": "sales_representative",
+            "planned_accent": "us",
+            "voice_name": "Samantha",
+            "locale": "en_US",
+            "ca_fallback": false
+          },
+          {
+            "speaker_id": "spk_r",
+            "role": "accounting_clerk",
+            "planned_accent": "au",
+            "voice_name": "Karen",
+            "locale": "en_AU",
+            "ca_fallback": false
+          }
+        ],
+        "requested_label_gap_ms": 400,
+        "spoken_script": [
+          {
+            "segment_id": "ag-g-p2-000004-seg-q",
+            "text_en": "Hasn't the travel expense reimbursement been approved yet?"
+          },
+          {
+            "segment_id": "ag-g-p2-000004-seg-a",
+            "text_en": "(A) Accounting cleared it earlier this afternoon."
+          },
+          {
+            "segment_id": "ag-g-p2-000004-seg-b",
+            "text_en": "(B) To the regional conference in Seattle."
+          },
+          {
+            "segment_id": "ag-g-p2-000004-seg-c",
+            "text_en": "(C) Direct flights are usually more expensive."
+          }
+        ],
+        "metrics": {
+          "codec": "aac",
+          "sample_rate": 22050,
+          "channels": 1,
+          "bit_rate": 57287,
+          "duration_s": 15.929,
+          "integrated_lufs": -16.8,
+          "true_peak_dbfs": "-2.3",
+          "silences_ms": [
+            {
+              "end_ms": 309,
+              "duration_ms": 309
+            },
+            {
+              "end_ms": 4608,
+              "duration_ms": 1242
+            },
+            {
+              "end_ms": 5054,
+              "duration_ms": 351
+            },
+            {
+              "end_ms": 8287,
+              "duration_ms": 1070
+            },
+            {
+              "end_ms": 9016,
+              "duration_ms": 375
+            },
+            {
+              "end_ms": 12098,
+              "duration_ms": 1026
+            },
+            {
+              "end_ms": 12973,
+              "duration_ms": 378
+            },
+            {
+              "end_ms": 15833,
+              "duration_ms": 506
+            }
+          ]
+        }
+      },
+      "audio_only_blind_solve": "not_run",
+      "human_listening": "pending_user_iphone_speaker"
+    },
+    {
+      "sample": 5,
+      "group_id": "ag-g-p2-000002",
+      "group_version_in_export": 2,
+      "source_batch": "batch-ag-0007",
+      "part": 2,
+      "note_zh": "Part 2：回應者由 us 改 Karen；題目句維持 uk 聲線",
+      "answer_choice_id": "B",
+      "original": {
+        "file": "05-ag-g-p2-000002-A-original.m4a",
+        "sha256": "6cd520ed297f651af8551f17e564f1706de00d70d6cea63a76e6c015bb07dbf6",
+        "export_segment_times": [
+          {
+            "segment_id": "ag-g-p2-000002-seg-q",
+            "start_ms": 300,
+            "end_ms": 4330
+          },
+          {
+            "segment_id": "ag-g-p2-000002-seg-a",
+            "start_ms": 5530,
+            "end_ms": 8553
+          },
+          {
+            "segment_id": "ag-g-p2-000002-seg-b",
+            "start_ms": 9553,
+            "end_ms": 13279
+          },
+          {
+            "segment_id": "ag-g-p2-000002-seg-c",
+            "start_ms": 14279,
+            "end_ms": 16838
+          }
+        ],
+        "metrics": {
+          "codec": "aac",
+          "sample_rate": 22050,
+          "channels": 1,
+          "bit_rate": 41135,
+          "duration_s": 17.415,
+          "integrated_lufs": -20.5,
+          "true_peak_dbfs": "-3.4",
+          "silences_ms": [
+            {
+              "end_ms": 300,
+              "duration_ms": 300
+            },
+            {
+              "end_ms": 5530,
+              "duration_ms": 1720
+            },
+            {
+              "end_ms": 9553,
+              "duration_ms": 1417
+            },
+            {
+              "end_ms": 14279,
+              "duration_ms": 1455
+            },
+            {
+              "end_ms": 17319,
+              "duration_ms": 935
+            }
+          ]
+        }
+      },
+      "candidate": {
+        "file": "05-ag-g-p2-000002-B-karen-labels-400ms.m4a",
+        "sha256": "382faa974433036b76c568d04bf390fc4e53246d7b8a990ababee521a6fab9cc",
+        "duration_ms": 16862,
+        "segment_times": [
+          {
+            "segment_id": "ag-g-p2-000002-seg-q",
+            "start_ms": 300,
+            "end_ms": 4330
+          },
+          {
+            "segment_id": "ag-g-p2-000002-seg-a",
+            "start_ms": 5530,
+            "end_ms": 8151
+          },
+          {
+            "segment_id": "ag-g-p2-000002-seg-b",
+            "start_ms": 9151,
+            "end_ms": 12758
+          },
+          {
+            "segment_id": "ag-g-p2-000002-seg-c",
+            "start_ms": 13758,
+            "end_ms": 16412
+          }
+        ],
+        "voice_cast": [
+          {
+            "speaker_id": "spk_q",
+            "role": "lab_manager",
+            "planned_accent": "uk",
+            "voice_name": "Shelley (英文（英國）)",
+            "locale": "en_GB",
+            "ca_fallback": false
+          },
+          {
+            "speaker_id": "spk_r",
+            "role": "maintenance_technician",
+            "planned_accent": "au",
+            "voice_name": "Karen",
+            "locale": "en_AU",
+            "ca_fallback": false
+          }
+        ],
+        "requested_label_gap_ms": 400,
+        "spoken_script": [
+          {
+            "segment_id": "ag-g-p2-000002-seg-q",
+            "text_en": "When will the pressure gauges in Building C be calibrated?"
+          },
+          {
+            "segment_id": "ag-g-p2-000002-seg-a",
+            "text_en": "(A) They collaborated on the quarterly report."
+          },
+          {
+            "segment_id": "ag-g-p2-000002-seg-b",
+            "text_en": "(B) Next Tuesday morning during the scheduled shutdown."
+          },
+          {
+            "segment_id": "ag-g-p2-000002-seg-c",
+            "text_en": "(C) At the main engineering warehouse."
+          }
+        ],
+        "metrics": {
+          "codec": "aac",
+          "sample_rate": 22050,
+          "channels": 1,
+          "bit_rate": 61207,
+          "duration_s": 16.997,
+          "integrated_lufs": -17.2,
+          "true_peak_dbfs": "-3.2",
+          "silences_ms": [
+            {
+              "end_ms": 300,
+              "duration_ms": 300
+            },
+            {
+              "end_ms": 5531,
+              "duration_ms": 1721
+            },
+            {
+              "end_ms": 5995,
+              "duration_ms": 371
+            },
+            {
+              "end_ms": 9198,
+              "duration_ms": 1075
+            },
+            {
+              "end_ms": 9909,
+              "duration_ms": 357
+            },
+            {
+              "end_ms": 13764,
+              "duration_ms": 1027
+            },
+            {
+              "end_ms": 14610,
+              "duration_ms": 349
+            },
+            {
+              "end_ms": 16901,
+              "duration_ms": 510
+            }
+          ]
+        }
+      },
+      "audio_only_blind_solve": "not_run",
+      "human_listening": "pending_user_iphone_speaker"
+    }
+  ]
+}

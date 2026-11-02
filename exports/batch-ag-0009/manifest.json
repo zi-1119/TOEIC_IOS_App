@@ -1,0 +1,66 @@
+{
+  "schema_version": "1.0.0",
+  "batch_id": "batch-ag-0009",
+  "created_at": "2026-10-28T08:45:25Z",
+  "producer": "antigravity-toeic-factory/1.0.0 (model: unknown)",
+  "group_count": 14,
+  "item_count": 24,
+  "files": [
+    {
+      "path": "assets/audio/ag-ast-p1-000301-audio.m4a",
+      "sha256": "d92d412192b142b902d01856a3fc8c0c95e3d937f5c971c03734d4a36ea65044"
+    },
+    {
+      "path": "assets/audio/ag-ast-p2-000301-audio.m4a",
+      "sha256": "a337d793c8d39016f5548d9bb5aa0754886864e3a9fba2c86767fd5c4b0b8f6c"
+    },
+    {
+      "path": "assets/audio/ag-ast-p2-000302-audio.m4a",
+      "sha256": "9fa6d020a28c92b46f27d31bb72e79b496ab5fc2b97fc89d62a2f9aea85a32ef"
+    },
+    {
+      "path": "assets/audio/ag-ast-p2-000303-audio.m4a",
+      "sha256": "47e57c2de1bfee4d5449f68f10c75aa729b532ade0e1944fcee6bd733c0bc249"
+    },
+    {
+      "path": "assets/audio/ag-ast-p2-000304-audio.m4a",
+      "sha256": "71fc834ede1a1c013f7f7d3156584da801113ff27792c0d5705a4dcbe0c02785"
+    },
+    {
+      "path": "assets/audio/ag-ast-p3-000301-audio.m4a",
+      "sha256": "53bd43601e30895694239a79360fdabfbf5c20d19d6e86e044dab34d75d9b266"
+    },
+    {
+      "path": "assets/audio/ag-ast-p3-000302-audio.m4a",
+      "sha256": "a84d2a12d1a3ee0fa78a66ddd6436cc0082efa983d2f02d109dd9a1befe30eae"
+    },
+    {
+      "path": "assets/audio/ag-ast-p4-000301-audio.m4a",
+      "sha256": "72ac8d33b1b8526ed80e0cfc6d4ca1edc4c4d2204b089ff52d9f0b46588a7b56"
+    },
+    {
+      "path": "assets/images/ag-ast-p1-000301-image.jpg",
+      "sha256": "294f87f2bdc9d7940eb5992f37a5190c74459e390dfeaedcc6307cab5951076f"
+    },
+    {
+      "path": "groups.jsonl",
+      "sha256": "d6a938d7b021f5f32ab7d61f56dd5acd82ff9cbb4796b855ebae22e131b6e4d8"
+    },
+    {
+      "path": "reports/blind-solve.json",
+      "sha256": "97c4cc6cce75afbd7c1854063f2d5efa08df4869baf4cdca205b76b13b651d18"
+    },
+    {
+      "path": "reports/summary.md",
+      "sha256": "a8345163a4cae3d24d3189e8e6e47b653da3e8d56189b0d645476a68705f7ddd"
+    },
+    {
+      "path": "reports/validation.json",
+      "sha256": "face7f27805b8397c30d5ebd3f4a8b7cdcaef9bb9abe7602e27608223d164412"
+    },
+    {
+      "path": "reviews.jsonl",
+      "sha256": "e05a573844abac4c45633ef4177127be5353be4b4752e302cf836edc095f9ea8"
+    }
+  ]
+}

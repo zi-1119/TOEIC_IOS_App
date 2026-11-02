@@ -1,0 +1,487 @@
+{
+  "negative_test_count": 17,
+  "all_negative_tests_passed": true,
+  "negative_tests": [
+    {
+      "test_name": "missing_evidence_reasoning_zh",
+      "expected_failed_check": "structure-001",
+      "actual_failed_checks": [
+        "structure-001",
+        "content_quality-001"
+      ],
+      "overall_result": "fail",
+      "rejected_correctly": true,
+      "sample_error_message_zh": "完整巢狀 JSON Schema (Draft 2020-12) 檢查發現 1 項違規：groups.jsonl:1 (ag-g-p5-999001) [items.0.evidence.0]: 'reasoning_zh' is a required property"
+    },
+    {
+      "test_name": "placeholder_evidence_reasoning_zh",
+      "expected_failed_check": "content_quality-001",
+      "actual_failed_checks": [
+        "content_quality-001"
+      ],
+      "overall_result": "fail",
+      "rejected_correctly": true,
+      "sample_error_message_zh": "命題品質、證據推理或字彙例句檢查未通過：ag-i-p5-999001-1: evidence.reasoning_zh 過短或為無意義佔位字串"
+    },
+    {
+      "test_name": "wrong_vocabulary_keys_surface_pos",
+      "expected_failed_check": "structure-001",
+      "actual_failed_checks": [
+        "structure-001",
+        "content_quality-001"
+      ],
+      "overall_result": "fail",
+      "rejected_correctly": true,
+      "sample_error_message_zh": "完整巢狀 JSON Schema (Draft 2020-12) 檢查發現 3 項違規：groups.jsonl:1 (ag-g-p5-999001) [items.0.vocabulary.0]: Additional properties are not allowed ('note_zh', 'pos', 'surface' were unexpect"
+    },
+    {
+      "test_name": "vocabulary_entry_is_array_not_object",
+      "expected_failed_check": "structure-001",
+      "actual_failed_checks": [
+        "structure-001",
+        "content_quality-001"
+      ],
+      "overall_result": "fail",
+      "rejected_correctly": true,
+      "sample_error_message_zh": "完整巢狀 JSON Schema (Draft 2020-12) 檢查發現 1 項違規：groups.jsonl:1 (ag-g-p5-999001) [items.0.vocabulary.0]: ['inspect', '檢查', 'v.', 'test'] is not of type 'object'"
+    },
+    {
+      "test_name": "placeholder_vocabulary_example_en",
+      "expected_failed_check": "content_quality-001",
+      "actual_failed_checks": [
+        "content_quality-001"
+      ],
+      "overall_result": "fail",
+      "rejected_correctly": true,
+      "sample_error_message_zh": "命題品質、證據推理或字彙例句檢查未通過：ag-i-p5-999001-1: vocabulary 'insulator' 的 example_en 必須為有意義之完整英文例句"
+    },
+    {
+      "test_name": "wrong_document_keys_doc_id_doc_type",
+      "expected_failed_check": "structure-001",
+      "actual_failed_checks": [
+        "structure-001"
+      ],
+      "overall_result": "fail",
+      "rejected_correctly": true,
+      "sample_error_message_zh": "完整巢狀 JSON Schema (Draft 2020-12) 檢查發現 3 項違規：groups.jsonl:1 (ag-g-p5-999001) [stimulus.documents.0]: Additional properties are not allowed ('doc_id', 'doc_type' were unexpected)；gro"
+    },
+    {
+      "test_name": "extra_field_distractor_notes_trap_type",
+      "expected_failed_check": "structure-001",
+      "actual_failed_checks": [
+        "structure-001"
+      ],
+      "overall_result": "fail",
+      "rejected_correctly": true,
+      "sample_error_message_zh": "完整巢狀 JSON Schema (Draft 2020-12) 檢查發現 1 項違規：groups.jsonl:1 (ag-g-p5-999001) [items.0.distractor_notes.0]: Additional properties are not allowed ('trap_type' was unexpected)"
+    },
+    {
+      "test_name": "extra_field_provenance_prompt_hash",
+      "expected_failed_check": "structure-001",
+      "actual_failed_checks": [
+        "structure-001"
+      ],
+      "overall_result": "fail",
+      "rejected_correctly": true,
+      "sample_error_message_zh": "完整巢狀 JSON Schema (Draft 2020-12) 檢查發現 1 項違規：groups.jsonl:1 (ag-g-p5-999001) [provenance]: Additional properties are not allowed ('prompt_hash' was unexpected)"
+    },
+    {
+      "test_name": "missing_review_finding_item_id",
+      "expected_failed_check": "structure-001",
+      "actual_failed_checks": [
+        "structure-001"
+      ],
+      "overall_result": "fail",
+      "rejected_correctly": true,
+      "sample_error_message_zh": "完整巢狀 JSON Schema (Draft 2020-12) 檢查發現 1 項違規：reviews.jsonl:1 (ag-rev-test-ai-1) [findings.0]: 'item_id' is a required property"
+    },
+    {
+      "test_name": "invalid_enum_pool_and_difficulty",
+      "expected_failed_check": "structure-001",
+      "actual_failed_checks": [
+        "structure-001"
+      ],
+      "overall_result": "fail",
+      "rejected_correctly": true,
+      "sample_error_message_zh": "完整巢狀 JSON Schema (Draft 2020-12) 檢查發現 2 項違規：groups.jsonl:1 (ag-g-p5-999001) [pool]: 'practice' is not one of ['training', 'battle', 'diagnostic', 'mock']；groups.jsonl:1 (ag-g-p5-99"
+    },
+    {
+      "test_name": "broken_evidence_reference",
+      "expected_failed_check": "references-001",
+      "actual_failed_checks": [
+        "references-001"
+      ],
+      "overall_result": "fail",
+      "rejected_correctly": true,
+      "sample_error_message_zh": "引用完整性檢查失敗：ag-i-p5-999001-1: evidence 引用不存在的 document_block non-existent-block-999"
+    },
+    {
+      "test_name": "bad_asset_sha256_checksum",
+      "expected_failed_check": "assets-001",
+      "actual_failed_checks": [
+        "assets-001"
+      ],
+      "overall_result": "fail",
+      "rejected_correctly": true,
+      "sample_error_message_zh": "素材欄位或路徑安全檢查失敗：ag-ast-test-bad-sha: SHA256 不符"
+    },
+    {
+      "test_name": "duplicate_intra_batch_group_and_item_id",
+      "expected_failed_check": "uniqueness-001",
+      "actual_failed_checks": [
+        "uniqueness-001",
+        "uniqueness-003"
+      ],
+      "overall_result": "fail",
+      "rejected_correctly": true,
+      "sample_error_message_zh": "本批內部 ID 或 family 衝突：重複 group_id: ag-g-p5-999001；重複 item_id: ag-i-p5-999001-1"
+    },
+    {
+      "test_name": "cross_pool_family_id_conflict",
+      "expected_failed_check": "uniqueness-001",
+      "actual_failed_checks": [
+        "references-001",
+        "uniqueness-001",
+        "uniqueness-003",
+        "review_integrity-001"
+      ],
+      "overall_result": "fail",
+      "rejected_correctly": true,
+      "sample_error_message_zh": "本批內部 ID 或 family 衝突：family_id ag-fam-test-999001 在本批內跨多個 pool: {'training', 'battle'}"
+    },
+    {
+      "test_name": "evidence_quote_not_in_referenced_source",
+      "expected_failed_check": "references-001",
+      "actual_failed_checks": [
+        "references-001"
+      ],
+      "overall_result": "fail",
+      "rejected_correctly": true,
+      "sample_error_message_zh": "引用完整性檢查失敗：ag-i-p5-999001-1: evidence quote_en 未出現在所引用的 item_prompt ag-i-p5-999001-1 內容中（引用指向錯誤或引文不符）"
+    },
+    {
+      "test_name": "wrong_scalar_types",
+      "expected_failed_check": "structure-001",
+      "actual_failed_checks": [
+        "structure-001"
+      ],
+      "overall_result": "fail",
+      "rejected_correctly": true,
+      "sample_error_message_zh": "完整巢狀 JSON Schema (Draft 2020-12) 檢查發現 2 項違規：groups.jsonl:1 (ag-g-p5-999001) [fixture]: 'false' is not of type 'boolean'；groups.jsonl:1 (ag-g-p5-999001) [items.0.estimated_time_sec]"
+    },
+    {
+      "test_name": "missing_required_family_id",
+      "expected_failed_check": "structure-001",
+      "actual_failed_checks": [
+        "structure-001"
+      ],
+      "overall_result": "fail",
+      "rejected_correctly": true,
+      "sample_error_message_zh": "完整巢狀 JSON Schema (Draft 2020-12) 檢查發現 1 項違規：groups.jsonl:1 (ag-g-p5-999001) [<root>]: 'family_id' is a required property"
+    }
+  ],
+  "historical_batches_revalidation": [
+    {
+      "batch_id": "batch-ag-0001",
+      "historical_overall_result": "incomplete",
+      "historical_counts": {
+        "pass": 11,
+        "warning": 1,
+        "fail": 0,
+        "not_run": 1
+      },
+      "revalidated_overall_result": "incomplete",
+      "revalidated_counts": {
+        "pass": 11,
+        "warning": 1,
+        "fail": 0,
+        "not_run": 1
+      },
+      "was_false_positive_in_history": false,
+      "failed_checks": []
+    },
+    {
+      "batch_id": "batch-ag-0002",
+      "historical_overall_result": "incomplete",
+      "historical_counts": {
+        "pass": 11,
+        "warning": 2,
+        "fail": 0,
+        "not_run": 1
+      },
+      "revalidated_overall_result": "incomplete",
+      "revalidated_counts": {
+        "pass": 11,
+        "warning": 2,
+        "fail": 0,
+        "not_run": 1
+      },
+      "was_false_positive_in_history": false,
+      "failed_checks": []
+    },
+    {
+      "batch_id": "batch-ag-0003",
+      "historical_overall_result": "incomplete",
+      "historical_counts": {
+        "pass": 11,
+        "warning": 1,
+        "fail": 0,
+        "not_run": 1
+      },
+      "revalidated_overall_result": "incomplete",
+      "revalidated_counts": {
+        "pass": 11,
+        "warning": 1,
+        "fail": 0,
+        "not_run": 1
+      },
+      "was_false_positive_in_history": false,
+      "failed_checks": []
+    },
+    {
+      "batch_id": "batch-ag-0004",
+      "historical_overall_result": "incomplete",
+      "historical_counts": {
+        "pass": 11,
+        "warning": 1,
+        "fail": 0,
+        "not_run": 1
+      },
+      "revalidated_overall_result": "incomplete",
+      "revalidated_counts": {
+        "pass": 11,
+        "warning": 1,
+        "fail": 0,
+        "not_run": 1
+      },
+      "was_false_positive_in_history": false,
+      "failed_checks": []
+    },
+    {
+      "batch_id": "batch-ag-0005",
+      "historical_overall_result": "incomplete",
+      "historical_counts": {
+        "pass": 12,
+        "warning": 0,
+        "fail": 0,
+        "not_run": 1
+      },
+      "revalidated_overall_result": "incomplete",
+      "revalidated_counts": {
+        "pass": 12,
+        "warning": 0,
+        "fail": 0,
+        "not_run": 1
+      },
+      "was_false_positive_in_history": false,
+      "failed_checks": []
+    },
+    {
+      "batch_id": "batch-ag-0006",
+      "historical_overall_result": "incomplete",
+      "historical_counts": {
+        "pass": 12,
+        "warning": 0,
+        "fail": 0,
+        "not_run": 1
+      },
+      "revalidated_overall_result": "incomplete",
+      "revalidated_counts": {
+        "pass": 12,
+        "warning": 0,
+        "fail": 0,
+        "not_run": 1
+      },
+      "was_false_positive_in_history": false,
+      "failed_checks": []
+    },
+    {
+      "batch_id": "batch-ag-0007",
+      "historical_overall_result": "incomplete",
+      "historical_counts": {
+        "pass": 12,
+        "warning": 0,
+        "fail": 0,
+        "not_run": 1
+      },
+      "revalidated_overall_result": "incomplete",
+      "revalidated_counts": {
+        "pass": 12,
+        "warning": 0,
+        "fail": 0,
+        "not_run": 1
+      },
+      "was_false_positive_in_history": false,
+      "failed_checks": []
+    },
+    {
+      "batch_id": "batch-ag-0008",
+      "historical_overall_result": "incomplete",
+      "historical_counts": {
+        "pass": 12,
+        "warning": 0,
+        "fail": 0,
+        "not_run": 1
+      },
+      "revalidated_overall_result": "fail",
+      "revalidated_counts": {
+        "pass": 10,
+        "warning": 0,
+        "fail": 2,
+        "not_run": 1
+      },
+      "was_false_positive_in_history": true,
+      "failed_checks": [
+        {
+          "check_id": "structure-001",
+          "code": "struct_json_schema_invalid",
+          "message_zh": "完整巢狀 JSON Schema (Draft 2020-12) 檢查發現 309 項違規：groups.jsonl:1 (ag-g-p5-000016) [items.0.evidence.0]: 'reasoning_zh' is a required property；groups.jsonl:1 (ag-g-p5-000016) [items.0.distractor_notes.0]: Additional properties are not allowed ('trap_type' was unexpected)；groups.jsonl:1 (ag-g-p5-000016) [items.0.distractor_notes.1]: Additional properties are not allowed ('trap_type' was unexpected)；groups.jsonl:1 (ag-g-p5-000016) [items.0.distractor_notes.2]: Additional properties are not allowed ('trap_type' was unexpected)；groups.jsonl:1 (ag-g-p5-000016) [items.0.vocabulary.0]: Additional properties are not allowed ('note_zh', 'pos', 'surface' were unexpected)"
+        },
+        {
+          "check_id": "content_quality-001",
+          "code": "qual_editorial_issue_found",
+          "message_zh": "命題品質、證據推理或字彙例句檢查未通過：ag-i-p5-000016-1: evidence.reasoning_zh 過短或為無意義佔位字串；ag-i-p5-000016-1: vocabulary '' 的 example_en 必須為有意義之完整英文例句；ag-i-p5-000017-1: evidence.reasoning_zh 過短或為無意義佔位字串；ag-i-p5-000017-1: vocabulary '' 的 example_en 必須為有意義之完整英文例句；ag-i-p5-000017-1: vocabulary '' 的 example_en 必須為有意義之完整英文例句"
+        }
+      ]
+    },
+    {
+      "batch_id": "batch-ag-0009",
+      "historical_overall_result": "incomplete",
+      "historical_counts": {
+        "pass": 12,
+        "warning": 0,
+        "fail": 0,
+        "not_run": 1
+      },
+      "revalidated_overall_result": "fail",
+      "revalidated_counts": {
+        "pass": 9,
+        "warning": 0,
+        "fail": 3,
+        "not_run": 1
+      },
+      "was_false_positive_in_history": true,
+      "failed_checks": [
+        {
+          "check_id": "structure-001",
+          "code": "struct_json_schema_invalid",
+          "message_zh": "完整巢狀 JSON Schema (Draft 2020-12) 檢查發現 240 項違規：groups.jsonl:1 (ag-g-p1-000301) [items.0.evidence.0]: 'reasoning_zh' is a required property；groups.jsonl:1 (ag-g-p1-000301) [items.0.evidence.1]: 'reasoning_zh' is a required property；groups.jsonl:1 (ag-g-p1-000301) [items.0.distractor_notes.0]: Additional properties are not allowed ('trap_type' was unexpected)；groups.jsonl:1 (ag-g-p1-000301) [items.0.distractor_notes.1]: Additional properties are not allowed ('trap_type' was unexpected)；groups.jsonl:1 (ag-g-p1-000301) [items.0.distractor_notes.2]: Additional properties are not allowed ('trap_type' was unexpected)"
+        },
+        {
+          "check_id": "references-001",
+          "code": "ref_evidence_invalid",
+          "message_zh": "引用完整性檢查失敗：ag-i-p2-000301-1: evidence quote_en 未出現在所引用的 audio_segment seg1 內容中（引用指向錯誤或引文不符）；ag-i-p2-000302-1: evidence quote_en 未出現在所引用的 audio_segment seg2 內容中（引用指向錯誤或引文不符）；ag-i-p2-000303-1: evidence quote_en 未出現在所引用的 audio_segment seg2 內容中（引用指向錯誤或引文不符）；ag-i-p2-000304-1: evidence quote_en 未出現在所引用的 audio_segment seg1 內容中（引用指向錯誤或引文不符）"
+        },
+        {
+          "check_id": "content_quality-001",
+          "code": "qual_editorial_issue_found",
+          "message_zh": "命題品質、證據推理或字彙例句檢查未通過：ag-i-p1-000301-1: evidence.reasoning_zh 過短或為無意義佔位字串；ag-i-p1-000301-1: evidence.reasoning_zh 過短或為無意義佔位字串；ag-i-p1-000301-1: vocabulary '' 的 example_en 必須為有意義之完整英文例句；ag-i-p1-000301-1: vocabulary '' 的 example_en 必須為有意義之完整英文例句；ag-i-p2-000301-1: evidence.reasoning_zh 過短或為無意義佔位字串"
+        }
+      ]
+    },
+    {
+      "batch_id": "batch-ag-0010",
+      "historical_overall_result": "incomplete",
+      "historical_counts": {
+        "pass": 12,
+        "warning": 0,
+        "fail": 0,
+        "not_run": 1
+      },
+      "revalidated_overall_result": "fail",
+      "revalidated_counts": {
+        "pass": 9,
+        "warning": 0,
+        "fail": 3,
+        "not_run": 1
+      },
+      "was_false_positive_in_history": true,
+      "failed_checks": [
+        {
+          "check_id": "structure-001",
+          "code": "struct_json_schema_invalid",
+          "message_zh": "完整巢狀 JSON Schema (Draft 2020-12) 檢查發現 252 項違規：groups.jsonl:1 (ag-g-p2-000401) [items.0.evidence.0]: 'reasoning_zh' is a required property；groups.jsonl:1 (ag-g-p2-000401) [items.0.evidence.1]: 'reasoning_zh' is a required property；groups.jsonl:1 (ag-g-p2-000401) [items.0.distractor_notes.0]: Additional properties are not allowed ('trap_type' was unexpected)；groups.jsonl:1 (ag-g-p2-000401) [items.0.distractor_notes.1]: Additional properties are not allowed ('trap_type' was unexpected)；groups.jsonl:1 (ag-g-p2-000401) [items.0.vocabulary.0]: Additional properties are not allowed ('note_zh', 'pos', 'surface' were unexpected)"
+        },
+        {
+          "check_id": "references-001",
+          "code": "ref_evidence_invalid",
+          "message_zh": "引用完整性檢查失敗：ag-i-p2-000401-1: evidence quote_en 未出現在所引用的 audio_segment seg1 內容中（引用指向錯誤或引文不符）；ag-i-p2-000402-1: evidence quote_en 未出現在所引用的 audio_segment seg2 內容中（引用指向錯誤或引文不符）；ag-i-p2-000403-1: evidence quote_en 未出現在所引用的 audio_segment seg1 內容中（引用指向錯誤或引文不符）；ag-i-p2-000404-1: evidence quote_en 未出現在所引用的 audio_segment seg2 內容中（引用指向錯誤或引文不符）；ag-i-p2-000405-1: evidence quote_en 未出現在所引用的 audio_segment seg1 內容中（引用指向錯誤或引文不符）"
+        },
+        {
+          "check_id": "content_quality-001",
+          "code": "qual_editorial_issue_found",
+          "message_zh": "命題品質、證據推理或字彙例句檢查未通過：ag-i-p2-000401-1: evidence.reasoning_zh 過短或為無意義佔位字串；ag-i-p2-000401-1: evidence.reasoning_zh 過短或為無意義佔位字串；ag-i-p2-000401-1: vocabulary '' 的 example_en 必須為有意義之完整英文例句；ag-i-p2-000402-1: evidence.reasoning_zh 過短或為無意義佔位字串；ag-i-p2-000402-1: evidence.reasoning_zh 過短或為無意義佔位字串"
+        }
+      ]
+    },
+    {
+      "batch_id": "batch-ag-0011",
+      "historical_overall_result": "incomplete",
+      "historical_counts": {
+        "pass": 12,
+        "warning": 0,
+        "fail": 0,
+        "not_run": 1
+      },
+      "revalidated_overall_result": "incomplete",
+      "revalidated_counts": {
+        "pass": 12,
+        "warning": 0,
+        "fail": 0,
+        "not_run": 1
+      },
+      "was_false_positive_in_history": false,
+      "failed_checks": []
+    },
+    {
+      "batch_id": "batch-ag-0012",
+      "historical_overall_result": "incomplete",
+      "historical_counts": {
+        "pass": 12,
+        "warning": 0,
+        "fail": 0,
+        "not_run": 1
+      },
+      "revalidated_overall_result": "fail",
+      "revalidated_counts": {
+        "pass": 11,
+        "warning": 0,
+        "fail": 1,
+        "not_run": 1
+      },
+      "was_false_positive_in_history": true,
+      "failed_checks": [
+        {
+          "check_id": "references-001",
+          "code": "ref_evidence_invalid",
+          "message_zh": "引用完整性檢查失敗：ag-i-p2-000301-1: evidence quote_en 未出現在所引用的 audio_segment seg1 內容中（引用指向錯誤或引文不符）；ag-i-p2-000302-1: evidence quote_en 未出現在所引用的 audio_segment seg2 內容中（引用指向錯誤或引文不符）；ag-i-p2-000303-1: evidence quote_en 未出現在所引用的 audio_segment seg2 內容中（引用指向錯誤或引文不符）；ag-i-p2-000304-1: evidence quote_en 未出現在所引用的 audio_segment seg1 內容中（引用指向錯誤或引文不符）"
+        }
+      ]
+    },
+    {
+      "batch_id": "batch-ag-0013",
+      "historical_overall_result": "incomplete",
+      "historical_counts": {
+        "pass": 12,
+        "warning": 0,
+        "fail": 0,
+        "not_run": 1
+      },
+      "revalidated_overall_result": "fail",
+      "revalidated_counts": {
+        "pass": 11,
+        "warning": 0,
+        "fail": 1,
+        "not_run": 1
+      },
+      "was_false_positive_in_history": true,
+      "failed_checks": [
+        {
+          "check_id": "references-001",
+          "code": "ref_evidence_invalid",
+          "message_zh": "引用完整性檢查失敗：ag-i-p2-000401-1: evidence quote_en 未出現在所引用的 audio_segment seg1 內容中（引用指向錯誤或引文不符）；ag-i-p2-000402-1: evidence quote_en 未出現在所引用的 audio_segment seg2 內容中（引用指向錯誤或引文不符）；ag-i-p2-000403-1: evidence quote_en 未出現在所引用的 audio_segment seg1 內容中（引用指向錯誤或引文不符）；ag-i-p2-000404-1: evidence quote_en 未出現在所引用的 audio_segment seg2 內容中（引用指向錯誤或引文不符）；ag-i-p2-000405-1: evidence quote_en 未出現在所引用的 audio_segment seg1 內容中（引用指向錯誤或引文不符）"
+        }
+      ]
+    }
+  ]
+}
