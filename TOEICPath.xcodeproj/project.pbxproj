@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		A00000000000000000000090 /* SeedContent in Resources */ = {isa = PBXBuildFile; fileRef = A00000000000000000000091 /* SeedContent */; };
+		A00000000000000000000092 /* AudioPreview in Resources */ = {isa = PBXBuildFile; fileRef = A00000000000000000000093 /* AudioPreview */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -24,6 +25,7 @@
 		A00000000000000000000030 /* TOEICPath.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TOEICPath.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A00000000000000000000031 /* TOEICPathTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TOEICPathTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A00000000000000000000091 /* SeedContent */ = {isa = PBXFileReference; lastKnownFileType = folder; path = SeedContent; sourceTree = "<group>"; };
+		A00000000000000000000093 /* AudioPreview */ = {isa = PBXFileReference; lastKnownFileType = folder; path = AudioPreview; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -63,6 +65,7 @@
 				A00000000000000000000040 /* TOEICPath */,
 				A00000000000000000000041 /* TOEICPathTests */,
 				A00000000000000000000091 /* SeedContent */,
+				A00000000000000000000093 /* AudioPreview */,
 				A00000000000000000000003 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -169,6 +172,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A00000000000000000000090 /* SeedContent in Resources */,
+				A00000000000000000000092 /* AudioPreview in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

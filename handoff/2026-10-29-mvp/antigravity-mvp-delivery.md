@@ -1,19 +1,20 @@
-# Antigravity MVP 交付報告（題庫端）— 2026-10-31
+# Antigravity MVP 交付報告（題庫端）— 2026-10-31（2026-11-09 更新接收狀態）
 
 範圍：題庫產生器、巢狀驗證、不可變修訂包、音訊候選。本輪沒有修改 Swift、App、SeedContent、簽章、後端或 `specs/mock-form-contract-v1.md`。
 `exports/batch-ag-0001`～`0013` 沒有被覆寫，新的成果都另外發布成新批次。
 
 > [!IMPORTANT]
-> 本文件的「可用」只是題庫端的驗證結果。題目要由 Codex 真實接收端（ContentBatchImporter／ContentVersionStore／App）驗收通過，才能算手機上可練習。目前已確認可上機的只有 Codex 已內建的 training 100 題（0001–0007）。
+> **2026-11-09 接收狀態**：Codex 的 `ContentVersionStoreTests.testRevisionBatches0011Through0015UpgradeInPlaceAndMergeWithSeedCatalog` 已用真實接收端實測 0001–0007 加 0011–0015，共 12 批／106 組／177 個不重複題目（training 129、diagnostic 24、battle 24）。v3 覆寫、引文來源、素材、重開與重新匯入都通過；協調者 10-31 16:26 獨立重跑同一測試，1 項 0 失敗。
+> **手機內建的仍然只有 training 100 題（0001–0007）。** 其餘 77 題（0011–0015）只是通過接收測試，**還沒有內建到 App，也沒有人工驗收**，不能算手機上可練習的題數。
 
 ## 1. 狀態總表（各階段分開列）
 
-| 池 | 產生 | 完整 schema＋引用驗證（題庫端） | 題庫端 Swift 參考探針 | Codex 接收驗收 | 人工審核 | 校準 |
-|---|---:|---:|---:|---|---|---|
-| training | 129（100＋0011 的 29） | 129 | 129 | 100 已上機；0011 待驗 | 0 | 無 |
-| diagnostic | 24（0012＋0014 覆蓋） | 24 | 24 | 待驗 | 0 | 無（難度只是編輯估計） |
-| battle | 24（0013＋0015 覆蓋） | 24 | 24 | 待驗 | 0 | 無 |
-| mock | 0 | 0 | 0 | — | 0 | — |
+| 池 | 產生 | 完整 schema＋引用驗證（題庫端） | Codex 真實接收端測試 | 手機內建 | 人工審核 | 校準 |
+|---|---:|---:|---|---:|---|---|
+| training | 129（100＋0011 的 29） | 129 | 129 通過 | **100** | 0 | 無 |
+| diagnostic | 24（0012＋0014 覆蓋） | 24 | 24 通過 | 0 | 0 | 無（難度只是編輯估計） |
+| battle | 24（0013＋0015 覆蓋） | 24 | 24 通過 | 0 | 0 | 無 |
+| mock | 0 | 0 | — | 0 | 0 | — |
 
 修訂不算新增題。0014／0015 的 10 題，跟 0012／0013 裡同一批題目是同一題，只是升了版本。
 
@@ -91,7 +92,7 @@ Swift importer 不會檢查引文是否落在被引用的段落內，所以 0012
 - `ContentEligibility`：training 71 組／129 題，diagnostic 14／24，battle 21／24，mock 0。
 - 加入 0008–0010 一起跑時，三包都在 `groups.jsonl` 第 1 行被拒收（缺 `reasoning_zh`），之後的 0011–0015 仍然正常安裝。
 
-**這只是題庫端的參考結果，接收端是否通過以 Codex 的報告為準。**
+**這只是題庫端的參考結果。** 正式接收結果以 Codex 的真實接收端測試為準，見本文開頭 2026-11-09 接收狀態：已通過，結果和本探針一致。
 
 ## 5. 音訊回歸（03 文件）
 
@@ -99,7 +100,7 @@ Swift importer 不會檢查引文是否落在被引用的段落內，所以 0012
 - **試聽包**：`assets_work/audio-listening-pack-2026-10-31/`，共 5 題（Part 1 三題、Part 2 兩題），每題有原檔和候選。度量資料包括長度、LUFS、true peak、實測停頓和段落時間碼，請見該目錄的 `README.md`（含試聽填寫表）和 `listening-pack.json`。實測標號到句子的停頓是 349–378 ms（要求值 400 ms，經 AAC 編碼後測得）。
 - 01 候選和 Codex 的 `candidate-karen-labels-400ms-gap.m4a` 參數、時間碼都一樣，但 PCM 不是逐位元相同，因為 TTS 每次輸出不完全一致。
 - **未做／待真人**：只靠音訊的盲解（not_run，本機沒有可信的 ASR）、耳機聽審、iPhone 喇叭試聽。所以**沒有任何音訊標成 human_reviewed，也沒有發布換音包**。Karen＋標號＋400ms 方向經使用者確認後，才會依實際最新版本發布 v3／v4 換音包（例如 `ag-g-p1-000001` 目前是 v2，改後會是 v3），並重新量測時間碼、長度和 hash。
-- **風險提醒（給 Codex）**：`synthesize_listening_audio.py` 開啟 `option_label_gap_ms` 後，標號正則也會把 Part 1／2 開頭是「A 」「B 」等字母加空白的一般句子當成標號（例如 "A customer is…"）。試聽包已經加了防護，題目句會被檢查；這個共用函式我沒有改。
+- **標號解析缺陷（已修正，2026-10-31）**：`synthesize_listening_audio.py` 原本會把開頭是冠詞 A 的一般句子（例如 "A customer is…"）當成標號。現在只有明確格式的標號才會插入間隔：Part 1 限 A–D；Part 2 題目段永遠不處理，回應只接受 A–C；gap=0 時保持原行為。單元測試 6 項 0 失敗，修正前後 10 個試聽音檔的 hash 都沒變，詳見 `codex-audio-label-fix.md`。
 - **外部服務**：本輪沒有使用付費 TTS，也不需要。如果使用者認為本機聲音品質還是不夠，可以考慮雲端神經語音（例如 Azure／Google／ElevenLabs），但需要使用者自己的帳號、金鑰和費用同意，而且會把英文腳本文字傳到第三方。我沒有自行啟用。
 
 ## 6. 可重現驗證命令
@@ -118,9 +119,10 @@ python3 scripts/build_audio_listening_pack.py             # 重建試聽候選
 
 | 項目 | 等誰 |
 |---|---|
-| 用真實 importer／App 接收 0011–0015，回報實際可用題數 | Codex |
-| 用 iPhone 喇叭試聽 5 題候選（README 表格） | 使用者 |
-| 試聽通過後發布換音不可變包，Codex 再更新 seed | AG → Codex |
+| ~~用真實 importer 接收 0011–0015~~：已完成，177 題通過，見開頭說明 | Codex（完成） |
+| 決定 0011–0015 是否內建進 App（目前沒有內建） | Codex／使用者 |
+| 用 iPhone 喇叭試聽 5 題候選（README 表格；Codex 正在 App 內加試聽入口） | 使用者 |
+| 試聽通過後，依 `reports/audio-promotion-readiness-2026-11-09.md` 的 G2–G8 發布 16 組 v3 換音不可變包，Codex 再更新 seed | AG → Codex |
 | 診斷擴充到 40–60 題、完整 200 題模考 | 暫緩，依 04 文件，第一階段先完成簡單離線測驗 |
 
 共同模考契約 `specs/mock-form-contract-v1.md` 的 SHA-256：`f8d3e70867c256f95384c9c490735afcbebadbed91728f86450e262b28ae650e`（本輪沒有改動）。

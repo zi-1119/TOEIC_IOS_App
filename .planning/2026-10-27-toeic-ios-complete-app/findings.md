@@ -1,5 +1,11 @@
 # Findings & Decisions
 
+## 2026-11-09 Offline Audio Preview Intake
+- The resumed MVP scope is limited to a secondary offline A/B listening screen using the existing ten files under `assets_work/audio-listening-pack-2026-10-31`; no synthesis, promotion, scoring, or SeedContent replacement is authorized.
+- The preview must remain a separate App resource namespace and must truthfully label Karen + spoken labels + 400 ms as a candidate, not formal content.
+- Required behavior: one active player, switching stops the former file, leaving stops playback, missing resource produces a visible error, Dynamic Type remains readable, and the Today one-tap test stays unchanged.
+- The existing audio-label parser fix, 177-item intake, full 75-test suite, and prior builds are accepted evidence and must not be rerun merely for this feature.
+
 ## Repository and Toolchain
 - `/Users/ziii/Desktop/TOEIC_IOS_App` was empty at discovery time.
 - No project-local `AGENTS.md` exists; the only discovered file was in an unrelated sibling repository and is not applicable.
@@ -146,4 +152,14 @@
 - `UserPreferences` previously relied on synthesized decoding. Adding non-optional quick-test preferences required an explicit backward-compatible decoder so existing on-device profiles default to reading/foundation without being discarded.
 - A training quick test can preserve complete groups and reach the largest item count at or below ten with a bounded subset DP. The selection ranking prioritizes unseen families, Part/section coverage, and proximity to the selected editorial difficulty while never crossing purpose pools or repeating a family.
 - The current immutable seed has enough complete reading content for the default one-tap path. Listening remains selectable only for groups whose installed media resolves; missing-material IDs are excluded before assembly.
+
+## 2026-11-09 offline audio-preview findings
+
+- The immutable comparison pack contains exactly five pairs / ten `.m4a` files. All ten source bytes match the SHA-256 values declared in `assets_work/audio-listening-pack-2026-10-31/listening-pack.json`.
+- The existing Xcode project bundles `SeedContent` as an explicit folder resource while the main Swift source tree is file-system synchronized. The preview audio therefore needs a separate explicit folder resource so it cannot be mistaken for formal seed content.
+- `ProfileView` already has a secondary "題庫與下載" area suited to a non-primary preview entry. The one-tap Today flow does not need to change.
+- The preview must keep candidate B visibly labeled as an unapproved comparison, stop the current `AVAudioPlayer` before switching files, stop when leaving or backgrounding, and surface bundle lookup/playback failures in the page.
+- The user's visual preference is to preserve the second proposed layout while increasing the spacing between the A/B marker and its option copy.
+- The explicit `AudioPreview` folder resource is copied by Xcode as `TOEICPath.app/AudioPreview`, separate from `TOEICPath.app/SeedContent`. The built App contains exactly ten preview audio files whose hashes match the catalog; both source and built SeedContent remain at 74 files.
+- The complete unsigned generic iPhoneOS build compiles and packages the new SwiftUI/player code successfully. This is build/resource evidence, not physical speaker or VoiceOver acceptance.
 

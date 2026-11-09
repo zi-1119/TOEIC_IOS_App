@@ -1,5 +1,12 @@
 # 執行紀錄
 
+11:35補驗：Codex確認兩個DerivedData為收尾搬移非刪除，位於/tmp/toeic-audio-preview-derived.qMkazm/{device,simulator}/Build/Products/。協調者對兩份實際.app/AudioPreview與來源打包目錄逐檔cmp（各10檔）全部exit0。built資源核對疑問已結案，Codex交付也已補路徑，勿再追問或重建。
+
+2026-11-09 11:34接收：讀Codex audio-preview完整交付、兩個Swift實作、3個測試與Xcode/Profile差異。獨立swift test --filter AudioPreviewCatalogTests 3/3通過；來源/打包10音檔逐位元及SHA一致，正式SeedContent/exports/試聽來源沒有git差異，git diff --check通過。78/78與iOS/Simulator BUILD SUCCEEDED核對現存log，模擬器操作未重做。本輪想核對built app時指定兩個build目錄不存在，已實際發訊請Codex只確認清理/搬移並補交付，不重建。AG readiness文件與腳本已出現，尚待UI接收；新腳本的read-only與decoded用詞不準（寫JSON、實際ffprobe容器長度），列下輪小校正，不阻擋手機試聽。正式音訊未換，候選B仍待使用者；已提供重新Run與5題試聽短清單，不重複催驗。
+
+2026-11-09 11:16恢復：使用者明確要求繼續指揮兩邊。先讀04/planning/既有交付與Codex快照，工作樹起始乾淨main，GitHub備份0a6b939。已透過send_message_to_thread派送既有Codex的離線A/B試聽入口任務；wait_threads cursor 1f392963-f191-4b54-9687-ac303c1ed883:2，active/inProgress，已回覆開始處理資源打包與播放生命週期。AG UI核對原對話/原Opus模型與舊quota訊息；初始輸入因視窗狀態未生效，Raise後確認僅自己的未送草稿，改短英文指令避免截斷，11:16正式送出；AX已見完整新User message、Working、Stop execution及空輸入框。AG任務僅校正交付與換音準備報告，禁止Retry已完成parser工作或產音。並已用automation_update恢復既有toeic-mvp ACTIVE/30分鐘。尚未接收本輪新成果，不宣稱新可測版或人工音質通過。下一輪接收codex-audio-preview-delivery.md及AG readiness報告，按實際變更驗證；不得重複派單。
+
+
 Heartbeat 11/1 01:33：04及協調狀態未變；Codex cursor :24 idle/completed、無新交付。AG單次只讀UI仍受Mac鎖定阻擋，未Retry或嘗試繞過。原待辦仍是使用者實機與試聽回饋，未有新人工驗收；不重派、不改素材/SeedContent、不重跑測試，保留排程，無新通知。
 
 Heartbeat 11/1 01:01：讀04與協調目前狀態後，Codex cursor :24仍idle/completed且無新交付；AG只讀UI仍被Mac鎖定阻擋，不能確認新狀態。沒有Retry、解鎖繞過、派單、測試重跑或素材修改。既有實機／試聽清單未獲使用者回饋，仍保留候選狀態與排程，不重複催驗或發通知。

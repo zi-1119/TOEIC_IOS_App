@@ -4,7 +4,7 @@
 Deliver a maintainable native SwiftUI iPhone app foundation that already supports real offline TOEIC practice flows and content validation, while preserving clear seams for the authenticated backend, social features, and battle settlement service.
 
 ## Current Phase
-Phase 17 (simple quick-test implementation and verification)
+Phase 18 (offline audio quality preview)
 
 ## Phases
 
@@ -126,6 +126,14 @@ Phase 17 (simple quick-test implementation and verification)
 - [ ] Keep engineering metadata and secondary listening tools out of the main answer path while preserving condition evidence
 - [ ] Add assembly/state/persistence regression tests, run the full core suite and unsigned iPhoneOS build, and write the simple-test delivery handoff
 - **Status:** in_progress
+
+### Phase 18: Offline Audio Quality Preview
+- [x] Copy the immutable five A/B audio pairs into an App-only preview resource namespace with verified hashes
+- [x] Add a minimal secondary-entry SwiftUI preview that serializes playback, stops on leave, and reports missing files
+- [x] Preserve candidate/formal-content separation, signing, profile data, item counts, pools, and one-tap Today flow
+- [x] Add targeted resource/catalog tests, run a full unsigned iPhoneOS build, and perform representative Simulator UI verification
+- [x] Deliver `handoff/2026-10-29-mvp/codex-audio-preview-delivery.md` with exact device path and pending human checks
+- **Status:** complete in code/build/Simulator verification; physical iPhone audio judgment and VoiceOver acceptance remain pending
 
 ## Decisions Made
 | Decision | Rationale |

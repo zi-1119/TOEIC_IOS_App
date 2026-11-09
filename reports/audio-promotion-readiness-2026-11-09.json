@@ -1,0 +1,814 @@
+{
+  "generated_by": "scripts/check_audio_promotion_readiness.py",
+  "scope_group_count": 16,
+  "label_gap_ms_requested": 400,
+  "technical_precheck_failures": [],
+  "groups": [
+    {
+      "batch": "batch-ag-0006",
+      "group_id": "ag-g-p1-000001",
+      "part": 1,
+      "current_version": 2,
+      "target_version_on_promotion": 3,
+      "family_id": "ag-fam-p1-laboratory-technician-microscope",
+      "pool": "training",
+      "item_id": "ag-i-p1-000001-1",
+      "answer_choice_id": "A",
+      "asset_id": "ag-ast-p1-000001-audio",
+      "asset_path": "assets/ag-ast-p1-000001-audio.m4a",
+      "asset_sha256": "684cd4b76474d8dc727975321314eac90c070a2b720a0274f908a82453ebbef9",
+      "duration_ms_declared": 15017,
+      "duration_ms_decoded": 15139,
+      "speakers": [
+        {
+          "speaker_id": "spk_narrator",
+          "accent": "us"
+        }
+      ],
+      "review_state": "ai_checked",
+      "in_listening_pack": true,
+      "technical_checks": {
+        "export_asset_sha256_matches": true,
+        "seed_group_line_identical_to_export": true,
+        "seed_asset_sha256_matches": true,
+        "decoded_duration_within_200ms": true,
+        "segment_times_cover_all_segments": true,
+        "option_segment_count_matches_choices": true,
+        "option_text_matches_choice_text": true,
+        "current_script_has_no_spoken_label": true,
+        "parser_leaves_unlabelled_text_unchanged": true,
+        "parser_labels_explicit_options_only": true,
+        "listening_pack_files_unchanged": true
+      },
+      "gates": {
+        "G1_human_iphone_speaker_approval_of_direction": "pending_user",
+        "G2_candidate_audio_synthesized": "candidate_in_pack_not_exported",
+        "G3_remeasured_segment_times_duration_sha256": "not_started",
+        "G4_audio_only_blind_solve": "not_run",
+        "G5_full_schema_validator_and_negative_tests": "not_started",
+        "G6_codex_real_importer_acceptance": "not_started",
+        "G7_human_review_headphones_and_speaker": "pending_user",
+        "G8_codex_seed_update_and_shipped": "not_started"
+      }
+    },
+    {
+      "batch": "batch-ag-0006",
+      "group_id": "ag-g-p2-000001",
+      "part": 2,
+      "current_version": 2,
+      "target_version_on_promotion": 3,
+      "family_id": "ag-fam-p2-wh-where-warehouse-manifest",
+      "pool": "training",
+      "item_id": "ag-i-p2-000001-1",
+      "answer_choice_id": "A",
+      "asset_id": "ag-ast-p2-000001-audio",
+      "asset_path": "assets/ag-ast-p2-000001-audio.m4a",
+      "asset_sha256": "b878ab1d5df76583a88298dad57c6d6ebe4d8c5b4160b376a66f85920c185c08",
+      "duration_ms_declared": 12974,
+      "duration_ms_decoded": 13096,
+      "speakers": [
+        {
+          "speaker_id": "spk_q",
+          "accent": "us"
+        },
+        {
+          "speaker_id": "spk_r",
+          "accent": "uk"
+        }
+      ],
+      "review_state": "ai_checked",
+      "in_listening_pack": false,
+      "technical_checks": {
+        "export_asset_sha256_matches": true,
+        "seed_group_line_identical_to_export": true,
+        "seed_asset_sha256_matches": true,
+        "decoded_duration_within_200ms": true,
+        "segment_times_cover_all_segments": true,
+        "option_segment_count_matches_choices": true,
+        "option_text_matches_choice_text": true,
+        "current_script_has_no_spoken_label": true,
+        "parser_leaves_unlabelled_text_unchanged": true,
+        "parser_labels_explicit_options_only": true,
+        "part2_question_never_labelled": true
+      },
+      "gates": {
+        "G1_human_iphone_speaker_approval_of_direction": "pending_user",
+        "G2_candidate_audio_synthesized": "not_started",
+        "G3_remeasured_segment_times_duration_sha256": "not_started",
+        "G4_audio_only_blind_solve": "not_run",
+        "G5_full_schema_validator_and_negative_tests": "not_started",
+        "G6_codex_real_importer_acceptance": "not_started",
+        "G7_human_review_headphones_and_speaker": "pending_user",
+        "G8_codex_seed_update_and_shipped": "not_started"
+      }
+    },
+    {
+      "batch": "batch-ag-0007",
+      "group_id": "ag-g-p1-000002",
+      "part": 1,
+      "current_version": 2,
+      "target_version_on_promotion": 3,
+      "family_id": "ag-fam-p1-bakery-counter-pastry-display",
+      "pool": "training",
+      "item_id": "ag-i-p1-000002-1",
+      "answer_choice_id": "C",
+      "asset_id": "ag-ast-p1-000002-audio",
+      "asset_path": "assets/ag-ast-p1-000002-audio.m4a",
+      "asset_sha256": "08b0874cf58aa9763625ad82b8f4490c219a50d7dcfb8b435f66e402e8cadcde",
+      "duration_ms_declared": 16290,
+      "duration_ms_decoded": 16393,
+      "speakers": [
+        {
+          "speaker_id": "spk_narrator",
+          "accent": "uk"
+        }
+      ],
+      "review_state": "ai_checked",
+      "in_listening_pack": true,
+      "technical_checks": {
+        "export_asset_sha256_matches": true,
+        "seed_group_line_identical_to_export": true,
+        "seed_asset_sha256_matches": true,
+        "decoded_duration_within_200ms": true,
+        "segment_times_cover_all_segments": true,
+        "option_segment_count_matches_choices": true,
+        "option_text_matches_choice_text": true,
+        "current_script_has_no_spoken_label": true,
+        "parser_leaves_unlabelled_text_unchanged": true,
+        "parser_labels_explicit_options_only": true,
+        "listening_pack_files_unchanged": true
+      },
+      "gates": {
+        "G1_human_iphone_speaker_approval_of_direction": "pending_user",
+        "G2_candidate_audio_synthesized": "candidate_in_pack_not_exported",
+        "G3_remeasured_segment_times_duration_sha256": "not_started",
+        "G4_audio_only_blind_solve": "not_run",
+        "G5_full_schema_validator_and_negative_tests": "not_started",
+        "G6_codex_real_importer_acceptance": "not_started",
+        "G7_human_review_headphones_and_speaker": "pending_user",
+        "G8_codex_seed_update_and_shipped": "not_started"
+      }
+    },
+    {
+      "batch": "batch-ag-0007",
+      "group_id": "ag-g-p1-000003",
+      "part": 1,
+      "current_version": 2,
+      "target_version_on_promotion": 3,
+      "family_id": "ag-fam-p1-harbor-walkway-benches-empty",
+      "pool": "training",
+      "item_id": "ag-i-p1-000003-1",
+      "answer_choice_id": "B",
+      "asset_id": "ag-ast-p1-000003-audio",
+      "asset_path": "assets/ag-ast-p1-000003-audio.m4a",
+      "asset_sha256": "5f92a455908bf43b0ee0b6cee6205d275a5ab027577fdc0cfd973d62acbbfade",
+      "duration_ms_declared": 13800,
+      "duration_ms_decoded": 13932,
+      "speakers": [
+        {
+          "speaker_id": "spk_narrator",
+          "accent": "au"
+        }
+      ],
+      "review_state": "ai_checked",
+      "in_listening_pack": true,
+      "technical_checks": {
+        "export_asset_sha256_matches": true,
+        "seed_group_line_identical_to_export": true,
+        "seed_asset_sha256_matches": true,
+        "decoded_duration_within_200ms": true,
+        "segment_times_cover_all_segments": true,
+        "option_segment_count_matches_choices": true,
+        "option_text_matches_choice_text": true,
+        "current_script_has_no_spoken_label": true,
+        "parser_leaves_unlabelled_text_unchanged": true,
+        "parser_labels_explicit_options_only": true,
+        "listening_pack_files_unchanged": true
+      },
+      "gates": {
+        "G1_human_iphone_speaker_approval_of_direction": "pending_user",
+        "G2_candidate_audio_synthesized": "candidate_in_pack_not_exported",
+        "G3_remeasured_segment_times_duration_sha256": "not_started",
+        "G4_audio_only_blind_solve": "not_run",
+        "G5_full_schema_validator_and_negative_tests": "not_started",
+        "G6_codex_real_importer_acceptance": "not_started",
+        "G7_human_review_headphones_and_speaker": "pending_user",
+        "G8_codex_seed_update_and_shipped": "not_started"
+      }
+    },
+    {
+      "batch": "batch-ag-0007",
+      "group_id": "ag-g-p2-000002",
+      "part": 2,
+      "current_version": 2,
+      "target_version_on_promotion": 3,
+      "family_id": "ag-fam-p2-wh-when-equipment-calibration",
+      "pool": "training",
+      "item_id": "ag-i-p2-000002-1",
+      "answer_choice_id": "B",
+      "asset_id": "ag-ast-p2-000002-audio",
+      "asset_path": "assets/ag-ast-p2-000002-audio.m4a",
+      "asset_sha256": "6cd520ed297f651af8551f17e564f1706de00d70d6cea63a76e6c015bb07dbf6",
+      "duration_ms_declared": 17288,
+      "duration_ms_decoded": 17415,
+      "speakers": [
+        {
+          "speaker_id": "spk_q",
+          "accent": "uk"
+        },
+        {
+          "speaker_id": "spk_r",
+          "accent": "us"
+        }
+      ],
+      "review_state": "ai_checked",
+      "in_listening_pack": true,
+      "technical_checks": {
+        "export_asset_sha256_matches": true,
+        "seed_group_line_identical_to_export": true,
+        "seed_asset_sha256_matches": true,
+        "decoded_duration_within_200ms": true,
+        "segment_times_cover_all_segments": true,
+        "option_segment_count_matches_choices": true,
+        "option_text_matches_choice_text": true,
+        "current_script_has_no_spoken_label": true,
+        "parser_leaves_unlabelled_text_unchanged": true,
+        "parser_labels_explicit_options_only": true,
+        "part2_question_never_labelled": true,
+        "listening_pack_files_unchanged": true
+      },
+      "gates": {
+        "G1_human_iphone_speaker_approval_of_direction": "pending_user",
+        "G2_candidate_audio_synthesized": "candidate_in_pack_not_exported",
+        "G3_remeasured_segment_times_duration_sha256": "not_started",
+        "G4_audio_only_blind_solve": "not_run",
+        "G5_full_schema_validator_and_negative_tests": "not_started",
+        "G6_codex_real_importer_acceptance": "not_started",
+        "G7_human_review_headphones_and_speaker": "pending_user",
+        "G8_codex_seed_update_and_shipped": "not_started"
+      }
+    },
+    {
+      "batch": "batch-ag-0007",
+      "group_id": "ag-g-p2-000003",
+      "part": 2,
+      "current_version": 2,
+      "target_version_on_promotion": 3,
+      "family_id": "ag-fam-p2-wh-who-vendor-contract-review",
+      "pool": "training",
+      "item_id": "ag-i-p2-000003-1",
+      "answer_choice_id": "C",
+      "asset_id": "ag-ast-p2-000003-audio",
+      "asset_path": "assets/ag-ast-p2-000003-audio.m4a",
+      "asset_sha256": "9e7e31e75bfb0ae352c9f9482b518844d073acb8d240117d18b03c1bdc9fa308",
+      "duration_ms_declared": 16920,
+      "duration_ms_decoded": 17043,
+      "speakers": [
+        {
+          "speaker_id": "spk_q",
+          "accent": "ca"
+        },
+        {
+          "speaker_id": "spk_r",
+          "accent": "us"
+        }
+      ],
+      "review_state": "ai_checked",
+      "in_listening_pack": false,
+      "technical_checks": {
+        "export_asset_sha256_matches": true,
+        "seed_group_line_identical_to_export": true,
+        "seed_asset_sha256_matches": true,
+        "decoded_duration_within_200ms": true,
+        "segment_times_cover_all_segments": true,
+        "option_segment_count_matches_choices": true,
+        "option_text_matches_choice_text": true,
+        "current_script_has_no_spoken_label": true,
+        "parser_leaves_unlabelled_text_unchanged": true,
+        "parser_labels_explicit_options_only": true,
+        "part2_question_never_labelled": true
+      },
+      "gates": {
+        "G1_human_iphone_speaker_approval_of_direction": "pending_user",
+        "G2_candidate_audio_synthesized": "not_started",
+        "G3_remeasured_segment_times_duration_sha256": "not_started",
+        "G4_audio_only_blind_solve": "not_run",
+        "G5_full_schema_validator_and_negative_tests": "not_started",
+        "G6_codex_real_importer_acceptance": "not_started",
+        "G7_human_review_headphones_and_speaker": "pending_user",
+        "G8_codex_seed_update_and_shipped": "not_started"
+      }
+    },
+    {
+      "batch": "batch-ag-0007",
+      "group_id": "ag-g-p2-000004",
+      "part": 2,
+      "current_version": 2,
+      "target_version_on_promotion": 3,
+      "family_id": "ag-fam-p2-yesno-invoice-reimbursement",
+      "pool": "training",
+      "item_id": "ag-i-p2-000004-1",
+      "answer_choice_id": "A",
+      "asset_id": "ag-ast-p2-000004-audio",
+      "asset_path": "assets/ag-ast-p2-000004-audio.m4a",
+      "asset_sha256": "eb30fe79d8abb0bab1ec6627e51e14ddff30da26289761589c51a08a98bc0848",
+      "duration_ms_declared": 13745,
+      "duration_ms_decoded": 13886,
+      "speakers": [
+        {
+          "speaker_id": "spk_q",
+          "accent": "us"
+        },
+        {
+          "speaker_id": "spk_r",
+          "accent": "au"
+        }
+      ],
+      "review_state": "ai_checked",
+      "in_listening_pack": true,
+      "technical_checks": {
+        "export_asset_sha256_matches": true,
+        "seed_group_line_identical_to_export": true,
+        "seed_asset_sha256_matches": true,
+        "decoded_duration_within_200ms": true,
+        "segment_times_cover_all_segments": true,
+        "option_segment_count_matches_choices": true,
+        "option_text_matches_choice_text": true,
+        "current_script_has_no_spoken_label": true,
+        "parser_leaves_unlabelled_text_unchanged": true,
+        "parser_labels_explicit_options_only": true,
+        "part2_question_never_labelled": true,
+        "listening_pack_files_unchanged": true
+      },
+      "gates": {
+        "G1_human_iphone_speaker_approval_of_direction": "pending_user",
+        "G2_candidate_audio_synthesized": "candidate_in_pack_not_exported",
+        "G3_remeasured_segment_times_duration_sha256": "not_started",
+        "G4_audio_only_blind_solve": "not_run",
+        "G5_full_schema_validator_and_negative_tests": "not_started",
+        "G6_codex_real_importer_acceptance": "not_started",
+        "G7_human_review_headphones_and_speaker": "pending_user",
+        "G8_codex_seed_update_and_shipped": "not_started"
+      }
+    },
+    {
+      "batch": "batch-ag-0007",
+      "group_id": "ag-g-p2-000005",
+      "part": 2,
+      "current_version": 2,
+      "target_version_on_promotion": 3,
+      "family_id": "ag-fam-p2-choice-catering-menu-selection",
+      "pool": "training",
+      "item_id": "ag-i-p2-000005-1",
+      "answer_choice_id": "A",
+      "asset_id": "ag-ast-p2-000005-audio",
+      "asset_path": "assets/ag-ast-p2-000005-audio.m4a",
+      "asset_sha256": "ba1d48e422d2eef2c5bdfb7419609b704b78a4b1127fc28d3dbae786fd21f1ed",
+      "duration_ms_declared": 16083,
+      "duration_ms_decoded": 16208,
+      "speakers": [
+        {
+          "speaker_id": "spk_q",
+          "accent": "au"
+        },
+        {
+          "speaker_id": "spk_r",
+          "accent": "uk"
+        }
+      ],
+      "review_state": "ai_checked",
+      "in_listening_pack": false,
+      "technical_checks": {
+        "export_asset_sha256_matches": true,
+        "seed_group_line_identical_to_export": true,
+        "seed_asset_sha256_matches": true,
+        "decoded_duration_within_200ms": true,
+        "segment_times_cover_all_segments": true,
+        "option_segment_count_matches_choices": true,
+        "option_text_matches_choice_text": true,
+        "current_script_has_no_spoken_label": true,
+        "parser_leaves_unlabelled_text_unchanged": true,
+        "parser_labels_explicit_options_only": true,
+        "part2_question_never_labelled": true
+      },
+      "gates": {
+        "G1_human_iphone_speaker_approval_of_direction": "pending_user",
+        "G2_candidate_audio_synthesized": "not_started",
+        "G3_remeasured_segment_times_duration_sha256": "not_started",
+        "G4_audio_only_blind_solve": "not_run",
+        "G5_full_schema_validator_and_negative_tests": "not_started",
+        "G6_codex_real_importer_acceptance": "not_started",
+        "G7_human_review_headphones_and_speaker": "pending_user",
+        "G8_codex_seed_update_and_shipped": "not_started"
+      }
+    },
+    {
+      "batch": "batch-ag-0007",
+      "group_id": "ag-g-p2-000006",
+      "part": 2,
+      "current_version": 2,
+      "target_version_on_promotion": 3,
+      "family_id": "ag-fam-p2-request-projector-setup-help",
+      "pool": "training",
+      "item_id": "ag-i-p2-000006-1",
+      "answer_choice_id": "A",
+      "asset_id": "ag-ast-p2-000006-audio",
+      "asset_path": "assets/ag-ast-p2-000006-audio.m4a",
+      "asset_sha256": "db845330acf0ceb13fce8e74380dcb089431e6449a842bd9895851161152edc7",
+      "duration_ms_declared": 16686,
+      "duration_ms_decoded": 16811,
+      "speakers": [
+        {
+          "speaker_id": "spk_q",
+          "accent": "us"
+        },
+        {
+          "speaker_id": "spk_r",
+          "accent": "ca"
+        }
+      ],
+      "review_state": "ai_checked",
+      "in_listening_pack": false,
+      "technical_checks": {
+        "export_asset_sha256_matches": true,
+        "seed_group_line_identical_to_export": true,
+        "seed_asset_sha256_matches": true,
+        "decoded_duration_within_200ms": true,
+        "segment_times_cover_all_segments": true,
+        "option_segment_count_matches_choices": true,
+        "option_text_matches_choice_text": true,
+        "current_script_has_no_spoken_label": true,
+        "parser_leaves_unlabelled_text_unchanged": true,
+        "parser_labels_explicit_options_only": true,
+        "part2_question_never_labelled": true
+      },
+      "gates": {
+        "G1_human_iphone_speaker_approval_of_direction": "pending_user",
+        "G2_candidate_audio_synthesized": "not_started",
+        "G3_remeasured_segment_times_duration_sha256": "not_started",
+        "G4_audio_only_blind_solve": "not_run",
+        "G5_full_schema_validator_and_negative_tests": "not_started",
+        "G6_codex_real_importer_acceptance": "not_started",
+        "G7_human_review_headphones_and_speaker": "pending_user",
+        "G8_codex_seed_update_and_shipped": "not_started"
+      }
+    },
+    {
+      "batch": "batch-ag-0007",
+      "group_id": "ag-g-p2-000007",
+      "part": 2,
+      "current_version": 2,
+      "target_version_on_promotion": 3,
+      "family_id": "ag-fam-p2-suggestion-retail-display-window",
+      "pool": "training",
+      "item_id": "ag-i-p2-000007-1",
+      "answer_choice_id": "B",
+      "asset_id": "ag-ast-p2-000007-audio",
+      "asset_path": "assets/ag-ast-p2-000007-audio.m4a",
+      "asset_sha256": "0cb1496fe0871ec0511ea1a7b8fc2a5504f6029ce96976b420de24e83d01ccf4",
+      "duration_ms_declared": 17515,
+      "duration_ms_decoded": 17647,
+      "speakers": [
+        {
+          "speaker_id": "spk_q",
+          "accent": "uk"
+        },
+        {
+          "speaker_id": "spk_r",
+          "accent": "au"
+        }
+      ],
+      "review_state": "ai_checked",
+      "in_listening_pack": false,
+      "technical_checks": {
+        "export_asset_sha256_matches": true,
+        "seed_group_line_identical_to_export": true,
+        "seed_asset_sha256_matches": true,
+        "decoded_duration_within_200ms": true,
+        "segment_times_cover_all_segments": true,
+        "option_segment_count_matches_choices": true,
+        "option_text_matches_choice_text": true,
+        "current_script_has_no_spoken_label": true,
+        "parser_leaves_unlabelled_text_unchanged": true,
+        "parser_labels_explicit_options_only": true,
+        "part2_question_never_labelled": true
+      },
+      "gates": {
+        "G1_human_iphone_speaker_approval_of_direction": "pending_user",
+        "G2_candidate_audio_synthesized": "not_started",
+        "G3_remeasured_segment_times_duration_sha256": "not_started",
+        "G4_audio_only_blind_solve": "not_run",
+        "G5_full_schema_validator_and_negative_tests": "not_started",
+        "G6_codex_real_importer_acceptance": "not_started",
+        "G7_human_review_headphones_and_speaker": "pending_user",
+        "G8_codex_seed_update_and_shipped": "not_started"
+      }
+    },
+    {
+      "batch": "batch-ag-0007",
+      "group_id": "ag-g-p2-000008",
+      "part": 2,
+      "current_version": 2,
+      "target_version_on_promotion": 3,
+      "family_id": "ag-fam-p2-statement-hotel-shuttle-full",
+      "pool": "training",
+      "item_id": "ag-i-p2-000008-1",
+      "answer_choice_id": "C",
+      "asset_id": "ag-ast-p2-000008-audio",
+      "asset_path": "assets/ag-ast-p2-000008-audio.m4a",
+      "asset_sha256": "c28fae32dbc48c2cab3898bc831c35441541e3fecc3b1134502d59f66c68059c",
+      "duration_ms_declared": 15616,
+      "duration_ms_decoded": 15743,
+      "speakers": [
+        {
+          "speaker_id": "spk_q",
+          "accent": "ca"
+        },
+        {
+          "speaker_id": "spk_r",
+          "accent": "uk"
+        }
+      ],
+      "review_state": "ai_checked",
+      "in_listening_pack": false,
+      "technical_checks": {
+        "export_asset_sha256_matches": true,
+        "seed_group_line_identical_to_export": true,
+        "seed_asset_sha256_matches": true,
+        "decoded_duration_within_200ms": true,
+        "segment_times_cover_all_segments": true,
+        "option_segment_count_matches_choices": true,
+        "option_text_matches_choice_text": true,
+        "current_script_has_no_spoken_label": true,
+        "parser_leaves_unlabelled_text_unchanged": true,
+        "parser_labels_explicit_options_only": true,
+        "part2_question_never_labelled": true
+      },
+      "gates": {
+        "G1_human_iphone_speaker_approval_of_direction": "pending_user",
+        "G2_candidate_audio_synthesized": "not_started",
+        "G3_remeasured_segment_times_duration_sha256": "not_started",
+        "G4_audio_only_blind_solve": "not_run",
+        "G5_full_schema_validator_and_negative_tests": "not_started",
+        "G6_codex_real_importer_acceptance": "not_started",
+        "G7_human_review_headphones_and_speaker": "pending_user",
+        "G8_codex_seed_update_and_shipped": "not_started"
+      }
+    },
+    {
+      "batch": "batch-ag-0007",
+      "group_id": "ag-g-p2-000009",
+      "part": 2,
+      "current_version": 2,
+      "target_version_on_promotion": 3,
+      "family_id": "ag-fam-p2-wh-how-long-new-hire-orientation",
+      "pool": "training",
+      "item_id": "ag-i-p2-000009-1",
+      "answer_choice_id": "A",
+      "asset_id": "ag-ast-p2-000009-audio",
+      "asset_path": "assets/ag-ast-p2-000009-audio.m4a",
+      "asset_sha256": "155db6f33c7b56846d4c64b31ce0ddd5618282103f19b68f8d87ffbe28a5fef2",
+      "duration_ms_declared": 14959,
+      "duration_ms_decoded": 15093,
+      "speakers": [
+        {
+          "speaker_id": "spk_q",
+          "accent": "us"
+        },
+        {
+          "speaker_id": "spk_r",
+          "accent": "us"
+        }
+      ],
+      "review_state": "ai_checked",
+      "in_listening_pack": false,
+      "technical_checks": {
+        "export_asset_sha256_matches": true,
+        "seed_group_line_identical_to_export": true,
+        "seed_asset_sha256_matches": true,
+        "decoded_duration_within_200ms": true,
+        "segment_times_cover_all_segments": true,
+        "option_segment_count_matches_choices": true,
+        "option_text_matches_choice_text": true,
+        "current_script_has_no_spoken_label": true,
+        "parser_leaves_unlabelled_text_unchanged": true,
+        "parser_labels_explicit_options_only": true,
+        "part2_question_never_labelled": true
+      },
+      "gates": {
+        "G1_human_iphone_speaker_approval_of_direction": "pending_user",
+        "G2_candidate_audio_synthesized": "not_started",
+        "G3_remeasured_segment_times_duration_sha256": "not_started",
+        "G4_audio_only_blind_solve": "not_run",
+        "G5_full_schema_validator_and_negative_tests": "not_started",
+        "G6_codex_real_importer_acceptance": "not_started",
+        "G7_human_review_headphones_and_speaker": "pending_user",
+        "G8_codex_seed_update_and_shipped": "not_started"
+      }
+    },
+    {
+      "batch": "batch-ag-0007",
+      "group_id": "ag-g-p2-000010",
+      "part": 2,
+      "current_version": 2,
+      "target_version_on_promotion": 3,
+      "family_id": "ag-fam-p2-wh-why-packaging-line-stopped",
+      "pool": "training",
+      "item_id": "ag-i-p2-000010-1",
+      "answer_choice_id": "A",
+      "asset_id": "ag-ast-p2-000010-audio",
+      "asset_path": "assets/ag-ast-p2-000010-audio.m4a",
+      "asset_sha256": "7c3a0b9772a56e198543298274020f98dd1ddc498270b4d267f195bc19f11fa5",
+      "duration_ms_declared": 14549,
+      "duration_ms_decoded": 14675,
+      "speakers": [
+        {
+          "speaker_id": "spk_q",
+          "accent": "au"
+        },
+        {
+          "speaker_id": "spk_r",
+          "accent": "us"
+        }
+      ],
+      "review_state": "ai_checked",
+      "in_listening_pack": false,
+      "technical_checks": {
+        "export_asset_sha256_matches": true,
+        "seed_group_line_identical_to_export": true,
+        "seed_asset_sha256_matches": true,
+        "decoded_duration_within_200ms": true,
+        "segment_times_cover_all_segments": true,
+        "option_segment_count_matches_choices": true,
+        "option_text_matches_choice_text": true,
+        "current_script_has_no_spoken_label": true,
+        "parser_leaves_unlabelled_text_unchanged": true,
+        "parser_labels_explicit_options_only": true,
+        "part2_question_never_labelled": true
+      },
+      "gates": {
+        "G1_human_iphone_speaker_approval_of_direction": "pending_user",
+        "G2_candidate_audio_synthesized": "not_started",
+        "G3_remeasured_segment_times_duration_sha256": "not_started",
+        "G4_audio_only_blind_solve": "not_run",
+        "G5_full_schema_validator_and_negative_tests": "not_started",
+        "G6_codex_real_importer_acceptance": "not_started",
+        "G7_human_review_headphones_and_speaker": "pending_user",
+        "G8_codex_seed_update_and_shipped": "not_started"
+      }
+    },
+    {
+      "batch": "batch-ag-0007",
+      "group_id": "ag-g-p2-000011",
+      "part": 2,
+      "current_version": 2,
+      "target_version_on_promotion": 3,
+      "family_id": "ag-fam-p2-tag-question-booth-deposit-paid",
+      "pool": "training",
+      "item_id": "ag-i-p2-000011-1",
+      "answer_choice_id": "B",
+      "asset_id": "ag-ast-p2-000011-audio",
+      "asset_path": "assets/ag-ast-p2-000011-audio.m4a",
+      "asset_sha256": "2fd9d1ba673273792f65738c6ad398f60de325bd525c7029eb192a692fa552e2",
+      "duration_ms_declared": 17800,
+      "duration_ms_decoded": 17926,
+      "speakers": [
+        {
+          "speaker_id": "spk_q",
+          "accent": "uk"
+        },
+        {
+          "speaker_id": "spk_r",
+          "accent": "ca"
+        }
+      ],
+      "review_state": "ai_checked",
+      "in_listening_pack": false,
+      "technical_checks": {
+        "export_asset_sha256_matches": true,
+        "seed_group_line_identical_to_export": true,
+        "seed_asset_sha256_matches": true,
+        "decoded_duration_within_200ms": true,
+        "segment_times_cover_all_segments": true,
+        "option_segment_count_matches_choices": true,
+        "option_text_matches_choice_text": true,
+        "current_script_has_no_spoken_label": true,
+        "parser_leaves_unlabelled_text_unchanged": true,
+        "parser_labels_explicit_options_only": true,
+        "part2_question_never_labelled": true
+      },
+      "gates": {
+        "G1_human_iphone_speaker_approval_of_direction": "pending_user",
+        "G2_candidate_audio_synthesized": "not_started",
+        "G3_remeasured_segment_times_duration_sha256": "not_started",
+        "G4_audio_only_blind_solve": "not_run",
+        "G5_full_schema_validator_and_negative_tests": "not_started",
+        "G6_codex_real_importer_acceptance": "not_started",
+        "G7_human_review_headphones_and_speaker": "pending_user",
+        "G8_codex_seed_update_and_shipped": "not_started"
+      }
+    },
+    {
+      "batch": "batch-ag-0007",
+      "group_id": "ag-g-p2-000012",
+      "part": 2,
+      "current_version": 2,
+      "target_version_on_promotion": 3,
+      "family_id": "ag-fam-p2-offer-carry-sample-catalogs",
+      "pool": "training",
+      "item_id": "ag-i-p2-000012-1",
+      "answer_choice_id": "A",
+      "asset_id": "ag-ast-p2-000012-audio",
+      "asset_path": "assets/ag-ast-p2-000012-audio.m4a",
+      "asset_sha256": "7f1120cbadb67404a928ecac3511a0dd8d5f27643a4cf00caa2e6b5fef5d12e1",
+      "duration_ms_declared": 16537,
+      "duration_ms_decoded": 16672,
+      "speakers": [
+        {
+          "speaker_id": "spk_q",
+          "accent": "ca"
+        },
+        {
+          "speaker_id": "spk_r",
+          "accent": "uk"
+        }
+      ],
+      "review_state": "ai_checked",
+      "in_listening_pack": false,
+      "technical_checks": {
+        "export_asset_sha256_matches": true,
+        "seed_group_line_identical_to_export": true,
+        "seed_asset_sha256_matches": true,
+        "decoded_duration_within_200ms": true,
+        "segment_times_cover_all_segments": true,
+        "option_segment_count_matches_choices": true,
+        "option_text_matches_choice_text": true,
+        "current_script_has_no_spoken_label": true,
+        "parser_leaves_unlabelled_text_unchanged": true,
+        "parser_labels_explicit_options_only": true,
+        "part2_question_never_labelled": true
+      },
+      "gates": {
+        "G1_human_iphone_speaker_approval_of_direction": "pending_user",
+        "G2_candidate_audio_synthesized": "not_started",
+        "G3_remeasured_segment_times_duration_sha256": "not_started",
+        "G4_audio_only_blind_solve": "not_run",
+        "G5_full_schema_validator_and_negative_tests": "not_started",
+        "G6_codex_real_importer_acceptance": "not_started",
+        "G7_human_review_headphones_and_speaker": "pending_user",
+        "G8_codex_seed_update_and_shipped": "not_started"
+      }
+    },
+    {
+      "batch": "batch-ag-0007",
+      "group_id": "ag-g-p2-000013",
+      "part": 2,
+      "current_version": 2,
+      "target_version_on_promotion": 3,
+      "family_id": "ag-fam-p2-indirect-embedded-question-dentist-reschedule",
+      "pool": "training",
+      "item_id": "ag-i-p2-000013-1",
+      "answer_choice_id": "B",
+      "asset_id": "ag-ast-p2-000013-audio",
+      "asset_path": "assets/ag-ast-p2-000013-audio.m4a",
+      "asset_sha256": "1aeaf2ba80861c704384535c5ef9ad57a32c803c1e84d39907d190f865d8dd51",
+      "duration_ms_declared": 16134,
+      "duration_ms_decoded": 16254,
+      "speakers": [
+        {
+          "speaker_id": "spk_q",
+          "accent": "us"
+        },
+        {
+          "speaker_id": "spk_r",
+          "accent": "au"
+        }
+      ],
+      "review_state": "ai_checked",
+      "in_listening_pack": false,
+      "technical_checks": {
+        "export_asset_sha256_matches": true,
+        "seed_group_line_identical_to_export": true,
+        "seed_asset_sha256_matches": true,
+        "decoded_duration_within_200ms": true,
+        "segment_times_cover_all_segments": true,
+        "option_segment_count_matches_choices": true,
+        "option_text_matches_choice_text": true,
+        "current_script_has_no_spoken_label": true,
+        "parser_leaves_unlabelled_text_unchanged": true,
+        "parser_labels_explicit_options_only": true,
+        "part2_question_never_labelled": true
+      },
+      "gates": {
+        "G1_human_iphone_speaker_approval_of_direction": "pending_user",
+        "G2_candidate_audio_synthesized": "not_started",
+        "G3_remeasured_segment_times_duration_sha256": "not_started",
+        "G4_audio_only_blind_solve": "not_run",
+        "G5_full_schema_validator_and_negative_tests": "not_started",
+        "G6_codex_real_importer_acceptance": "not_started",
+        "G7_human_review_headphones_and_speaker": "pending_user",
+        "G8_codex_seed_update_and_shipped": "not_started"
+      }
+    }
+  ]
+}

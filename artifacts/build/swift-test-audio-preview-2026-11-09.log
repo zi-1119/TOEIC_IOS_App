@@ -1,0 +1,211 @@
+Test Suite 'All tests' started at 2026-11-09 11:24:04.212.
+Test Suite 'TOEICPathCorePackageTests.xctest' started at 2026-11-09 11:24:04.215.
+Test Suite 'AppModelBoundaryTests' started at 2026-11-09 11:24:04.215.
+Test Case '-[TOEICPathTests.AppModelBoundaryTests testBattleBoundaryDoesNotFallbackToTrainingPartFive]' started.
+Test Case '-[TOEICPathTests.AppModelBoundaryTests testBattleBoundaryDoesNotFallbackToTrainingPartFive]' passed (0.012 seconds).
+Test Case '-[TOEICPathTests.AppModelBoundaryTests testMockBoundaryRejectsUnresolvedRuntimeForm]' started.
+Test Case '-[TOEICPathTests.AppModelBoundaryTests testMockBoundaryRejectsUnresolvedRuntimeForm]' passed (0.001 seconds).
+Test Case '-[TOEICPathTests.AppModelBoundaryTests testSessionBoundaryRejectsWrongPurposeFixtureAndMissingMaterial]' started.
+Test Case '-[TOEICPathTests.AppModelBoundaryTests testSessionBoundaryRejectsWrongPurposeFixtureAndMissingMaterial]' passed (0.001 seconds).
+Test Suite 'AppModelBoundaryTests' passed at 2026-11-09 11:24:04.230.
+	 Executed 3 tests, with 0 failures (0 unexpected) in 0.014 (0.015) seconds
+Test Suite 'AudioPreviewCatalogTests' started at 2026-11-09 11:24:04.230.
+Test Case '-[TOEICPathTests.AudioPreviewCatalogTests testCatalogHasFiveCompletePairsAndCandidateIsNeverFormal]' started.
+Test Case '-[TOEICPathTests.AudioPreviewCatalogTests testCatalogHasFiveCompletePairsAndCandidateIsNeverFormal]' passed (0.000 seconds).
+Test Case '-[TOEICPathTests.AudioPreviewCatalogTests testPreviewCopiesMatchDeclaredHashesAndImmutableSourceBytes]' started.
+Test Case '-[TOEICPathTests.AudioPreviewCatalogTests testPreviewCopiesMatchDeclaredHashesAndImmutableSourceBytes]' passed (0.007 seconds).
+Test Case '-[TOEICPathTests.AudioPreviewCatalogTests testPreviewResourcesStayOutsideFormalSeedContent]' started.
+Test Case '-[TOEICPathTests.AudioPreviewCatalogTests testPreviewResourcesStayOutsideFormalSeedContent]' passed (0.000 seconds).
+Test Suite 'AudioPreviewCatalogTests' passed at 2026-11-09 11:24:04.238.
+	 Executed 3 tests, with 0 failures (0 unexpected) in 0.008 (0.008) seconds
+Test Suite 'BundledContentBootstrapTests' started at 2026-11-09 11:24:04.238.
+Test Case '-[TOEICPathTests.BundledContentBootstrapTests testAtomicSeedFailureLeavesExistingCatalogUntouched]' started.
+Test Case '-[TOEICPathTests.BundledContentBootstrapTests testAtomicSeedFailureLeavesExistingCatalogUntouched]' passed (0.221 seconds).
+Test Case '-[TOEICPathTests.BundledContentBootstrapTests testEmptyStoreInstallsSevenSeedBatchesIdempotentlyWithOfflineMedia]' started.
+Test Case '-[TOEICPathTests.BundledContentBootstrapTests testEmptyStoreInstallsSevenSeedBatchesIdempotentlyWithOfflineMedia]' passed (0.982 seconds).
+Test Case '-[TOEICPathTests.BundledContentBootstrapTests testInstalledEmptyAppBootstrapPreservesProfileAndSurvivesRestart]' started.
+Test Case '-[TOEICPathTests.BundledContentBootstrapTests testInstalledEmptyAppBootstrapPreservesProfileAndSurvivesRestart]' passed (0.454 seconds).
+Test Case '-[TOEICPathTests.BundledContentBootstrapTests testRealSeedBuildsDefaultTenItemReadingQuickTest]' started.
+Test Case '-[TOEICPathTests.BundledContentBootstrapTests testRealSeedBuildsDefaultTenItemReadingQuickTest]' passed (0.448 seconds).
+Test Case '-[TOEICPathTests.BundledContentBootstrapTests testRealSeedBuildsMaterialCompleteListeningAndMixedQuickTests]' started.
+Test Case '-[TOEICPathTests.BundledContentBootstrapTests testRealSeedBuildsMaterialCompleteListeningAndMixedQuickTests]' passed (0.460 seconds).
+Test Case '-[TOEICPathTests.BundledContentBootstrapTests testSeedBootstrapDoesNotDowngradeNewerInstalledGroupVersions]' started.
+Test Case '-[TOEICPathTests.BundledContentBootstrapTests testSeedBootstrapDoesNotDowngradeNewerInstalledGroupVersions]' passed (1.258 seconds).
+Test Suite 'BundledContentBootstrapTests' passed at 2026-11-09 11:24:08.062.
+	 Executed 6 tests, with 0 failures (0 unexpected) in 3.823 (3.824) seconds
+Test Suite 'ContentBatchImporterTests' started at 2026-11-09 11:24:08.062.
+Test Case '-[TOEICPathTests.ContentBatchImporterTests testFamilyCannotCrossPurposePools]' started.
+Test Case '-[TOEICPathTests.ContentBatchImporterTests testFamilyCannotCrossPurposePools]' passed (0.000 seconds).
+Test Case '-[TOEICPathTests.ContentBatchImporterTests testValidContractFixturePassesStructuralValidation]' started.
+Test Case '-[TOEICPathTests.ContentBatchImporterTests testValidContractFixturePassesStructuralValidation]' passed (0.000 seconds).
+Test Suite 'ContentBatchImporterTests' passed at 2026-11-09 11:24:08.063.
+	 Executed 2 tests, with 0 failures (0 unexpected) in 0.001 (0.001) seconds
+Test Suite 'ContentValidatorTests' started at 2026-11-09 11:24:08.063.
+Test Case '-[TOEICPathTests.ContentValidatorTests testBundledPreviewHasNoBlockingValidationErrors]' started.
+Test Case '-[TOEICPathTests.ContentValidatorTests testBundledPreviewHasNoBlockingValidationErrors]' passed (0.000 seconds).
+Test Case '-[TOEICPathTests.ContentValidatorTests testRejectsCorrectAnswerOutsideOptions]' started.
+Test Case '-[TOEICPathTests.ContentValidatorTests testRejectsCorrectAnswerOutsideOptions]' passed (0.000 seconds).
+Test Suite 'ContentValidatorTests' passed at 2026-11-09 11:24:08.064.
+	 Executed 2 tests, with 0 failures (0 unexpected) in 0.000 (0.001) seconds
+Test Suite 'ContentVersionStoreTests' started at 2026-11-09 11:24:08.064.
+Test Case '-[TOEICPathTests.ContentVersionStoreTests testFamilyCannotCrossPoolsAcrossBatches]' started.
+Test Case '-[TOEICPathTests.ContentVersionStoreTests testFamilyCannotCrossPoolsAcrossBatches]' passed (0.002 seconds).
+Test Case '-[TOEICPathTests.ContentVersionStoreTests testFirstFiveUntouchedExportsAllowReadingAndKeepListeningPreviewOnly]' started.
+Test Case '-[TOEICPathTests.ContentVersionStoreTests testFirstFiveUntouchedExportsAllowReadingAndKeepListeningPreviewOnly]' passed (0.307 seconds).
+Test Case '-[TOEICPathTests.ContentVersionStoreTests testHigherGroupVersionReplacesOnlyThatGroup]' started.
+Test Case '-[TOEICPathTests.ContentVersionStoreTests testHigherGroupVersionReplacesOnlyThatGroup]' passed (0.001 seconds).
+Test Case '-[TOEICPathTests.ContentVersionStoreTests testItemIDCannotMoveToAnotherGroup]' started.
+Test Case '-[TOEICPathTests.ContentVersionStoreTests testItemIDCannotMoveToAnotherGroup]' passed (0.000 seconds).
+Test Case '-[TOEICPathTests.ContentVersionStoreTests testRevisionBatches0011Through0015UpgradeInPlaceAndMergeWithSeedCatalog]' started.
+Test Case '-[TOEICPathTests.ContentVersionStoreTests testRevisionBatches0011Through0015UpgradeInPlaceAndMergeWithSeedCatalog]' passed (2.255 seconds).
+Test Case '-[TOEICPathTests.ContentVersionStoreTests testSameGroupVersionWithDifferentHashIsRejected]' started.
+Test Case '-[TOEICPathTests.ContentVersionStoreTests testSameGroupVersionWithDifferentHashIsRejected]' passed (0.000 seconds).
+Test Case '-[TOEICPathTests.ContentVersionStoreTests testSevenUntouchedExportsResolveExactCatalogPersistReimportAndRollback]' started.
+Test Case '-[TOEICPathTests.ContentVersionStoreTests testSevenUntouchedExportsResolveExactCatalogPersistReimportAndRollback]' passed (0.928 seconds).
+Test Suite 'ContentVersionStoreTests' passed at 2026-11-09 11:24:11.558.
+	 Executed 7 tests, with 0 failures (0 unexpected) in 3.493 (3.494) seconds
+Test Suite 'DiagnosticEngineTests' started at 2026-11-09 11:24:11.558.
+Test Case '-[TOEICPathTests.DiagnosticEngineTests testAssistedResponseDoesNotCountAsStandardEvidence]' started.
+Test Case '-[TOEICPathTests.DiagnosticEngineTests testAssistedResponseDoesNotCountAsStandardEvidence]' passed (0.002 seconds).
+Test Case '-[TOEICPathTests.DiagnosticEngineTests testDoesNotMoveOnSingleGroup]' started.
+Test Case '-[TOEICPathTests.DiagnosticEngineTests testDoesNotMoveOnSingleGroup]' passed (0.000 seconds).
+Test Case '-[TOEICPathTests.DiagnosticEngineTests testPreviewDiagnosticSummaryReportsInsufficientEvidence]' started.
+Test Case '-[TOEICPathTests.DiagnosticEngineTests testPreviewDiagnosticSummaryReportsInsufficientEvidence]' passed (0.000 seconds).
+Test Case '-[TOEICPathTests.DiagnosticEngineTests testPromotesAfterIndependentStableEvidence]' started.
+Test Case '-[TOEICPathTests.DiagnosticEngineTests testPromotesAfterIndependentStableEvidence]' passed (0.000 seconds).
+Test Case '-[TOEICPathTests.DiagnosticEngineTests testRouterBalancesListeningAndReadingAndDoesNotReuseFamilies]' started.
+Test Case '-[TOEICPathTests.DiagnosticEngineTests testRouterBalancesListeningAndReadingAndDoesNotReuseFamilies]' passed (0.000 seconds).
+Test Case '-[TOEICPathTests.DiagnosticEngineTests testRouterExcludesHistoricallyExposedFamily]' started.
+Test Case '-[TOEICPathTests.DiagnosticEngineTests testRouterExcludesHistoricallyExposedFamily]' passed (0.000 seconds).
+Test Case '-[TOEICPathTests.DiagnosticEngineTests testRouterNeverFallsBackToTrainingWhenDiagnosticPoolIsEmpty]' started.
+Test Case '-[TOEICPathTests.DiagnosticEngineTests testRouterNeverFallsBackToTrainingWhenDiagnosticPoolIsEmpty]' passed (0.000 seconds).
+Test Case '-[TOEICPathTests.DiagnosticEngineTests testRouterRejectsAllFixtureBankAndStopsWhenAllFamiliesWereExposed]' started.
+Test Case '-[TOEICPathTests.DiagnosticEngineTests testRouterRejectsAllFixtureBankAndStopsWhenAllFamiliesWereExposed]' passed (0.000 seconds).
+Test Case '-[TOEICPathTests.DiagnosticEngineTests testRouterSelectsOnlyDiagnosticFromMixedFourPoolBank]' started.
+Test Case '-[TOEICPathTests.DiagnosticEngineTests testRouterSelectsOnlyDiagnosticFromMixedFourPoolBank]' passed (0.000 seconds).
+Test Case '-[TOEICPathTests.DiagnosticEngineTests testVoiceOverAndBackgroundConditionsAreNotStandardEvidence]' started.
+Test Case '-[TOEICPathTests.DiagnosticEngineTests testVoiceOverAndBackgroundConditionsAreNotStandardEvidence]' passed (0.000 seconds).
+Test Suite 'DiagnosticEngineTests' passed at 2026-11-09 11:24:11.562.
+	 Executed 10 tests, with 0 failures (0 unexpected) in 0.003 (0.004) seconds
+Test Suite 'ExamAndBattleTests' started at 2026-11-09 11:24:11.562.
+Test Case '-[TOEICPathTests.ExamAndBattleTests testAssemblyFindsExactCombinationInsteadOfGreedyDeadEnd]' started.
+Test Case '-[TOEICPathTests.ExamAndBattleTests testAssemblyFindsExactCombinationInsteadOfGreedyDeadEnd]' passed (0.000 seconds).
+Test Case '-[TOEICPathTests.ExamAndBattleTests testBattleHappyPathAndTerminalStates]' started.
+Test Case '-[TOEICPathTests.ExamAndBattleTests testBattleHappyPathAndTerminalStates]' passed (0.001 seconds).
+Test Case '-[TOEICPathTests.ExamAndBattleTests testMockAssemblyNeverConsumesTrainingPool]' started.
+Test Case '-[TOEICPathTests.ExamAndBattleTests testMockAssemblyNeverConsumesTrainingPool]' passed (0.000 seconds).
+Test Case '-[TOEICPathTests.ExamAndBattleTests testOfficialBlueprintTotalsTwoHundred]' started.
+Test Case '-[TOEICPathTests.ExamAndBattleTests testOfficialBlueprintTotalsTwoHundred]' passed (0.000 seconds).
+Test Case '-[TOEICPathTests.ExamAndBattleTests testPreviewBankReportsShortagesInsteadOfStartingFakeExam]' started.
+Test Case '-[TOEICPathTests.ExamAndBattleTests testPreviewBankReportsShortagesInsteadOfStartingFakeExam]' passed (0.000 seconds).
+Test Suite 'ExamAndBattleTests' passed at 2026-11-09 11:24:11.564.
+	 Executed 5 tests, with 0 failures (0 unexpected) in 0.002 (0.002) seconds
+Test Suite 'ExposurePersistenceTests' started at 2026-11-09 11:24:11.564.
+Test Case '-[TOEICPathTests.ExposurePersistenceTests testLegacyProfileMigratesOnlySubmittedResponsesIntoExposureHistory]' started.
+Test Case '-[TOEICPathTests.ExposurePersistenceTests testLegacyProfileMigratesOnlySubmittedResponsesIntoExposureHistory]' passed (0.004 seconds).
+Test Case '-[TOEICPathTests.ExposurePersistenceTests testPresentedItemPersistsAcrossRestartAndTracksLaterVersion]' started.
+Test Case '-[TOEICPathTests.ExposurePersistenceTests testPresentedItemPersistsAcrossRestartAndTracksLaterVersion]' passed (0.002 seconds).
+Test Suite 'ExposurePersistenceTests' passed at 2026-11-09 11:24:11.570.
+	 Executed 2 tests, with 0 failures (0 unexpected) in 0.005 (0.006) seconds
+Test Suite 'LocalBackendIntegrationTests' started at 2026-11-09 11:24:11.570.
+Test Case '-[TOEICPathTests.LocalBackendIntegrationTests testBackendRejectsTrainingContentRegisteredAsBattle]' started.
+Test Case '-[TOEICPathTests.LocalBackendIntegrationTests testBackendRejectsTrainingContentRegisteredAsBattle]' passed (0.001 seconds).
+Test Case '-[TOEICPathTests.LocalBackendIntegrationTests testBattleReadyRequiresExactFrozenAssetChecksums]' started.
+Test Case '-[TOEICPathTests.LocalBackendIntegrationTests testBattleReadyRequiresExactFrozenAssetChecksums]' passed (0.006 seconds).
+Test Case '-[TOEICPathTests.LocalBackendIntegrationTests testCorruptPersistentStateIsNotSilentlyOverwritten]' started.
+Test Case '-[TOEICPathTests.LocalBackendIntegrationTests testCorruptPersistentStateIsNotSilentlyOverwritten]' passed (0.005 seconds).
+Test Case '-[TOEICPathTests.LocalBackendIntegrationTests testServerAuthoritativeBattleSettlementAndAnswerDedup]' started.
+Test Case '-[TOEICPathTests.LocalBackendIntegrationTests testServerAuthoritativeBattleSettlementAndAnswerDedup]' passed (0.009 seconds).
+Test Case '-[TOEICPathTests.LocalBackendIntegrationTests testTwoAccountsFriendChatDedupBlockAndRemovalPermissionsPersist]' started.
+Test Case '-[TOEICPathTests.LocalBackendIntegrationTests testTwoAccountsFriendChatDedupBlockAndRemovalPermissionsPersist]' passed (0.005 seconds).
+Test Suite 'LocalBackendIntegrationTests' passed at 2026-11-09 11:24:11.596.
+	 Executed 5 tests, with 0 failures (0 unexpected) in 0.026 (0.026) seconds
+Test Suite 'MockExamRuntimeTests' started at 2026-11-09 11:24:11.596.
+Test Case '-[TOEICPathTests.MockExamRuntimeTests testFormRejectsMissingAuthoritativeAudioTimeline]' started.
+Test Case '-[TOEICPathTests.MockExamRuntimeTests testFormRejectsMissingAuthoritativeAudioTimeline]' passed (0.001 seconds).
+Test Case '-[TOEICPathTests.MockExamRuntimeTests testFormRejectsMissingRuntimeGroups]' started.
+Test Case '-[TOEICPathTests.MockExamRuntimeTests testFormRejectsMissingRuntimeGroups]' passed (0.000 seconds).
+Test Case '-[TOEICPathTests.MockExamRuntimeTests testListeningTimelineUnlocksItemsWithoutPausingDeadline]' started.
+Test Case '-[TOEICPathTests.MockExamRuntimeTests testListeningTimelineUnlocksItemsWithoutPausingDeadline]' passed (0.000 seconds).
+Test Case '-[TOEICPathTests.MockExamRuntimeTests testOpenBackgroundInterruptionIsNotDuplicated]' started.
+Test Case '-[TOEICPathTests.MockExamRuntimeTests testOpenBackgroundInterruptionIsNotDuplicated]' passed (0.000 seconds).
+Test Case '-[TOEICPathTests.MockExamRuntimeTests testReadingExpiresAtOriginalDeadlineAcrossRestore]' started.
+Test Case '-[TOEICPathTests.MockExamRuntimeTests testReadingExpiresAtOriginalDeadlineAcrossRestore]' passed (0.002 seconds).
+Test Suite 'MockExamRuntimeTests' passed at 2026-11-09 11:24:11.600.
+	 Executed 5 tests, with 0 failures (0 unexpected) in 0.004 (0.004) seconds
+Test Suite 'MockFormContractTests' started at 2026-11-09 11:24:11.600.
+Test Case '-[TOEICPathTests.MockFormContractTests testDecodedTimelineDurationMustMatchWithinOneHundredMilliseconds]' started.
+Test Case '-[TOEICPathTests.MockFormContractTests testDecodedTimelineDurationMustMatchWithinOneHundredMilliseconds]' passed (0.015 seconds).
+Test Case '-[TOEICPathTests.MockFormContractTests testFormalFormRejectsFixtureOrNonReviewedMockGroups]' started.
+Test Case '-[TOEICPathTests.MockFormContractTests testFormalFormRejectsFixtureOrNonReviewedMockGroups]' passed (0.028 seconds).
+Test Case '-[TOEICPathTests.MockFormContractTests testFormPackageCannotSelfReferenceItsOwnManifestHash]' started.
+Test Case '-[TOEICPathTests.MockFormContractTests testFormPackageCannotSelfReferenceItsOwnManifestHash]' passed (0.014 seconds).
+Test Case '-[TOEICPathTests.MockFormContractTests testMissingRequiredBatchRejectsEntireMockCatalog]' started.
+Test Case '-[TOEICPathTests.MockFormContractTests testMissingRequiredBatchRejectsEntireMockCatalog]' passed (0.014 seconds).
+Test Case '-[TOEICPathTests.MockFormContractTests testSecondBasedReadingLimitAndMissingAudioAreRejected]' started.
+Test Case '-[TOEICPathTests.MockFormContractTests testSecondBasedReadingLimitAndMissingAudioAreRejected]' passed (0.028 seconds).
+Test Case '-[TOEICPathTests.MockFormContractTests testTimelineAssetMustBeInsideItsFormDirectory]' started.
+Test Case '-[TOEICPathTests.MockFormContractTests testTimelineAssetMustBeInsideItsFormDirectory]' passed (0.014 seconds).
+Test Case '-[TOEICPathTests.MockFormContractTests testUnlockAndTimelineFailuresAreRejected]' started.
+Test Case '-[TOEICPathTests.MockFormContractTests testUnlockAndTimelineFailuresAreRejected]' passed (0.055 seconds).
+Test Case '-[TOEICPathTests.MockFormContractTests testValidAdditiveReportResolvesExactTwoHundredItemForm]' started.
+Test Case '-[TOEICPathTests.MockFormContractTests testValidAdditiveReportResolvesExactTwoHundredItemForm]' passed (0.015 seconds).
+Test Case '-[TOEICPathTests.MockFormContractTests testWrongGroupVersionAndManifestHashAreRejected]' started.
+Test Case '-[TOEICPathTests.MockFormContractTests testWrongGroupVersionAndManifestHashAreRejected]' passed (0.017 seconds).
+Test Suite 'MockFormContractTests' passed at 2026-11-09 11:24:11.802.
+	 Executed 9 tests, with 0 failures (0 unexpected) in 0.201 (0.202) seconds
+Test Suite 'NetworkBackendIntegrationTests' started at 2026-11-09 11:24:11.802.
+Test Case '-[TOEICPathTests.NetworkBackendIntegrationTests testHTTPBattleFreezesAnswerFreePayloadAndRequiresExactAssets]' started.
+Test Case '-[TOEICPathTests.NetworkBackendIntegrationTests testHTTPBattleFreezesAnswerFreePayloadAndRequiresExactAssets]' passed (0.859 seconds).
+Test Case '-[TOEICPathTests.NetworkBackendIntegrationTests testHTTPBattleIsServerScoredAndDurableWorkerSettlesWithoutClients]' started.
+Test Case '-[TOEICPathTests.NetworkBackendIntegrationTests testHTTPBattleIsServerScoredAndDurableWorkerSettlesWithoutClients]' passed (2.724 seconds).
+Test Case '-[TOEICPathTests.NetworkBackendIntegrationTests testHTTPRejectsNewAnswersAfterSubmitButAllowsExactReplayAcrossRestart]' started.
+Test Case '-[TOEICPathTests.NetworkBackendIntegrationTests testHTTPRejectsNewAnswersAfterSubmitButAllowsExactReplayAcrossRestart]' passed (1.292 seconds).
+Test Case '-[TOEICPathTests.NetworkBackendIntegrationTests testHTTPRejectsNewAnswersAfterTimeoutButAllowsAcceptedReplayAfterRestart]' started.
+Test Case '-[TOEICPathTests.NetworkBackendIntegrationTests testHTTPRejectsNewAnswersAfterTimeoutButAllowsAcceptedReplayAfterRestart]' passed (3.294 seconds).
+Test Case '-[TOEICPathTests.NetworkBackendIntegrationTests testTwoIndependentHTTPClientsPersistChatDedupAndPermissionsAcrossRestart]' started.
+Test Case '-[TOEICPathTests.NetworkBackendIntegrationTests testTwoIndependentHTTPClientsPersistChatDedupAndPermissionsAcrossRestart]' passed (1.264 seconds).
+Test Suite 'NetworkBackendIntegrationTests' passed at 2026-11-09 11:24:21.236.
+	 Executed 5 tests, with 0 failures (0 unexpected) in 9.433 (9.435) seconds
+Test Suite 'QuickTestEngineTests' started at 2026-11-09 11:24:21.236.
+Test Case '-[TOEICPathTests.QuickTestEngineTests testAssemblyPrioritizesUnseenFamiliesAndFiltersMissingListeningMaterial]' started.
+Test Case '-[TOEICPathTests.QuickTestEngineTests testAssemblyPrioritizesUnseenFamiliesAndFiltersMissingListeningMaterial]' passed (0.001 seconds).
+Test Case '-[TOEICPathTests.QuickTestEngineTests testAssemblyTruthfullyReducesCountRatherThanSplittingOrRepeatingGroups]' started.
+Test Case '-[TOEICPathTests.QuickTestEngineTests testAssemblyTruthfullyReducesCountRatherThanSplittingOrRepeatingGroups]' passed (0.000 seconds).
+Test Case '-[TOEICPathTests.QuickTestEngineTests testAssemblyUsesOnlyCompleteApprovedTrainingGroupsAndKeepsWholeGroups]' started.
+Test Case '-[TOEICPathTests.QuickTestEngineTests testAssemblyUsesOnlyCompleteApprovedTrainingGroupsAndKeepsWholeGroups]' passed (0.003 seconds).
+Test Case '-[TOEICPathTests.QuickTestEngineTests testBlankDisplayLeavesOrdinaryTextAndDoesNotExposeUnknownIDs]' started.
+Test Case '-[TOEICPathTests.QuickTestEngineTests testBlankDisplayLeavesOrdinaryTextAndDoesNotExposeUnknownIDs]' passed (0.003 seconds).
+Test Case '-[TOEICPathTests.QuickTestEngineTests testBlankDisplayUsesGroupOrderInBothPassageAndPromptWithoutChangingSource]' started.
+Test Case '-[TOEICPathTests.QuickTestEngineTests testBlankDisplayUsesGroupOrderInBothPassageAndPromptWithoutChangingSource]' passed (0.000 seconds).
+Test Case '-[TOEICPathTests.QuickTestEngineTests testFinishingQuickPracticePersistsMistakesBeforeTheirReviewDueDate]' started.
+Test Case '-[TOEICPathTests.QuickTestEngineTests testFinishingQuickPracticePersistsMistakesBeforeTheirReviewDueDate]' passed (0.003 seconds).
+Test Case '-[TOEICPathTests.QuickTestEngineTests testLegacyPreferencesDefaultToReadingFoundation]' started.
+Test Case '-[TOEICPathTests.QuickTestEngineTests testLegacyPreferencesDefaultToReadingFoundation]' passed (0.000 seconds).
+Test Case '-[TOEICPathTests.QuickTestEngineTests testPreferenceAndExposurePersistAndNextAssemblyMovesToNewFamilies]' started.
+Test Case '-[TOEICPathTests.QuickTestEngineTests testPreferenceAndExposurePersistAndNextAssemblyMovesToNewFamilies]' passed (0.007 seconds).
+Test Case '-[TOEICPathTests.QuickTestEngineTests testResultIsUnavailableBeforeSubmissionAndAccurateAfterSubmission]' started.
+Test Case '-[TOEICPathTests.QuickTestEngineTests testResultIsUnavailableBeforeSubmissionAndAccurateAfterSubmission]' passed (0.000 seconds).
+Test Suite 'QuickTestEngineTests' passed at 2026-11-09 11:24:21.254.
+	 Executed 9 tests, with 0 failures (0 unexpected) in 0.016 (0.017) seconds
+Test Suite 'ReviewSchedulerTests' started at 2026-11-09 11:24:21.254.
+Test Case '-[TOEICPathTests.ReviewSchedulerTests testDailyPlanNeverSelectsMockDiagnosticBattleOrFixtureContent]' started.
+Test Case '-[TOEICPathTests.ReviewSchedulerTests testDailyPlanNeverSelectsMockDiagnosticBattleOrFixtureContent]' passed (0.000 seconds).
+Test Case '-[TOEICPathTests.ReviewSchedulerTests testDailyPlanPreservesCompleteGroupsAndPrioritizesDueReview]' started.
+Test Case '-[TOEICPathTests.ReviewSchedulerTests testDailyPlanPreservesCompleteGroupsAndPrioritizesDueReview]' passed (0.000 seconds).
+Test Case '-[TOEICPathTests.ReviewSchedulerTests testIncorrectAnswerReturnsNextDayAndResetsRepetition]' started.
+Test Case '-[TOEICPathTests.ReviewSchedulerTests testIncorrectAnswerReturnsNextDayAndResetsRepetition]' passed (0.000 seconds).
+Test Case '-[TOEICPathTests.ReviewSchedulerTests testNewFamilyStandardSuccessAddsTransferEvidence]' started.
+Test Case '-[TOEICPathTests.ReviewSchedulerTests testNewFamilyStandardSuccessAddsTransferEvidence]' passed (0.000 seconds).
+Test Case '-[TOEICPathTests.ReviewSchedulerTests testPartSelectorPrioritizesUnexposedAndKeepsReviewExplicit]' started.
+Test Case '-[TOEICPathTests.ReviewSchedulerTests testPartSelectorPrioritizesUnexposedAndKeepsReviewExplicit]' passed (0.000 seconds).
+Test Suite 'ReviewSchedulerTests' passed at 2026-11-09 11:24:21.255.
+	 Executed 5 tests, with 0 failures (0 unexpected) in 0.001 (0.001) seconds
+Test Suite 'TOEICPathCorePackageTests.xctest' passed at 2026-11-09 11:24:21.255.
+	 Executed 78 tests, with 0 failures (0 unexpected) in 17.030 (17.040) seconds
+Test Suite 'All tests' passed at 2026-11-09 11:24:21.255.
+	 Executed 78 tests, with 0 failures (0 unexpected) in 17.030 (17.043) seconds
+◇ Test run started.
+↳ Testing Library Version: 1501
+↳ Target Platform: arm64e-apple-macos14.0
+✔ Test run with 0 tests in 0 suites passed after 0.001 seconds.

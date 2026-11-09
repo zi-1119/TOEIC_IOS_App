@@ -1,5 +1,18 @@
 # 自動協調到 MVP — 2026-10-30
 
+## 2026-11-09 恢復工作（優先於下列歷史狀態）
+
+**11:35補充**：下段build路徑疑問已結案：Codex僅將DerivedData搬至/tmp/toeic-audio-preview-derived.qMkazm/，交付已補記；協調者獨立比對device及simulator兩份.app各10音檔皆一致。不要重複追問或重建。
+
+**11:34接收更新**：Codex試聽入口已交付，見codex-audio-preview-delivery.md。協調者讀實作並獨立跑AudioPreviewCatalogTests 3/3通過（含10音檔來源逐位元與SHA比對），檢查78/78及雙平台BUILD SUCCEEDED日誌；SeedContent/exports/原試聽包無diff。手機入口為「我的」頁的「題庫與下載」區段→「音質試聽」，可重新Run裝機驗收。不是正式換音，仍100題。此次沒有重新跑全套build/模擬器，UI證據來自Codex交付。日誌所列本輪兩個build目錄目前不存在，已詢問Codex是否收尾清理及補記，不據此假稱本輪獨立比對built app。AG readiness報告已出現，待UI確認完成及接收；其新增check_audio_promotion_readiness.py會寫JSON，不是嚴格唯讀，且ffprobe format.duration被標成decoded，下一輪需校正說明/欄名，非手機試聽阻擋。不要重派A/B功能或正式換音；等待真人短清單回饋。
+
+使用者明確要求「繼續指揮antigravity還有codex」，解除先前暫停。既有 GitHub 公開備份為 main 的 0a6b939；本輪不自動 commit/push，不更動簽章或帳號。恢復原30分鐘協調排程，尚未取得新的真人驗收。
+
+- Codex：新增極簡離線「音質試聽」入口，原樣使用 assets_work/audio-listening-pack-2026-10-31/ 的既有5組A/B共10音檔。原音/新版候選可切換，禁止同時播放，離開停止；在既有次要入口放置，不干擾一鍵測驗。資源與正式SeedContent分離，不替換正式音訊、不改題數/用途池/分數。App、測試、Xcode資源由Codex獨占。交付 handoff/2026-10-29-mvp/codex-audio-preview-delivery.md，含實際build/測試與手機路徑。
+- Antigravity：不重做已完成標號解析修正或100題盲解。先同步接收事實：0011–0015已通過真實接收端，合併177唯一題（129 training/24 diagnostic/24 battle），手機仍內建100題。整理現有換音所需16組Part1/2的版本、素材引用與待驗門檻，輸出 reports/audio-promotion-readiness-2026-11-09.md；只建立交付對照與檢查，不產音、不發布換音。更新自己交付報告過時欄位。僅可寫自己reports/handoff，不改Swift/SeedContent/既有exports/試聽包/協調記錄。
+- 根協調者只寫04與協調planning，實際派送後記錄送達。舊標號解析修正6測試、10音檔hash及題庫接收均已完成，不再重派。待新交付才做針對性驗證；音質仍需使用者iPhone喇叭接受。好友、正式模考、4800題暫不擴張。
+
+
 使用者明確授權本協調對話自動指揮原 Codex 與 Antigravity 對話直到 MVP。這是協調、實作與驗收授權，不是購買、公開部署、改帳號權限、偽造人工驗收或刪資料的授權。
 
 ## 第一階段退出條件：簡單離線測驗 MVP

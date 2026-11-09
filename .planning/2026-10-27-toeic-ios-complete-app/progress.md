@@ -190,3 +190,16 @@
 - Re-ran the complete SwiftPM suite: 75 tests, 0 failures. Re-ran the full unsigned generic iPhoneOS and iPhone 17 Pro Simulator builds: both `BUILD SUCCEEDED`. Re-ran six bootstrap tests against the built `.app/SeedContent`: 6 tests, 0 failures.
 - Preserved Team `VJ3Y39FF2P`, bundle `com.local.TOEICPath`, the built-in 100-item SeedContent, and user profile storage. Physical iPhone/VoiceOver acceptance and Antigravity/human audio acceptance remain external acceptance work.
 
+## Session: 2026-11-09 Offline Audio Preview
+
+- Restored the active plan and read the latest 11/9 coordination boundary plus the existing audio-label and quick-test deliveries.
+- Added Phase 18 for an isolated, offline five-pair A/B preview. No App code or resources have been changed yet.
+- Confirmed the source catalog has five pairs / ten files and independently matched all ten declared SHA-256 hashes before copying anything.
+- Selected the existing `我的 → 題庫與下載` section as the secondary entry; Today and formal `SeedContent` remain outside this change.
+- Added a typed five-pair catalog, a secondary `我的 → 音質試聽` page, serialized A/B playback, explicit candidate labeling, visible playback errors, background/leave stop behavior, and 18pt marker-to-copy spacing.
+- Added three resource/catalog tests; targeted run passed 3 tests with 0 failures.
+- Full unsigned generic iPhoneOS build succeeded. The built `.app` contains all ten expected audio files with matching SHA-256 values, while formal SeedContent remains unchanged at 74 files.
+- The iPhone 17 Pro Simulator build succeeded. UI QA reached `我的 → 音質試聽`, confirmed A playing, then B playing with A no longer selected, and confirmed re-entering after navigation showed neither track playing.
+- Maximum Dynamic Type QA reached the scrollable A/B rows with separated 18pt markers, readable titles/details, and full-size play targets; the Simulator content size was restored to Large afterward.
+- Full SwiftPM regression suite passed 78 tests with 0 failures. Physical iPhone speaker judgment and VoiceOver traversal were not executed and remain pending.
+

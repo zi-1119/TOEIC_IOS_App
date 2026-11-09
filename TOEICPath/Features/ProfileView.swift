@@ -28,6 +28,11 @@ struct ProfileView: View {
                 Section("題庫與下載") {
                     Button("匯入 Antigravity 批次目錄", systemImage: "square.and.arrow.down") { showImporter = true }
                     NavigationLink("內容審核報告") { ContentReviewView() }
+                    NavigationLink {
+                        AudioQualityPreviewView()
+                    } label: {
+                        Label("音質試聽", systemImage: "waveform")
+                    }
                     LabeledContent("目前版本", value: model.package.manifest.contentVersion)
                     LabeledContent("離線題組", value: "\(model.package.groups.count)")
                 }
